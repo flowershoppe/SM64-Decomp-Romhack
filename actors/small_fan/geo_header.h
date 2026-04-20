@@ -1,0 +1,18 @@
+extern const GeoLayout small_fan_geo[];
+extern Lights1 small_fan_metal_lights;
+extern Lights1 small_fan_metal2_lights;
+extern u8 small_fan_ci4_sophie_metal2_ci4[];
+extern u8 small_fan_ci4_sophie_metal2_pal_rgba16[];
+extern u8 small_fan_rgba16_anonmoose_GreenishSquare_ci8[];
+extern u8 small_fan_rgba16_anonmoose_GreenishSquare_pal_rgba16[];
+extern Vtx small_fan_small_fan_mesh_layer_1_vtx_cull[8];
+extern Vtx small_fan_small_fan_mesh_layer_1_vtx_0[48];
+extern Gfx small_fan_small_fan_mesh_layer_1_tri_0[];
+extern Vtx small_fan_small_fan_mesh_layer_1_vtx_1[24];
+extern Gfx small_fan_small_fan_mesh_layer_1_tri_1[];
+extern Gfx mat_small_fan_metal[];
+extern Gfx mat_revert_small_fan_metal[];
+extern Gfx mat_small_fan_metal2[];
+extern Gfx mat_revert_small_fan_metal2[];
+extern Gfx small_fan_small_fan_mesh_layer_1[];
+extern Gfx small_fan_final_revert_mesh_layer_1[];

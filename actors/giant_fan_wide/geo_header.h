@@ -1,0 +1,18 @@
+extern const GeoLayout giant_fan_wide_geo[];
+extern Lights1 giant_fan_wide_metal_lights;
+extern Lights1 giant_fan_wide_metal2_lights;
+extern u8 giant_fan_wide_ci4_sophie_metal2_ci4[];
+extern u8 giant_fan_wide_ci4_sophie_metal2_pal_rgba16[];
+extern u8 giant_fan_wide_rgba16_anonmoose_GreenishSquare_ci8[];
+extern u8 giant_fan_wide_rgba16_anonmoose_GreenishSquare_pal_rgba16[];
+extern Vtx giant_fan_wide_giant_fan_wide_mesh_layer_1_vtx_cull[8];
+extern Vtx giant_fan_wide_giant_fan_wide_mesh_layer_1_vtx_0[48];
+extern Gfx giant_fan_wide_giant_fan_wide_mesh_layer_1_tri_0[];
+extern Vtx giant_fan_wide_giant_fan_wide_mesh_layer_1_vtx_1[24];
+extern Gfx giant_fan_wide_giant_fan_wide_mesh_layer_1_tri_1[];
+extern Gfx mat_giant_fan_wide_metal[];
+extern Gfx mat_revert_giant_fan_wide_metal[];
+extern Gfx mat_giant_fan_wide_metal2[];
+extern Gfx mat_revert_giant_fan_wide_metal2[];
+extern Gfx giant_fan_wide_giant_fan_wide_mesh_layer_1[];
+extern Gfx giant_fan_wide_final_revert_mesh_layer_1[];

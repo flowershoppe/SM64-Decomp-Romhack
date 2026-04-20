@@ -1,0 +1,508 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+Address of section .text set to 0x6000000
+LOAD build/us_n64/actors/group12.o
+                [!provide]                        PROVIDE (__executable_start = SEGMENT_START ("text-segment", 0x400000))
+                0x0000000000400000                . = SEGMENT_START ("text-segment", 0x400000)
+
+.interp
+ *(.interp)
+
+.MIPS.abiflags  0x0000000000400000       0x18
+ *(.MIPS.abiflags)
+ .MIPS.abiflags
+                0x0000000000400000       0x18 build/us_n64/actors/group12.o
+
+.reginfo        0x0000000000400018       0x18
+ *(.reginfo)
+ .reginfo       0x0000000000400018       0x18 build/us_n64/actors/group12.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.dynamic
+ *(.dynamic)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.dyn        0x0000000000400018        0x0 load address 0x0000000000400030
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ *(.rel.dyn)
+ .rel.dyn       0x0000000000400018        0x0 build/us_n64/actors/group12.o
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+                [!provide]                        PROVIDE (__rel_iplt_start = .)
+ *(.rel.iplt)
+                [!provide]                        PROVIDE (__rel_iplt_end = .)
+
+.rela.dyn       0x0000000000400018        0x0
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+                [!provide]                        PROVIDE (__rela_iplt_start = .)
+ *(.rela.iplt)
+                [!provide]                        PROVIDE (__rela_iplt_end = .)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(SORT_NONE(.init))
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x0000000006000000        0x0 load address 0x0000000006000018
+                0x0000000006000000                _ftext = .
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000006000000        0x0 build/us_n64/actors/group12.o
+ *(.gnu.warning)
+ *(.mips16.fn.*)
+ *(.mips16.call.*)
+
+.fini
+ *(SORT_NONE(.fini))
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+
+.rodata
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+
+.rodata1
+ *(.rodata1)
+
+.sdata2
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+
+.sbss2
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000006000000                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x0000000006000000        0x0
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0000000006000000        0x0
+                [!provide]                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+                [!provide]                        PROVIDE (__init_array_end = .)
+
+.fini_array     0x0000000006000000        0x0
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+                0x0000000006000000                . = DATA_SEGMENT_RELRO_END (., 0x0)
+
+.data           0x0000000006000000    0x60030 load address 0x0000000006000018
+                0x0000000006000000                _fdata = .
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000006000000    0x60030 build/us_n64/actors/group12.o
+                0x0000000006000000                impact_smoke_seg6_dl_06062D18
+                0x00000000060000a0                impact_smoke_seg6_dl_06062C78
+                0x0000000006000140                impact_smoke_seg6_dl_06062BD8
+                0x00000000060001e0                impact_smoke_seg6_dl_06062B38
+                0x0000000006000280                impact_smoke_seg6_dl_06062B08
+                0x00000000060002b0                impact_smoke_seg6_dl_06062AF0
+                0x00000000060002c0                impact_smoke_seg6_dl_06062AD8
+                0x00000000060002d0                impact_smoke_seg6_dl_06062AA8
+                0x0000000006008378                bomb_seg6_dl_0605A9C0
+                0x00000000060083d8                bomb_seg6_dl_0605A8A8
+                0x00000000060084b0                bomb_seg6_dl_0605A830
+                0x0000000006008528                bomb_seg6_dl_0605A7F8
+                0x0000000006008558                bomb_seg6_dl_0605A7C0
+                0x000000000600b288                dBowserFlamesOrientationValues
+                0x000000000600b62c                bowser_seg6_anims_06057690
+                0x000000000601f628                bowser_seg6_dl_06043698
+                0x000000000601f690                bowser_seg6_dl_06043648
+                0x000000000601f6d0                bowser_seg6_dl_06043548
+                0x000000000601fa58                bowser_seg6_dl_060431F0
+                0x000000000601fae0                bowser_seg6_dl_06043180
+                0x000000000601fb30                bowser_seg6_dl_060430E8
+                0x000000000601fba0                bowser_seg6_dl_06042EE0
+                0x0000000006020570                bowser_seg6_dl_06042608
+                0x00000000060205c8                bowser_seg6_dl_060425B0
+                0x0000000006020620                bowser_seg6_dl_06042558
+                0x0000000006020678                bowser_seg6_dl_06042500
+                0x00000000060206d0                bowser_seg6_dl_060424A8
+                0x0000000006020728                bowser_seg6_dl_06042450
+                0x0000000006020780                bowser_seg6_dl_060423F8
+                0x00000000060207d8                bowser_seg6_dl_060423A0
+                0x0000000006020830                bowser_seg6_dl_06042348
+                0x0000000006020888                bowser_seg6_dl_06042328
+                0x00000000060208a8                bowser_seg6_dl_06042278
+                0x0000000006020958                bowser_seg6_dl_06042220
+                0x0000000006020990                bowser_seg6_dl_060421D8
+                0x00000000060209c8                bowser_seg6_dl_06042140
+                0x0000000006020a28                bowser_seg6_dl_060420F0
+                0x0000000006020a58                bowser_seg6_dl_06042098
+                0x0000000006020a98                bowser_seg6_dl_06041F50
+                0x0000000006020b68                bowser_seg6_dl_06041EA8
+                0x0000000006020bd8                bowser_seg6_dl_06041E48
+                0x0000000006020c20                bowser_seg6_dl_06041BA0
+                0x0000000006020dc0                bowser_seg6_dl_06041A28
+                0x0000000006022618                bowser_seg6_dl_06040358
+                0x00000000060226e8                bowser_seg6_dl_06040210
+                0x00000000060227b0                bowser_seg6_dl_060401F0
+                0x00000000060227c8                bowser_seg6_dl_06040180
+                0x0000000006022818                bowser_seg6_dl_0603FFA8
+                0x0000000006022958                bowser_seg6_dl_0603FEA8
+                0x0000000006022a00                bowser_seg6_dl_0603FDD0
+                0x0000000006022a88                bowser_seg6_dl_0603FD38
+                0x0000000006022ae8                bowser_seg6_dl_0603FC18
+                0x0000000006022b98                bowser_seg6_dl_0603FBA8
+                0x0000000006024090                bowser_seg6_dl_0603E6B8
+                0x00000000060240f0                bowser_seg6_dl_0603E500
+                0x00000000060246e0                bowser_seg6_dl_0603DFB0
+                0x0000000006024760                bowser_seg6_dl_0603DDD0
+                0x0000000006024888                bowser_seg6_dl_0603DC70
+                0x0000000006025368                bowser_seg6_dl_0603D200
+                0x00000000060253e8                bowser_seg6_dl_0603D098
+                0x00000000060254c8                bowser_seg6_dl_0603CF28
+                0x0000000006025d88                bowser_seg6_dl_0603C6D0
+                0x0000000006025e10                bowser_seg6_dl_0603C650
+                0x0000000006025e70                bowser_seg6_dl_0603C5A8
+                0x0000000006025ee0                bowser_seg6_dl_0603C500
+                0x0000000006026418                bowser_seg6_dl_0603BFC8
+                0x00000000060264a0                bowser_seg6_dl_0603BF48
+                0x0000000006026500                bowser_seg6_dl_0603BEA0
+                0x0000000006026570                bowser_seg6_dl_0603BDF8
+                0x0000000006026aa8                bowser_seg6_dl_0603B948
+                0x0000000006026b28                bowser_seg6_dl_0603B8D0
+                0x0000000006026ba0                bowser_seg6_dl_0603B718
+                0x0000000006027150                bowser_seg6_dl_0603B208
+                0x00000000060271d0                bowser_seg6_dl_0603B038
+                0x00000000060272f0                bowser_seg6_dl_0603AED8
+                0x0000000006027d50                bowser_seg6_dl_0603A4E8
+                0x0000000006027dd0                bowser_seg6_dl_0603A380
+                0x0000000006027eb0                bowser_seg6_dl_0603A210
+                0x0000000006028758                bowser_seg6_dl_060399D8
+                0x00000000060287e0                bowser_seg6_dl_06039958
+                0x0000000006028838                bowser_seg6_dl_060398B0
+                0x00000000060288a8                bowser_seg6_dl_06039808
+                0x0000000006028dd0                bowser_seg6_dl_060392E0
+                0x0000000006028e58                bowser_seg6_dl_06039260
+                0x0000000006028eb8                bowser_seg6_dl_060391C8
+                0x0000000006028f20                bowser_seg6_dl_06039110
+                0x0000000006040c40                yellow_sphere_seg6_dl_0601F3C0
+                0x0000000006040cb0                yellow_sphere_seg6_dl_0601F388
+                0x0000000006041520                impact_ring_seg6_dl_0601EAC0
+                0x00000000060415a0                impact_ring_seg6_dl_0601EA88
+                0x00000000060415d0                impact_ring_seg6_dl_0601EA50
+                0x0000000006043680                flame_seg6_dl_0601C928
+                0x0000000006043720                flame_seg6_dl_0601C888
+                0x00000000060437c0                flame_seg6_dl_0601C7E8
+                0x0000000006043860                flame_seg6_dl_0601C748
+                0x0000000006043900                flame_seg6_dl_0601C6A8
+                0x00000000060439a0                flame_seg6_dl_0601C608
+                0x0000000006043a40                flame_seg6_dl_0601C568
+                0x0000000006043ae0                flame_seg6_dl_0601C4C8
+                0x0000000006043b80                flame_seg6_dl_0601C428
+                0x0000000006043c20                flame_seg6_dl_0601C388
+                0x0000000006043cc0                flame_seg6_dl_0601C2E8
+                0x0000000006043d60                flame_seg6_dl_0601C248
+                0x0000000006043e00                flame_seg6_dl_0601C1A8
+                0x0000000006043ea0                flame_seg6_dl_0601C108
+                0x0000000006043f40                flame_seg6_dl_0601C0E0
+                0x0000000006043f68                flame_seg6_dl_0601C0C8
+                0x0000000006043f78                flame_seg6_dl_0601C0B0
+                0x0000000006043f88                flame_seg6_dl_0601C080
+
+.data1
+ *(.data1)
+
+.got.plt
+ *(.got.plt)
+                0x0000000006060030                . = .
+                0x0000000006060030                . = .
+                0x0000000006068020                _gp = (ALIGN (0x10) + 0x7ff0)
+
+.got
+ *(.got)
+
+.sdata
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+
+.lit8
+ *(.lit8)
+
+.lit4
+ *(.lit4)
+                0x0000000006060030                _edata = .
+                [!provide]                        PROVIDE (edata = .)
+                0x0000000006060030                . = .
+                0x0000000006060030                __bss_start = .
+                0x0000000006060030                _fbss = .
+
+.sbss
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ *(.scommon)
+
+.bss            0x0000000006060030        0x0 load address 0x0000000006060048
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000006060030        0x0 build/us_n64/actors/group12.o
+ *(COMMON)
+                0x0000000006060030                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000000006060030                . = ALIGN (0x4)
+                0x0000000006060030                . = SEGMENT_START ("ldata-segment", .)
+                0x0000000006060030                . = ALIGN (0x4)
+                0x0000000006060030                _end = .
+                [!provide]                        PROVIDE (end = .)
+                0x0000000006060030                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x12
+ *(.comment)
+ .comment       0x0000000000000000       0x12 build/us_n64/actors/group12.o
+                                         0x13 (size before relaxing)
+
+.pdr            0x0000000000000000        0x0
+ .pdr           0x0000000000000000        0x0 build/us_n64/actors/group12.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line .debug_line.* .debug_line_end)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_addr
+ *(.debug_addr)
+
+.gnu.attributes
+                0x0000000000000000       0x10
+ *(.gnu.attributes)
+ .gnu.attributes
+                0x0000000000000000       0x10 build/us_n64/actors/group12.o
+
+.gptab.sdata
+ *(.gptab.data)
+ *(.gptab.sdata)
+
+.gptab.sbss
+ *(.gptab.bss)
+ *(.gptab.sbss)
+
+.mdebug.abi32   0x0000000000000000        0x0
+ *(.mdebug.abi32)
+ .mdebug.abi32  0x0000000000000000        0x0 build/us_n64/actors/group12.o
+
+.mdebug.abiN32
+ *(.mdebug.abiN32)
+
+.mdebug.abi64
+ *(.mdebug.abi64)
+
+.mdebug.abiO64
+ *(.mdebug.abiO64)
+
+.mdebug.eabi32
+ *(.mdebug.eabi32)
+
+.mdebug.eabi64
+ *(.mdebug.eabi64)
+
+.gcc_compiled_long32
+ *(.gcc_compiled_long32)
+
+.gcc_compiled_long64
+ *(.gcc_compiled_long64)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(build/us_n64/actors/group12.elf elf32-bigmips)
