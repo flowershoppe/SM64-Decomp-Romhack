@@ -4,6 +4,8 @@
 #define MODEL_NONE                             0x00
 
 /* fast64 object exports get inserted here */
+#define MODEL_WATER_BALL                  248
+#define MODEL_CUSTOM_POLE                 249
 #define MODEL_MAGIC_PLATFORM              250
 #define MODEL_SMALL_FAN                   251
 #define MODEL_GIANT_FAN_WIDE              252

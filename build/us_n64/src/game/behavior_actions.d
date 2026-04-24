@@ -70,7 +70,8 @@ build/us_n64/src/game/behavior_actions.o: src/game/behavior_actions.c \
  src/game/behaviors/kickable_board.inc.c \
  src/game/behaviors/tower_door.inc.c \
  src/game/behaviors/rotating_platform.inc.c levels/wf/header.h \
- levels/wdw/header.h src/game/behaviors/koopa_shell_underwater.inc.c \
+ levels/wf/header.inc.h levels/wdw/header.h \
+ src/game/behaviors/koopa_shell_underwater.inc.c \
  src/game/behaviors/warp.inc.c \
  src/game/behaviors/white_puff_explode.inc.c \
  src/game/behaviors/sparkle_spawn_star.inc.c \

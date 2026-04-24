@@ -31,3 +31,5 @@
 #include "giant_fan_wide/geo.inc.c"
 #include "small_fan/geo.inc.c"
 #include "magic_platform/geo.inc.c"
+#include "custom_pole/geo.inc.c"
+#include "water_ball/geo.inc.c"

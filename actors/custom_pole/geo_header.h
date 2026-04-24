@@ -1,0 +1,11 @@
+extern const GeoLayout custom_pole_geo[];
+extern Lights1 custom_pole_pole_texture_lights;
+extern u8 custom_pole_ci4_sophie_interiorwall_ci4[];
+extern u8 custom_pole_ci4_sophie_interiorwall_pal_rgba16[];
+extern Vtx custom_pole_custom_pole_mesh_layer_1_vtx_cull[8];
+extern Vtx custom_pole_custom_pole_mesh_layer_1_vtx_0[104];
+extern Gfx custom_pole_custom_pole_mesh_layer_1_tri_0[];
+extern Gfx mat_custom_pole_pole_texture[];
+extern Gfx mat_revert_custom_pole_pole_texture[];
+extern Gfx custom_pole_custom_pole_mesh_layer_1[];
+extern Gfx custom_pole_final_revert_mesh_layer_1[];

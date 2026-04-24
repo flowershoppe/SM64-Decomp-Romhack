@@ -215,246 +215,258 @@ LOAD build/us_n64/actors/common0.o
  *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
                 0x0000000008000000                . = DATA_SEGMENT_RELRO_END (., 0x0)
 
-.data           0x0000000008000000    0x2d798 load address 0x0000000008000018
+.data           0x0000000008000000    0x2ebb0 load address 0x0000000008000018
                 0x0000000008000000                _fdata = .
  *(.data .data.* .gnu.linkonce.d.*)
- .data          0x0000000008000000    0x2d798 build/us_n64/actors/common0.o
-                0x0000000008000000                magic_platform_final_revert_mesh_layer_5
-                0x0000000008000040                magic_platform_final_revert_mesh_layer_4
-                0x0000000008000080                magic_platform_final_revert_mesh_layer_1
-                0x00000000080000c0                magic_platform_magic_platform_mesh_layer_5
-                0x0000000008000100                magic_platform_magic_platform_mesh_layer_4
-                0x0000000008000140                magic_platform_magic_platform_mesh_layer_1
-                0x0000000008000180                mat_revert_magic_platform_tek
-                0x00000000080001a8                mat_magic_platform_tek
-                0x0000000008000228                mat_revert_magic_platform_corner_circle
-                0x0000000008000250                mat_magic_platform_corner_circle
-                0x00000000080002e8                mat_revert_magic_platform_blocky
-                0x0000000008000308                mat_magic_platform_blocky
-                0x0000000008000398                magic_platform_magic_platform_mesh_layer_5_tri_0
-                0x00000000080003b8                magic_platform_magic_platform_mesh_layer_5_vtx_0
-                0x0000000008000438                magic_platform_magic_platform_mesh_layer_5_vtx_cull
-                0x00000000080004b8                magic_platform_magic_platform_mesh_layer_4_tri_0
-                0x00000000080004d0                magic_platform_magic_platform_mesh_layer_4_vtx_0
-                0x0000000008000510                magic_platform_magic_platform_mesh_layer_4_vtx_cull
-                0x0000000008000590                magic_platform_magic_platform_mesh_layer_1_tri_0
-                0x00000000080005c0                magic_platform_magic_platform_mesh_layer_1_vtx_0
-                0x00000000080006c0                magic_platform_magic_platform_mesh_layer_1_vtx_cull
-                0x0000000008000740                magic_platform_ci4_sophie_pedestal_L1_pal_rgba16
-                0x0000000008000760                magic_platform_ci4_sophie_pedestal_L1_pal_rgba16_aligner
-                0x0000000008000768                magic_platform_ci4_sophie_pedestal_L1_ci4
-                0x0000000008000f68                magic_platform_ci4_sophie_pedestal_L1_ci4_aligner
-                0x0000000008000f70                magic_platform_corner_circle_pal_rgba16
-                0x0000000008001068                magic_platform_corner_circle_pal_rgba16_aligner
-                0x0000000008001070                magic_platform_corner_circle_ci8
-                0x0000000008001470                magic_platform_corner_circle_ci8_aligner
-                0x0000000008001478                _pal_rgba16::magic_platform(void)
-                0x0000000008001528                magic_platform__11_pal_rgba16_aligner
-                0x0000000008001530                magic_platform__11_ci8
-                0x0000000008001930                _ci8_aligne::magic_platform(long double)
-                0x0000000008001938                magic_platform_collision
-                0x00000000080019f0                small_fan_final_revert_mesh_layer_1
-                0x0000000008001a30                small_fan_small_fan_mesh_layer_1
-                0x0000000008001a88                mat_revert_small_fan_metal2
-                0x0000000008001aa8                mat_small_fan_metal2
-                0x0000000008001b38                mat_revert_small_fan_metal
-                0x0000000008001b58                mat_small_fan_metal
-                0x0000000008001be8                small_fan_small_fan_mesh_layer_1_tri_1
-                0x0000000008001c28                small_fan_small_fan_mesh_layer_1_vtx_1
-                0x0000000008001da8                small_fan_small_fan_mesh_layer_1_tri_0
-                0x0000000008001e20                small_fan_small_fan_mesh_layer_1_vtx_0
-                0x0000000008002120                small_fan_small_fan_mesh_layer_1_vtx_cull
-                0x00000000080021a0                small_fan_rgba16_anonmoose_GreenishSquare_pal_rgba16
-                0x00000000080021c8                small_fan_rgba16_anonmoose_GreenishSquare_pal_rgba16_aligner
-                0x00000000080021d0                small_fan_rgba16_anonmoose_GreenishSquare_ci8
-                0x00000000080025d0                small_fan_rgba16_anonmoose_GreenishSquare_ci8_aligner
-                0x00000000080025d8                small_fan_ci4_sophie_metal2_pal_rgba16
-                0x00000000080025f8                small_fan_ci4_sophie_metal2_pal_rgba16_aligner
-                0x0000000008002600                small_fan_ci4_sophie_metal2_ci4
-                0x0000000008002e00                small_fan_ci4_sophie_metal2_ci4_aligner
-                0x0000000008002e08                small_fan_collision
-                0x0000000008002fc8                giant_fan_wide_final_revert_mesh_layer_1
-                0x0000000008003008                giant_fan_wide_giant_fan_wide_mesh_layer_1
-                0x0000000008003060                mat_revert_giant_fan_wide_metal2
-                0x0000000008003080                mat_giant_fan_wide_metal2
-                0x0000000008003110                mat_revert_giant_fan_wide_metal
-                0x0000000008003130                mat_giant_fan_wide_metal
-                0x00000000080031c0                giant_fan_wide_giant_fan_wide_mesh_layer_1_tri_1
-                0x0000000008003200                giant_fan_wide_giant_fan_wide_mesh_layer_1_vtx_1
-                0x0000000008003380                giant_fan_wide_giant_fan_wide_mesh_layer_1_tri_0
-                0x00000000080033f8                giant_fan_wide_giant_fan_wide_mesh_layer_1_vtx_0
-                0x00000000080036f8                giant_fan_wide_giant_fan_wide_mesh_layer_1_vtx_cull
-                0x0000000008003778                giant_fan_wide_rgba16_anonmoose_GreenishSquare_pal_rgba16
-                0x00000000080037a0                giant_fan_wide_rgba16_anonmoose_GreenishSquare_pal_rgba16_aligner
-                0x00000000080037a8                giant_fan_wide_rgba16_anonmoose_GreenishSquare_ci8
-                0x0000000008003ba8                giant_fan_wide_rgba16_anonmoose_GreenishSquare_ci8_aligner
-                0x0000000008003bb0                giant_fan_wide_ci4_sophie_metal2_pal_rgba16
-                0x0000000008003bd0                giant_fan_wide_ci4_sophie_metal2_pal_rgba16_aligner
-                0x0000000008003bd8                giant_fan_wide_ci4_sophie_metal2_ci4
-                0x00000000080043d8                giant_fan_wide_ci4_sophie_metal2_ci4_aligner
-                0x00000000080043e0                giant_fan_wide_collision
-                0x00000000080045a0                giant_fan_final_revert_mesh_layer_1
-                0x00000000080045e0                giant_fan_giant_fan_mesh_layer_1
-                0x0000000008004638                mat_revert_giant_fan_metal2
-                0x0000000008004658                mat_giant_fan_metal2
-                0x00000000080046e8                mat_revert_giant_fan_metal
-                0x0000000008004708                mat_giant_fan_metal
-                0x0000000008004798                giant_fan_giant_fan_mesh_layer_1_tri_1
-                0x00000000080047d8                giant_fan_giant_fan_mesh_layer_1_vtx_1
-                0x0000000008004958                giant_fan_giant_fan_mesh_layer_1_tri_0
-                0x00000000080049d0                giant_fan_giant_fan_mesh_layer_1_vtx_0
-                0x0000000008004cd0                giant_fan_giant_fan_mesh_layer_1_vtx_cull
-                0x0000000008004d50                giant_fan_rgba16_anonmoose_GreenishSquare_pal_rgba16
-                0x0000000008004d78                giant_fan_rgba16_anonmoose_GreenishSquare_pal_rgba16_aligner
-                0x0000000008004d80                giant_fan_rgba16_anonmoose_GreenishSquare_ci8
-                0x0000000008005180                giant_fan_rgba16_anonmoose_GreenishSquare_ci8_aligner
-                0x0000000008005188                giant_fan_ci4_sophie_metal2_pal_rgba16
-                0x00000000080051a8                giant_fan_ci4_sophie_metal2_pal_rgba16_aligner
-                0x00000000080051b0                giant_fan_ci4_sophie_metal2_ci4
-                0x00000000080059b0                giant_fan_ci4_sophie_metal2_ci4_aligner
-                0x00000000080059b8                giant_fan_collision
-                0x0000000008005b78                koopa_shell_seg8_dl_08028B78
-                0x0000000008005bf0                koopa_shell_seg8_dl_08028A20
-                0x0000000008005ce8                koopa_shell_seg8_dl_08028978
-                0x0000000008005d50                koopa_shell_seg8_dl_080288E0
-                0x0000000008007208                koopa_shell_seg8_dl_08027420
-                0x0000000008007288                koopa_shell_seg8_dl_080273C8
-                0x0000000008007310                koopa_shell_seg8_dl_08027258
-                0x0000000008007408                koopa_shell_seg8_dl_08027170
-                0x00000000080074a8                koopa_shell_seg8_dl_08027108
-                0x0000000008008210                unknown_seg8_collision_080262F8
-                0x00000000080082b0                unknown_seg8_dl_08026260
-                0x0000000008008568                exclamation_box_outline_seg8_collision_08025F78
-                0x0000000008008608                exclamation_box_outline_seg8_dl_exclamation_point
-                0x0000000008008678                exclamation_box_outline_seg8_dl_08025EC0
-                0x0000000008008b08                exclamation_box_outline_seg8_dl_080259F8
-                0x0000000008008b78                exclamation_box_outline_seg8_dl_08025968
-                0x0000000008009538                exclamation_box_outline_seg8_dl_08024FE8
-                0x0000000008009568                exclamation_box_outline_seg8_dl_08024FC8
-                0x0000000008009598                exclamation_box_outline_seg8_dl_08024FA8
-                0x00000000080095c8                exclamation_box_outline_seg8_dl_08024F88
-                0x00000000080095f8                exclamation_box_outline_seg8_dl_08024F58
-                0x0000000008009628                exclamation_box_outline_seg8_dl_08024F30
-                0x0000000008009650                exclamation_box_outline_seg8_dl_08024EB8
-                0x0000000008009840                metal_box_seg8_collision_08024C28
-                0x00000000080098e0                metal_box_dl
-                0x0000000008009950                metal_box_seg8_dl_08024B18
-                0x000000000800ab50                bobomb_seg8_anims_0802396C
-                0x000000000800afa0                bobomb_seg8_dl_08023480
-                0x000000000800b018                bobomb_seg8_dl_08023378
-                0x000000000800b0c0                bobomb_seg8_dl_08023270
-                0x000000000800b5a8                bobomb_seg8_dl_08022D78
-                0x000000000800b618                bobomb_seg8_dl_08022D08
-                0x000000000800b688                bobomb_seg8_dl_08022CA0
-                0x000000000800b6e0                bobomb_seg8_dl_08022C38
-                0x000000000800b7b8                bobomb_seg8_dl_08022B88
-                0x000000000800b7e8                bobomb_seg8_dl_08022B58
-                0x000000000800b818                bobomb_seg8_dl_08022B08
-                0x000000000800b858                bobomb_seg8_dl_08022AC0
-                0x0000000008010900                goomba_seg8_anims_0801DA4C
-                0x0000000008010be8                goomba_seg8_dl_0801D760
-                0x0000000008010bf8                goomba_seg8_dl_0801D360
-                0x0000000008010e40                goomba_seg8_dl_0801D0D0
-                0x0000000008010fd0                goomba_seg8_dl_0801CF78
-                0x00000000080110a8                goomba_seg8_dl_0801CE20
-                0x00000000080128a0                goomba_seg8_dl_0801B690
-                0x0000000008012910                goomba_seg8_dl_0801B658
-                0x0000000008012980                floomba_seg8_dl_blink
-                0x00000000080129a8                floomba_seg8_dl_face
-                0x00000000080129d0                goomba_seg8_dl_0801B5F0
-                0x00000000080129f8                goomba_seg8_dl_0801B5C8
-                0x0000000008012a20                goomba_seg8_dl_0801B5A0
-                0x0000000008012a48                goomba_seg8_dl_0801B560
-                0x0000000008012a88                goomba_seg8_dl_0801B2E8
-                0x00000000080159a8                exclamation_box_seg8_dl_08019438
-                0x0000000008015a08                exclamation_box_seg8_dl_080193D8
-                0x0000000008015a68                exclamation_box_seg8_dl_08019378
-                0x0000000008015ac8                exclamation_box_seg8_dl_08019318
-                0x0000000008015b28                exclamation_box_seg8_dl_080192D0
-                0x0000000008015b70                exclamation_box_seg8_dl_08019280
-                0x0000000008015bb0                exclamation_box_seg8_dl_08019220
-                0x0000000008015d80                exclamation_box_seg8_dl_08019058
-                0x0000000008015dc8                exclamation_box_seg8_dl_08019008
-                0x0000000008015e08                exclamation_box_seg8_dl_08018FA8
-                0x000000000801bfd8                breakable_box_seg8_collision
-                0x000000000801c078                breakable_box_seg8_dl_cork_box
-                0x000000000801c0a0                breakable_box_seg8_dl_crazy_box
-                0x000000000801c0c8                breakable_box_seg8_sub_dl_begin
-                0x000000000801c110                breakable_box_seg8_sub_dl_end
-                0x000000000801d330                flyguy_seg8_anims_08011A64
-                0x000000000801d608                flyguy_seg8_dl_08011710
-                0x000000000801d690                flyguy_seg8_dl_080116D0
-                0x000000000801d6d0                flyguy_seg8_dl_08011420
-                0x000000000801d898                flyguy_seg8_dl_080113A8
-                0x000000000801e070                flyguy_seg8_dl_08010B80
-                0x000000000801e0e0                flyguy_seg8_dl_08010B38
-                0x000000000801e170                flyguy_seg8_dl_08010A90
-                0x000000000801e1b8                flyguy_seg8_dl_08010968
-                0x000000000801e280                flyguy_seg8_dl_08010840
-                0x0000000008020a58                heart_seg8_dl_0800DFE0
-                0x0000000008021328                checkerboard_platform_seg8_collision_platform
-                0x00000000080213c8                checkerboard_platform_seg8_dl_0800D680
-                0x0000000008021458                checkerboard_platform_seg8_dl_0800D618
-                0x00000000080214a0                checkerboard_platform_seg8_dl_0800D5C0
-                0x0000000008022278                purple_switch_seg8_collision_0800C7A8
-                0x0000000008022308                purple_switch_seg8_dl_0800C718
-                0x0000000008022398                purple_switch_seg8_dl_0800C6E0
-                0x00000000080223c8                purple_switch_seg8_dl_0800C668
-                0x00000000080229f0                chuckya_seg8_anims_0800C070
-                0x0000000008023e60                chuckya_seg8_dl_0800ABE8
-                0x0000000008023e90                chuckya_seg8_dl_0800AB70
-                0x0000000008024098                chuckya_seg8_dl_0800A998
-                0x00000000080240b8                chuckya_seg8_dl_0800A958
-                0x0000000008024148                chuckya_seg8_dl_0800A8D0
-                0x0000000008024168                chuckya_seg8_dl_0800A870
-                0x0000000008024248                chuckya_seg8_dl_0800A758
-                0x00000000080242b8                chuckya_seg8_dl_0800A700
-                0x0000000008024390                chuckya_seg8_dl_0800A5F8
-                0x0000000008024400                chuckya_seg8_dl_0800A5C0
-                0x0000000008024470                chuckya_seg8_dl_0800A510
-                0x00000000080244e0                chuckya_seg8_dl_0800A4D8
-                0x0000000008024550                chuckya_seg8_dl_0800A428
-                0x00000000080245c0                chuckya_seg8_dl_0800A3F0
-                0x0000000008024630                chuckya_seg8_dl_0800A338
-                0x00000000080246a8                chuckya_seg8_dl_0800A300
-                0x00000000080246d8                chuckya_seg8_dl_0800A2C8
-                0x0000000008024788                chuckya_seg8_dl_0800A1D0
-                0x0000000008024800                chuckya_seg8_dl_0800A198
-                0x0000000008024830                chuckya_seg8_dl_0800A160
-                0x00000000080248e0                chuckya_seg8_dl_0800A068
-                0x0000000008024958                chuckya_seg8_dl_0800A030
-                0x0000000008024988                chuckya_seg8_dl_08009FF8
-                0x0000000008028238                cannon_barrel_seg8_dl_08006660
-                0x00000000080282a0                cannon_barrel_seg8_dl_080064C0
-                0x00000000080283a0                cannon_barrel_seg8_dl_08006408
-                0x0000000008028f88                cannon_base_seg8_dl_080057F8
-                0x0000000008029000                cannon_base_seg8_dl_080056D0
-                0x00000000080290c8                cannon_base_seg8_dl_08005658
-                0x0000000008029dd0                cannon_lid_seg8_collision_08004950
-                0x0000000008029e08                cannon_lid_seg8_dl_080048E0
-                0x0000000008029e78                cannon_lid_seg8_dl_08004898
-                0x000000000802a708                dAmpAnimsList
-                0x000000000802a910                dAmpBodyDl
-                0x000000000802a980                dAmpBodySubDl
-                0x000000000802a9f0                dAmpMouthDl
-                0x000000000802aa60                dAmpMouthSubDl
-                0x000000000802aad0                dAmpEyeDl
-                0x000000000802ab40                dAmpEyeSubDl
-                0x000000000802abb0                dAmpElectricityDl
-                0x000000000802ac20                dAmpElectricitySubDl
-                0x000000000802c8a0                blue_coin_switch_seg8_collision_08000E98
-                0x000000000802c930                blue_coin_switch_seg8_dl_08000E08
-                0x000000000802c9c0                blue_coin_switch_seg8_dl_08000DD0
-                0x000000000802c9f0                blue_coin_switch_seg8_dl_08000D58
+ .data          0x0000000008000000    0x2ebb0 build/us_n64/actors/common0.o
+                0x0000000008000000                custom_pole_final_revert_mesh_layer_1
+                0x0000000008000040                custom_pole_custom_pole_mesh_layer_1
+                0x0000000008000080                mat_revert_custom_pole_pole_texture
+                0x00000000080000a0                mat_custom_pole_pole_texture
+                0x0000000008000130                custom_pole_custom_pole_mesh_layer_1_tri_0
+                0x0000000008000268                custom_pole_custom_pole_mesh_layer_1_vtx_0
+                0x00000000080008e8                custom_pole_custom_pole_mesh_layer_1_vtx_cull
+                0x0000000008000968                custom_pole_ci4_sophie_interiorwall_pal_rgba16
+                0x0000000008000980                custom_pole_ci4_sophie_interiorwall_pal_rgba16_aligner
+                0x0000000008000988                custom_pole_ci4_sophie_interiorwall_ci4
+                0x0000000008001188                custom_pole_ci4_sophie_interiorwall_ci4_aligner
+                0x0000000008001190                custom_pole_collision
+                0x0000000008001418                magic_platform_final_revert_mesh_layer_5
+                0x0000000008001458                magic_platform_final_revert_mesh_layer_4
+                0x0000000008001498                magic_platform_final_revert_mesh_layer_1
+                0x00000000080014d8                magic_platform_magic_platform_mesh_layer_5
+                0x0000000008001518                magic_platform_magic_platform_mesh_layer_4
+                0x0000000008001558                magic_platform_magic_platform_mesh_layer_1
+                0x0000000008001598                mat_revert_magic_platform_tek
+                0x00000000080015c0                mat_magic_platform_tek
+                0x0000000008001640                mat_revert_magic_platform_corner_circle
+                0x0000000008001668                mat_magic_platform_corner_circle
+                0x0000000008001700                mat_revert_magic_platform_blocky
+                0x0000000008001720                mat_magic_platform_blocky
+                0x00000000080017b0                magic_platform_magic_platform_mesh_layer_5_tri_0
+                0x00000000080017d0                magic_platform_magic_platform_mesh_layer_5_vtx_0
+                0x0000000008001850                magic_platform_magic_platform_mesh_layer_5_vtx_cull
+                0x00000000080018d0                magic_platform_magic_platform_mesh_layer_4_tri_0
+                0x00000000080018e8                magic_platform_magic_platform_mesh_layer_4_vtx_0
+                0x0000000008001928                magic_platform_magic_platform_mesh_layer_4_vtx_cull
+                0x00000000080019a8                magic_platform_magic_platform_mesh_layer_1_tri_0
+                0x00000000080019d8                magic_platform_magic_platform_mesh_layer_1_vtx_0
+                0x0000000008001ad8                magic_platform_magic_platform_mesh_layer_1_vtx_cull
+                0x0000000008001b58                magic_platform_ci4_sophie_pedestal_L1_pal_rgba16
+                0x0000000008001b78                magic_platform_ci4_sophie_pedestal_L1_pal_rgba16_aligner
+                0x0000000008001b80                magic_platform_ci4_sophie_pedestal_L1_ci4
+                0x0000000008002380                magic_platform_ci4_sophie_pedestal_L1_ci4_aligner
+                0x0000000008002388                magic_platform_corner_circle_pal_rgba16
+                0x0000000008002480                magic_platform_corner_circle_pal_rgba16_aligner
+                0x0000000008002488                magic_platform_corner_circle_ci8
+                0x0000000008002888                magic_platform_corner_circle_ci8_aligner
+                0x0000000008002890                _pal_rgba16::magic_platform(void)
+                0x0000000008002940                magic_platform__11_pal_rgba16_aligner
+                0x0000000008002948                magic_platform__11_ci8
+                0x0000000008002d48                _ci8_aligne::magic_platform(long double)
+                0x0000000008002d50                magic_platform_collision
+                0x0000000008002e08                small_fan_final_revert_mesh_layer_1
+                0x0000000008002e48                small_fan_small_fan_mesh_layer_1
+                0x0000000008002ea0                mat_revert_small_fan_metal2
+                0x0000000008002ec0                mat_small_fan_metal2
+                0x0000000008002f50                mat_revert_small_fan_metal
+                0x0000000008002f70                mat_small_fan_metal
+                0x0000000008003000                small_fan_small_fan_mesh_layer_1_tri_1
+                0x0000000008003040                small_fan_small_fan_mesh_layer_1_vtx_1
+                0x00000000080031c0                small_fan_small_fan_mesh_layer_1_tri_0
+                0x0000000008003238                small_fan_small_fan_mesh_layer_1_vtx_0
+                0x0000000008003538                small_fan_small_fan_mesh_layer_1_vtx_cull
+                0x00000000080035b8                small_fan_rgba16_anonmoose_GreenishSquare_pal_rgba16
+                0x00000000080035e0                small_fan_rgba16_anonmoose_GreenishSquare_pal_rgba16_aligner
+                0x00000000080035e8                small_fan_rgba16_anonmoose_GreenishSquare_ci8
+                0x00000000080039e8                small_fan_rgba16_anonmoose_GreenishSquare_ci8_aligner
+                0x00000000080039f0                small_fan_ci4_sophie_metal2_pal_rgba16
+                0x0000000008003a10                small_fan_ci4_sophie_metal2_pal_rgba16_aligner
+                0x0000000008003a18                small_fan_ci4_sophie_metal2_ci4
+                0x0000000008004218                small_fan_ci4_sophie_metal2_ci4_aligner
+                0x0000000008004220                small_fan_collision
+                0x00000000080043e0                giant_fan_wide_final_revert_mesh_layer_1
+                0x0000000008004420                giant_fan_wide_giant_fan_wide_mesh_layer_1
+                0x0000000008004478                mat_revert_giant_fan_wide_metal2
+                0x0000000008004498                mat_giant_fan_wide_metal2
+                0x0000000008004528                mat_revert_giant_fan_wide_metal
+                0x0000000008004548                mat_giant_fan_wide_metal
+                0x00000000080045d8                giant_fan_wide_giant_fan_wide_mesh_layer_1_tri_1
+                0x0000000008004618                giant_fan_wide_giant_fan_wide_mesh_layer_1_vtx_1
+                0x0000000008004798                giant_fan_wide_giant_fan_wide_mesh_layer_1_tri_0
+                0x0000000008004810                giant_fan_wide_giant_fan_wide_mesh_layer_1_vtx_0
+                0x0000000008004b10                giant_fan_wide_giant_fan_wide_mesh_layer_1_vtx_cull
+                0x0000000008004b90                giant_fan_wide_rgba16_anonmoose_GreenishSquare_pal_rgba16
+                0x0000000008004bb8                giant_fan_wide_rgba16_anonmoose_GreenishSquare_pal_rgba16_aligner
+                0x0000000008004bc0                giant_fan_wide_rgba16_anonmoose_GreenishSquare_ci8
+                0x0000000008004fc0                giant_fan_wide_rgba16_anonmoose_GreenishSquare_ci8_aligner
+                0x0000000008004fc8                giant_fan_wide_ci4_sophie_metal2_pal_rgba16
+                0x0000000008004fe8                giant_fan_wide_ci4_sophie_metal2_pal_rgba16_aligner
+                0x0000000008004ff0                giant_fan_wide_ci4_sophie_metal2_ci4
+                0x00000000080057f0                giant_fan_wide_ci4_sophie_metal2_ci4_aligner
+                0x00000000080057f8                giant_fan_wide_collision
+                0x00000000080059b8                giant_fan_final_revert_mesh_layer_1
+                0x00000000080059f8                giant_fan_giant_fan_mesh_layer_1
+                0x0000000008005a50                mat_revert_giant_fan_metal2
+                0x0000000008005a70                mat_giant_fan_metal2
+                0x0000000008005b00                mat_revert_giant_fan_metal
+                0x0000000008005b20                mat_giant_fan_metal
+                0x0000000008005bb0                giant_fan_giant_fan_mesh_layer_1_tri_1
+                0x0000000008005bf0                giant_fan_giant_fan_mesh_layer_1_vtx_1
+                0x0000000008005d70                giant_fan_giant_fan_mesh_layer_1_tri_0
+                0x0000000008005de8                giant_fan_giant_fan_mesh_layer_1_vtx_0
+                0x00000000080060e8                giant_fan_giant_fan_mesh_layer_1_vtx_cull
+                0x0000000008006168                giant_fan_rgba16_anonmoose_GreenishSquare_pal_rgba16
+                0x0000000008006190                giant_fan_rgba16_anonmoose_GreenishSquare_pal_rgba16_aligner
+                0x0000000008006198                giant_fan_rgba16_anonmoose_GreenishSquare_ci8
+                0x0000000008006598                giant_fan_rgba16_anonmoose_GreenishSquare_ci8_aligner
+                0x00000000080065a0                giant_fan_ci4_sophie_metal2_pal_rgba16
+                0x00000000080065c0                giant_fan_ci4_sophie_metal2_pal_rgba16_aligner
+                0x00000000080065c8                giant_fan_ci4_sophie_metal2_ci4
+                0x0000000008006dc8                giant_fan_ci4_sophie_metal2_ci4_aligner
+                0x0000000008006dd0                giant_fan_collision
+                0x0000000008006f90                koopa_shell_seg8_dl_08028B78
+                0x0000000008007008                koopa_shell_seg8_dl_08028A20
+                0x0000000008007100                koopa_shell_seg8_dl_08028978
+                0x0000000008007168                koopa_shell_seg8_dl_080288E0
+                0x0000000008008620                koopa_shell_seg8_dl_08027420
+                0x00000000080086a0                koopa_shell_seg8_dl_080273C8
+                0x0000000008008728                koopa_shell_seg8_dl_08027258
+                0x0000000008008820                koopa_shell_seg8_dl_08027170
+                0x00000000080088c0                koopa_shell_seg8_dl_08027108
+                0x0000000008009628                unknown_seg8_collision_080262F8
+                0x00000000080096c8                unknown_seg8_dl_08026260
+                0x0000000008009980                exclamation_box_outline_seg8_collision_08025F78
+                0x0000000008009a20                exclamation_box_outline_seg8_dl_exclamation_point
+                0x0000000008009a90                exclamation_box_outline_seg8_dl_08025EC0
+                0x0000000008009f20                exclamation_box_outline_seg8_dl_080259F8
+                0x0000000008009f90                exclamation_box_outline_seg8_dl_08025968
+                0x000000000800a950                exclamation_box_outline_seg8_dl_08024FE8
+                0x000000000800a980                exclamation_box_outline_seg8_dl_08024FC8
+                0x000000000800a9b0                exclamation_box_outline_seg8_dl_08024FA8
+                0x000000000800a9e0                exclamation_box_outline_seg8_dl_08024F88
+                0x000000000800aa10                exclamation_box_outline_seg8_dl_08024F58
+                0x000000000800aa40                exclamation_box_outline_seg8_dl_08024F30
+                0x000000000800aa68                exclamation_box_outline_seg8_dl_08024EB8
+                0x000000000800ac58                metal_box_seg8_collision_08024C28
+                0x000000000800acf8                metal_box_dl
+                0x000000000800ad68                metal_box_seg8_dl_08024B18
+                0x000000000800bf68                bobomb_seg8_anims_0802396C
+                0x000000000800c3b8                bobomb_seg8_dl_08023480
+                0x000000000800c430                bobomb_seg8_dl_08023378
+                0x000000000800c4d8                bobomb_seg8_dl_08023270
+                0x000000000800c9c0                bobomb_seg8_dl_08022D78
+                0x000000000800ca30                bobomb_seg8_dl_08022D08
+                0x000000000800caa0                bobomb_seg8_dl_08022CA0
+                0x000000000800caf8                bobomb_seg8_dl_08022C38
+                0x000000000800cbd0                bobomb_seg8_dl_08022B88
+                0x000000000800cc00                bobomb_seg8_dl_08022B58
+                0x000000000800cc30                bobomb_seg8_dl_08022B08
+                0x000000000800cc70                bobomb_seg8_dl_08022AC0
+                0x0000000008011d18                goomba_seg8_anims_0801DA4C
+                0x0000000008012000                goomba_seg8_dl_0801D760
+                0x0000000008012010                goomba_seg8_dl_0801D360
+                0x0000000008012258                goomba_seg8_dl_0801D0D0
+                0x00000000080123e8                goomba_seg8_dl_0801CF78
+                0x00000000080124c0                goomba_seg8_dl_0801CE20
+                0x0000000008013cb8                goomba_seg8_dl_0801B690
+                0x0000000008013d28                goomba_seg8_dl_0801B658
+                0x0000000008013d98                floomba_seg8_dl_blink
+                0x0000000008013dc0                floomba_seg8_dl_face
+                0x0000000008013de8                goomba_seg8_dl_0801B5F0
+                0x0000000008013e10                goomba_seg8_dl_0801B5C8
+                0x0000000008013e38                goomba_seg8_dl_0801B5A0
+                0x0000000008013e60                goomba_seg8_dl_0801B560
+                0x0000000008013ea0                goomba_seg8_dl_0801B2E8
+                0x0000000008016dc0                exclamation_box_seg8_dl_08019438
+                0x0000000008016e20                exclamation_box_seg8_dl_080193D8
+                0x0000000008016e80                exclamation_box_seg8_dl_08019378
+                0x0000000008016ee0                exclamation_box_seg8_dl_08019318
+                0x0000000008016f40                exclamation_box_seg8_dl_080192D0
+                0x0000000008016f88                exclamation_box_seg8_dl_08019280
+                0x0000000008016fc8                exclamation_box_seg8_dl_08019220
+                0x0000000008017198                exclamation_box_seg8_dl_08019058
+                0x00000000080171e0                exclamation_box_seg8_dl_08019008
+                0x0000000008017220                exclamation_box_seg8_dl_08018FA8
+                0x000000000801d3f0                breakable_box_seg8_collision
+                0x000000000801d490                breakable_box_seg8_dl_cork_box
+                0x000000000801d4b8                breakable_box_seg8_dl_crazy_box
+                0x000000000801d4e0                breakable_box_seg8_sub_dl_begin
+                0x000000000801d528                breakable_box_seg8_sub_dl_end
+                0x000000000801e748                flyguy_seg8_anims_08011A64
+                0x000000000801ea20                flyguy_seg8_dl_08011710
+                0x000000000801eaa8                flyguy_seg8_dl_080116D0
+                0x000000000801eae8                flyguy_seg8_dl_08011420
+                0x000000000801ecb0                flyguy_seg8_dl_080113A8
+                0x000000000801f488                flyguy_seg8_dl_08010B80
+                0x000000000801f4f8                flyguy_seg8_dl_08010B38
+                0x000000000801f588                flyguy_seg8_dl_08010A90
+                0x000000000801f5d0                flyguy_seg8_dl_08010968
+                0x000000000801f698                flyguy_seg8_dl_08010840
+                0x0000000008021e70                heart_seg8_dl_0800DFE0
+                0x0000000008022740                checkerboard_platform_seg8_collision_platform
+                0x00000000080227e0                checkerboard_platform_seg8_dl_0800D680
+                0x0000000008022870                checkerboard_platform_seg8_dl_0800D618
+                0x00000000080228b8                checkerboard_platform_seg8_dl_0800D5C0
+                0x0000000008023690                purple_switch_seg8_collision_0800C7A8
+                0x0000000008023720                purple_switch_seg8_dl_0800C718
+                0x00000000080237b0                purple_switch_seg8_dl_0800C6E0
+                0x00000000080237e0                purple_switch_seg8_dl_0800C668
+                0x0000000008023e08                chuckya_seg8_anims_0800C070
+                0x0000000008025278                chuckya_seg8_dl_0800ABE8
+                0x00000000080252a8                chuckya_seg8_dl_0800AB70
+                0x00000000080254b0                chuckya_seg8_dl_0800A998
+                0x00000000080254d0                chuckya_seg8_dl_0800A958
+                0x0000000008025560                chuckya_seg8_dl_0800A8D0
+                0x0000000008025580                chuckya_seg8_dl_0800A870
+                0x0000000008025660                chuckya_seg8_dl_0800A758
+                0x00000000080256d0                chuckya_seg8_dl_0800A700
+                0x00000000080257a8                chuckya_seg8_dl_0800A5F8
+                0x0000000008025818                chuckya_seg8_dl_0800A5C0
+                0x0000000008025888                chuckya_seg8_dl_0800A510
+                0x00000000080258f8                chuckya_seg8_dl_0800A4D8
+                0x0000000008025968                chuckya_seg8_dl_0800A428
+                0x00000000080259d8                chuckya_seg8_dl_0800A3F0
+                0x0000000008025a48                chuckya_seg8_dl_0800A338
+                0x0000000008025ac0                chuckya_seg8_dl_0800A300
+                0x0000000008025af0                chuckya_seg8_dl_0800A2C8
+                0x0000000008025ba0                chuckya_seg8_dl_0800A1D0
+                0x0000000008025c18                chuckya_seg8_dl_0800A198
+                0x0000000008025c48                chuckya_seg8_dl_0800A160
+                0x0000000008025cf8                chuckya_seg8_dl_0800A068
+                0x0000000008025d70                chuckya_seg8_dl_0800A030
+                0x0000000008025da0                chuckya_seg8_dl_08009FF8
+                0x0000000008029650                cannon_barrel_seg8_dl_08006660
+                0x00000000080296b8                cannon_barrel_seg8_dl_080064C0
+                0x00000000080297b8                cannon_barrel_seg8_dl_08006408
+                0x000000000802a3a0                cannon_base_seg8_dl_080057F8
+                0x000000000802a418                cannon_base_seg8_dl_080056D0
+                0x000000000802a4e0                cannon_base_seg8_dl_08005658
+                0x000000000802b1e8                cannon_lid_seg8_collision_08004950
+                0x000000000802b220                cannon_lid_seg8_dl_080048E0
+                0x000000000802b290                cannon_lid_seg8_dl_08004898
+                0x000000000802bb20                dAmpAnimsList
+                0x000000000802bd28                dAmpBodyDl
+                0x000000000802bd98                dAmpBodySubDl
+                0x000000000802be08                dAmpMouthDl
+                0x000000000802be78                dAmpMouthSubDl
+                0x000000000802bee8                dAmpEyeDl
+                0x000000000802bf58                dAmpEyeSubDl
+                0x000000000802bfc8                dAmpElectricityDl
+                0x000000000802c038                dAmpElectricitySubDl
+                0x000000000802dcb8                blue_coin_switch_seg8_collision_08000E98
+                0x000000000802dd48                blue_coin_switch_seg8_dl_08000E08
+                0x000000000802ddd8                blue_coin_switch_seg8_dl_08000DD0
+                0x000000000802de08                blue_coin_switch_seg8_dl_08000D58
 
 .data1
  *(.data1)
 
 .got.plt
  *(.got.plt)
-                0x000000000802d798                . = .
-                0x000000000802d798                . = .
-                0x0000000008035790                _gp = (ALIGN (0x10) + 0x7ff0)
+                0x000000000802ebb0                . = .
+                0x000000000802ebb0                . = .
+                0x0000000008036ba0                _gp = (ALIGN (0x10) + 0x7ff0)
 
 .got
  *(.got)
@@ -467,29 +479,29 @@ LOAD build/us_n64/actors/common0.o
 
 .lit4
  *(.lit4)
-                0x000000000802d798                _edata = .
+                0x000000000802ebb0                _edata = .
                 [!provide]                        PROVIDE (edata = .)
-                0x000000000802d798                . = .
-                0x000000000802d798                __bss_start = .
-                0x000000000802d798                _fbss = .
+                0x000000000802ebb0                . = .
+                0x000000000802ebb0                __bss_start = .
+                0x000000000802ebb0                _fbss = .
 
 .sbss
  *(.dynsbss)
  *(.sbss .sbss.* .gnu.linkonce.sb.*)
  *(.scommon)
 
-.bss            0x000000000802d798        0x0 load address 0x000000000802d7b0
+.bss            0x000000000802ebb0        0x0 load address 0x000000000802ebc8
  *(.dynbss)
  *(.bss .bss.* .gnu.linkonce.b.*)
- .bss           0x000000000802d798        0x0 build/us_n64/actors/common0.o
+ .bss           0x000000000802ebb0        0x0 build/us_n64/actors/common0.o
  *(COMMON)
-                0x000000000802d798                . = ALIGN ((. != 0x0)?0x4:0x1)
-                0x000000000802d798                . = ALIGN (0x4)
-                0x000000000802d798                . = SEGMENT_START ("ldata-segment", .)
-                0x000000000802d798                . = ALIGN (0x4)
-                0x000000000802d798                _end = .
+                0x000000000802ebb0                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x000000000802ebb0                . = ALIGN (0x4)
+                0x000000000802ebb0                . = SEGMENT_START ("ldata-segment", .)
+                0x000000000802ebb0                . = ALIGN (0x4)
+                0x000000000802ebb0                _end = .
                 [!provide]                        PROVIDE (end = .)
-                0x000000000802d798                . = DATA_SEGMENT_END (.)
+                0x000000000802ebb0                . = DATA_SEGMENT_END (.)
 
 .stab
  *(.stab)

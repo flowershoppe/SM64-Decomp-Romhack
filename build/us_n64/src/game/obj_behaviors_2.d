@@ -39,7 +39,8 @@ build/us_n64/src/game/obj_behaviors_2.o: src/game/obj_behaviors_2.c \
  actors/giant_fan_wide/collision_header.h \
  actors/giant_fan_wide/geo_header.h actors/small_fan/collision_header.h \
  actors/small_fan/geo_header.h actors/magic_platform/collision_header.h \
- actors/magic_platform/geo_header.h actors/group11.h actors/group17.h \
+ actors/magic_platform/geo_header.h actors/custom_pole/collision_header.h \
+ actors/custom_pole/geo_header.h actors/group11.h actors/group17.h \
  src/audio/external.h include/level_table.h src/game/behavior_actions.h \
  include/behavior_data.h src/game/camera.h src/game/area.h \
  src/engine/graph_node.h include/geo_commands.h \
@@ -57,9 +58,9 @@ build/us_n64/src/game/obj_behaviors_2.o: src/game/obj_behaviors_2.c \
  levels/bitdw/header.h levels/bitfs/header.h levels/bits/header.h \
  levels/bob/header.h levels/bob/header.inc.h levels/ccm/header.h \
  src/game/moving_texture.h levels/hmc/header.h levels/jrb/header.h \
- levels/lll/header.h levels/rr/header.h levels/ssl/header.h \
- levels/thi/header.h levels/ttc/header.h levels/vcutm/header.h \
- src/game/mario.h src/game/mario_actions_cutscene.h \
+ levels/jrb/header.inc.h levels/lll/header.h levels/rr/header.h \
+ levels/ssl/header.h levels/thi/header.h levels/ttc/header.h \
+ levels/vcutm/header.h src/game/mario.h src/game/mario_actions_cutscene.h \
  src/game/obj_behaviors.h src/game/obj_behaviors_2.h \
  include/object_constants.h src/game/object_helpers.h \
  src/game/object_list_processor.h src/game/platform_displacement.h \

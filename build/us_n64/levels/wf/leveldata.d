@@ -82,4 +82,7 @@ build/us_n64/levels/wf/leveldata.o: levels/wf/leveldata.c \
  levels/wf/rotating_platform/collision.inc.c \
  levels/wf/areas/1/10/collision.inc.c \
  levels/wf/areas/1/11/collision.inc.c levels/wf/areas/1/collision.inc.c \
- levels/wf/areas/1/macro.inc.c levels/wf/areas/1/movtext.inc.c
+ levels/wf/areas/1/macro.inc.c levels/wf/areas/1/movtext.inc.c \
+ levels/wf/leveldata.inc.c levels/wf/area_1/collision.inc.c \
+ levels/wf/area_1/macro.inc.c levels/wf/area_1/spline.inc.c \
+ levels/wf/model.inc.c

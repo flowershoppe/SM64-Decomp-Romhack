@@ -43,8 +43,9 @@ build/us_n64/levels/jrb/geo.o: levels/jrb/geo.c include/n64/ultra64.h \
  src/game/puppycam2.h include/level_table.h src/game/moving_texture.h \
  src/game/screen_transition.h src/game/paintings.h \
  include/make_const_nonconst.h levels/jrb/header.h \
- levels/jrb/falling_pillar/geo.inc.c \
+ levels/jrb/header.inc.h levels/jrb/falling_pillar/geo.inc.c \
  levels/jrb/falling_pillar_base/geo.inc.c levels/jrb/rock/geo.inc.c \
  levels/jrb/floating_platform/geo.inc.c levels/jrb/sliding_box/geo.inc.c \
  levels/jrb/wooden_ship/geo.inc.c levels/jrb/areas/1/geo.inc.c \
- levels/jrb/areas/2/geo.inc.c
+ levels/jrb/areas/2/geo.inc.c levels/jrb/geo.inc.c \
+ levels/jrb/area_1/geo.inc.c src/game/envfx_snow.h

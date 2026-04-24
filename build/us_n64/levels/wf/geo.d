@@ -42,7 +42,7 @@ build/us_n64/levels/wf/geo.o: levels/wf/geo.c include/n64/ultra64.h \
  src/engine/graph_node.h src/game/memory.h src/engine/geo_layout.h \
  src/game/puppycam2.h include/level_table.h src/game/moving_texture.h \
  src/game/screen_transition.h src/game/paintings.h \
- include/make_const_nonconst.h levels/wf/header.h \
+ include/make_const_nonconst.h levels/wf/header.h levels/wf/header.inc.h \
  levels/wf/areas/1/5/geo.inc.c levels/wf/areas/1/6/geo.inc.c \
  levels/wf/areas/1/7/geo.inc.c levels/wf/areas/1/8/geo.inc.c \
  levels/wf/areas/1/9/geo.inc.c levels/wf/areas/1/10/geo.inc.c \
@@ -60,4 +60,5 @@ build/us_n64/levels/wf/geo.o: levels/wf/geo.c include/n64/ultra64.h \
  levels/wf/breakable_wall_right/geo.inc.c \
  levels/wf/breakable_wall_left/geo.inc.c \
  levels/wf/kickable_board/geo.inc.c levels/wf/tower_door/geo.inc.c \
- levels/wf/areas/1/geo.inc.c
+ levels/wf/areas/1/geo.inc.c levels/wf/geo.inc.c \
+ levels/wf/area_1/geo.inc.c src/game/envfx_snow.h

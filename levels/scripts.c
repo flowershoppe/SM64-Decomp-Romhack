@@ -174,6 +174,8 @@ static const LevelScript script_exec_ ## folder [] = { \
 #undef DEFINE_LEVEL
 
 const LevelScript script_func_global_1[] = {
+    LOAD_MODEL_FROM_GEO(MODEL_WATER_BALL, water_ball_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_CUSTOM_POLE, custom_pole_geo),
     LOAD_MODEL_FROM_GEO(MODEL_MAGIC_PLATFORM, magic_platform_geo),
     LOAD_MODEL_FROM_GEO(MODEL_SMALL_FAN, small_fan_geo),
     LOAD_MODEL_FROM_GEO(MODEL_GIANT_FAN_WIDE, giant_fan_wide_geo),

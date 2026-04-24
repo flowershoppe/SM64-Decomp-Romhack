@@ -49,7 +49,8 @@ build/us_n64/data/behavior_data.o: data/behavior_data.c include/sm64.h \
  actors/giant_fan/geo_header.h actors/giant_fan_wide/collision_header.h \
  actors/giant_fan_wide/geo_header.h actors/small_fan/collision_header.h \
  actors/small_fan/geo_header.h actors/magic_platform/collision_header.h \
- actors/magic_platform/geo_header.h actors/common1.h actors/group0.h \
+ actors/magic_platform/geo_header.h actors/custom_pole/collision_header.h \
+ actors/custom_pole/geo_header.h actors/common1.h actors/group0.h \
  actors/group1.h actors/group2.h actors/group3.h actors/group4.h \
  actors/group5.h actors/group6.h actors/group7.h actors/group8.h \
  actors/group9.h actors/group10.h actors/group11.h actors/group12.h \
@@ -58,8 +59,9 @@ build/us_n64/data/behavior_data.o: data/behavior_data.c include/sm64.h \
  levels/castle_inside/header.h src/game/paintings.h levels/hmc/header.h \
  levels/ssl/header.h levels/bob/header.h levels/bob/header.inc.h \
  levels/sl/header.h levels/wdw/header.h levels/jrb/header.h \
- levels/thi/header.h levels/ttc/header.h levels/rr/header.h \
- levels/castle_grounds/header.h levels/bitdw/header.h levels/lll/header.h \
- levels/sa/header.h levels/bitfs/header.h levels/ddd/header.h \
- levels/wf/header.h levels/bowser_2/header.h levels/ttm/header.h \
+ levels/jrb/header.inc.h levels/thi/header.h levels/ttc/header.h \
+ levels/rr/header.h levels/castle_grounds/header.h levels/bitdw/header.h \
+ levels/lll/header.h levels/sa/header.h levels/bitfs/header.h \
+ levels/ddd/header.h levels/wf/header.h levels/wf/header.inc.h \
+ levels/bowser_2/header.h levels/ttm/header.h \
  include/make_const_nonconst.h include/behavior_data.h
