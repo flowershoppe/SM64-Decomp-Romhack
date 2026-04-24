@@ -1,13 +1,3 @@
-# ![](https://i.imgur.com/CeOukzk.gif) HackerSM64 ![](https://i.imgur.com/s0LUbTo.gif)
-
-**AFTER CLONING THE REPO, CHECK OUT THE `include/config` FOLDER BEFORE ANYTHING ELSE! THERE'S A LOT OF STUFF IN THIS REPO THAT CAN BE TOGGLED THERE.**
-
-HackerSM64 now has a discord server! https://discord.gg/brETAakcXr
-
-This repo requires a US ROM in order to build. JP/EU ROMs are optional for some assets.
-
-[How to install everything needed and build HackerSM64](https://github.com/HackerN64/HackerSM64/wiki/Installing-HackerSM64)
-
 This is a fork of the ultrasm64 repo by CrashOveride which includes the following commonly used patches (patches marked with `*` are toggleable in the config files):
 
 **Credits**
