@@ -1,0 +1,16 @@
+extern const GeoLayout tilting_platform_geo[];
+extern u8 tilting_platform_KKIIDDZZ_DAT_964__p00_ci8[];
+extern u8 tilting_platform_KKIIDDZZ_DAT_964__p00_pal_rgba16[];
+extern u8 tilting_platform__7_ci8[];
+extern u8 tilting_platform__7_pal_rgba16[];
+extern Vtx tilting_platform_tilting_platform_mesh_layer_1_vtx_cull[8];
+extern Vtx tilting_platform_tilting_platform_mesh_layer_1_vtx_0[40];
+extern Gfx tilting_platform_tilting_platform_mesh_layer_1_tri_0[];
+extern Vtx tilting_platform_tilting_platform_mesh_layer_1_vtx_1[4];
+extern Gfx tilting_platform_tilting_platform_mesh_layer_1_tri_1[];
+extern Gfx mat_tilting_platform_glyph_stone[];
+extern Gfx mat_revert_tilting_platform_glyph_stone[];
+extern Gfx mat_tilting_platform_bricks[];
+extern Gfx mat_revert_tilting_platform_bricks[];
+extern Gfx tilting_platform_tilting_platform_mesh_layer_1[];
+extern Gfx tilting_platform_final_revert_mesh_layer_1[];

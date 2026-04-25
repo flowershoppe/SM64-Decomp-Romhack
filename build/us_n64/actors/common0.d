@@ -113,4 +113,6 @@ build/us_n64/actors/common0.o: actors/common0.c \
  actors/giant_fan_wide/collision.inc.c actors/giant_fan_wide/model.inc.c \
  actors/small_fan/collision.inc.c actors/small_fan/model.inc.c \
  actors/magic_platform/collision.inc.c actors/magic_platform/model.inc.c \
- actors/custom_pole/collision.inc.c actors/custom_pole/model.inc.c
+ actors/custom_pole/collision.inc.c actors/custom_pole/model.inc.c \
+ actors/tilting_platform/collision.inc.c \
+ actors/tilting_platform/model.inc.c

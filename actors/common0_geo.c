@@ -32,4 +32,4 @@
 #include "small_fan/geo.inc.c"
 #include "magic_platform/geo.inc.c"
 #include "custom_pole/geo.inc.c"
-#include "water_ball/geo.inc.c"
+#include "tilting_platform/geo.inc.c"

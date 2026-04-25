@@ -43,7 +43,9 @@ build/us_n64/actors/common0_geo.o: actors/common0_geo.c \
  actors/giant_fan_wide/geo_header.h actors/small_fan/collision_header.h \
  actors/small_fan/geo_header.h actors/magic_platform/collision_header.h \
  actors/magic_platform/geo_header.h actors/custom_pole/collision_header.h \
- actors/custom_pole/geo_header.h actors/blue_coin_switch/geo.inc.c \
+ actors/custom_pole/geo_header.h \
+ actors/tilting_platform/collision_header.h \
+ actors/tilting_platform/geo_header.h actors/blue_coin_switch/geo.inc.c \
  actors/test_platform/geo.inc.c actors/amp/geo.inc.c \
  actors/cannon_lid/geo.inc.c actors/cannon_base/geo.inc.c \
  actors/cannon_barrel/geo.inc.c actors/chuckya/geo.inc.c \
@@ -55,4 +57,5 @@ build/us_n64/actors/common0_geo.o: actors/common0_geo.c \
  actors/exclamation_box_outline/geo.inc.c actors/koopa_shell/geo.inc.c \
  actors/giant_fan/geo.inc.c src/game/envfx_snow.h \
  actors/giant_fan_wide/geo.inc.c actors/small_fan/geo.inc.c \
- actors/magic_platform/geo.inc.c actors/custom_pole/geo.inc.c
+ actors/magic_platform/geo.inc.c actors/custom_pole/geo.inc.c \
+ actors/tilting_platform/geo.inc.c

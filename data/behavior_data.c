@@ -1454,7 +1454,7 @@ const BehaviorScript bhvDddMovingPole[] = {
 const BehaviorScript bhvBitfsTiltingInvertedPyramid[] = {
     BEGIN(OBJ_LIST_SURFACE),
     OR_INT(oFlags, (OBJ_FLAG_COMPUTE_DIST_TO_MARIO | OBJ_FLAG_SET_FACE_YAW_TO_MOVE_YAW | OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE)),
-    LOAD_COLLISION_DATA(bitfs_seg7_collision_inverted_pyramid),
+    LOAD_COLLISION_DATA(tilting_platform_collision),
     SET_HOME(),
     CALL_NATIVE(bhv_platform_normals_init),
     BEGIN_LOOP(),

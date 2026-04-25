@@ -40,7 +40,9 @@ build/us_n64/src/game/obj_behaviors_2.o: src/game/obj_behaviors_2.c \
  actors/giant_fan_wide/geo_header.h actors/small_fan/collision_header.h \
  actors/small_fan/geo_header.h actors/magic_platform/collision_header.h \
  actors/magic_platform/geo_header.h actors/custom_pole/collision_header.h \
- actors/custom_pole/geo_header.h actors/group11.h actors/group17.h \
+ actors/custom_pole/geo_header.h \
+ actors/tilting_platform/collision_header.h \
+ actors/tilting_platform/geo_header.h actors/group11.h actors/group17.h \
  src/audio/external.h include/level_table.h src/game/behavior_actions.h \
  include/behavior_data.h src/game/camera.h src/game/area.h \
  src/engine/graph_node.h include/geo_commands.h \

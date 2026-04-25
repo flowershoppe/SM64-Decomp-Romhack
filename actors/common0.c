@@ -89,5 +89,5 @@ UNUSED static const u64 binid_18 = 18;
 #include "magic_platform/model.inc.c"
 #include "custom_pole/collision.inc.c"
 #include "custom_pole/model.inc.c"
-#include "water_ball/collision.inc.c"
-#include "water_ball/model.inc.c"
+#include "tilting_platform/collision.inc.c"
+#include "tilting_platform/model.inc.c"

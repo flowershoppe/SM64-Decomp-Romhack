@@ -665,7 +665,7 @@ void apply_vertical_wind(struct MarioState *m) {
         if (m->floor->type == SURFACE_VERTICAL_WIND) {
                 maxVelY = 30.0f;
 
-            if (m->vel[1] < maxVelY && m->pos[1] < m->floorHeight + 1550.0f) {
+            if (m->vel[1] < maxVelY && m->pos[1] < m->floorHeight + 1000.0f) {
                 m->vel[1] += 7.0f;      
             }
             if(m->pos[1] > 500.0f && m->vel[1] > -5.0f) {

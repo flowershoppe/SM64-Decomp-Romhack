@@ -48,7 +48,9 @@ build/us_n64/levels/scripts.o: levels/scripts.c include/n64/ultra64.h \
  actors/giant_fan_wide/geo_header.h actors/small_fan/collision_header.h \
  actors/small_fan/geo_header.h actors/magic_platform/collision_header.h \
  actors/magic_platform/geo_header.h actors/custom_pole/collision_header.h \
- actors/custom_pole/geo_header.h actors/common1.h actors/group0.h \
+ actors/custom_pole/geo_header.h \
+ actors/tilting_platform/collision_header.h \
+ actors/tilting_platform/geo_header.h actors/common1.h actors/group0.h \
  actors/group1.h actors/group2.h actors/group3.h actors/group4.h \
  actors/group5.h actors/group6.h actors/group7.h actors/group8.h \
  actors/group9.h actors/group10.h actors/group11.h actors/group12.h \

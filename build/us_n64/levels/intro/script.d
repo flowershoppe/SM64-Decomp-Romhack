@@ -49,6 +49,8 @@ build/us_n64/levels/intro/script.o: levels/intro/script.c \
  actors/giant_fan_wide/geo_header.h actors/small_fan/collision_header.h \
  actors/small_fan/geo_header.h actors/magic_platform/collision_header.h \
  actors/magic_platform/geo_header.h actors/custom_pole/collision_header.h \
- actors/custom_pole/geo_header.h actors/common1.h \
+ actors/custom_pole/geo_header.h \
+ actors/tilting_platform/collision_header.h \
+ actors/tilting_platform/geo_header.h actors/common1.h \
  include/make_const_nonconst.h levels/intro/header.h include/farcall.h \
  src/game/print.h src/game/object_list_processor.h

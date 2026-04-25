@@ -205,6 +205,6 @@ extern const Collision unknown_seg8_collision_080262F8[];
 #include "magic_platform/geo_header.h"
 #include "custom_pole/collision_header.h"
 #include "custom_pole/geo_header.h"
-#include "water_ball/collision_header.h"
-#include "water_ball/geo_header.h"
+#include "tilting_platform/collision_header.h"
+#include "tilting_platform/geo_header.h"
 #endif
