@@ -13,7 +13,7 @@
 #endif
 
 DEFINE_DIALOG(DIALOG_000, 1, 6, 30, 200, _("\
-Test."))
+Hi lol."))
 
 DEFINE_DIALOG(DIALOG_001, 1, 4, 95, 200, _("\
 Watch out! If you wander\n\
@@ -1344,10 +1344,16 @@ courses to activate the\n\
 Cap Blocks."))
 
 DEFINE_DIALOG(DIALOG_114, 1, 5, 95, 200, _("\
-Test"))
+Hm? Who the hell are you?\n\
+Some punk trying to play\n\
+hero? Sure, I've been \n\
+itching to flatten someone\n\
+since all those dumb birds\n\
+flew away!\n\
+C'mon, boys!"))
 
 DEFINE_DIALOG(DIALOG_115, 1, 5, 95, 200, _("\
-Test"))
+Heh... not bad, stranger..."))
 
 DEFINE_DIALOG(DIALOG_116, 1, 5, 95, 200, _("\
 Whaaa....Whaaat?\n\

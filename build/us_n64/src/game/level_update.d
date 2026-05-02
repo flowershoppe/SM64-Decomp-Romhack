@@ -1,5 +1,6 @@
 build/us_n64/src/game/level_update.o: src/game/level_update.c \
  src/game/texscroll.h src/game/texscroll/bob_texscroll.inc.h \
+ src/game/texscroll/jrb_texscroll.inc.h levels/jrb/texscroll.inc.h \
  include/n64/ultra64.h include/n64/PR/ultratypes.h include/n64/PR/rcp.h \
  include/n64/PR/R4300.h include/n64/PR/os.h include/n64/PR/os_thread.h \
  include/n64/PR/os_message.h include/n64/PR/os_exception.h \

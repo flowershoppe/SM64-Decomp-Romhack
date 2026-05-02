@@ -33,5 +33,8 @@ build/us_n64/src/game/texscroll.o: src/game/texscroll.c include/types.h \
  src/engine/math_util.h src/game/puppyprint.h src/game/profiling.h \
  include/macros.h src/engine/behavior_script.h src/game/tile_scroll.h \
  src/game/texscroll.h src/game/texscroll/bob_texscroll.inc.h \
+ src/game/texscroll/jrb_texscroll.inc.h levels/jrb/texscroll.inc.h \
  src/game/texscroll/bob_texscroll.inc.c levels/bob/header.h \
- levels/bob/header.inc.h
+ levels/bob/header.inc.h src/game/texscroll/jrb_texscroll.inc.c \
+ levels/jrb/header.h src/game/moving_texture.h levels/jrb/header.inc.h \
+ levels/jrb/texscroll.inc.c

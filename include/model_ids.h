@@ -334,8 +334,8 @@
 #define MODEL_BULLY_BOSS                  0x57        // bully_boss_geo
 
 // group 3
-#define MODEL_WATER_BOMB                  0x54        // water_bomb_geo
-#define MODEL_WATER_BOMB_SHADOW           0x55        // water_bomb_shadow_geo
+#define MODEL_WATER_BOMB                  247        // water_bomb_geo
+#define MODEL_WATER_BOMB_SHADOW           246        // water_bomb_shadow_geo
 #define MODEL_KING_BOBOMB                 0x56        // king_bobomb_geo
 
 // group 4

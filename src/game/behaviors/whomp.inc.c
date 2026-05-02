@@ -33,10 +33,14 @@ void whomp_init(void) {
             }
         } else if (cur_obj_update_dialog_with_cutscene(MARIO_DIALOG_LOOK_UP, 
             DIALOG_FLAG_TURN_TO_MARIO, CUTSCENE_DIALOG, DIALOG_114)) {
-            o->oAction = 2;
+            o->oAction = 2; 
+            spawn_object_relative(0, -500.0f, 0, 0, o, MODEL_WHOMP, bhvSmallWhomp);                 
+            spawn_object_relative(0, 500.0f, 0, 0, o, MODEL_WHOMP, bhvSmallWhomp); 
+            spawn_object_relative(0, 0, 0, -500.0f, o, MODEL_WHOMP, bhvSmallWhomp);                 
+            spawn_object_relative(0, 0, 0, 500.0f, o, MODEL_WHOMP, bhvSmallWhomp); 
         }
-    } else if (o->oDistanceToMario < 500.0f) {
-        o->oAction = 1;
+    } else if (o->oDistanceToMario < 1500.0f) {
+        o->oAction = 2;
     }
 
     whomp_play_sfx_from_pound_animation();
@@ -223,11 +227,7 @@ void whomp_on_ground_general(void) {
     } else {
         o->oAngleVelPitch = 0;
         o->oFaceAnglePitch = 0;
-        if (o->oBehParams2ndByte != 0) {
-            o->oAction = 2;
-        } else {
-            o->oAction = 1;
-        }
+        o->oAction = 2;
     }
 }
 
@@ -242,7 +242,7 @@ void whomp_die(void) {
             spawn_triangle_break_particles(20, MODEL_DIRT_ANIMATION, 3.0f, 4);
             cur_obj_shake_screen(SHAKE_POS_SMALL);
             o->oPosY += 100.0f;
-            spawn_default_star(180.0f, 3880.0f, 340.0f);
+            spawn_default_star(14200.0f, 4200.0f, -6500.0f);
             cur_obj_play_sound_2(SOUND_OBJ_KING_WHOMP_DEATH);
             o->oAction = 9;
         }
@@ -277,12 +277,6 @@ void bhv_whomp_loop(void) {
     cur_obj_update_floor_and_walls();
     cur_obj_call_action_function(sWhompActions);
     cur_obj_move_standard(-20);
-    if (o->oAction != 9) {
-        if (o->oBehParams2ndByte != 0) {
-            cur_obj_hide_if_mario_far_away_y(2000.0f);
-        } else {
-            cur_obj_hide_if_mario_far_away_y(1000.0f);
-        }
-        load_object_collision_model();
+    load_object_collision_model();
     }
-}
+

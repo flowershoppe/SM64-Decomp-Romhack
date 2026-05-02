@@ -1,5 +1,6 @@
 build/us_n64/src/menu/star_select.o: src/menu/star_select.c \
  src/game/texscroll.h src/game/texscroll/bob_texscroll.inc.h \
+ src/game/texscroll/jrb_texscroll.inc.h levels/jrb/texscroll.inc.h \
  include/n64/PR/ultratypes.h src/audio/external.h include/types.h \
  include/n64/ultra64.h include/n64/PR/rcp.h include/n64/PR/R4300.h \
  include/n64/PR/os.h include/n64/PR/os_thread.h \
