@@ -216,55 +216,112 @@ LOAD build/us_n64/levels/ccm/leveldata.o
  *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
                 0x0000000007000000                . = DATA_SEGMENT_RELRO_END (., 0x0)
 
-.data           0x0000000007000000    0x224a0 load address 0x0000000007000018
+.data           0x0000000007000000    0x25038 load address 0x0000000007000018
                 0x0000000007000000                _fdata = .
  *(.data .data.* .gnu.linkonce.d.*)
- .data          0x0000000007000000    0x224a0 build/us_n64/levels/ccm/leveldata.o
-                0x0000000007000000                ccm_seg7_trajectory_penguin_race
-                0x00000000070001ac                ccm_seg7_area_2_macro_objs
-                0x0000000007000348                ccm_seg7_area_2_collision
-                0x0000000007003840                ccm_seg7_dl_070207F0
-                0x0000000007004100                ccm_seg7_dl_0701FE60
-                0x00000000070041f0                ccm_seg7_dl_0701FD78
-                0x00000000070042f0                ccm_seg7_dl_0701FC78
-                0x00000000070056d0                ccm_seg7_dl_0701E6B0
-                0x00000000070057d0                ccm_seg7_dl_0701E558
-                0x0000000007006cf8                ccm_seg7_dl_0701CE30
-                0x000000000700c7f8                ccm_movtex_penguin_puddle_water
-                0x000000000700c828                ccm_seg7_trajectory_ropeway_lift
-                0x000000000700c874                ccm_seg7_trajectory_snowman
-                0x000000000700c968                ccm_seg7_collision_ropeway_lift
-                0x000000000700cb70                ccm_seg7_area_1_macro_objs
-                0x000000000700cce4                ccm_seg7_area_1_collision
-                0x000000000700fed8                ccm_seg7_dl_07013870
-                0x0000000007010078                ccm_seg7_dl_070136D0
-                0x0000000007010a38                ccm_seg7_dl_07012BD8
-                0x0000000007011bf8                ccm_seg7_dl_070118B0
-                0x00000000070124a8                ccm_seg7_dl_07010F28
-                0x0000000007012848                ccm_seg7_dl_07010B50
-                0x00000000070129a0                ccm_seg7_dl_070109D0
-                0x0000000007012cf0                ccm_seg7_dl_07010660
-                0x00000000070135b0                ccm_seg7_dl_0700FD08
-                0x0000000007013798                ccm_seg7_dl_0700FB00
-                0x0000000007013ad0                ccm_seg7_dl_0700F780
-                0x0000000007013be0                ccm_seg7_dl_0700F650
-                0x0000000007013de0                ccm_seg7_dl_0700F440
-                0x00000000070147d8                ccm_seg7_dl_0700E970
-                0x0000000007014a20                ccm_seg7_dl_0700E708
-                0x0000000007015288                ccm_seg7_dl_0700DDF0
-                0x00000000070159f8                ccm_seg7_dl_0700D578
-                0x0000000007016ac0                ccm_seg7_dl_0700C380
-                0x0000000007017b58                ccm_seg7_dl_0700B1D8
-                0x0000000007017c78                ccm_seg7_dl_0700B090
+ .data          0x0000000007000000    0x25038 build/us_n64/levels/ccm/leveldata.o
+                0x0000000007000000                ccm_dl_final_revert_mesh_layer_1
+                0x0000000007000040                ccm_dl_Floor_007_mesh_layer_1
+                0x0000000007000080                ccm_dl_Floor_006_mesh_layer_1
+                0x00000000070000d8                ccm_dl_Floor_005_mesh_layer_1
+                0x0000000007000118                ccm_dl_Floor_004_mesh_layer_1
+                0x0000000007000158                ccm_dl_Floor_003_mesh_layer_1
+                0x0000000007000198                ccm_dl_Floor_002_mesh_layer_1
+                0x00000000070001d8                ccm_dl_Floor_001_mesh_layer_1
+                0x0000000007000218                ccm_dl_Floor_mesh_layer_1
+                0x0000000007000258                mat_revert_ccm_dl_custom_flow
+                0x0000000007000278                mat_ccm_dl_custom_flow
+                0x0000000007000308                mat_revert_ccm_dl_fast64_flow
+                0x0000000007000328                mat_ccm_dl_fast64_flow
+                0x00000000070003b8                mat_revert_ccm_dl_f3dlite_material_001
+                0x00000000070003d8                mat_ccm_dl_f3dlite_material_001
+                0x0000000007000468                mat_revert_ccm_dl_f3dlite_material
+                0x0000000007000488                mat_ccm_dl_f3dlite_material
+                0x0000000007000518                ccm_dl_Floor_007_mesh_layer_1_tri_0
+                0x0000000007000558                ccm_dl_Floor_007_mesh_layer_1_vtx_0
+                0x00000000070006d8                ccm_dl_Floor_007_mesh_layer_1_vtx_cull
+                0x0000000007000758                ccm_dl_Floor_006_mesh_layer_1_tri_1
+                0x0000000007000770                ccm_dl_Floor_006_mesh_layer_1_vtx_1
+                0x00000000070007b0                ccm_dl_Floor_006_mesh_layer_1_tri_0
+                0x00000000070007e8                ccm_dl_Floor_006_mesh_layer_1_vtx_0
+                0x0000000007000928                ccm_dl_Floor_006_mesh_layer_1_vtx_cull
+                0x00000000070009a8                ccm_dl_Floor_005_mesh_layer_1_tri_0
+                0x00000000070009e8                ccm_dl_Floor_005_mesh_layer_1_vtx_0
+                0x0000000007000b68                ccm_dl_Floor_005_mesh_layer_1_vtx_cull
+                0x0000000007000be8                ccm_dl_Floor_004_mesh_layer_1_tri_0
+                0x0000000007000c28                ccm_dl_Floor_004_mesh_layer_1_vtx_0
+                0x0000000007000da8                ccm_dl_Floor_004_mesh_layer_1_vtx_cull
+                0x0000000007000e28                ccm_dl_Floor_003_mesh_layer_1_tri_0
+                0x0000000007000e68                ccm_dl_Floor_003_mesh_layer_1_vtx_0
+                0x0000000007000fe8                ccm_dl_Floor_003_mesh_layer_1_vtx_cull
+                0x0000000007001068                ccm_dl_Floor_002_mesh_layer_1_tri_0
+                0x00000000070010a8                ccm_dl_Floor_002_mesh_layer_1_vtx_0
+                0x0000000007001228                ccm_dl_Floor_002_mesh_layer_1_vtx_cull
+                0x00000000070012a8                ccm_dl_Floor_001_mesh_layer_1_tri_0
+                0x00000000070012e8                ccm_dl_Floor_001_mesh_layer_1_vtx_0
+                0x0000000007001468                ccm_dl_Floor_001_mesh_layer_1_vtx_cull
+                0x00000000070014e8                ccm_dl_Floor_mesh_layer_1_tri_0
+                0x0000000007001528                ccm_dl_Floor_mesh_layer_1_vtx_0
+                0x00000000070016a8                ccm_dl_Floor_mesh_layer_1_vtx_cull
+                0x0000000007001728                ccm_dl_Stary2_pal_rgba16
+                0x0000000007001918                ccm_dl_Stary2_pal_rgba16_aligner
+                0x0000000007001920                ccm_dl_Stary2_ci8
+                0x0000000007001d20                ccm_dl_Stary2_ci8_aligner
+                0x0000000007001d28                ccm_dl_rgba16_elarix_WaterCartoon_pal_rgba16
+                0x0000000007001df8                ccm_dl_rgba16_elarix_WaterCartoon_pal_rgba16_aligner
+                0x0000000007001e00                ccm_dl_rgba16_elarix_WaterCartoon_ci8
+                0x0000000007002200                ccm_dl_rgba16_elarix_WaterCartoon_ci8_aligner
+                0x0000000007002208                ccm_dl_tri_pal_rgba16
+                0x00000000070022f0                ccm_dl_tri_pal_rgba16_aligner
+                0x00000000070022f8                ccm_dl_tri_ci8
+                0x00000000070026f8                ccm_dl_tri_ci8_aligner
+                0x0000000007002700                ccm_area_1_macro_objs
+                0x0000000007002704                ccm_area_1_collision
+                0x0000000007002b98                ccm_seg7_trajectory_penguin_race
+                0x0000000007002d44                ccm_seg7_area_2_macro_objs
+                0x0000000007002ee0                ccm_seg7_area_2_collision
+                0x00000000070063d8                ccm_seg7_dl_070207F0
+                0x0000000007006c98                ccm_seg7_dl_0701FE60
+                0x0000000007006d88                ccm_seg7_dl_0701FD78
+                0x0000000007006e88                ccm_seg7_dl_0701FC78
+                0x0000000007008268                ccm_seg7_dl_0701E6B0
+                0x0000000007008368                ccm_seg7_dl_0701E558
+                0x0000000007009890                ccm_seg7_dl_0701CE30
+                0x000000000700f390                ccm_movtex_penguin_puddle_water
+                0x000000000700f3c0                ccm_seg7_trajectory_ropeway_lift
+                0x000000000700f40c                ccm_seg7_trajectory_snowman
+                0x000000000700f500                ccm_seg7_collision_ropeway_lift
+                0x000000000700f708                ccm_seg7_area_1_macro_objs
+                0x000000000700f87c                ccm_seg7_area_1_collision
+                0x0000000007012a70                ccm_seg7_dl_07013870
+                0x0000000007012c10                ccm_seg7_dl_070136D0
+                0x00000000070135d0                ccm_seg7_dl_07012BD8
+                0x0000000007014790                ccm_seg7_dl_070118B0
+                0x0000000007015040                ccm_seg7_dl_07010F28
+                0x00000000070153e0                ccm_seg7_dl_07010B50
+                0x0000000007015538                ccm_seg7_dl_070109D0
+                0x0000000007015888                ccm_seg7_dl_07010660
+                0x0000000007016148                ccm_seg7_dl_0700FD08
+                0x0000000007016330                ccm_seg7_dl_0700FB00
+                0x0000000007016668                ccm_seg7_dl_0700F780
+                0x0000000007016778                ccm_seg7_dl_0700F650
+                0x0000000007016978                ccm_seg7_dl_0700F440
+                0x0000000007017370                ccm_seg7_dl_0700E970
+                0x00000000070175b8                ccm_seg7_dl_0700E708
+                0x0000000007017e20                ccm_seg7_dl_0700DDF0
+                0x0000000007018590                ccm_seg7_dl_0700D578
+                0x0000000007019658                ccm_seg7_dl_0700C380
+                0x000000000701a6f0                ccm_seg7_dl_0700B1D8
+                0x000000000701a810                ccm_seg7_dl_0700B090
 
 .data1
  *(.data1)
 
 .got.plt
  *(.got.plt)
-                0x00000000070224a0                . = .
-                0x00000000070224a0                . = .
-                0x000000000702a490                _gp = (ALIGN (0x10) + 0x7ff0)
+                0x0000000007025038                . = .
+                0x0000000007025038                . = .
+                0x000000000702d030                _gp = (ALIGN (0x10) + 0x7ff0)
 
 .got
  *(.got)
@@ -277,29 +334,29 @@ LOAD build/us_n64/levels/ccm/leveldata.o
 
 .lit4
  *(.lit4)
-                0x00000000070224a0                _edata = .
+                0x0000000007025038                _edata = .
                 [!provide]                        PROVIDE (edata = .)
-                0x00000000070224a0                . = .
-                0x00000000070224a0                __bss_start = .
-                0x00000000070224a0                _fbss = .
+                0x0000000007025038                . = .
+                0x0000000007025038                __bss_start = .
+                0x0000000007025038                _fbss = .
 
 .sbss
  *(.dynsbss)
  *(.sbss .sbss.* .gnu.linkonce.sb.*)
  *(.scommon)
 
-.bss            0x00000000070224a0        0x0 load address 0x00000000070224b8
+.bss            0x0000000007025038        0x0 load address 0x0000000007025050
  *(.dynbss)
  *(.bss .bss.* .gnu.linkonce.b.*)
- .bss           0x00000000070224a0        0x0 build/us_n64/levels/ccm/leveldata.o
+ .bss           0x0000000007025038        0x0 build/us_n64/levels/ccm/leveldata.o
  *(COMMON)
-                0x00000000070224a0                . = ALIGN ((. != 0x0)?0x4:0x1)
-                0x00000000070224a0                . = ALIGN (0x4)
-                0x00000000070224a0                . = SEGMENT_START ("ldata-segment", .)
-                0x00000000070224a0                . = ALIGN (0x4)
-                0x00000000070224a0                _end = .
+                0x0000000007025038                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000000007025038                . = ALIGN (0x4)
+                0x0000000007025038                . = SEGMENT_START ("ldata-segment", .)
+                0x0000000007025038                . = ALIGN (0x4)
+                0x0000000007025038                _end = .
                 [!provide]                        PROVIDE (end = .)
-                0x00000000070224a0                . = DATA_SEGMENT_END (.)
+                0x0000000007025038                . = DATA_SEGMENT_END (.)
 
 .stab
  *(.stab)

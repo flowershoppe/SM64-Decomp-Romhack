@@ -115,4 +115,18 @@ build/us_n64/actors/common0.o: actors/common0.c \
  actors/magic_platform/collision.inc.c actors/magic_platform/model.inc.c \
  actors/custom_pole/collision.inc.c actors/custom_pole/model.inc.c \
  actors/tilting_platform/collision.inc.c \
- actors/tilting_platform/model.inc.c
+ actors/tilting_platform/model.inc.c actors/barrier/collision.inc.c \
+ actors/barrier/model.inc.c actors/orbiting_platform1/collision.inc.c \
+ actors/orbiting_platform1/model.inc.c \
+ actors/orbiting_platform2/collision.inc.c \
+ actors/orbiting_platform2/model.inc.c \
+ actors/orbiting_platform3/collision.inc.c \
+ actors/orbiting_platform3/model.inc.c \
+ actors/orbiting_platform4/collision.inc.c \
+ actors/orbiting_platform4/model.inc.c \
+ actors/orbiting_platform5/collision.inc.c \
+ actors/orbiting_platform5/model.inc.c \
+ actors/orbiting_platform6/collision.inc.c \
+ actors/orbiting_platform6/model.inc.c \
+ actors/orbiting_platform7/collision.inc.c \
+ actors/orbiting_platform7/model.inc.c

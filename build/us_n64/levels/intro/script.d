@@ -51,6 +51,20 @@ build/us_n64/levels/intro/script.o: levels/intro/script.c \
  actors/magic_platform/geo_header.h actors/custom_pole/collision_header.h \
  actors/custom_pole/geo_header.h \
  actors/tilting_platform/collision_header.h \
- actors/tilting_platform/geo_header.h actors/common1.h \
+ actors/tilting_platform/geo_header.h actors/barrier/collision_header.h \
+ actors/barrier/geo_header.h actors/orbiting_platform1/collision_header.h \
+ actors/orbiting_platform1/geo_header.h \
+ actors/orbiting_platform2/collision_header.h \
+ actors/orbiting_platform2/geo_header.h \
+ actors/orbiting_platform3/collision_header.h \
+ actors/orbiting_platform3/geo_header.h \
+ actors/orbiting_platform4/collision_header.h \
+ actors/orbiting_platform4/geo_header.h \
+ actors/orbiting_platform5/collision_header.h \
+ actors/orbiting_platform5/geo_header.h \
+ actors/orbiting_platform6/collision_header.h \
+ actors/orbiting_platform6/geo_header.h \
+ actors/orbiting_platform7/collision_header.h \
+ actors/orbiting_platform7/geo_header.h actors/common1.h \
  include/make_const_nonconst.h levels/intro/header.h include/farcall.h \
  src/game/print.h src/game/object_list_processor.h

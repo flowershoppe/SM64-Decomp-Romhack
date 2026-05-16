@@ -50,14 +50,28 @@ build/us_n64/levels/scripts.o: levels/scripts.c include/n64/ultra64.h \
  actors/magic_platform/geo_header.h actors/custom_pole/collision_header.h \
  actors/custom_pole/geo_header.h \
  actors/tilting_platform/collision_header.h \
- actors/tilting_platform/geo_header.h actors/common1.h actors/group0.h \
+ actors/tilting_platform/geo_header.h actors/barrier/collision_header.h \
+ actors/barrier/geo_header.h actors/orbiting_platform1/collision_header.h \
+ actors/orbiting_platform1/geo_header.h \
+ actors/orbiting_platform2/collision_header.h \
+ actors/orbiting_platform2/geo_header.h \
+ actors/orbiting_platform3/collision_header.h \
+ actors/orbiting_platform3/geo_header.h \
+ actors/orbiting_platform4/collision_header.h \
+ actors/orbiting_platform4/geo_header.h \
+ actors/orbiting_platform5/collision_header.h \
+ actors/orbiting_platform5/geo_header.h \
+ actors/orbiting_platform6/collision_header.h \
+ actors/orbiting_platform6/geo_header.h \
+ actors/orbiting_platform7/collision_header.h \
+ actors/orbiting_platform7/geo_header.h actors/common1.h actors/group0.h \
  actors/group1.h actors/group2.h actors/group3.h actors/group4.h \
  actors/group5.h actors/group6.h actors/group7.h actors/group8.h \
  actors/group9.h actors/group10.h actors/group11.h actors/group12.h \
  actors/group13.h actors/group14.h actors/group15.h actors/group16.h \
  actors/group17.h levels/menu/header.h levels/intro/header.h \
  build/us_n64/include/level_headers.h levels/bbh/header.h \
- src/game/moving_texture.h levels/ccm/header.h \
+ src/game/moving_texture.h levels/ccm/header.h levels/ccm/header.inc.h \
  levels/castle_inside/header.h src/game/paintings.h levels/hmc/header.h \
  levels/ssl/header.h levels/bob/header.h levels/bob/header.inc.h \
  levels/sl/header.h levels/wdw/header.h levels/jrb/header.h \

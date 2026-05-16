@@ -39,4 +39,5 @@ build/us_n64/levels/ccm/script.o: levels/ccm/script.c \
  include/command_macros_base.h include/level_table.h \
  src/game/level_update.h include/types.h levels/scripts.h \
  src/game/puppycam2.h actors/common1.h include/make_const_nonconst.h \
- levels/ccm/header.h src/game/moving_texture.h include/macros.h
+ levels/ccm/header.h src/game/moving_texture.h include/macros.h \
+ levels/ccm/header.inc.h

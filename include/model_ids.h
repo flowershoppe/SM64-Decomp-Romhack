@@ -4,6 +4,14 @@
 #define MODEL_NONE                             0x00
 
 /* fast64 object exports get inserted here */
+#define MODEL_ORBITING_PLATFORM7          240
+#define MODEL_ORBITING_PLATFORM6          241
+#define MODEL_ORBITING_PLATFORM5          242
+#define MODEL_ORBITING_PLATFORM4          243
+#define MODEL_ORBITING_PLATFORM3          244
+#define MODEL_ORBITING_PLATFORM2          245
+#define MODEL_ORBITING_PLATFORM1          246
+#define MODEL_BARRIER                     247
 #define MODEL_TILTING_PLATFORM            248
 #define MODEL_CUSTOM_POLE                 249
 #define MODEL_MAGIC_PLATFORM              250

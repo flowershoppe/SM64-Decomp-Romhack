@@ -542,6 +542,14 @@ extern const BehaviorScript bhvIntroScene[];
 extern const BehaviorScript bhvUnusedFakeStar[];
 extern const BehaviorScript bhvRotate[];
 extern const BehaviorScript bhvCircleLoop[];
+extern const BehaviorScript bhvBarrierCircleLoop[];
+extern const BehaviorScript bhvOrbitingPlatform1[];
+extern const BehaviorScript bhvOrbitingPlatform2[];
+extern const BehaviorScript bhvOrbitingPlatform3[];
+extern const BehaviorScript bhvOrbitingPlatform4[];
+extern const BehaviorScript bhvOrbitingPlatform5[];
+extern const BehaviorScript bhvOrbitingPlatform6[];
+extern const BehaviorScript bhvOrbitingPlatform7[];
 extern const BehaviorScript bhvRotateSmall[];
 extern const BehaviorScript bhvBattleStarLoop[];
 #endif // BEHAVIOR_DATA_H

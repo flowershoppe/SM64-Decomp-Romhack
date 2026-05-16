@@ -807,7 +807,7 @@ s32 act_air_throw(struct MarioState *m) {
 
 s32 act_water_jump(struct MarioState *m) {
     if (m->forwardVel < 15.0f) {
-        mario_set_forward_vel(m, 15.0f);
+        mario_set_forward_vel(m, 30.0f);
     }
 
     play_mario_sound(m, SOUND_ACTION_WATER_JUMP, 0);

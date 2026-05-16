@@ -30,6 +30,7 @@ void bhv_hidden_star_loop(void) {
 }
 
 void bhv_hidden_star_trigger_loop(void) {
+    spawn_object(o, MODEL_NONE, bhvSparkleSpawn);
     if (obj_check_if_collided_with_object(o, gMarioObject)) {
         struct Object *hiddenStar = cur_obj_nearest_object_with_behavior(bhvHiddenStar);
 

@@ -174,6 +174,14 @@ static const LevelScript script_exec_ ## folder [] = { \
 #undef DEFINE_LEVEL
 
 const LevelScript script_func_global_1[] = {
+    LOAD_MODEL_FROM_GEO(MODEL_ORBITING_PLATFORM7, orbiting_platform7_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_ORBITING_PLATFORM6, orbiting_platform6_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_ORBITING_PLATFORM5, orbiting_platform5_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_ORBITING_PLATFORM4, orbiting_platform4_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_ORBITING_PLATFORM3, orbiting_platform3_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_ORBITING_PLATFORM2, orbiting_platform2_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_ORBITING_PLATFORM1, orbiting_platform1_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_BARRIER, barrier_geo),
     LOAD_MODEL_FROM_GEO(MODEL_TILTING_PLATFORM, tilting_platform_geo),
     LOAD_MODEL_FROM_GEO(MODEL_CUSTOM_POLE, custom_pole_geo),
     LOAD_MODEL_FROM_GEO(MODEL_MAGIC_PLATFORM, magic_platform_geo),

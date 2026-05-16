@@ -111,30 +111,6 @@ void bhv_bowling_ball_initialize_loop(void) {
     cur_obj_follow_path();
 
     o->oMoveAngleYaw = o->oPathedTargetYaw;
-
-    switch (o->oBehParams2ndByte) {
-        case BBALL_BP_STYPE_BOB_UPPER:
-            o->oForwardVel = 20.0f;
-            break;
-
-        case BBALL_BP_STYPE_TTM:
-            o->oForwardVel = 10.0f;
-            break;
-
-        case BBALL_BP_STYPE_BOB_LOWER:
-            o->oForwardVel = 20.0f;
-            break;
-
-        case BBALL_BP_STYPE_THI_LARGE:
-            o->oForwardVel = 25.0f;
-            break;
-
-        case BBALL_BP_STYPE_THI_SMALL:
-            o->oForwardVel = 10.0f;
-            cur_obj_scale(0.3f);
-            o->oGraphYOffset = 39.0f;
-            break;
-    }
 }
 
 void bhv_bowling_ball_loop(void) {
@@ -159,17 +135,17 @@ void bhv_bowling_ball_loop(void) {
 void bhv_generic_bowling_ball_spawner_init(void) {
     switch (o->oBehParams2ndByte) {
         case BBALL_BP_STYPE_BOB_UPPER:
-            o->oBBallSpawnerMaxSpawnDist = 7000.0f;
+            o->oBBallSpawnerMaxSpawnDist = 20000.0f;
             o->oBBallSpawnerSpawnOdds = 2.0f;
             break;
 
         case BBALL_BP_STYPE_TTM:
-            o->oBBallSpawnerMaxSpawnDist = 8000.0f;
+            o->oBBallSpawnerMaxSpawnDist = 20000.0f;
             o->oBBallSpawnerSpawnOdds = 1.0f;
             break;
 
         case BBALL_BP_STYPE_BOB_LOWER:
-            o->oBBallSpawnerMaxSpawnDist = 6000.0f;
+            o->oBBallSpawnerMaxSpawnDist = 20000.0f;
             o->oBBallSpawnerSpawnOdds = 2.0f;
             break;
     }
@@ -186,8 +162,7 @@ void bhv_generic_bowling_ball_spawner_loop(void) {
     }
 
     if ((o->oTimer & o->oBBallSpawnerPeriodMinus1) == 0) { /* Modulus */
-        if (is_point_within_radius_of_mario(o->oPosX, o->oPosY, o->oPosZ, o->oBBallSpawnerMaxSpawnDist)
-            && (s32)(random_float() * o->oBBallSpawnerSpawnOdds) == 0) {
+        if (is_point_within_radius_of_mario(o->oPosX, o->oPosY, o->oPosZ, 15000)) {
             struct Object *bowlingBall = spawn_object(o, MODEL_BOWLING_BALL, bhvBowlingBall);
             bowlingBall->oBehParams2ndByte = o->oBehParams2ndByte;
         }

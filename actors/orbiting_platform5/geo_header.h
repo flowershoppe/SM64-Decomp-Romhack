@@ -1,0 +1,18 @@
+extern const GeoLayout orbiting_platform5_geo[];
+extern Lights1 orbiting_platform5_grey_checker_lights;
+extern Lights1 orbiting_platform5_old_stone_lights;
+extern u8 orbiting_platform5_KKIIDDZZ_DAT_964__p00_ci8[];
+extern u8 orbiting_platform5_KKIIDDZZ_DAT_964__p00_pal_rgba16[];
+extern u8 orbiting_platform5_KKIIDDZZ_DAT_1059__p00_ci8[];
+extern u8 orbiting_platform5_KKIIDDZZ_DAT_1059__p00_pal_rgba16[];
+extern Vtx orbiting_platform5_orbiting_platform5_mesh_layer_1_vtx_cull[8];
+extern Vtx orbiting_platform5_orbiting_platform5_mesh_layer_1_vtx_0[99];
+extern Gfx orbiting_platform5_orbiting_platform5_mesh_layer_1_tri_0[];
+extern Vtx orbiting_platform5_orbiting_platform5_mesh_layer_1_vtx_1[19];
+extern Gfx orbiting_platform5_orbiting_platform5_mesh_layer_1_tri_1[];
+extern Gfx mat_orbiting_platform5_grey_checker[];
+extern Gfx mat_revert_orbiting_platform5_grey_checker[];
+extern Gfx mat_orbiting_platform5_old_stone[];
+extern Gfx mat_revert_orbiting_platform5_old_stone[];
+extern Gfx orbiting_platform5_orbiting_platform5_mesh_layer_1[];
+extern Gfx orbiting_platform5_final_revert_mesh_layer_1[];

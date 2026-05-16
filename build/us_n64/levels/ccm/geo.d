@@ -43,8 +43,10 @@ build/us_n64/levels/ccm/geo.o: levels/ccm/geo.c include/n64/ultra64.h \
  src/game/puppycam2.h include/level_table.h src/game/moving_texture.h \
  src/game/screen_transition.h src/game/paintings.h \
  include/make_const_nonconst.h levels/ccm/header.h \
- levels/ccm/ropeway_lift/geo.inc.c levels/ccm/snowman_base/geo.inc.c \
- levels/ccm/snowman_head/geo.inc.c levels/ccm/areas/1/6/geo.inc.c \
- levels/ccm/areas/1/7/geo.inc.c levels/ccm/areas/1/8/geo.inc.c \
- levels/ccm/areas/1/9/geo.inc.c levels/ccm/areas/1/10/geo.inc.c \
- levels/ccm/areas/1/geo.inc.c levels/ccm/areas/2/geo.inc.c
+ levels/ccm/header.inc.h levels/ccm/ropeway_lift/geo.inc.c \
+ levels/ccm/snowman_base/geo.inc.c levels/ccm/snowman_head/geo.inc.c \
+ levels/ccm/areas/1/6/geo.inc.c levels/ccm/areas/1/7/geo.inc.c \
+ levels/ccm/areas/1/8/geo.inc.c levels/ccm/areas/1/9/geo.inc.c \
+ levels/ccm/areas/1/10/geo.inc.c levels/ccm/areas/1/geo.inc.c \
+ levels/ccm/areas/2/geo.inc.c levels/ccm/geo.inc.c \
+ levels/ccm/area_1/geo.inc.c src/game/envfx_snow.h
