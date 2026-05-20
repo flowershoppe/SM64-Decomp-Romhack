@@ -123,7 +123,6 @@ const LevelScript level_jrb_entry[] = {
 		OBJECT(MODEL_BULLY, -2561, 1352, 12101, 0, 45, 0, 0x00000000, bhvSmallBully),
 		OBJECT(MODEL_BULLY, -3467, 1352, 11645, 0, 45, 0, 0x00000000, bhvSmallBully),
 		OBJECT(MODEL_NONE, -10088, 340, 6232, 0, 81, 0, (0 << 24) | (0x02 << 16), bhvAirborneWarp),
-		OBJECT(MODEL_FISH, 2748, -3207, 4294, 0, 0, 0, 0x00000000, bhvFish),
 		OBJECT(MODEL_FLYGUY, -3759, -528, 11694, 0, 0, 0, 0x00000000, bhvFlyGuy),
 		OBJECT(MODEL_FLYGUY, -2596, -1015, 11055, 0, 0, 0, 0x00000000, bhvFlyGuy),
 		OBJECT(MODEL_FLYGUY, -3960, 1619, 1038, 0, 0, 0, 0x00000000, bhvFlyGuy),

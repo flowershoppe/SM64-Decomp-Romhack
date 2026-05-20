@@ -216,10 +216,10 @@ LOAD build/us_n64/levels/jrb/leveldata.o
  *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
                 0x0000000007000000                . = DATA_SEGMENT_RELRO_END (., 0x0)
 
-.data           0x0000000007000000    0xf0ad0 load address 0x0000000007000018
+.data           0x0000000007000000    0xefec8 load address 0x0000000007000018
                 0x0000000007000000                _fdata = .
  *(.data .data.* .gnu.linkonce.d.*)
- .data          0x0000000007000000    0xf0ad0 build/us_n64/levels/jrb/leveldata.o
+ .data          0x0000000007000000    0xefec8 build/us_n64/levels/jrb/leveldata.o
                 0x0000000007000000                jrb_dl_final_revert_mesh_layer_4
                 0x0000000007000040                jrb_dl_final_revert_mesh_layer_5
                 0x0000000007000080                jrb_dl_final_revert_mesh_layer_6
@@ -1103,303 +1103,303 @@ LOAD build/us_n64/levels/jrb/leveldata.o
                 0x0000000007091d38                jrb_dl_Cube_019_mesh_layer_1_tri_1
                 0x0000000007091d80                jrb_dl_Cube_019_mesh_layer_1_vtx_1
                 0x0000000007091ee0                jrb_dl_Cube_019_mesh_layer_1_tri_0
-                0x0000000007091f50                jrb_dl_Cube_019_mesh_layer_1_vtx_0
-                0x0000000007092190                jrb_dl_Cube_019_mesh_layer_1_vtx_cull
-                0x0000000007092210                jrb_dl_Cube_018_mesh_layer_5_tri_1
-                0x0000000007092230                jrb_dl_Cube_018_mesh_layer_5_vtx_1
-                0x00000000070922b0                jrb_dl_Cube_018_mesh_layer_5_tri_0
-                0x0000000007092328                jrb_dl_Cube_018_mesh_layer_5_vtx_0
-                0x0000000007092628                jrb_dl_Cube_018_mesh_layer_5_vtx_cull
-                0x00000000070926a8                jrb_dl_Cube_017_mesh_layer_1_tri_0
-                0x0000000007092870                jrb_dl_Cube_017_mesh_layer_1_vtx_0
-                0x0000000007093430                jrb_dl_Cube_017_mesh_layer_1_vtx_cull
-                0x00000000070934b0                jrb_dl_Cube_016_mesh_layer_1_tri_0
-                0x00000000070934f0                jrb_dl_Cube_016_mesh_layer_1_vtx_0
-                0x0000000007093670                jrb_dl_Cube_016_mesh_layer_1_vtx_cull
-                0x00000000070936f0                jrb_dl_Cube_015_mesh_layer_1_tri_1
-                0x0000000007093708                jrb_dl_Cube_015_mesh_layer_1_vtx_1
-                0x0000000007093748                jrb_dl_Cube_015_mesh_layer_1_tri_0
-                0x0000000007093780                jrb_dl_Cube_015_mesh_layer_1_vtx_0
-                0x00000000070938c0                jrb_dl_Cube_015_mesh_layer_1_vtx_cull
-                0x0000000007093940                jrb_dl_Cube_014_mesh_layer_1_tri_0
-                0x00000000070939a8                jrb_dl_Cube_014_mesh_layer_1_vtx_0
-                0x0000000007093c28                jrb_dl_Cube_014_mesh_layer_1_vtx_cull
-                0x0000000007093ca8                jrb_dl_Cube_013_mesh_layer_1_tri_4
-                0x0000000007093cf8                jrb_dl_Cube_013_mesh_layer_1_vtx_4
-                0x0000000007093e18                jrb_dl_Cube_013_mesh_layer_1_tri_3
-                0x0000000007093f98                jrb_dl_Cube_013_mesh_layer_1_vtx_3
-                0x0000000007094888                jrb_dl_Cube_013_mesh_layer_1_tri_2
-                0x00000000070948d0                jrb_dl_Cube_013_mesh_layer_1_vtx_2
-                0x0000000007094a10                jrb_dl_Cube_013_mesh_layer_1_tri_1
-                0x0000000007094be0                jrb_dl_Cube_013_mesh_layer_1_vtx_1
-                0x0000000007095790                jrb_dl_Cube_013_mesh_layer_1_tri_0
-                0x0000000007095d98                jrb_dl_Cube_013_mesh_layer_1_vtx_0
-                0x00000000070978e8                jrb_dl_Cube_013_mesh_layer_1_vtx_cull
-                0x0000000007097968                jrb_dl_Cube_012_mesh_layer_1_tri_1
-                0x0000000007097980                jrb_dl_Cube_012_mesh_layer_1_vtx_1
-                0x00000000070979c0                jrb_dl_Cube_012_mesh_layer_1_tri_0
-                0x0000000007097a18                jrb_dl_Cube_012_mesh_layer_1_vtx_0
-                0x0000000007097bd8                jrb_dl_Cube_012_mesh_layer_1_vtx_cull
-                0x0000000007097c58                jrb_dl_Cube_011_mesh_layer_1_tri_0
-                0x0000000007097c98                jrb_dl_Cube_011_mesh_layer_1_vtx_0
-                0x0000000007097e18                jrb_dl_Cube_011_mesh_layer_1_vtx_cull
-                0x0000000007097e98                jrb_dl_Cube_010_mesh_layer_5_tri_0
-                0x0000000007097ee8                jrb_dl_Cube_010_mesh_layer_5_vtx_0
-                0x0000000007098008                jrb_dl_Cube_010_mesh_layer_5_vtx_cull
-                0x0000000007098088                jrb_dl_Cube_009_mesh_layer_1_tri_0
-                0x00000000070980c8                jrb_dl_Cube_009_mesh_layer_1_vtx_0
-                0x0000000007098248                jrb_dl_Cube_009_mesh_layer_1_vtx_cull
-                0x00000000070982c8                jrb_dl_Cube_008_mesh_layer_5_tri_0
-                0x0000000007098310                jrb_dl_Cube_008_mesh_layer_5_vtx_0
-                0x0000000007098430                jrb_dl_Cube_008_mesh_layer_5_vtx_cull
-                0x00000000070984b0                jrb_dl_Cube_007_mesh_layer_1_tri_0
-                0x0000000007098678                jrb_dl_Cube_007_mesh_layer_1_vtx_0
-                0x0000000007099238                jrb_dl_Cube_007_mesh_layer_1_vtx_cull
-                0x00000000070992b8                jrb_dl_Cube_006_mesh_layer_1_tri_0
-                0x0000000007099480                jrb_dl_Cube_006_mesh_layer_1_vtx_0
-                0x000000000709a040                jrb_dl_Cube_006_mesh_layer_1_vtx_cull
-                0x000000000709a0c0                jrb_dl_Cube_005_mesh_layer_1_tri_0
-                0x000000000709a288                jrb_dl_Cube_005_mesh_layer_1_vtx_0
-                0x000000000709ae48                jrb_dl_Cube_005_mesh_layer_1_vtx_cull
-                0x000000000709aec8                jrb_dl_Cube_004_mesh_layer_1_tri_0
-                0x000000000709af08                jrb_dl_Cube_004_mesh_layer_1_vtx_0
-                0x000000000709b088                jrb_dl_Cube_004_mesh_layer_1_vtx_cull
-                0x000000000709b108                jrb_dl_Cube_003_mesh_layer_1_tri_0
-                0x000000000709b2a0                jrb_dl_Cube_003_mesh_layer_1_vtx_0
-                0x000000000709bc00                jrb_dl_Cube_003_mesh_layer_1_vtx_cull
-                0x000000000709bc80                jrb_dl_Cube_002_mesh_layer_1_tri_0
-                0x000000000709bd98                jrb_dl_Cube_002_mesh_layer_1_vtx_0
-                0x000000000709c518                jrb_dl_Cube_002_mesh_layer_1_vtx_cull
-                0x000000000709c598                jrb_dl_Cube_001_mesh_layer_5_tri_0
-                0x000000000709c5d8                jrb_dl_Cube_001_mesh_layer_5_vtx_0
-                0x000000000709c758                jrb_dl_Cube_001_mesh_layer_5_vtx_cull
-                0x000000000709c7d8                jrb_dl_Cube_mesh_layer_1_tri_4
-                0x000000000709c828                jrb_dl_Cube_mesh_layer_1_vtx_4
-                0x000000000709c988                jrb_dl_Cube_mesh_layer_1_tri_3
-                0x000000000709c9d0                jrb_dl_Cube_mesh_layer_1_vtx_3
-                0x000000000709cb50                jrb_dl_Cube_mesh_layer_1_tri_2
-                0x000000000709cb70                jrb_dl_Cube_mesh_layer_1_vtx_2
-                0x000000000709cbc0                jrb_dl_Cube_mesh_layer_1_tri_1
-                0x000000000709cce0                jrb_dl_Cube_mesh_layer_1_vtx_1
-                0x000000000709d410                jrb_dl_Cube_mesh_layer_1_tri_0
-                0x000000000709d558                jrb_dl_Cube_mesh_layer_1_vtx_0
-                0x000000000709dbe8                jrb_dl_Cube_mesh_layer_1_vtx_cull
-                0x000000000709dc68                jrb_dl_bridge_mesh_layer_1_tri_0
-                0x000000000709dda0                jrb_dl_bridge_mesh_layer_1_vtx_0
-                0x000000000709e310                jrb_dl_bridge_mesh_layer_1_vtx_cull
-                0x000000000709e390                jrb_dl_Alpha_002_mesh_layer_6_tri_0
-                0x000000000709e3d8                jrb_dl_Alpha_002_mesh_layer_6_vtx_0
-                0x000000000709e568                jrb_dl_Alpha_002_mesh_layer_6_vtx_cull
-                0x000000000709e5e8                jrb_dl_Alpha_001_mesh_layer_6_tri_0
-                0x000000000709e7a0                jrb_dl_Alpha_001_mesh_layer_6_vtx_0
-                0x000000000709f250                jrb_dl_Alpha_001_mesh_layer_6_vtx_cull
-                0x000000000709f2d0                jrb_dl_Alpha_mesh_layer_1_tri_2
-                0x000000000709f348                jrb_dl_Alpha_mesh_layer_1_vtx_2
-                0x000000000709f648                jrb_dl_Alpha_mesh_layer_1_tri_1
-                0x000000000709f730                jrb_dl_Alpha_mesh_layer_1_vtx_1
-                0x000000000709fcf0                jrb_dl_Alpha_mesh_layer_1_tri_0
-                0x00000000070a0080                jrb_dl_Alpha_mesh_layer_1_vtx_0
-                0x00000000070a1500                jrb_dl_Alpha_mesh_layer_1_vtx_cull
-                0x00000000070a1580                jrb_dl_grate_pal_rgba16
-                0x00000000070a1668                jrb_dl_grate_pal_rgba16_aligner
-                0x00000000070a1670                jrb_dl_grate_ci8
-                0x00000000070a1a70                jrb_dl_grate_ci8_aligner
-                0x00000000070a1a78                jrb_dl_rgba16_anonmoose_GreenishSquare_pal_rgba16
-                0x00000000070a1aa0                jrb_dl_rgba16_anonmoose_GreenishSquare_pal_rgba16_aligner
-                0x00000000070a1aa8                jrb_dl_rgba16_anonmoose_GreenishSquare_ci8
-                0x00000000070a1ea8                jrb_dl_rgba16_anonmoose_GreenishSquare_ci8_aligner
-                0x00000000070a1eb0                jrb_dl_flower_pal_rgba16_copy
-                0x00000000070a1f10                jrb_dl_flower_pal_rgba16_copy_aligner
-                0x00000000070a1f18                jrb_dl_flower_ci8_copy
-                0x00000000070a2318                jrb_dl_flower_ci8_copy_aligner
-                0x00000000070a2320                jrb_dl__7_pal_rgba16
-                0x00000000070a23e0                jrb_dl__7_pal_rgba16_aligner
-                0x00000000070a23e8                jrb_dl__7_ci8
-                0x00000000070a27e8                jrb_dl__7_ci8_aligner
-                0x00000000070a27f0                jrb_dl_flower_pal_rgba16
-                0x00000000070a2850                jrb_dl_flower_pal_rgba16_aligner
-                0x00000000070a2858                jrb_dl_flower_ci8
-                0x00000000070a2c58                jrb_dl_flower_ci8_aligner
-                0x00000000070a2c60                jrb_dl_i4_sophie_static_i8
-                0x00000000070a3c60                jrb_dl_i4_sophie_static_i8_aligner
-                0x00000000070a3c68                jrb_dl_ci4_sophie_hay_pal_rgba16
-                0x00000000070a3c88                jrb_dl_ci4_sophie_hay_pal_rgba16_aligner
-                0x00000000070a3c90                jrb_dl_ci4_sophie_hay_ci4
-                0x00000000070a4490                jrb_dl_ci4_sophie_hay_ci4_aligner
-                0x00000000070a4498                jrb_dl_rgba16_anonmoose_swirl1_pal_rgba16
-                0x00000000070a44e8                jrb_dl_rgba16_anonmoose_swirl1_pal_rgba16_aligner
-                0x00000000070a44f0                jrb_dl_rgba16_anonmoose_swirl1_ci8
-                0x00000000070a48f0                jrb_dl_rgba16_anonmoose_swirl1_ci8_aligner
-                0x00000000070a48f8                jrb_dl_ci4_sophie_tablecloth_pal_rgba16
-                0x00000000070a4918                jrb_dl_ci4_sophie_tablecloth_pal_rgba16_aligner
-                0x00000000070a4920                jrb_dl_ci4_sophie_tablecloth_ci4
-                0x00000000070a5120                jrb_dl_ci4_sophie_tablecloth_ci4_aligner
-                0x00000000070a5128                jrb_dl_rings_pal_rgba16
-                0x00000000070a5208                jrb_dl_rings_pal_rgba16_aligner
-                0x00000000070a5210                jrb_dl_rings_ci8
-                0x00000000070a5610                jrb_dl_rings_ci8_aligner
-                0x00000000070a5618                jrb_dl_Material62_pal_rgba16
-                0x00000000070a5648                jrb_dl_Material62_pal_rgba16_aligner
-                0x00000000070a5650                jrb_dl_Material62_ci8
-                0x00000000070a5a50                jrb_dl_Material62_ci8_aligner
-                0x00000000070a5a58                jrb_dl_KKIIDDZZ_DAT_964__p00_pal_rgba16_copy
-                0x00000000070a5b38                jrb_dl_KKIIDDZZ_DAT_964__p00_pal_rgba16_copy_aligner
-                0x00000000070a5b40                jrb_dl_KKIIDDZZ_DAT_964__p00_ci8_copy
-                0x00000000070a5f40                jrb_dl_KKIIDDZZ_DAT_964__p00_ci8_copy_aligner
-                0x00000000070a5f48                jrb_dl_GM4E01_3b9bd952_14_pal_rgba16
-                0x00000000070a5f70                jrb_dl_GM4E01_3b9bd952_14_pal_rgba16_aligner
-                0x00000000070a5f78                jrb_dl_GM4E01_3b9bd952_14_ci8
-                0x00000000070a6378                jrb_dl_GM4E01_3b9bd952_14_ci8_aligner
-                0x00000000070a6380                jrb_dl_light_pal_rgba16
-                0x00000000070a6388                jrb_dl_light_pal_rgba16_aligner
-                0x00000000070a6390                jrb_dl_light_ci4
-                0x00000000070a6590                jrb_dl_light_ci4_aligner
-                0x00000000070a6598                jrb_dl_KKIIDDZZ_DAT_1060__p00_pal_rgba16
-                0x00000000070a6638                jrb_dl_KKIIDDZZ_DAT_1060__p00_pal_rgba16_aligner
-                0x00000000070a6640                jrb_dl_KKIIDDZZ_DAT_1060__p00_ci8
-                0x00000000070a6a40                jrb_dl_KKIIDDZZ_DAT_1060__p00_ci8_aligner
-                0x00000000070a6a48                jrb_dl_ci4_sophie_wall_pal_rgba16
-                0x00000000070a6a68                jrb_dl_ci4_sophie_wall_pal_rgba16_aligner
-                0x00000000070a6a70                jrb_dl_ci4_sophie_wall_ci4
-                0x00000000070a7270                jrb_dl_ci4_sophie_wall_ci4_aligner
-                0x00000000070a7278                jrb_dl_ci4_sophie_metal2_pal_rgba16
-                0x00000000070a7298                jrb_dl_ci4_sophie_metal2_pal_rgba16_aligner
-                0x00000000070a72a0                jrb_dl_ci4_sophie_metal2_ci4
-                0x00000000070a7aa0                jrb_dl_ci4_sophie_metal2_ci4_aligner
-                0x00000000070a7aa8                jrb_dl_rgba16_anonmoose_envmap_gold1_pal_rgba16
-                0x00000000070a7c18                jrb_dl_rgba16_anonmoose_envmap_gold1_pal_rgba16_aligner
-                0x00000000070a7c20                jrb_dl_rgba16_anonmoose_envmap_gold1_ci8
-                0x00000000070a8020                jrb_dl_rgba16_anonmoose_envmap_gold1_ci8_aligner
-                0x00000000070a8028                jrb_dl_ci4_anonmoose_whiteblock_pal_rgba16
-                0x00000000070a8048                jrb_dl_ci4_anonmoose_whiteblock_pal_rgba16_aligner
-                0x00000000070a8050                jrb_dl_ci4_anonmoose_whiteblock_ci4
-                0x00000000070a8850                jrb_dl_ci4_anonmoose_whiteblock_ci4_aligner
-                0x00000000070a8858                jrb_dl_tempImgEd032C_pal_rgba16
-                0x00000000070a89d8                jrb_dl_tempImgEd032C_pal_rgba16_aligner
-                0x00000000070a89e0                jrb_dl_tempImgEd032C_ci8
-                0x00000000070a8de0                jrb_dl_tempImgEd032C_ci8_aligner
-                0x00000000070a8de8                jrb_dl_KKIIDDZZ_DAT_972__p00_pal_rgba16
-                0x00000000070a8f18                jrb_dl_KKIIDDZZ_DAT_972__p00_pal_rgba16_aligner
-                0x00000000070a8f20                jrb_dl_KKIIDDZZ_DAT_972__p00_ci8
-                0x00000000070a9320                jrb_dl_KKIIDDZZ_DAT_972__p00_ci8_aligner
-                0x00000000070a9328                jrb_dl_invisible_ia8
-                0x00000000070a9728                jrb_dl_invisible_ia8_aligner
-                0x00000000070a9730                jrb_dl_KKIIDDZZ_DAT_1061__p00_pal_rgba16
-                0x00000000070a97f8                jrb_dl_KKIIDDZZ_DAT_1061__p00_pal_rgba16_aligner
-                0x00000000070a9800                jrb_dl_KKIIDDZZ_DAT_1061__p00_ci8
-                0x00000000070a9c00                jrb_dl_KKIIDDZZ_DAT_1061__p00_ci8_aligner
-                0x00000000070a9c08                jrb_dl_KKIIDDZZ_DAT_971__p00_pal_rgba16
-                0x00000000070a9d30                jrb_dl_KKIIDDZZ_DAT_971__p00_pal_rgba16_aligner
-                0x00000000070a9d38                jrb_dl_KKIIDDZZ_DAT_971__p00_ci8
-                0x00000000070aa138                jrb_dl_KKIIDDZZ_DAT_971__p00_ci8_aligner
-                0x00000000070aa140                jrb_dl_KKIIDDZZ_DAT_1059__p00_pal_rgba16
-                0x00000000070aa1c8                jrb_dl_KKIIDDZZ_DAT_1059__p00_pal_rgba16_aligner
-                0x00000000070aa1d0                jrb_dl_KKIIDDZZ_DAT_1059__p00_ci8
-                0x00000000070aa5d0                jrb_dl_KKIIDDZZ_DAT_1059__p00_ci8_aligner
-                0x00000000070aa5d8                jrb_dl_ci4_anonmoose_treebark1_pal_rgba16
-                0x00000000070aa5f8                jrb_dl_ci4_anonmoose_treebark1_pal_rgba16_aligner
-                0x00000000070aa600                jrb_dl_ci4_anonmoose_treebark1_ci4
-                0x00000000070aae00                jrb_dl_ci4_anonmoose_treebark1_ci4_aligner
-                0x00000000070aae08                jrb_dl__25_pal_rgba16
-                0x00000000070aae78                jrb_dl__25_pal_rgba16_aligner
-                0x00000000070aae80                jrb_dl__25_ci8
-                0x00000000070ab280                jrb_dl__25_ci8_aligner
-                0x00000000070ab288                jrb_dl_KKIIDDZZ_DAT_964__p00_pal_rgba16
-                0x00000000070ab368                jrb_dl_KKIIDDZZ_DAT_964__p00_pal_rgba16_aligner
-                0x00000000070ab370                jrb_dl_KKIIDDZZ_DAT_964__p00_ci8
-                0x00000000070ab770                jrb_dl_KKIIDDZZ_DAT_964__p00_ci8_aligner
-                0x00000000070ab778                jrb_dl_ci4_zeina_water_1_pal_rgba16
-                0x00000000070ab798                jrb_dl_ci4_zeina_water_1_pal_rgba16_aligner
-                0x00000000070ab7a0                jrb_dl_ci4_zeina_water_1_ci4
-                0x00000000070abfa0                jrb_dl_ci4_zeina_water_1_ci4_aligner
-                0x00000000070abfa8                jrb_dl_ci4_sophie_rooftile_pal_rgba16
-                0x00000000070abfc8                jrb_dl_ci4_sophie_rooftile_pal_rgba16_aligner
-                0x00000000070abfd0                jrb_dl_ci4_sophie_rooftile_ci4
-                0x00000000070ac7d0                jrb_dl_ci4_sophie_rooftile_ci4_aligner
-                0x00000000070ac7d8                jrb_dl_ci4_sophie_broom_pal_rgba16
-                0x00000000070ac7f8                jrb_dl_ci4_sophie_broom_pal_rgba16_aligner
-                0x00000000070ac800                jrb_dl_ci4_sophie_broom_ci4
-                0x00000000070ad000                jrb_dl_ci4_sophie_broom_ci4_aligner
-                0x00000000070ad008                jrb_dl_ci4_sophie_wood2_pal_rgba16
-                0x00000000070ad028                jrb_dl_ci4_sophie_wood2_pal_rgba16_aligner
-                0x00000000070ad030                jrb_dl_ci4_sophie_wood2_ci4
-                0x00000000070ad830                jrb_dl_ci4_sophie_wood2_ci4_aligner
-                0x00000000070ad838                jrb_dl_ci4_sophie_interiorwall_pal_rgba16
-                0x00000000070ad850                jrb_dl_ci4_sophie_interiorwall_pal_rgba16_aligner
-                0x00000000070ad858                jrb_dl_ci4_sophie_interiorwall_ci4
-                0x00000000070ae058                jrb_dl_ci4_sophie_interiorwall_ci4_aligner
-                0x00000000070ae060                jrb_dl_KKIIDDZZ_DAT_1818__p00_pal_rgba16
-                0x00000000070ae138                jrb_dl_KKIIDDZZ_DAT_1818__p00_pal_rgba16_aligner
-                0x00000000070ae140                jrb_dl_KKIIDDZZ_DAT_1818__p00_ci8
-                0x00000000070ae540                jrb_dl_KKIIDDZZ_DAT_1818__p00_ci8_aligner
-                0x00000000070ae548                jrb_dl_ci4_anonmoose_Dirt1_pal_rgba16
-                0x00000000070ae580                jrb_dl_ci4_anonmoose_Dirt1_pal_rgba16_aligner
-                0x00000000070ae588                jrb_dl_ci4_anonmoose_Dirt1_ci8
-                0x00000000070ae988                jrb_dl_ci4_anonmoose_Dirt1_ci8_aligner
-                0x00000000070ae990                jrb_dl_YOSHIS_ISLAND_6467B7C8B140_all_ia8
-                0x00000000070af990                jrb_dl_YOSHIS_ISLAND_6467B7C8B140_all_ia8_aligner
-                0x00000000070af998                jrb_dl_KKIIDDZZ_DAT_2237__p00_pal_rgba16
-                0x00000000070af9b8                jrb_dl_KKIIDDZZ_DAT_2237__p00_pal_rgba16_aligner
-                0x00000000070af9c0                jrb_dl_KKIIDDZZ_DAT_2237__p00_ci4
-                0x00000000070b01c0                jrb_dl_KKIIDDZZ_DAT_2237__p00_ci4_aligner
-                0x00000000070b01c8                jrb_dl_KKIIDDZZ_DAT_2238__p00_pal_rgba16
-                0x00000000070b01e8                jrb_dl_KKIIDDZZ_DAT_2238__p00_pal_rgba16_aligner
-                0x00000000070b01f0                jrb_dl_KKIIDDZZ_DAT_2238__p00_ci4
-                0x00000000070b09f0                jrb_dl_KKIIDDZZ_DAT_2238__p00_ci4_aligner
-                0x00000000070b09f8                jrb_dl_KKIIDDZZ_DAT_684__p00_pal_rgba16
-                0x00000000070b0a10                jrb_dl_KKIIDDZZ_DAT_684__p00_pal_rgba16_aligner
-                0x00000000070b0a18                jrb_dl_KKIIDDZZ_DAT_684__p00_ci4
-                0x00000000070b1218                jrb_dl_KKIIDDZZ_DAT_684__p00_ci4_aligner
-                0x00000000070b1220                jrb_area_1_macro_objs
-                0x00000000070b1224                jrb_area_1_collision
-                0x00000000070dffec                jrb_movtex_sunken_ship_water
-                0x00000000070e001c                jrb_seg7_area_2_macro_objs
-                0x00000000070e0028                jrb_seg7_area_2_collision
-                0x00000000070e10d8                jrb_seg7_dl_07010548
-                0x00000000070e1728                jrb_seg7_dl_0700FE48
-                0x00000000070e2508                jrb_seg7_dl_0700EF00
-                0x00000000070e3ed0                jrb_movtex_initial_mist
-                0x00000000070e3f00                jrb_movtex_water
-                0x00000000070e3f58                jrb_seg7_trajectory_unagi_2
-                0x00000000070e3fa4                jrb_seg7_trajectory_unagi_1
-                0x00000000070e3fd8                jrb_seg7_collision_0700D1DC
-                0x00000000070e400c                jrb_seg7_collision_pillar_base
-                0x00000000070e4058                jrb_seg7_collision_in_sunken_ship_2
-                0x00000000070e42dc                jrb_seg7_collision_0700CEF0
-                0x00000000070e4384                jrb_seg7_collision_in_sunken_ship
-                0x00000000070e4430                jrb_seg7_collision_in_sunken_ship_3
-                0x00000000070e4a78                jrb_seg7_collision_floating_box
-                0x00000000070e4b14                jrb_seg7_collision_floating_platform
-                0x00000000070e4bb0                jrb_seg7_collision_rock_solid
-                0x00000000070e4ca4                jrb_seg7_area_1_macro_objs
-                0x00000000070e4f14                jrb_seg7_area_1_collision
-                0x00000000070e67d8                jrb_seg7_dl_0700AFB0
-                0x00000000070e6928                jrb_seg7_dl_0700AE48
-                0x00000000070e6ab8                jrb_seg7_dl_0700AC68
-                0x00000000070e7078                jrb_seg7_dl_0700A608
-                0x00000000070e7a30                jrb_seg7_dl_07009B30
-                0x00000000070e7b10                jrb_seg7_dl_07009A58
-                0x00000000070e83c0                jrb_seg7_dl_070090B0
-                0x00000000070e84a0                jrb_seg7_dl_07008FD8
-                0x00000000070e9208                jrb_seg7_dl_070080F8
-                0x00000000070e94d8                jrb_seg7_dl_07007DC8
-                0x00000000070e97d0                jrb_seg7_dl_07007AC8
-                0x00000000070e9af8                jrb_seg7_dl_07007718
-                0x00000000070e9cb0                jrb_seg7_dl_07007570
-                0x00000000070ea740                jrb_seg7_dl_070069B0
-                0x00000000070eb698                jrb_seg7_dl_070058C8
-                0x00000000070ec180                jrb_seg7_dl_07004C78
-                0x00000000070ec458                jrb_seg7_dl_07004940
-                0x00000000070edaf8                jrb_seg7_dl_07002FD0
+                0x0000000007091f18                jrb_dl_Cube_019_mesh_layer_1_vtx_0
+                0x0000000007092018                jrb_dl_Cube_019_mesh_layer_1_vtx_cull
+                0x0000000007092098                jrb_dl_Cube_018_mesh_layer_5_tri_1
+                0x00000000070920b8                jrb_dl_Cube_018_mesh_layer_5_vtx_1
+                0x0000000007092138                jrb_dl_Cube_018_mesh_layer_5_tri_0
+                0x00000000070921b0                jrb_dl_Cube_018_mesh_layer_5_vtx_0
+                0x00000000070924b0                jrb_dl_Cube_018_mesh_layer_5_vtx_cull
+                0x0000000007092530                jrb_dl_Cube_017_mesh_layer_1_tri_0
+                0x00000000070926f8                jrb_dl_Cube_017_mesh_layer_1_vtx_0
+                0x00000000070932b8                jrb_dl_Cube_017_mesh_layer_1_vtx_cull
+                0x0000000007093338                jrb_dl_Cube_016_mesh_layer_1_tri_0
+                0x0000000007093378                jrb_dl_Cube_016_mesh_layer_1_vtx_0
+                0x00000000070934f8                jrb_dl_Cube_016_mesh_layer_1_vtx_cull
+                0x0000000007093578                jrb_dl_Cube_015_mesh_layer_1_tri_1
+                0x0000000007093590                jrb_dl_Cube_015_mesh_layer_1_vtx_1
+                0x00000000070935d0                jrb_dl_Cube_015_mesh_layer_1_tri_0
+                0x0000000007093608                jrb_dl_Cube_015_mesh_layer_1_vtx_0
+                0x0000000007093748                jrb_dl_Cube_015_mesh_layer_1_vtx_cull
+                0x00000000070937c8                jrb_dl_Cube_014_mesh_layer_1_tri_0
+                0x0000000007093830                jrb_dl_Cube_014_mesh_layer_1_vtx_0
+                0x0000000007093ab0                jrb_dl_Cube_014_mesh_layer_1_vtx_cull
+                0x0000000007093b30                jrb_dl_Cube_013_mesh_layer_1_tri_4
+                0x0000000007093b80                jrb_dl_Cube_013_mesh_layer_1_vtx_4
+                0x0000000007093ca0                jrb_dl_Cube_013_mesh_layer_1_tri_3
+                0x0000000007093e20                jrb_dl_Cube_013_mesh_layer_1_vtx_3
+                0x0000000007094710                jrb_dl_Cube_013_mesh_layer_1_tri_2
+                0x0000000007094758                jrb_dl_Cube_013_mesh_layer_1_vtx_2
+                0x0000000007094898                jrb_dl_Cube_013_mesh_layer_1_tri_1
+                0x0000000007094a68                jrb_dl_Cube_013_mesh_layer_1_vtx_1
+                0x0000000007095618                jrb_dl_Cube_013_mesh_layer_1_tri_0
+                0x0000000007095b48                jrb_dl_Cube_013_mesh_layer_1_vtx_0
+                0x00000000070971e8                jrb_dl_Cube_013_mesh_layer_1_vtx_cull
+                0x0000000007097268                jrb_dl_Cube_012_mesh_layer_1_tri_1
+                0x0000000007097280                jrb_dl_Cube_012_mesh_layer_1_vtx_1
+                0x00000000070972c0                jrb_dl_Cube_012_mesh_layer_1_tri_0
+                0x0000000007097318                jrb_dl_Cube_012_mesh_layer_1_vtx_0
+                0x00000000070974d8                jrb_dl_Cube_012_mesh_layer_1_vtx_cull
+                0x0000000007097558                jrb_dl_Cube_011_mesh_layer_1_tri_0
+                0x0000000007097598                jrb_dl_Cube_011_mesh_layer_1_vtx_0
+                0x0000000007097718                jrb_dl_Cube_011_mesh_layer_1_vtx_cull
+                0x0000000007097798                jrb_dl_Cube_010_mesh_layer_5_tri_0
+                0x00000000070977e8                jrb_dl_Cube_010_mesh_layer_5_vtx_0
+                0x0000000007097908                jrb_dl_Cube_010_mesh_layer_5_vtx_cull
+                0x0000000007097988                jrb_dl_Cube_009_mesh_layer_1_tri_0
+                0x00000000070979c8                jrb_dl_Cube_009_mesh_layer_1_vtx_0
+                0x0000000007097b48                jrb_dl_Cube_009_mesh_layer_1_vtx_cull
+                0x0000000007097bc8                jrb_dl_Cube_008_mesh_layer_5_tri_0
+                0x0000000007097c10                jrb_dl_Cube_008_mesh_layer_5_vtx_0
+                0x0000000007097d30                jrb_dl_Cube_008_mesh_layer_5_vtx_cull
+                0x0000000007097db0                jrb_dl_Cube_007_mesh_layer_1_tri_0
+                0x0000000007097f78                jrb_dl_Cube_007_mesh_layer_1_vtx_0
+                0x0000000007098b38                jrb_dl_Cube_007_mesh_layer_1_vtx_cull
+                0x0000000007098bb8                jrb_dl_Cube_006_mesh_layer_1_tri_0
+                0x0000000007098d80                jrb_dl_Cube_006_mesh_layer_1_vtx_0
+                0x0000000007099940                jrb_dl_Cube_006_mesh_layer_1_vtx_cull
+                0x00000000070999c0                jrb_dl_Cube_005_mesh_layer_1_tri_0
+                0x0000000007099b88                jrb_dl_Cube_005_mesh_layer_1_vtx_0
+                0x000000000709a748                jrb_dl_Cube_005_mesh_layer_1_vtx_cull
+                0x000000000709a7c8                jrb_dl_Cube_004_mesh_layer_1_tri_0
+                0x000000000709a808                jrb_dl_Cube_004_mesh_layer_1_vtx_0
+                0x000000000709a988                jrb_dl_Cube_004_mesh_layer_1_vtx_cull
+                0x000000000709aa08                jrb_dl_Cube_003_mesh_layer_1_tri_0
+                0x000000000709ab58                jrb_dl_Cube_003_mesh_layer_1_vtx_0
+                0x000000000709b2e8                jrb_dl_Cube_003_mesh_layer_1_vtx_cull
+                0x000000000709b368                jrb_dl_Cube_002_mesh_layer_1_tri_0
+                0x000000000709b480                jrb_dl_Cube_002_mesh_layer_1_vtx_0
+                0x000000000709bc00                jrb_dl_Cube_002_mesh_layer_1_vtx_cull
+                0x000000000709bc80                jrb_dl_Cube_001_mesh_layer_5_tri_0
+                0x000000000709bcc0                jrb_dl_Cube_001_mesh_layer_5_vtx_0
+                0x000000000709be40                jrb_dl_Cube_001_mesh_layer_5_vtx_cull
+                0x000000000709bec0                jrb_dl_Cube_mesh_layer_1_tri_4
+                0x000000000709bf10                jrb_dl_Cube_mesh_layer_1_vtx_4
+                0x000000000709c070                jrb_dl_Cube_mesh_layer_1_tri_3
+                0x000000000709c0b8                jrb_dl_Cube_mesh_layer_1_vtx_3
+                0x000000000709c238                jrb_dl_Cube_mesh_layer_1_tri_2
+                0x000000000709c258                jrb_dl_Cube_mesh_layer_1_vtx_2
+                0x000000000709c2a8                jrb_dl_Cube_mesh_layer_1_tri_1
+                0x000000000709c3c8                jrb_dl_Cube_mesh_layer_1_vtx_1
+                0x000000000709caf8                jrb_dl_Cube_mesh_layer_1_tri_0
+                0x000000000709cc40                jrb_dl_Cube_mesh_layer_1_vtx_0
+                0x000000000709d2d0                jrb_dl_Cube_mesh_layer_1_vtx_cull
+                0x000000000709d350                jrb_dl_bridge_mesh_layer_1_tri_0
+                0x000000000709d488                jrb_dl_bridge_mesh_layer_1_vtx_0
+                0x000000000709d9f8                jrb_dl_bridge_mesh_layer_1_vtx_cull
+                0x000000000709da78                jrb_dl_Alpha_002_mesh_layer_6_tri_0
+                0x000000000709dac0                jrb_dl_Alpha_002_mesh_layer_6_vtx_0
+                0x000000000709dc50                jrb_dl_Alpha_002_mesh_layer_6_vtx_cull
+                0x000000000709dcd0                jrb_dl_Alpha_001_mesh_layer_6_tri_0
+                0x000000000709de88                jrb_dl_Alpha_001_mesh_layer_6_vtx_0
+                0x000000000709e938                jrb_dl_Alpha_001_mesh_layer_6_vtx_cull
+                0x000000000709e9b8                jrb_dl_Alpha_mesh_layer_1_tri_2
+                0x000000000709ea30                jrb_dl_Alpha_mesh_layer_1_vtx_2
+                0x000000000709ed30                jrb_dl_Alpha_mesh_layer_1_tri_1
+                0x000000000709ee18                jrb_dl_Alpha_mesh_layer_1_vtx_1
+                0x000000000709f3d8                jrb_dl_Alpha_mesh_layer_1_tri_0
+                0x000000000709f768                jrb_dl_Alpha_mesh_layer_1_vtx_0
+                0x00000000070a0be8                jrb_dl_Alpha_mesh_layer_1_vtx_cull
+                0x00000000070a0c68                jrb_dl_grate_pal_rgba16
+                0x00000000070a0d50                jrb_dl_grate_pal_rgba16_aligner
+                0x00000000070a0d58                jrb_dl_grate_ci8
+                0x00000000070a1158                jrb_dl_grate_ci8_aligner
+                0x00000000070a1160                jrb_dl_rgba16_anonmoose_GreenishSquare_pal_rgba16
+                0x00000000070a1188                jrb_dl_rgba16_anonmoose_GreenishSquare_pal_rgba16_aligner
+                0x00000000070a1190                jrb_dl_rgba16_anonmoose_GreenishSquare_ci8
+                0x00000000070a1590                jrb_dl_rgba16_anonmoose_GreenishSquare_ci8_aligner
+                0x00000000070a1598                jrb_dl_flower_pal_rgba16_copy
+                0x00000000070a15f8                jrb_dl_flower_pal_rgba16_copy_aligner
+                0x00000000070a1600                jrb_dl_flower_ci8_copy
+                0x00000000070a1a00                jrb_dl_flower_ci8_copy_aligner
+                0x00000000070a1a08                jrb_dl__7_pal_rgba16
+                0x00000000070a1ac8                jrb_dl__7_pal_rgba16_aligner
+                0x00000000070a1ad0                jrb_dl__7_ci8
+                0x00000000070a1ed0                jrb_dl__7_ci8_aligner
+                0x00000000070a1ed8                jrb_dl_flower_pal_rgba16
+                0x00000000070a1f38                jrb_dl_flower_pal_rgba16_aligner
+                0x00000000070a1f40                jrb_dl_flower_ci8
+                0x00000000070a2340                jrb_dl_flower_ci8_aligner
+                0x00000000070a2348                jrb_dl_i4_sophie_static_i8
+                0x00000000070a3348                jrb_dl_i4_sophie_static_i8_aligner
+                0x00000000070a3350                jrb_dl_ci4_sophie_hay_pal_rgba16
+                0x00000000070a3370                jrb_dl_ci4_sophie_hay_pal_rgba16_aligner
+                0x00000000070a3378                jrb_dl_ci4_sophie_hay_ci4
+                0x00000000070a3b78                jrb_dl_ci4_sophie_hay_ci4_aligner
+                0x00000000070a3b80                jrb_dl_rgba16_anonmoose_swirl1_pal_rgba16
+                0x00000000070a3bd0                jrb_dl_rgba16_anonmoose_swirl1_pal_rgba16_aligner
+                0x00000000070a3bd8                jrb_dl_rgba16_anonmoose_swirl1_ci8
+                0x00000000070a3fd8                jrb_dl_rgba16_anonmoose_swirl1_ci8_aligner
+                0x00000000070a3fe0                jrb_dl_ci4_sophie_tablecloth_pal_rgba16
+                0x00000000070a4000                jrb_dl_ci4_sophie_tablecloth_pal_rgba16_aligner
+                0x00000000070a4008                jrb_dl_ci4_sophie_tablecloth_ci4
+                0x00000000070a4808                jrb_dl_ci4_sophie_tablecloth_ci4_aligner
+                0x00000000070a4810                jrb_dl_rings_pal_rgba16
+                0x00000000070a48f0                jrb_dl_rings_pal_rgba16_aligner
+                0x00000000070a48f8                jrb_dl_rings_ci8
+                0x00000000070a4cf8                jrb_dl_rings_ci8_aligner
+                0x00000000070a4d00                jrb_dl_yucky_pal_rgba16
+                0x00000000070a4d60                jrb_dl_yucky_pal_rgba16_aligner
+                0x00000000070a4d68                jrb_dl_yucky_ci8
+                0x00000000070a5168                jrb_dl_yucky_ci8_aligner
+                0x00000000070a5170                jrb_dl_KKIIDDZZ_DAT_964__p00_pal_rgba16_copy
+                0x00000000070a5250                jrb_dl_KKIIDDZZ_DAT_964__p00_pal_rgba16_copy_aligner
+                0x00000000070a5258                jrb_dl_KKIIDDZZ_DAT_964__p00_ci8_copy
+                0x00000000070a5658                jrb_dl_KKIIDDZZ_DAT_964__p00_ci8_copy_aligner
+                0x00000000070a5660                jrb_dl_GM4E01_3b9bd952_14_pal_rgba16
+                0x00000000070a5688                jrb_dl_GM4E01_3b9bd952_14_pal_rgba16_aligner
+                0x00000000070a5690                jrb_dl_GM4E01_3b9bd952_14_ci8
+                0x00000000070a5a90                jrb_dl_GM4E01_3b9bd952_14_ci8_aligner
+                0x00000000070a5a98                jrb_dl_light_pal_rgba16
+                0x00000000070a5aa0                jrb_dl_light_pal_rgba16_aligner
+                0x00000000070a5aa8                jrb_dl_light_ci4
+                0x00000000070a5ca8                jrb_dl_light_ci4_aligner
+                0x00000000070a5cb0                jrb_dl_KKIIDDZZ_DAT_1060__p00_pal_rgba16
+                0x00000000070a5d50                jrb_dl_KKIIDDZZ_DAT_1060__p00_pal_rgba16_aligner
+                0x00000000070a5d58                jrb_dl_KKIIDDZZ_DAT_1060__p00_ci8
+                0x00000000070a6158                jrb_dl_KKIIDDZZ_DAT_1060__p00_ci8_aligner
+                0x00000000070a6160                jrb_dl_ci4_sophie_wall_pal_rgba16
+                0x00000000070a6180                jrb_dl_ci4_sophie_wall_pal_rgba16_aligner
+                0x00000000070a6188                jrb_dl_ci4_sophie_wall_ci4
+                0x00000000070a6988                jrb_dl_ci4_sophie_wall_ci4_aligner
+                0x00000000070a6990                jrb_dl_ci4_sophie_metal2_pal_rgba16
+                0x00000000070a69b0                jrb_dl_ci4_sophie_metal2_pal_rgba16_aligner
+                0x00000000070a69b8                jrb_dl_ci4_sophie_metal2_ci4
+                0x00000000070a71b8                jrb_dl_ci4_sophie_metal2_ci4_aligner
+                0x00000000070a71c0                jrb_dl_rgba16_anonmoose_envmap_gold1_pal_rgba16
+                0x00000000070a7330                jrb_dl_rgba16_anonmoose_envmap_gold1_pal_rgba16_aligner
+                0x00000000070a7338                jrb_dl_rgba16_anonmoose_envmap_gold1_ci8
+                0x00000000070a7738                jrb_dl_rgba16_anonmoose_envmap_gold1_ci8_aligner
+                0x00000000070a7740                jrb_dl_ci4_anonmoose_whiteblock_pal_rgba16
+                0x00000000070a7760                jrb_dl_ci4_anonmoose_whiteblock_pal_rgba16_aligner
+                0x00000000070a7768                jrb_dl_ci4_anonmoose_whiteblock_ci4
+                0x00000000070a7f68                jrb_dl_ci4_anonmoose_whiteblock_ci4_aligner
+                0x00000000070a7f70                jrb_dl_tempImgEd032C_pal_rgba16
+                0x00000000070a80f0                jrb_dl_tempImgEd032C_pal_rgba16_aligner
+                0x00000000070a80f8                jrb_dl_tempImgEd032C_ci8
+                0x00000000070a84f8                jrb_dl_tempImgEd032C_ci8_aligner
+                0x00000000070a8500                jrb_dl_KKIIDDZZ_DAT_972__p00_pal_rgba16
+                0x00000000070a8630                jrb_dl_KKIIDDZZ_DAT_972__p00_pal_rgba16_aligner
+                0x00000000070a8638                jrb_dl_KKIIDDZZ_DAT_972__p00_ci8
+                0x00000000070a8a38                jrb_dl_KKIIDDZZ_DAT_972__p00_ci8_aligner
+                0x00000000070a8a40                jrb_dl_invisible_ia8
+                0x00000000070a8e40                jrb_dl_invisible_ia8_aligner
+                0x00000000070a8e48                jrb_dl_KKIIDDZZ_DAT_1061__p00_pal_rgba16
+                0x00000000070a8f10                jrb_dl_KKIIDDZZ_DAT_1061__p00_pal_rgba16_aligner
+                0x00000000070a8f18                jrb_dl_KKIIDDZZ_DAT_1061__p00_ci8
+                0x00000000070a9318                jrb_dl_KKIIDDZZ_DAT_1061__p00_ci8_aligner
+                0x00000000070a9320                jrb_dl_KKIIDDZZ_DAT_971__p00_pal_rgba16
+                0x00000000070a9448                jrb_dl_KKIIDDZZ_DAT_971__p00_pal_rgba16_aligner
+                0x00000000070a9450                jrb_dl_KKIIDDZZ_DAT_971__p00_ci8
+                0x00000000070a9850                jrb_dl_KKIIDDZZ_DAT_971__p00_ci8_aligner
+                0x00000000070a9858                jrb_dl_KKIIDDZZ_DAT_1059__p00_pal_rgba16
+                0x00000000070a98e0                jrb_dl_KKIIDDZZ_DAT_1059__p00_pal_rgba16_aligner
+                0x00000000070a98e8                jrb_dl_KKIIDDZZ_DAT_1059__p00_ci8
+                0x00000000070a9ce8                jrb_dl_KKIIDDZZ_DAT_1059__p00_ci8_aligner
+                0x00000000070a9cf0                jrb_dl_ci4_anonmoose_treebark1_pal_rgba16
+                0x00000000070a9d10                jrb_dl_ci4_anonmoose_treebark1_pal_rgba16_aligner
+                0x00000000070a9d18                jrb_dl_ci4_anonmoose_treebark1_ci4
+                0x00000000070aa518                jrb_dl_ci4_anonmoose_treebark1_ci4_aligner
+                0x00000000070aa520                jrb_dl__25_pal_rgba16
+                0x00000000070aa590                jrb_dl__25_pal_rgba16_aligner
+                0x00000000070aa598                jrb_dl__25_ci8
+                0x00000000070aa998                jrb_dl__25_ci8_aligner
+                0x00000000070aa9a0                jrb_dl_KKIIDDZZ_DAT_964__p00_pal_rgba16
+                0x00000000070aaa80                jrb_dl_KKIIDDZZ_DAT_964__p00_pal_rgba16_aligner
+                0x00000000070aaa88                jrb_dl_KKIIDDZZ_DAT_964__p00_ci8
+                0x00000000070aae88                jrb_dl_KKIIDDZZ_DAT_964__p00_ci8_aligner
+                0x00000000070aae90                jrb_dl_ci4_zeina_water_1_pal_rgba16
+                0x00000000070aaeb0                jrb_dl_ci4_zeina_water_1_pal_rgba16_aligner
+                0x00000000070aaeb8                jrb_dl_ci4_zeina_water_1_ci4
+                0x00000000070ab6b8                jrb_dl_ci4_zeina_water_1_ci4_aligner
+                0x00000000070ab6c0                jrb_dl_ci4_sophie_rooftile_pal_rgba16
+                0x00000000070ab6e0                jrb_dl_ci4_sophie_rooftile_pal_rgba16_aligner
+                0x00000000070ab6e8                jrb_dl_ci4_sophie_rooftile_ci4
+                0x00000000070abee8                jrb_dl_ci4_sophie_rooftile_ci4_aligner
+                0x00000000070abef0                jrb_dl_ci4_sophie_broom_pal_rgba16
+                0x00000000070abf10                jrb_dl_ci4_sophie_broom_pal_rgba16_aligner
+                0x00000000070abf18                jrb_dl_ci4_sophie_broom_ci4
+                0x00000000070ac718                jrb_dl_ci4_sophie_broom_ci4_aligner
+                0x00000000070ac720                jrb_dl_ci4_sophie_wood2_pal_rgba16
+                0x00000000070ac740                jrb_dl_ci4_sophie_wood2_pal_rgba16_aligner
+                0x00000000070ac748                jrb_dl_ci4_sophie_wood2_ci4
+                0x00000000070acf48                jrb_dl_ci4_sophie_wood2_ci4_aligner
+                0x00000000070acf50                jrb_dl_ci4_sophie_interiorwall_pal_rgba16
+                0x00000000070acf68                jrb_dl_ci4_sophie_interiorwall_pal_rgba16_aligner
+                0x00000000070acf70                jrb_dl_ci4_sophie_interiorwall_ci4
+                0x00000000070ad770                jrb_dl_ci4_sophie_interiorwall_ci4_aligner
+                0x00000000070ad778                jrb_dl_KKIIDDZZ_DAT_1818__p00_pal_rgba16
+                0x00000000070ad850                jrb_dl_KKIIDDZZ_DAT_1818__p00_pal_rgba16_aligner
+                0x00000000070ad858                jrb_dl_KKIIDDZZ_DAT_1818__p00_ci8
+                0x00000000070adc58                jrb_dl_KKIIDDZZ_DAT_1818__p00_ci8_aligner
+                0x00000000070adc60                jrb_dl_ci4_anonmoose_Dirt1_pal_rgba16
+                0x00000000070adc98                jrb_dl_ci4_anonmoose_Dirt1_pal_rgba16_aligner
+                0x00000000070adca0                jrb_dl_ci4_anonmoose_Dirt1_ci8
+                0x00000000070ae0a0                jrb_dl_ci4_anonmoose_Dirt1_ci8_aligner
+                0x00000000070ae0a8                jrb_dl_YOSHIS_ISLAND_6467B7C8B140_all_ia8
+                0x00000000070af0a8                jrb_dl_YOSHIS_ISLAND_6467B7C8B140_all_ia8_aligner
+                0x00000000070af0b0                jrb_dl_KKIIDDZZ_DAT_2237__p00_pal_rgba16
+                0x00000000070af0d0                jrb_dl_KKIIDDZZ_DAT_2237__p00_pal_rgba16_aligner
+                0x00000000070af0d8                jrb_dl_KKIIDDZZ_DAT_2237__p00_ci4
+                0x00000000070af8d8                jrb_dl_KKIIDDZZ_DAT_2237__p00_ci4_aligner
+                0x00000000070af8e0                jrb_dl_KKIIDDZZ_DAT_2238__p00_pal_rgba16
+                0x00000000070af900                jrb_dl_KKIIDDZZ_DAT_2238__p00_pal_rgba16_aligner
+                0x00000000070af908                jrb_dl_KKIIDDZZ_DAT_2238__p00_ci4
+                0x00000000070b0108                jrb_dl_KKIIDDZZ_DAT_2238__p00_ci4_aligner
+                0x00000000070b0110                jrb_dl_KKIIDDZZ_DAT_684__p00_pal_rgba16
+                0x00000000070b0128                jrb_dl_KKIIDDZZ_DAT_684__p00_pal_rgba16_aligner
+                0x00000000070b0130                jrb_dl_KKIIDDZZ_DAT_684__p00_ci4
+                0x00000000070b0930                jrb_dl_KKIIDDZZ_DAT_684__p00_ci4_aligner
+                0x00000000070b0938                jrb_area_1_macro_objs
+                0x00000000070b093c                jrb_area_1_collision
+                0x00000000070df3e4                jrb_movtex_sunken_ship_water
+                0x00000000070df414                jrb_seg7_area_2_macro_objs
+                0x00000000070df420                jrb_seg7_area_2_collision
+                0x00000000070e04d0                jrb_seg7_dl_07010548
+                0x00000000070e0b20                jrb_seg7_dl_0700FE48
+                0x00000000070e1900                jrb_seg7_dl_0700EF00
+                0x00000000070e32c8                jrb_movtex_initial_mist
+                0x00000000070e32f8                jrb_movtex_water
+                0x00000000070e3350                jrb_seg7_trajectory_unagi_2
+                0x00000000070e339c                jrb_seg7_trajectory_unagi_1
+                0x00000000070e33d0                jrb_seg7_collision_0700D1DC
+                0x00000000070e3404                jrb_seg7_collision_pillar_base
+                0x00000000070e3450                jrb_seg7_collision_in_sunken_ship_2
+                0x00000000070e36d4                jrb_seg7_collision_0700CEF0
+                0x00000000070e377c                jrb_seg7_collision_in_sunken_ship
+                0x00000000070e3828                jrb_seg7_collision_in_sunken_ship_3
+                0x00000000070e3e70                jrb_seg7_collision_floating_box
+                0x00000000070e3f0c                jrb_seg7_collision_floating_platform
+                0x00000000070e3fa8                jrb_seg7_collision_rock_solid
+                0x00000000070e409c                jrb_seg7_area_1_macro_objs
+                0x00000000070e430c                jrb_seg7_area_1_collision
+                0x00000000070e5bd0                jrb_seg7_dl_0700AFB0
+                0x00000000070e5d20                jrb_seg7_dl_0700AE48
+                0x00000000070e5eb0                jrb_seg7_dl_0700AC68
+                0x00000000070e6470                jrb_seg7_dl_0700A608
+                0x00000000070e6e28                jrb_seg7_dl_07009B30
+                0x00000000070e6f08                jrb_seg7_dl_07009A58
+                0x00000000070e77b8                jrb_seg7_dl_070090B0
+                0x00000000070e7898                jrb_seg7_dl_07008FD8
+                0x00000000070e8600                jrb_seg7_dl_070080F8
+                0x00000000070e88d0                jrb_seg7_dl_07007DC8
+                0x00000000070e8bc8                jrb_seg7_dl_07007AC8
+                0x00000000070e8ef0                jrb_seg7_dl_07007718
+                0x00000000070e90a8                jrb_seg7_dl_07007570
+                0x00000000070e9b38                jrb_seg7_dl_070069B0
+                0x00000000070eaa90                jrb_seg7_dl_070058C8
+                0x00000000070eb578                jrb_seg7_dl_07004C78
+                0x00000000070eb850                jrb_seg7_dl_07004940
+                0x00000000070ecef0                jrb_seg7_dl_07002FD0
 
 .data1
  *(.data1)
 
 .got.plt
  *(.got.plt)
-                0x00000000070f0ad0                . = .
-                0x00000000070f0ad0                . = .
-                0x00000000070f8ac0                _gp = (ALIGN (0x10) + 0x7ff0)
+                0x00000000070efec8                . = .
+                0x00000000070efec8                . = .
+                0x00000000070f7ec0                _gp = (ALIGN (0x10) + 0x7ff0)
 
 .got
  *(.got)
@@ -1412,29 +1412,29 @@ LOAD build/us_n64/levels/jrb/leveldata.o
 
 .lit4
  *(.lit4)
-                0x00000000070f0ad0                _edata = .
+                0x00000000070efec8                _edata = .
                 [!provide]                        PROVIDE (edata = .)
-                0x00000000070f0ad0                . = .
-                0x00000000070f0ad0                __bss_start = .
-                0x00000000070f0ad0                _fbss = .
+                0x00000000070efec8                . = .
+                0x00000000070efec8                __bss_start = .
+                0x00000000070efec8                _fbss = .
 
 .sbss
  *(.dynsbss)
  *(.sbss .sbss.* .gnu.linkonce.sb.*)
  *(.scommon)
 
-.bss            0x00000000070f0ad0        0x0 load address 0x00000000070f0ae8
+.bss            0x00000000070efec8        0x0 load address 0x00000000070efee0
  *(.dynbss)
  *(.bss .bss.* .gnu.linkonce.b.*)
- .bss           0x00000000070f0ad0        0x0 build/us_n64/levels/jrb/leveldata.o
+ .bss           0x00000000070efec8        0x0 build/us_n64/levels/jrb/leveldata.o
  *(COMMON)
-                0x00000000070f0ad0                . = ALIGN ((. != 0x0)?0x4:0x1)
-                0x00000000070f0ad0                . = ALIGN (0x4)
-                0x00000000070f0ad0                . = SEGMENT_START ("ldata-segment", .)
-                0x00000000070f0ad0                . = ALIGN (0x4)
-                0x00000000070f0ad0                _end = .
+                0x00000000070efec8                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x00000000070efec8                . = ALIGN (0x4)
+                0x00000000070efec8                . = SEGMENT_START ("ldata-segment", .)
+                0x00000000070efec8                . = ALIGN (0x4)
+                0x00000000070efec8                _end = .
                 [!provide]                        PROVIDE (end = .)
-                0x00000000070f0ad0                . = DATA_SEGMENT_END (.)
+                0x00000000070efec8                . = DATA_SEGMENT_END (.)
 
 .stab
  *(.stab)
