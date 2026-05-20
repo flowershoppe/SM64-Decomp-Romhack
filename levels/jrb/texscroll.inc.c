@@ -56,31 +56,7 @@ void scroll_jrb_dl_Cube_019_mesh_layer_1_vtx_2() {
 	currentX += deltaX;	currentY += deltaY;
 }
 
-void scroll_gfx_mat_jrb_dl_water() {
-	Gfx *mat = segmented_to_virtual(mat_jrb_dl_water);
-
-	shift_s(mat, 18, PACK_TILESIZE(0, 1));
-
-};
-
-void scroll_gfx_mat_jrb_dl_fake_water() {
-	Gfx *mat = segmented_to_virtual(mat_jrb_dl_fake_water);
-
-	shift_s_down(mat, 18, PACK_TILESIZE(0, 1));
-
-};
-
-void scroll_gfx_mat_jrb_dl_death() {
-	Gfx *mat = segmented_to_virtual(mat_jrb_dl_death);
-
-	shift_s(mat, 16, PACK_TILESIZE(0, 1));
-
-};
-
 void scroll_jrb() {
 	scroll_jrb_dl_Cube_013_mesh_layer_1_vtx_2();
 	scroll_jrb_dl_Cube_019_mesh_layer_1_vtx_2();
-	scroll_gfx_mat_jrb_dl_water();
-	scroll_gfx_mat_jrb_dl_fake_water();
-	scroll_gfx_mat_jrb_dl_death();
 };

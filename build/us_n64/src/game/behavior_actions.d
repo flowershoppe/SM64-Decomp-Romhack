@@ -126,7 +126,8 @@ build/us_n64/src/game/behavior_actions.o: src/game/behavior_actions.c \
  src/game/behaviors/tox_box.inc.c src/game/behaviors/piranha_plant.inc.c \
  src/game/behaviors/bowser_puzzle_piece.inc.c \
  src/game/behaviors/circle_loop.inc.c src/game/behaviors/rotate.inc.c \
- src/game/behaviors/battle_star.inc.c src/game/behaviors/tuxie.inc.c \
+ src/game/behaviors/battle_star.inc.c \
+ src/game/behaviors/kingwhomp_star.inc.c src/game/behaviors/tuxie.inc.c \
  src/game/behaviors/fish.inc.c src/game/behaviors/express_elevator.inc.c \
  src/game/behaviors/bub.inc.c src/game/behaviors/exclamation_box.inc.c \
  src/game/behaviors/sound_spawner.inc.c src/game/behaviors/ddd_sub.inc.c \

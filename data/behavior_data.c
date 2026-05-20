@@ -6209,3 +6209,11 @@ const BehaviorScript bhvBattleStarLoop[] = {
         CALL_NATIVE(bhv_battle_star_loop),
     END_LOOP(),
 };
+
+const BehaviorScript bhvKingWhompStar[] = {
+    BEGIN(OBJ_LIST_SURFACE),
+    SET_HOME(),
+    BEGIN_LOOP(),
+        CALL_NATIVE(bhv_king_whomp_star_loop),
+    END_LOOP(),
+};
