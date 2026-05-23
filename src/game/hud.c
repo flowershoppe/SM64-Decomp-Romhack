@@ -401,11 +401,11 @@ static void animate_power_meter_deemphasizing(void) {
  * Moves power meter y pos quickly until it's at 301 to be hidden.
  */
 static void animate_power_meter_hiding(void) {
-    sPowerMeterHUD.y += 20;
-    if (sPowerMeterHUD.y > HUD_POWER_METER_HIDDEN_Y) {
-        sPowerMeterHUD.animation = POWER_METER_HIDDEN;
-        sPowerMeterVisibleTimer = 0;
-    }
+    //sPowerMeterHUD.y += 20;
+    //if (sPowerMeterHUD.y > HUD_POWER_METER_HIDDEN_Y) {
+    //    sPowerMeterHUD.animation = POWER_METER_HIDDEN;
+    //    sPowerMeterVisibleTimer = 0;
+    //}
 }
 
 /**
@@ -413,24 +413,25 @@ static void animate_power_meter_hiding(void) {
  */
 void handle_power_meter_actions(s16 numHealthWedges) {
     // Show power meter if health is not full, less than 8
-    if (numHealthWedges < 8 && sPowerMeterStoredHealth == 8
-        && sPowerMeterHUD.animation == POWER_METER_HIDDEN) {
+    //if (numHealthWedges < 8 && sPowerMeterStoredHealth == 8
+    //    && sPowerMeterHUD.animation == POWER_METER_HIDDEN) {
         sPowerMeterHUD.animation = POWER_METER_EMPHASIZED;
         sPowerMeterHUD.y = HUD_POWER_METER_EMPHASIZED_Y;
-    }
+    //}
 
     // Show power meter if health is full, has 8
-    if (numHealthWedges == 8 && sPowerMeterStoredHealth == 7) {
+    //if (numHealthWedges == 8 && sPowerMeterStoredHealth == 7) {
         sPowerMeterVisibleTimer = 0;
-    }
+    //}
 
     // After health is full, hide power meter
-    if (numHealthWedges == 8 && sPowerMeterVisibleTimer > 45.0f) {
-        sPowerMeterHUD.animation = POWER_METER_HIDING;
-    }
+    //if (numHealthWedges == 8 && sPowerMeterVisibleTimer > 45.0f) {
+    //    sPowerMeterHUD.animation = POWER_METER_HIDING;
+    //}
 
     // Update to match health value
     sPowerMeterStoredHealth = numHealthWedges;
+    sPowerMeterHUD.y = HUD_POWER_METER_EMPHASIZED_Y;
 
 #ifndef BREATH_METER
     // If Mario is swimming, keep power meter visible
@@ -592,22 +593,18 @@ void render_debug_mode(void) {
  * Renders the amount of coins collected.
  */
 void render_hud_coins(void) {
-    print_text(HUD_COINS_X, HUD_TOP_Y, "$"); // 'Coin' glyph
-    print_text((HUD_COINS_X + 16), HUD_TOP_Y, "*"); // 'X' glyph
-    print_text_fmt_int((HUD_COINS_X + 30), HUD_TOP_Y, "%d", gHudDisplay.coins);
+    print_text(HUD_COINS_X, 24, "$"); // 'Coin' glyph
+    print_text((HUD_COINS_X + 32), 24, "*"); // 'X' glyph
+    print_text_fmt_int((HUD_COINS_X + 50), 24, "%d", gHudDisplay.coins);
 }
 
 /**
  * Renders the amount of stars collected.
- * Disables "X" glyph when Mario has 100 stars or more.
  */
 void render_hud_stars(void) {
-    if (gHudFlash == HUD_FLASH_STARS && gGlobalTimer & 0x8) return;
-    s8 showX = (gHudDisplay.stars < 100);
-    print_text(GFX_DIMENSIONS_RECT_FROM_RIGHT_EDGE(HUD_STARS_X), HUD_TOP_Y, "^"); // 'Star' glyph
-    if (showX) print_text((GFX_DIMENSIONS_RECT_FROM_RIGHT_EDGE(HUD_STARS_X) + 16), HUD_TOP_Y, "*"); // 'X' glyph
-    print_text_fmt_int((showX * 14) + GFX_DIMENSIONS_RECT_FROM_RIGHT_EDGE(HUD_STARS_X - 16),
-                       HUD_TOP_Y, "%d", gHudDisplay.stars);
+    print_text(HUD_STARS_X, 0, "^"); // 'Star' glyph
+    print_text((HUD_STARS_X + 32), 0, "*"); // 'X' glyph
+    print_text_fmt_int((HUD_STARS_X + 50), 0, "%d", gHudDisplay.stars);
 }
 
 /**
@@ -666,13 +663,13 @@ void set_hud_camera_status(s16 status) {
  */
 void render_hud_camera_status(void) {
     Texture *(*cameraLUT)[6] = segmented_to_virtual(&main_hud_camera_lut);
-    s32 x = GFX_DIMENSIONS_RECT_FROM_RIGHT_EDGE(HUD_CAMERA_X);
-    s32 y = 205;
+    s32 x = 16;
+    s32 y = 16;
 
     if (sCameraHUD.status == CAM_STATUS_NONE) {
         return;
     }
-
+/*
     gSPDisplayList(gDisplayListHead++, dl_hud_img_begin);
     render_hud_tex_lut(x, y, (*cameraLUT)[GLYPH_CAM_CAMERA]);
 
@@ -690,14 +687,14 @@ void render_hud_camera_status(void) {
 
     switch (sCameraHUD.status & CAM_STATUS_C_MODE_GROUP) {
         case CAM_STATUS_C_DOWN:
-            render_hud_small_tex_lut(x + 4, y + 16, (*cameraLUT)[GLYPH_CAM_ARROW_DOWN]);
+            render_hud_small_tex_lut(x, y, (*cameraLUT)[GLYPH_CAM_ARROW_DOWN]);
             break;
         case CAM_STATUS_C_UP:
-            render_hud_small_tex_lut(x + 4, y - 8, (*cameraLUT)[GLYPH_CAM_ARROW_UP]);
+            render_hud_small_tex_lut(x, y, (*cameraLUT)[GLYPH_CAM_ARROW_UP]);
             break;
     }
 
-    gSPDisplayList(gDisplayListHead++, dl_hud_img_end);
+    gSPDisplayList(gDisplayListHead++, dl_hud_img_end);*/
 }
 
 /**

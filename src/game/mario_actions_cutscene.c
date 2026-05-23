@@ -210,19 +210,7 @@ Gfx *geo_switch_peach_eyes(s32 callContext, struct GraphNode *node, UNUSED s32 c
  * numStars has reached a milestone and prevNumStarsForDialog has not reached it.
  */
 s32 get_star_collection_dialog(struct MarioState *m) {
-    s32 i;
     s32 dialogID = 0;
-    s32 numStarsRequired;
-
-    for (i = 0; i < ARRAY_COUNT(sStarsNeededForDialog); i++) {
-        numStarsRequired = sStarsNeededForDialog[i];
-        if (m->prevNumStarsForDialog < numStarsRequired && m->numStars >= numStarsRequired) {
-            dialogID = i + DIALOG_141;
-            break;
-        }
-    }
-
-    m->prevNumStarsForDialog = m->numStars;
     return dialogID;
 }
 
@@ -1612,8 +1600,6 @@ s32 act_squished(struct MarioState *m) {
         m->health = 0x00FF;
         m->hurtCounter = 0;
         level_trigger_warp(m, WARP_OP_DEATH);
-        // woosh, he's gone!
-        set_mario_action(m, ACT_DISAPPEARED, 0);
     }
     stop_and_set_height_to_floor(m);
     set_mario_animation(m, MARIO_ANIM_A_POSE);

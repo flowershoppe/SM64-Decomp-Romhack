@@ -13,7 +13,12 @@
 #endif
 
 DEFINE_DIALOG(DIALOG_000, 1, 6, 30, 200, _("\
-Hi lol."))
+If you haven't already,\n\
+try walking through that\n\
+heart over there.\n\
+It's a checkpoint, so\n\
+you'll return there if\n\
+you ever die."))
 
 DEFINE_DIALOG(DIALOG_001, 1, 4, 95, 200, _("\
 Watch out! If you wander\n\
@@ -194,12 +199,9 @@ Do you want to Save?\n\
 //Yes////No"))
 
 DEFINE_DIALOG(DIALOG_014, 1, 4, 30, 200, _("\
-Wow! Another Power Star!\n\
-Mario gains more courage\n\
-from the power of the\n\
-castle.\n\
+You found a Power Star!\n\
+Great work!\n\
 Do you want to Save?\n\
-\n\
 //You Bet//Not Now"))
 
 DEFINE_DIALOG(DIALOG_015, 1, 4, 30, 200, _("\

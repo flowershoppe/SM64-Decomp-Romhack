@@ -553,4 +553,5 @@ extern const BehaviorScript bhvOrbitingPlatform7[];
 extern const BehaviorScript bhvRotateSmall[];
 extern const BehaviorScript bhvBattleStarLoop[];
 extern const BehaviorScript bhvKingWhompStar[];
+extern const BehaviorScript bhvCheckpoint[];
 #endif // BEHAVIOR_DATA_H

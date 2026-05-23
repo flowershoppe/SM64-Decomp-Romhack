@@ -6217,3 +6217,13 @@ const BehaviorScript bhvKingWhompStar[] = {
         CALL_NATIVE(bhv_king_whomp_star_loop),
     END_LOOP(),
 };
+
+const BehaviorScript bhvCheckpoint[] = {
+    BEGIN(OBJ_LIST_SURFACE),
+    OR_INT(oFlags, OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE),
+    CALL_NATIVE(bhv_checkpoint_init),
+    SET_HOME(),
+    BEGIN_LOOP(),
+        CALL_NATIVE(bhv_checkpoint),
+    END_LOOP(),
+};

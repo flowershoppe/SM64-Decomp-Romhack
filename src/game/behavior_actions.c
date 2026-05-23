@@ -193,6 +193,7 @@ void spawn_sparkle_particles(s32 n, s32 radius, s32 height, s32 r) {
 #include "behaviors/rotate.inc.c"
 #include "behaviors/battle_star.inc.c"
 #include "behaviors/kingwhomp_star.inc.c"
+#include "behaviors/checkpoint.inc.c"
 
 void set_obj_anim_with_accel_and_sound(s16 frame1, s16 frame2, s32 sound) {
     s32 range = o->header.gfx.animInfo.animAccel / 0x10000;
