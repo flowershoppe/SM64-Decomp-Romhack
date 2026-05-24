@@ -38,10 +38,10 @@ void whomp_init(void) {
             DIALOG_FLAG_TURN_TO_MARIO, CUTSCENE_DIALOG, DIALOG_114)) {
             o->oAction = 2; 
             if(o->oActive == FALSE){            
-                spawn_object_relative(0, -500.0f, 1000.0f, 0, o, MODEL_GOOMBA, bhvGoomba);                 
-                spawn_object_relative(0, 500.0f, 1000.0f, 0, o, MODEL_GOOMBA, bhvGoomba); 
-                spawn_object_relative(0, 0, 1000.0f, -500.0f, o, MODEL_GOOMBA, bhvGoomba);                 
-                spawn_object_relative(0, 0, 1000.0f, 500.0f, o, MODEL_GOOMBA, bhvGoomba); 
+                spawn_object_relative(0, -500.0f, 0, 0, o, MODEL_WHOMP, bhvSmallWhomp);                 
+                spawn_object_relative(0, 500.0f, 0, 0, o, MODEL_WHOMP, bhvSmallWhomp); 
+                spawn_object_relative(0, 0, 0, -500.0f, o, MODEL_WHOMP, bhvSmallWhomp);                 
+                spawn_object_relative(0, 0, 0, 500.0f, o, MODEL_WHOMP, bhvSmallWhomp); 
                 o->oActive = TRUE;
             }
 

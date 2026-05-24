@@ -105,7 +105,7 @@ const GeoLayout jrb_area_1_geo[] = {
 		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_OPAQUE, -6904, -2182, 10314, 0, -121, 0, jrb_dl_Icosphere_008_mesh_layer_1),
 		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_OPAQUE, -5310, -2182, 5690, 0, -8, 0, jrb_dl_Icosphere_015_mesh_layer_1),
 		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_OPAQUE, 204, 2481, 1902, 0, -91, 0, jrb_dl_massive_pillar_mesh_layer_1),
-		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_ALPHA, 203, 1818, 1892, 0, -91, 0, jrb_dl_massive_pillar_003_mesh_layer_4),
+		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_ALPHA, -1523, 4007, 2349, 0, -91, 0, jrb_dl_massive_pillar_003_mesh_layer_4),
 		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_OPAQUE, 9029, 119, 6763, 90, 0, 69, jrb_dl_Mesh_Owl_mesh_layer_1),
 		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_OPAQUE, -10338, -314, 7691, 0, -114, 0, jrb_dl_mossy_stone_mesh_layer_1),
 		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_OPAQUE, -7701, -2659, 5441, -6, -54, 9, jrb_dl_mossy_stone_001_mesh_layer_1),
