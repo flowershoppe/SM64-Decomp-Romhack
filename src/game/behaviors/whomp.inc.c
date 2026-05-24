@@ -1,5 +1,8 @@
 // whomp.inc.c
 
+void set_active(void){
+    o->oActive = FALSE;
+}
 void whomp_play_sfx_from_pound_animation(void) {
     s32 playSound = FALSE;
 
@@ -34,10 +37,14 @@ void whomp_init(void) {
         } else if (cur_obj_update_dialog_with_cutscene(MARIO_DIALOG_LOOK_UP, 
             DIALOG_FLAG_TURN_TO_MARIO, CUTSCENE_DIALOG, DIALOG_114)) {
             o->oAction = 2; 
-            spawn_object_relative(0, -500.0f, 0, 0, o, MODEL_WHOMP, bhvSmallWhomp);                 
-            spawn_object_relative(0, 500.0f, 0, 0, o, MODEL_WHOMP, bhvSmallWhomp); 
-            spawn_object_relative(0, 0, 0, -500.0f, o, MODEL_WHOMP, bhvSmallWhomp);                 
-            spawn_object_relative(0, 0, 0, 500.0f, o, MODEL_WHOMP, bhvSmallWhomp); 
+            if(o->oActive == FALSE){            
+                spawn_object_relative(0, -500.0f, 1000.0f, 0, o, MODEL_GOOMBA, bhvGoomba);                 
+                spawn_object_relative(0, 500.0f, 1000.0f, 0, o, MODEL_GOOMBA, bhvGoomba); 
+                spawn_object_relative(0, 0, 1000.0f, -500.0f, o, MODEL_GOOMBA, bhvGoomba);                 
+                spawn_object_relative(0, 0, 1000.0f, 500.0f, o, MODEL_GOOMBA, bhvGoomba); 
+                o->oActive = TRUE;
+            }
+
         }
     } else if (o->oDistanceToMario < 1500.0f) {
         o->oAction = 2;
@@ -79,7 +86,7 @@ void whomp_patrol(void) {
 
     if (distWalked > patrolDist) {
         o->oAction = 7;
-    } else if (marioAngle < 0x2000) {
+    } else if (marioAngle > 0x0) {
         if (o->oDistanceToMario < 1500.0f) {
             o->oForwardVel = 9.0f;
             cur_obj_init_animation_with_accel_and_sound(0, 3.0f);
@@ -159,7 +166,7 @@ void king_whomp_on_ground(void) {
     if (o->oSubAction == 0) {
         if (cur_obj_is_mario_ground_pounding_platform()) {
             Vec3f pos;
-            o->oHealth--;
+            o->oHealth--;            
             cur_obj_play_sound_2(SOUND_OBJ2_WHOMP_SOUND_SHORT);
             cur_obj_play_sound_2(SOUND_OBJ_KING_WHOMP_DEATH);
             if (o->oHealth == 0) {
@@ -279,4 +286,3 @@ void bhv_whomp_loop(void) {
     cur_obj_move_standard(-20);
     load_object_collision_model();
     }
-

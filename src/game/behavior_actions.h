@@ -556,6 +556,7 @@ void bhv_battle_star_loop(void);
 void bhv_king_whomp_star_loop(void);
 void bhv_checkpoint(void);
 void bhv_checkpoint_init(void);
+void set_active(void);
 
 Gfx *geo_move_mario_part_from_parent(s32 callContext, UNUSED struct GraphNode *node, Mat4 mtx);
 

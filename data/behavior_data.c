@@ -3237,6 +3237,7 @@ const BehaviorScript bhvWhompKingBoss[] = {
 
 const BehaviorScript bhvSmallWhomp[] = {
     BEGIN(OBJ_LIST_SURFACE),
+    //CALL_NATIVE(set_active),
     SET_INT(oNumLootCoins, 5),
     // Whomp - common:
     OR_INT(oFlags, (OBJ_FLAG_COMPUTE_ANGLE_TO_MARIO | OBJ_FLAG_COMPUTE_DIST_TO_MARIO | OBJ_FLAG_SET_FACE_YAW_TO_MOVE_YAW | OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE)),
