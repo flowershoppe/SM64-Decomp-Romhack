@@ -38,10 +38,10 @@ void whomp_init(void) {
             DIALOG_FLAG_TURN_TO_MARIO, CUTSCENE_DIALOG, DIALOG_114)) {
             o->oAction = 2; 
             if(o->oActive == FALSE){            
-                spawn_object_relative(0, -500.0f, 0, 0, o, MODEL_WHOMP, bhvSmallWhomp);                 
-                spawn_object_relative(0, 500.0f, 0, 0, o, MODEL_WHOMP, bhvSmallWhomp); 
-                spawn_object_relative(0, 0, 0, -500.0f, o, MODEL_WHOMP, bhvSmallWhomp);                 
-                spawn_object_relative(0, 0, 0, 500.0f, o, MODEL_WHOMP, bhvSmallWhomp); 
+                spawn_object_relative(0, -500.0f, 0, 0, o, MODEL_WHOMP, bhvSmallWhomp);
+                spawn_object_relative(0, 0, 0, -500.0f, o, MODEL_WHOMP, bhvSmallWhomp);
+                spawn_object_relative(0, 500.0f, 0, 0, o, MODEL_WHOMP, bhvSmallWhomp);
+                spawn_object_relative(0, 0, 0, 500.0f, o, MODEL_WHOMP, bhvSmallWhomp);
                 o->oActive = TRUE;
             }
 
@@ -86,10 +86,12 @@ void whomp_patrol(void) {
 
     if (distWalked > patrolDist) {
         o->oAction = 7;
-    } else if (marioAngle > 0x0) {
+    }
+    if (marioAngle > 0x0) {
         if (o->oDistanceToMario < 1500.0f) {
             o->oForwardVel = 9.0f;
             cur_obj_init_animation_with_accel_and_sound(0, 3.0f);
+            o->oAction = 2;
         }
         if (o->oDistanceToMario < 300.0f) {
             o->oAction = 3;
@@ -111,7 +113,10 @@ void king_whomp_chase(void) {
                 o->oForwardVel = 9.0f;
                 cur_obj_init_animation_with_accel_and_sound(0, 3.0f);
             }
-            if (o->oDistanceToMario < 300.0f) {
+            if(o->oBehParams2ndByte != 0 && o->oDistanceToMario < 500.0f){
+                o->oAction = 3;
+            }
+            else if (o->oDistanceToMario < 300.0f) {
                 o->oAction = 3;
             }
         }
@@ -250,7 +255,7 @@ void whomp_die(void) {
             cur_obj_shake_screen(SHAKE_POS_SMALL);
             o->oPosY += 100.0f;
             cur_obj_play_sound_2(SOUND_OBJ_KING_WHOMP_DEATH);
-            o->oAction = 9;
+            stop_background_music(SEQUENCE_ARGS(4, SEQ_EVENT_BOSS));
             obj_mark_for_deletion(o);
         }
     } else {

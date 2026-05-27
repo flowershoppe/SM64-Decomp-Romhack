@@ -1607,11 +1607,6 @@ void render_pause_my_score_coins(void) {
     gSPDisplayList(gDisplayListHead++, dl_rgba16_text_begin);
     gDPSetEnvColor(gDisplayListHead++, 255, 255, 255, gDialogTextAlpha);
 
-    if (courseIndex <= COURSE_NUM_TO_INDEX(COURSE_STAGES_MAX)) {
-        print_hud_my_score_coins(1, gCurrSaveFileNum - 1, courseIndex, 178, 103);
-        print_hud_my_score_stars(gCurrSaveFileNum - 1, courseIndex, 118, 103);
-    }
-
     gSPDisplayList(gDisplayListHead++, dl_rgba16_text_end);
     gSPDisplayList(gDisplayListHead++, dl_ia_text_begin);
 
@@ -1619,26 +1614,29 @@ void render_pause_my_score_coins(void) {
 
     if (courseIndex <= COURSE_NUM_TO_INDEX(COURSE_STAGES_MAX)
         && (save_file_get_course_star_count(gCurrSaveFileNum - 1, courseIndex) != 0)) {
-        print_generic_string(MYSCORE_X, 121, LANGUAGE_ARRAY(textMyScore));
+        //print_generic_string(MYSCORE_X, 121, LANGUAGE_ARRAY(textMyScore));
     }
 
     u8 *courseName = segmented_to_virtual(courseNameTbl[courseIndex]);
 
     if (courseIndex <= COURSE_NUM_TO_INDEX(COURSE_STAGES_MAX)) {
-        print_generic_string(TXT_COURSE_X, 157, LANGUAGE_ARRAY(textCourse));
+        print_generic_string(TXT_COURSE_X, 200, LANGUAGE_ARRAY(textCourse));
         int_to_str(gCurrCourseNum, strCourseNum);
-        print_generic_string(CRS_NUM_X1, 157, strCourseNum);
+        print_generic_string(CRS_NUM_X1, 200, strCourseNum);
+        print_generic_string(LVL_NAME_X, 200, &courseName[3]);
 
-        u8 *actName = segmented_to_virtual(actNameTbl[COURSE_NUM_TO_INDEX(gCurrCourseNum) * 6 + gDialogCourseActNum - 1]);
-
-        if (starFlags & (1 << (gDialogCourseActNum - 1))) {
-            print_generic_string(TXT_STAR_X, 140, textStar);
-        } else {
-            print_generic_string(TXT_STAR_X, 140, textUnfilledStar);
+        for(int i = 0; i < 6; i++){
+            u16 actNum = gDialogCourseActNum - 1 + i;
+            u8 *actName = segmented_to_virtual(actNameTbl[COURSE_NUM_TO_INDEX(gCurrCourseNum) * 6 + actNum]);
+            u16 ACT_NAME_Y = 180 - (17 * i);
+            if (starFlags & (1 << (actNum))) {
+                print_generic_string(TXT_STAR_X, ACT_NAME_Y, textStar);
+            } else {
+                print_generic_string(TXT_STAR_X, ACT_NAME_Y, textUnfilledStar);
+            }
+            print_generic_string(ACT_NAME_X, ACT_NAME_Y, actName);
         }
 
-        print_generic_string(ACT_NAME_X, 140, actName);
-        print_generic_string(LVL_NAME_X, 157, &courseName[3]);
     } else {
         print_generic_string(SECRET_LVL_NAME_X, 157, &courseName[3]);
     }
@@ -1695,11 +1693,11 @@ void render_pause_course_options(s16 x, s16 y, s8 *index, s16 yIndex) {
     gSPDisplayList(gDisplayListHead++, dl_ia_text_begin);
     gDPSetEnvColor(gDisplayListHead++, 255, 255, 255, gDialogTextAlpha);
 
-    print_generic_string(x + 10, y - 2, LANGUAGE_ARRAY(textContinue));
+    print_generic_string(x + 10, y, LANGUAGE_ARRAY(textContinue));
     print_generic_string(x + 10, y - 17, LANGUAGE_ARRAY(textExitCourse));
 
-    if (*index != MENU_OPT_CAMERA_ANGLE_R) {
-        print_generic_string(x + 10, y - 33, LANGUAGE_ARRAY(textCameraAngleR));
+    //if (*index != MENU_OPT_CAMERA_ANGLE_R) {
+        //print_generic_string(x + 10, y - 33, LANGUAGE_ARRAY(textCameraAngleR));
         gSPDisplayList(gDisplayListHead++, dl_ia_text_end);
 
         create_dl_translation_matrix(MENU_MTX_PUSH, x - X_VAL8, (y - ((*index - 1) * yIndex)) - Y_VAL8, 0);
@@ -1707,11 +1705,11 @@ void render_pause_course_options(s16 x, s16 y, s8 *index, s16 yIndex) {
         gDPSetEnvColor(gDisplayListHead++, 255, 255, 255, gDialogTextAlpha);
         gSPDisplayList(gDisplayListHead++, dl_draw_triangle);
         gSPPopMatrix(gDisplayListHead++, G_MTX_MODELVIEW);
-    }
+    //}
 
-    if (*index == MENU_OPT_CAMERA_ANGLE_R) {
+    /*if (*index == MENU_OPT_CAMERA_ANGLE_R) {
         render_pause_camera_options(x - 42, y - 42, &gDialogCameraAngleIndex, 110);
-    }
+    }*/
 }
 
 void render_pause_castle_menu_box(s16 x, s16 y) {
@@ -1906,7 +1904,7 @@ s32 render_pause_courses_and_castle(void) {
 #else
             if (gMarioStates[0].action & ACT_FLAG_PAUSE_EXIT) {
 #endif
-                render_pause_course_options(99, 93, &gDialogLineNum, 15);
+                render_pause_course_options(104, 65, &gDialogLineNum, 15);
             }
 #endif
 
@@ -1949,7 +1947,7 @@ s32 render_pause_courses_and_castle(void) {
         gDialogTextAlpha += 25;
     }
 #ifdef PUPPYCAM
-    } else {
+    {} else {
         shade_screen();
         puppycam_display_options();
     }
