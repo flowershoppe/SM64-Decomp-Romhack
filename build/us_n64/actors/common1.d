@@ -110,6 +110,17 @@ build/us_n64/actors/common1.o: actors/common1.c \
  build/us_n64/actors/power_meter/power_meter_three_segments.rgba16.inc.c \
  build/us_n64/actors/power_meter/power_meter_two_segments.rgba16.inc.c \
  build/us_n64/actors/power_meter/power_meter_one_segment.rgba16.inc.c \
+ actors/breath_meter/model.inc.c \
+ build/us_n64/actors/breath_meter/breath_meter_left_side.rgba16.inc.c \
+ build/us_n64/actors/breath_meter/breath_meter_right_side.rgba16.inc.c \
+ build/us_n64/actors/breath_meter/breath_meter_full.rgba16.inc.c \
+ build/us_n64/actors/breath_meter/breath_meter_seven_segments.rgba16.inc.c \
+ build/us_n64/actors/breath_meter/breath_meter_six_segments.rgba16.inc.c \
+ build/us_n64/actors/breath_meter/breath_meter_five_segments.rgba16.inc.c \
+ build/us_n64/actors/breath_meter/breath_meter_four_segments.rgba16.inc.c \
+ build/us_n64/actors/breath_meter/breath_meter_three_segments.rgba16.inc.c \
+ build/us_n64/actors/breath_meter/breath_meter_two_segments.rgba16.inc.c \
+ build/us_n64/actors/breath_meter/breath_meter_one_segment.rgba16.inc.c \
  actors/mushroom_1up/model.inc.c \
  build/us_n64/actors/mushroom_1up/1-up_mushroom.rgba16.inc.c \
  actors/star/model.inc.c \

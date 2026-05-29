@@ -203,7 +203,7 @@ void scroll_jrb_dl_Cube_020_mesh_layer_5_vtx_0() {
 
 void scroll_jrb_dl_Cube_023_mesh_layer_5_vtx_0() {
 	int i = 0;
-	int count = 56;
+	int count = 52;
 	int width = 64 * 0x20;
 	int height = 64 * 0x20;
 
@@ -271,8 +271,8 @@ void scroll_jrb_dl_Cube_042_mesh_layer_1_vtx_1() {
 	int deltaY;
 	Vtx *vertices = segmented_to_virtual(jrb_dl_Cube_042_mesh_layer_1_vtx_1);
 
-	deltaX = (int)(0.30000001192092896 * 0x20) % width;
-	deltaY = (int)(0.30000001192092896 * 0x20) % height;
+	deltaX = (int)(0.20000000298023224 * 0x20) % width;
+	deltaY = (int)(0.20000000298023224 * 0x20) % height;
 
 	if (absi(currentX) > width) {
 		deltaX -= (int)(absi(currentX) / width) * width * signum_positive(deltaX);
@@ -300,8 +300,8 @@ void scroll_jrb_dl_Cube_044_mesh_layer_1_vtx_1() {
 	int deltaY;
 	Vtx *vertices = segmented_to_virtual(jrb_dl_Cube_044_mesh_layer_1_vtx_1);
 
-	deltaX = (int)(0.30000001192092896 * 0x20) % width;
-	deltaY = (int)(0.30000001192092896 * 0x20) % height;
+	deltaX = (int)(0.20000000298023224 * 0x20) % width;
+	deltaY = (int)(0.20000000298023224 * 0x20) % height;
 
 	if (absi(currentX) > width) {
 		deltaX -= (int)(absi(currentX) / width) * width * signum_positive(deltaX);
@@ -329,8 +329,8 @@ void scroll_jrb_dl_Cube_049_mesh_layer_1_vtx_0() {
 	int deltaY;
 	Vtx *vertices = segmented_to_virtual(jrb_dl_Cube_049_mesh_layer_1_vtx_0);
 
-	deltaX = (int)(0.30000001192092896 * 0x20) % width;
-	deltaY = (int)(0.30000001192092896 * 0x20) % height;
+	deltaX = (int)(0.20000000298023224 * 0x20) % width;
+	deltaY = (int)(0.20000000298023224 * 0x20) % height;
 
 	if (absi(currentX) > width) {
 		deltaX -= (int)(absi(currentX) / width) * width * signum_positive(deltaX);
@@ -358,8 +358,8 @@ void scroll_jrb_dl_Cube_050_mesh_layer_1_vtx_0() {
 	int deltaY;
 	Vtx *vertices = segmented_to_virtual(jrb_dl_Cube_050_mesh_layer_1_vtx_0);
 
-	deltaX = (int)(0.30000001192092896 * 0x20) % width;
-	deltaY = (int)(0.30000001192092896 * 0x20) % height;
+	deltaX = (int)(0.20000000298023224 * 0x20) % width;
+	deltaY = (int)(0.20000000298023224 * 0x20) % height;
 
 	if (absi(currentX) > width) {
 		deltaX -= (int)(absi(currentX) / width) * width * signum_positive(deltaX);
@@ -377,7 +377,7 @@ void scroll_jrb_dl_Cube_050_mesh_layer_1_vtx_0() {
 
 void scroll_jrb_dl_Cylinder_004_mesh_layer_1_vtx_0() {
 	int i = 0;
-	int count = 285;
+	int count = 282;
 	int width = 32 * 0x20;
 	int height = 32 * 0x20;
 
@@ -387,8 +387,8 @@ void scroll_jrb_dl_Cylinder_004_mesh_layer_1_vtx_0() {
 	int deltaY;
 	Vtx *vertices = segmented_to_virtual(jrb_dl_Cylinder_004_mesh_layer_1_vtx_0);
 
-	deltaX = (int)(0.30000001192092896 * 0x20) % width;
-	deltaY = (int)(0.30000001192092896 * 0x20) % height;
+	deltaX = (int)(0.20000000298023224 * 0x20) % width;
+	deltaY = (int)(0.20000000298023224 * 0x20) % height;
 
 	if (absi(currentX) > width) {
 		deltaX -= (int)(absi(currentX) / width) * width * signum_positive(deltaX);
@@ -406,7 +406,7 @@ void scroll_jrb_dl_Cylinder_004_mesh_layer_1_vtx_0() {
 
 void scroll_jrb_dl_Cylinder_005_mesh_layer_1_vtx_0() {
 	int i = 0;
-	int count = 297;
+	int count = 286;
 	int width = 32 * 0x20;
 	int height = 32 * 0x20;
 
@@ -416,8 +416,8 @@ void scroll_jrb_dl_Cylinder_005_mesh_layer_1_vtx_0() {
 	int deltaY;
 	Vtx *vertices = segmented_to_virtual(jrb_dl_Cylinder_005_mesh_layer_1_vtx_0);
 
-	deltaX = (int)(0.30000001192092896 * 0x20) % width;
-	deltaY = (int)(0.30000001192092896 * 0x20) % height;
+	deltaX = (int)(0.20000000298023224 * 0x20) % width;
+	deltaY = (int)(0.20000000298023224 * 0x20) % height;
 
 	if (absi(currentX) > width) {
 		deltaX -= (int)(absi(currentX) / width) * width * signum_positive(deltaX);
@@ -433,9 +433,9 @@ void scroll_jrb_dl_Cylinder_005_mesh_layer_1_vtx_0() {
 	currentX += deltaX;	currentY += deltaY;
 }
 
-void scroll_jrb_dl_Cylinder_006_mesh_layer_1_vtx_0() {
+void scroll_jrb_dl_Cylinder_007_mesh_layer_1_vtx_0() {
 	int i = 0;
-	int count = 99;
+	int count = 101;
 	int width = 32 * 0x20;
 	int height = 32 * 0x20;
 
@@ -443,10 +443,10 @@ void scroll_jrb_dl_Cylinder_006_mesh_layer_1_vtx_0() {
 	int deltaX;
 	static int currentY = 0;
 	int deltaY;
-	Vtx *vertices = segmented_to_virtual(jrb_dl_Cylinder_006_mesh_layer_1_vtx_0);
+	Vtx *vertices = segmented_to_virtual(jrb_dl_Cylinder_007_mesh_layer_1_vtx_0);
 
-	deltaX = (int)(0.30000001192092896 * 0x20) % width;
-	deltaY = (int)(0.30000001192092896 * 0x20) % height;
+	deltaX = (int)(0.20000000298023224 * 0x20) % width;
+	deltaY = (int)(0.20000000298023224 * 0x20) % height;
 
 	if (absi(currentX) > width) {
 		deltaX -= (int)(absi(currentX) / width) * width * signum_positive(deltaX);
@@ -507,6 +507,6 @@ void scroll_jrb() {
 	scroll_jrb_dl_Cube_050_mesh_layer_1_vtx_0();
 	scroll_jrb_dl_Cylinder_004_mesh_layer_1_vtx_0();
 	scroll_jrb_dl_Cylinder_005_mesh_layer_1_vtx_0();
-	scroll_jrb_dl_Cylinder_006_mesh_layer_1_vtx_0();
+	scroll_jrb_dl_Cylinder_007_mesh_layer_1_vtx_0();
 	scroll_jrb_dl_waterfall_mesh_layer_5_vtx_0();
 };

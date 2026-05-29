@@ -13,6 +13,6 @@ extern void scroll_jrb_dl_Cube_049_mesh_layer_1_vtx_0();
 extern void scroll_jrb_dl_Cube_050_mesh_layer_1_vtx_0();
 extern void scroll_jrb_dl_Cylinder_004_mesh_layer_1_vtx_0();
 extern void scroll_jrb_dl_Cylinder_005_mesh_layer_1_vtx_0();
-extern void scroll_jrb_dl_Cylinder_006_mesh_layer_1_vtx_0();
+extern void scroll_jrb_dl_Cylinder_007_mesh_layer_1_vtx_0();
 extern void scroll_jrb_dl_waterfall_mesh_layer_5_vtx_0();
 extern void scroll_jrb();

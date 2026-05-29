@@ -27,8 +27,8 @@
  **/
 
 #ifdef BREATH_METER
-#define HUD_BREATH_METER_X         40
-#define HUD_BREATH_METER_Y         32
+#define HUD_BREATH_METER_X         285
+#define HUD_BREATH_METER_Y         128
 #define HUD_BREATH_METER_HIDDEN_Y -20
 #endif
 

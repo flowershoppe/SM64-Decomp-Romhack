@@ -21,43 +21,16 @@ you'll return there if\n\
 you ever die."))
 
 DEFINE_DIALOG(DIALOG_001, 1, 4, 95, 200, _("\
-Watch out! If you wander\n\
-around here, you're liable\n\
-to be " PLASTERED " by a\n\
-water bomb!\n\
-Those enemy Bob-ombs love\n\
-to fight, and they're\n\
-always finding ways to\n\
-attack.\n\
-This meadow has become\n\
-a battlefield ever since\n\
-the Big Bob-omb got his\n\
-paws on the Power Star.\n\
-Can you recover the Star\n\
-for us? Cross the bridge\n\
-and go left up the path\n\
-to find the Big Bob-omb.\n\
-Please come back to see\n\
-me after you've retrieved\n\
-the Power Star!"))
+Everyone else already\n\
+fled! I was asleep when\n\
+Wally Whomp and his\n\
+goons attacked our\n\
+village. I'm too afraid\n\
+to leave now!"))
 
 DEFINE_DIALOG(DIALOG_002, 1, 4, 95, 200, _("\
-Hey, you! It's dangerous\n\
-ahead, so listen up! Take\n\
-my advice.\n\
-\n\
-Cross the two\n\
-bridges ahead, then\n\
-watch for falling\n\
-water bombs.\n\
-The Big Bob-omb at the\n\
-top of the mountain is\n\
-very powerful--don't let\n\
-him grab you!\n\
-We're Bob-omb Buddies,\n\
-and we're on your side.\n\
-You can talk to us\n\
-whenever you'd like to!"))
+8 CRIMSON COINS \n\
+5 GOLDEN POINTS"))
 
 DEFINE_DIALOG(DIALOG_003, 1, 5, 95, 200, _("\
 Thank you, Mario! The Big\n\
@@ -192,11 +165,10 @@ Would you like to Save?\n\
 //Yes////No"))
 
 DEFINE_DIALOG(DIALOG_013, 1, 5, 30, 200, _("\
-You've collected 100\n\
-coins! Mario gains more\n\
-power from the castle.\n\
+You found a Power Star!\n\
+Great work!\n\
 Do you want to Save?\n\
-//Yes////No"))
+//You Bet//Not Now"))
 
 DEFINE_DIALOG(DIALOG_014, 1, 4, 30, 200, _("\
 You found a Power Star!\n\

@@ -1620,21 +1620,29 @@ void render_pause_my_score_coins(void) {
     u8 *courseName = segmented_to_virtual(courseNameTbl[courseIndex]);
 
     if (courseIndex <= COURSE_NUM_TO_INDEX(COURSE_STAGES_MAX)) {
-        print_generic_string(TXT_COURSE_X, 200, LANGUAGE_ARRAY(textCourse));
+        print_generic_string(TXT_COURSE_X, 210, LANGUAGE_ARRAY(textCourse));
         int_to_str(gCurrCourseNum, strCourseNum);
-        print_generic_string(CRS_NUM_X1, 200, strCourseNum);
-        print_generic_string(LVL_NAME_X, 200, &courseName[3]);
+        print_generic_string(CRS_NUM_X1, 210, strCourseNum);
+        print_generic_string(LVL_NAME_X, 210, &courseName[3]);
 
         for(int i = 0; i < 6; i++){
             u16 actNum = gDialogCourseActNum - 1 + i;
             u8 *actName = segmented_to_virtual(actNameTbl[COURSE_NUM_TO_INDEX(gCurrCourseNum) * 6 + actNum]);
-            u16 ACT_NAME_Y = 180 - (17 * i);
+            u16 ACT_NAME_Y = 190 - (17 * i);
             if (starFlags & (1 << (actNum))) {
                 print_generic_string(TXT_STAR_X, ACT_NAME_Y, textStar);
             } else {
                 print_generic_string(TXT_STAR_X, ACT_NAME_Y, textUnfilledStar);
             }
             print_generic_string(ACT_NAME_X, ACT_NAME_Y, actName);
+        }
+        u8 goldStar[] = {TEXT_GOLD_STAR};
+        print_generic_string(ACT_NAME_X, 190 - (17 * 6), goldStar);
+        if(starFlags & STAR_FLAG_ACT_100_COINS){
+            print_generic_string(TXT_STAR_X, 190 - (17 * 6), textStar);
+        }
+        else{
+            print_generic_string(TXT_STAR_X, 190 - (17 * 6), textUnfilledStar);
         }
 
     } else {
