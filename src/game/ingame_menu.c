@@ -1955,7 +1955,7 @@ s32 render_pause_courses_and_castle(void) {
         gDialogTextAlpha += 25;
     }
 #ifdef PUPPYCAM
-    {} else {
+    } else {
         shade_screen();
         puppycam_display_options();
     }

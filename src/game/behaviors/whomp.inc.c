@@ -102,6 +102,9 @@ void whomp_patrol(void) {
 }
 
 void king_whomp_chase(void) {
+    if(o->oBehParams2ndByte != 0){        
+        play_music(SEQ_PLAYER_LEVEL, SEQUENCE_ARGS(4, SEQ_EVENT_BOSS), 0);
+    }
     cur_obj_init_animation_with_accel_and_sound(0, 1.0f);
     o->oForwardVel = 3.0f;
     cur_obj_rotate_yaw_toward(o->oAngleToMario, 0x200);
