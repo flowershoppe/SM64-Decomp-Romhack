@@ -59,21 +59,39 @@ build/us_n64/actors/common0_geo.o: actors/common0_geo.c \
  actors/orbiting_platform6/collision_header.h \
  actors/orbiting_platform6/geo_header.h \
  actors/orbiting_platform7/collision_header.h \
- actors/orbiting_platform7/geo_header.h actors/blue_coin_switch/geo.inc.c \
- actors/test_platform/geo.inc.c actors/amp/geo.inc.c \
- actors/cannon_lid/geo.inc.c actors/cannon_base/geo.inc.c \
- actors/cannon_barrel/geo.inc.c actors/chuckya/geo.inc.c \
- actors/purple_switch/geo.inc.c actors/checkerboard_platform/geo.inc.c \
- actors/heart/geo.inc.c actors/flyguy/geo.inc.c \
- actors/breakable_box/geo.inc.c actors/bowling_ball/geo.inc.c \
- actors/exclamation_box/geo.inc.c actors/goomba/geo.inc.c \
- actors/bobomb/geo.inc.c actors/metal_box/geo.inc.c \
- actors/exclamation_box_outline/geo.inc.c actors/koopa_shell/geo.inc.c \
- actors/giant_fan/geo.inc.c src/game/envfx_snow.h \
- actors/giant_fan_wide/geo.inc.c actors/small_fan/geo.inc.c \
- actors/magic_platform/geo.inc.c actors/custom_pole/geo.inc.c \
- actors/tilting_platform/geo.inc.c actors/barrier/geo.inc.c \
- actors/orbiting_platform1/geo.inc.c actors/orbiting_platform2/geo.inc.c \
- actors/orbiting_platform3/geo.inc.c actors/orbiting_platform4/geo.inc.c \
- actors/orbiting_platform5/geo.inc.c actors/orbiting_platform6/geo.inc.c \
- actors/orbiting_platform7/geo.inc.c
+ actors/orbiting_platform7/geo_header.h \
+ actors/interactive_tablet/geo_header.h \
+ actors/interactive_tablet/collision_header.h \
+ actors/interactive_tablet_podium/collision_header.h \
+ actors/interactive_tablet_podium/geo_header.h \
+ actors/block_swap_switch/collision_header.h \
+ actors/block_swap_switch/geo_header.h \
+ actors/block_swap_block/geo_header.h \
+ actors/block_swap_block/collision_header.h \
+ actors/fading_platform/collision_header.h \
+ actors/fading_platform/geo_header.h \
+ actors/silver_star_podium/geo_header.h actors/silver_star/geo_header.h \
+ actors/silver_star/anim_header.h actors/silver_star/anims/table_enum.h \
+ actors/sync_block/geo_header.h actors/sync_block/collision_header.h \
+ actors/blue_coin_switch/geo.inc.c actors/test_platform/geo.inc.c \
+ actors/amp/geo.inc.c actors/cannon_lid/geo.inc.c \
+ actors/cannon_base/geo.inc.c actors/cannon_barrel/geo.inc.c \
+ actors/chuckya/geo.inc.c actors/purple_switch/geo.inc.c \
+ actors/checkerboard_platform/geo.inc.c actors/heart/geo.inc.c \
+ actors/flyguy/geo.inc.c actors/breakable_box/geo.inc.c \
+ actors/bowling_ball/geo.inc.c actors/exclamation_box/geo.inc.c \
+ actors/goomba/geo.inc.c actors/bobomb/geo.inc.c \
+ actors/metal_box/geo.inc.c actors/exclamation_box_outline/geo.inc.c \
+ actors/koopa_shell/geo.inc.c actors/giant_fan/geo.inc.c \
+ src/game/envfx_snow.h actors/giant_fan_wide/geo.inc.c \
+ actors/small_fan/geo.inc.c actors/magic_platform/geo.inc.c \
+ actors/custom_pole/geo.inc.c actors/tilting_platform/geo.inc.c \
+ actors/barrier/geo.inc.c actors/orbiting_platform1/geo.inc.c \
+ actors/orbiting_platform2/geo.inc.c actors/orbiting_platform3/geo.inc.c \
+ actors/orbiting_platform4/geo.inc.c actors/orbiting_platform5/geo.inc.c \
+ actors/orbiting_platform6/geo.inc.c actors/orbiting_platform7/geo.inc.c \
+ actors/interactive_tablet/geo.inc.c \
+ actors/interactive_tablet_podium/geo.inc.c \
+ actors/block_swap_switch/geo.inc.c actors/block_swap_block/geo.inc.c \
+ actors/fading_platform/geo.inc.c actors/silver_star_podium/geo.inc.c \
+ actors/silver_star/geo.inc.c actors/sync_block/geo.inc.c

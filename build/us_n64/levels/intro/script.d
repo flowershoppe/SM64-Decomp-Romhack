@@ -65,6 +65,19 @@ build/us_n64/levels/intro/script.o: levels/intro/script.c \
  actors/orbiting_platform6/collision_header.h \
  actors/orbiting_platform6/geo_header.h \
  actors/orbiting_platform7/collision_header.h \
- actors/orbiting_platform7/geo_header.h actors/common1.h \
- include/make_const_nonconst.h levels/intro/header.h include/farcall.h \
- src/game/print.h src/game/object_list_processor.h
+ actors/orbiting_platform7/geo_header.h \
+ actors/interactive_tablet/geo_header.h \
+ actors/interactive_tablet/collision_header.h \
+ actors/interactive_tablet_podium/collision_header.h \
+ actors/interactive_tablet_podium/geo_header.h \
+ actors/block_swap_switch/collision_header.h \
+ actors/block_swap_switch/geo_header.h \
+ actors/block_swap_block/geo_header.h \
+ actors/block_swap_block/collision_header.h \
+ actors/fading_platform/collision_header.h \
+ actors/fading_platform/geo_header.h \
+ actors/silver_star_podium/geo_header.h actors/silver_star/geo_header.h \
+ actors/silver_star/anim_header.h actors/silver_star/anims/table_enum.h \
+ actors/sync_block/geo_header.h actors/sync_block/collision_header.h \
+ actors/common1.h include/make_const_nonconst.h levels/intro/header.h \
+ include/farcall.h src/game/print.h src/game/object_list_processor.h

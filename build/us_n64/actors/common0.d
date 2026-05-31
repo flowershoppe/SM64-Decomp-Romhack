@@ -129,4 +129,17 @@ build/us_n64/actors/common0.o: actors/common0.c \
  actors/orbiting_platform6/collision.inc.c \
  actors/orbiting_platform6/model.inc.c \
  actors/orbiting_platform7/collision.inc.c \
- actors/orbiting_platform7/model.inc.c
+ actors/orbiting_platform7/model.inc.c \
+ actors/interactive_tablet/model.inc.c \
+ actors/interactive_tablet/collision.inc.c \
+ actors/interactive_tablet_podium/collision.inc.c \
+ actors/interactive_tablet_podium/model.inc.c \
+ actors/block_swap_switch/collision.inc.c \
+ actors/block_swap_switch/model.inc.c actors/block_swap_block/model.inc.c \
+ actors/block_swap_block/collision.inc.c \
+ actors/fading_platform/collision.inc.c \
+ actors/fading_platform/model.inc.c actors/silver_star_podium/model.inc.c \
+ actors/silver_star/model.inc.c actors/silver_star/anims/data.inc.c \
+ actors/silver_star/anims/table.inc.c \
+ actors/silver_star/anims/table_enum.h actors/sync_block/model.inc.c \
+ actors/sync_block/collision.inc.c

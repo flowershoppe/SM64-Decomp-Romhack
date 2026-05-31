@@ -820,3 +820,8 @@ void obj_spit_fire(s16 relativePosX, s16 relativePosY, s16 relativePosZ, f32 sca
 #include "behaviors/reds_star_marker.inc.c"
 #include "behaviors/triplet_butterfly.inc.c"
 #include "behaviors/bubba.inc.c"
+#include "behaviors/interactive_tablet.inc.c"
+#include "behaviors/block_swap.inc.c"
+#include "behaviors/fading_platform.inc.c"
+#include "behaviors/silver_star.inc.c"
+#include "behaviors/sync_block.inc.c"

@@ -174,6 +174,14 @@ static const LevelScript script_exec_ ## folder [] = { \
 #undef DEFINE_LEVEL
 
 const LevelScript script_func_global_1[] = {
+    LOAD_MODEL_FROM_GEO(MODEL_SYNC_BLOCK,      sync_block_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_SILVER_STAR,      silver_star_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_SILVER_STAR_PODIUM,      silver_star_podium_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_FADING_PLATFORM,      fading_platform_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_BLOCK_SWAP_SWITCH,      block_swap_switch_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_BLOCK_SWAP_BLOCK,      block_swap_block_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_INTERACTIVE_TABLET,      interactive_tablet_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_INTERACTIVE_TABLET_PODIUM,      interactive_tablet_podium_geo),
     LOAD_MODEL_FROM_GEO(MODEL_ORBITING_PLATFORM7, orbiting_platform7_geo),
     LOAD_MODEL_FROM_GEO(MODEL_ORBITING_PLATFORM6, orbiting_platform6_geo),
     LOAD_MODEL_FROM_GEO(MODEL_ORBITING_PLATFORM5, orbiting_platform5_geo),

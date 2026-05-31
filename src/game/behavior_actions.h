@@ -558,6 +558,35 @@ void bhv_checkpoint(void);
 void bhv_checkpoint_init(void);
 void set_active(void);
 
+Gfx *interactive_tablet_state(s32 callContext, struct GraphNode *node);
+void interactive_tablet_init(void);
+void interactive_tablet_loop(void);
+void interactive_tablet_podium_init(void);
+void interactive_tablet_podium_loop(void);
+
+Gfx *block_swap_switch_func(s32 callContext, struct GraphNode *node);
+void block_swap_switch_init(void);
+void block_swap_switch_loop(void);
+
+Gfx *block_swap_block_color_func(s32 callContext, struct GraphNode *node);
+Gfx *block_swap_block_state_func(s32 callContext, struct GraphNode *node);
+void block_swap_block_init(void);
+void block_swap_block_loop(void);
+
+Gfx *fading_platform_scale(s32 callContext, struct GraphNode *node);
+void fading_platform_init(void);
+void fading_platform_loop(void);
+
+Gfx *silver_star_size_func(s32 callContext, struct GraphNode *node);
+void silver_star_init(void);
+void silver_star_loop(void);
+void silver_star_podium_init(void);
+void silver_star_podium_loop(void);
+
+Gfx *sync_block_color(s32 callContext, struct GraphNode *node);
+void sync_block_color_init(void);
+void sync_block_color_loop(void);
+
 Gfx *geo_move_mario_part_from_parent(s32 callContext, UNUSED struct GraphNode *node, Mat4 mtx);
 
 // Bowser

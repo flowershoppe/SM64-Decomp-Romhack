@@ -6228,3 +6228,94 @@ const BehaviorScript bhvCheckpoint[] = {
         CALL_NATIVE(bhv_checkpoint),
     END_LOOP(),
 };
+
+const BehaviorScript bhvInteractiveTablet[] = {
+    BEGIN(OBJ_LIST_SURFACE),
+    OR_INT(oFlags, OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE | OBJ_FLAG_COMPUTE_DIST_TO_MARIO),
+    SET_FLOAT(oDrawingDistance, 10000),
+    LOAD_COLLISION_DATA(interactive_tablet_collision),
+    CALL_NATIVE(interactive_tablet_init),
+    BEGIN_LOOP(),
+        CALL_NATIVE(interactive_tablet_loop),
+        CALL_NATIVE(load_object_collision_model),
+    END_LOOP(),
+};
+
+const BehaviorScript bhvInteractiveTabletPodium[] = {
+    BEGIN(OBJ_LIST_SURFACE),
+    OR_INT(oFlags, OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE),
+    SET_FLOAT(oDrawingDistance, 10000),
+    LOAD_COLLISION_DATA(interactive_tablet_podium_collision),
+    CALL_NATIVE(interactive_tablet_podium_init),
+    BEGIN_LOOP(),
+        CALL_NATIVE(interactive_tablet_podium_loop),
+        CALL_NATIVE(load_object_collision_model),
+    END_LOOP(),
+};
+
+const BehaviorScript bhvBlockSwapSwitch[] = {
+    BEGIN(OBJ_LIST_SURFACE),
+    OR_INT(oFlags, OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE | OBJ_FLAG_COMPUTE_DIST_TO_MARIO),
+    SET_FLOAT(oDrawingDistance, 10000),
+    LOAD_COLLISION_DATA(block_swap_switch_collision),
+    CALL_NATIVE(block_swap_switch_init),
+    BEGIN_LOOP(),
+        CALL_NATIVE(block_swap_switch_loop),
+        CALL_NATIVE(load_object_collision_model),
+    END_LOOP(),
+};
+
+const BehaviorScript bhvBlockSwapBlock[] = {
+    BEGIN(OBJ_LIST_SURFACE),
+    OR_INT(oFlags, OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE),
+    SET_FLOAT(oDrawingDistance, 10000),
+    LOAD_COLLISION_DATA(block_swap_block_collision),
+    CALL_NATIVE(block_swap_block_init),
+    BEGIN_LOOP(),
+        CALL_NATIVE(block_swap_block_loop),
+    END_LOOP(),
+};
+
+const BehaviorScript bhvFadingPlatform[] = {
+    BEGIN(OBJ_LIST_SURFACE),
+    OR_INT(oFlags, OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE),
+    SET_FLOAT(oDrawingDistance, 10000),
+    LOAD_COLLISION_DATA(fading_platform_collision),
+    CALL_NATIVE(fading_platform_init),
+    BEGIN_LOOP(),
+        CALL_NATIVE(fading_platform_loop),
+    END_LOOP(),
+};
+
+const BehaviorScript bhvSilverStar[] = {
+    BEGIN(OBJ_LIST_LEVEL),
+    OR_INT(oFlags, OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE | OBJ_FLAG_COMPUTE_DIST_TO_MARIO),
+    SET_FLOAT(oDrawingDistance, 10000),
+    LOAD_ANIMATIONS(oAnimations, silver_star_anims),
+    ANIMATE(0),
+    CALL_NATIVE(silver_star_init),
+    BEGIN_LOOP(),
+        CALL_NATIVE(silver_star_loop),
+    END_LOOP(),
+};
+
+const BehaviorScript bhvSilverStarPodium[] = {
+    BEGIN(OBJ_LIST_DEFAULT),
+    OR_INT(oFlags, OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE),
+    SET_FLOAT(oDrawingDistance, 10000),
+    CALL_NATIVE(silver_star_podium_init),
+    BEGIN_LOOP(),
+        CALL_NATIVE(silver_star_podium_loop),
+    END_LOOP(),
+};
+
+const BehaviorScript bhvSyncBlock[] = {
+    BEGIN(OBJ_LIST_SURFACE),
+    OR_INT(oFlags, OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE | OBJ_FLAG_COMPUTE_DIST_TO_MARIO),
+    SET_FLOAT(oDrawingDistance, 10000),
+    LOAD_COLLISION_DATA(sync_block_collision),
+    CALL_NATIVE(sync_block_color_init),
+    BEGIN_LOOP(),
+        CALL_NATIVE(sync_block_color_loop),
+    END_LOOP(),
+};

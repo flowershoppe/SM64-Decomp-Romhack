@@ -45,11 +45,11 @@ build/us_n64/actors/common1.o: actors/common1.c \
  actors/butterfly/anims/anim_030055B0.inc.c \
  actors/butterfly/anims/anim_03005698.inc.c \
  actors/butterfly/anims/table.inc.c actors/coin/model.inc.c \
- build/us_n64/actors/coin/coin_front.ia16.inc.c \
- build/us_n64/actors/coin/coin_tilt_right.ia16.inc.c \
- build/us_n64/actors/coin/coin_side.ia16.inc.c \
- build/us_n64/actors/coin/coin_tilt_left.ia16.inc.c \
- actors/warp_pipe/model.inc.c \
+ build/us_n64/actors/coin/coin_0.ia8.inc.c \
+ build/us_n64/actors/coin/coin_22_5.ia8.inc.c \
+ build/us_n64/actors/coin/coin_45.ia8.inc.c \
+ build/us_n64/actors/coin/coin_67_5.ia8.inc.c \
+ build/us_n64/actors/coin/coin_90.ia8.inc.c actors/warp_pipe/model.inc.c \
  build/us_n64/actors/warp_pipe/warp_pipe_side.custom.rgba16.inc.c \
  build/us_n64/actors/warp_pipe/warp_pipe_top.rgba16.inc.c \
  actors/warp_pipe/collision.inc.c actors/door/model.inc.c \

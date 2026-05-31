@@ -554,4 +554,12 @@ extern const BehaviorScript bhvRotateSmall[];
 extern const BehaviorScript bhvBattleStarLoop[];
 extern const BehaviorScript bhvKingWhompStar[];
 extern const BehaviorScript bhvCheckpoint[];
+extern const BehaviorScript bhvInteractiveTablet[];
+extern const BehaviorScript bhvInteractiveTabletPodium[];
+extern const BehaviorScript bhvBlockSwapSwitch[];
+extern const BehaviorScript bhvBlockSwapBlock[];
+extern const BehaviorScript bhvFadingPlatform[];
+extern const BehaviorScript bhvSilverStar[];
+extern const BehaviorScript bhvSilverStarPodium[];
+extern const BehaviorScript bhvSyncBlock[];
 #endif // BEHAVIOR_DATA_H

@@ -18,6 +18,14 @@
 #define MODEL_SMALL_FAN                   251
 #define MODEL_GIANT_FAN_WIDE              252
 #define MODEL_GIANT_FAN                   253
+#define MODEL_INTERACTIVE_TABLET          239
+#define MODEL_INTERACTIVE_TABLET_PODIUM   238
+#define MODEL_BLOCK_SWAP_SWITCH           237
+#define MODEL_BLOCK_SWAP_BLOCK            236
+#define MODEL_FADING_PLATFORM             235
+#define MODEL_SILVER_STAR                 234
+#define MODEL_SILVER_STAR_PODIUM          233
+#define MODEL_SYNC_BLOCK                  232
 
 /* Global models that are loaded for every level */
 

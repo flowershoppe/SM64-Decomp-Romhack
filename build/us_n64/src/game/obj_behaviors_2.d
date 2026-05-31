@@ -56,8 +56,22 @@ build/us_n64/src/game/obj_behaviors_2.o: src/game/obj_behaviors_2.c \
  actors/orbiting_platform6/collision_header.h \
  actors/orbiting_platform6/geo_header.h \
  actors/orbiting_platform7/collision_header.h \
- actors/orbiting_platform7/geo_header.h actors/group11.h actors/group17.h \
- src/audio/external.h include/level_table.h src/game/behavior_actions.h \
+ actors/orbiting_platform7/geo_header.h \
+ actors/interactive_tablet/geo_header.h \
+ actors/interactive_tablet/collision_header.h \
+ actors/interactive_tablet_podium/collision_header.h \
+ actors/interactive_tablet_podium/geo_header.h \
+ actors/block_swap_switch/collision_header.h \
+ actors/block_swap_switch/geo_header.h \
+ actors/block_swap_block/geo_header.h \
+ actors/block_swap_block/collision_header.h \
+ actors/fading_platform/collision_header.h \
+ actors/fading_platform/geo_header.h \
+ actors/silver_star_podium/geo_header.h actors/silver_star/geo_header.h \
+ actors/silver_star/anim_header.h actors/silver_star/anims/table_enum.h \
+ actors/sync_block/geo_header.h actors/sync_block/collision_header.h \
+ actors/group11.h actors/group17.h src/audio/external.h \
+ include/level_table.h src/game/behavior_actions.h \
  include/behavior_data.h src/game/camera.h src/game/area.h \
  src/engine/graph_node.h include/geo_commands.h \
  include/command_macros_base.h src/game/shadow.h \
@@ -124,4 +138,8 @@ build/us_n64/src/game/obj_behaviors_2.o: src/game/obj_behaviors_2.c \
  src/game/behaviors/ddd_pole.inc.c \
  src/game/behaviors/reds_star_marker.inc.c \
  src/game/behaviors/triplet_butterfly.inc.c \
- src/game/behaviors/bubba.inc.c
+ src/game/behaviors/bubba.inc.c \
+ src/game/behaviors/interactive_tablet.inc.c \
+ src/game/behaviors/block_swap.inc.c \
+ src/game/behaviors/fading_platform.inc.c \
+ src/game/behaviors/silver_star.inc.c src/game/behaviors/sync_block.inc.c
