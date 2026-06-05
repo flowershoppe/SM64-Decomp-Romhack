@@ -823,9 +823,9 @@ u32 set_mario_action_airborne(struct MarioState *m, u32 action, u32 actionArg) {
             break;
 
         case ACT_DIVE:
-            if ((forwardVel = m->forwardVel + 15.0f) > 48.0f) {
-                forwardVel = 48.0f;
-            }
+            m->faceAngle[1] = m->intendedYaw;
+            forwardVel = 48.0f;
+            
             mario_set_forward_vel(m, forwardVel);
             break;
 
@@ -974,6 +974,11 @@ u32 set_mario_action(struct MarioState *m, u32 action, u32 actionArg) {
  * Puts Mario into a specific jumping action from a landing action.
  */
 s32 set_jump_from_landing(struct MarioState *m) {
+    if(m->floor->object != NULL){
+        if(m->floor->object->behavior == segmented_to_virtual(bhvInteractiveTablet)){
+            return FALSE;
+        }
+    }
     if (m->quicksandDepth >= 11.0f) {
         if (m->heldObj == NULL) {
             return set_mario_action(m, ACT_QUICKSAND_JUMP_LAND, 0);
@@ -984,7 +989,7 @@ s32 set_jump_from_landing(struct MarioState *m) {
 
     if (mario_floor_is_steep(m)) {
         set_steep_jump_action(m);
-    } else {
+    } else{
         if ((m->doubleJumpTimer == 0) || (m->squishTimer != 0)) {
             set_mario_action(m, ACT_JUMP, 0);
         } else {
@@ -1072,6 +1077,11 @@ s32 hurt_and_set_mario_action(struct MarioState *m, u32 action, u32 actionArg, s
  */
 s32 check_common_action_exits(struct MarioState *m) {
     if (m->input & INPUT_A_PRESSED) {
+        if(m->floor->object != NULL){
+            if(m->floor->object->behavior == segmented_to_virtual(bhvInteractiveTablet)){
+                return FALSE;
+            }
+        }
         return set_mario_action(m, ACT_JUMP, 0);
     }
     if (m->input & INPUT_OFF_FLOOR) {

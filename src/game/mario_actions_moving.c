@@ -132,11 +132,16 @@ void slide_bonk(struct MarioState *m, u32 fastAction, u32 slowAction) {
 }
 
 s32 set_triple_jump_action(struct MarioState *m, UNUSED u32 action, UNUSED u32 actionArg) {
+    if(m->floor->object != NULL){
+        if(m->floor->object->behavior == segmented_to_virtual(bhvInteractiveTablet)){
+            return FALSE;
+        }
+    }
     if (m->flags & MARIO_WING_CAP) {
         return set_mario_action(m, ACT_FLYING_TRIPLE_JUMP, 0);
     } else if (m->forwardVel > 20.0f) {
         return set_mario_action(m, ACT_TRIPLE_JUMP, 0);
-    } else {
+    } else{
         return set_mario_action(m, ACT_JUMP, 0);
     }
 
@@ -488,8 +493,12 @@ s32 check_ground_dive_or_punch(struct MarioState *m) {
     if (m->input & INPUT_B_PRESSED) {
         //! Speed kick (shoutouts to SimpleFlips)
         if (m->forwardVel >= 29.0f && m->controller->stickMag > 48.0f) {
-            m->vel[1] = 20.0f;
-            return set_mario_action(m, ACT_DIVE, 1);
+            if(m->floor->object != NULL){
+                if(m->floor->object->behavior != segmented_to_virtual(bhvInteractiveTablet)){
+                    m->vel[1] = 20.0f;
+                    return set_mario_action(m, ACT_DIVE, 1);
+                }
+            }
         }
 
         return set_mario_action(m, ACT_MOVE_PUNCHING, 0);
@@ -766,6 +775,11 @@ s32 act_walking(struct MarioState *m) {
     }
 
     if (m->input & INPUT_A_PRESSED) {
+        if(m->floor->object != NULL){
+            if(m->floor->object->behavior == segmented_to_virtual(bhvInteractiveTablet)){
+                return FALSE;
+            }
+        }
 #ifdef EASIER_LONG_JUMPS
         if (m->input & INPUT_Z_PRESSED && m->forwardVel > 10.0f) {
             return set_mario_action(m, ACT_CROUCH_SLIDE, 0);
@@ -829,7 +843,12 @@ s32 act_move_punching(struct MarioState *m) {
     }
 
     if (m->actionState == ACT_STATE_MOVE_PUNCHING_CAN_JUMP_KICK && (m->input & INPUT_A_DOWN)) {
-        return set_mario_action(m, ACT_JUMP_KICK, 0);
+        if(m->floor->object != NULL){
+            if(m->floor->object->behavior == segmented_to_virtual(bhvInteractiveTablet)){
+                return FALSE;
+            }
+        }
+       return set_mario_action(m, ACT_JUMP_KICK, 0);
     }
 
     m->actionState = ACT_STATE_MOVE_PUNCHING_NO_JUMP_KICK;
@@ -876,6 +895,11 @@ s32 act_hold_walking(struct MarioState *m) {
     }
 
     if (m->input & INPUT_A_PRESSED) {
+        if(m->floor->object != NULL){
+            if(m->floor->object->behavior == segmented_to_virtual(bhvInteractiveTablet)){
+                return FALSE;
+            }
+        }
         return set_jumping_action(m, ACT_HOLD_JUMP, 0);
     }
 
@@ -951,6 +975,11 @@ s32 act_turning_around(struct MarioState *m) {
     }
 
     if (m->input & INPUT_A_PRESSED) {
+        if(m->floor->object != NULL){
+            if(m->floor->object->behavior == segmented_to_virtual(bhvInteractiveTablet)){
+                return FALSE;
+            }
+        }
         return set_jumping_action(m, ACT_SIDE_FLIP, 0);
     }
 
@@ -1002,6 +1031,11 @@ s32 act_finish_turning_around(struct MarioState *m) {
     }
 
     if (m->input & INPUT_A_PRESSED) {
+        if(m->floor->object != NULL){
+            if(m->floor->object->behavior == segmented_to_virtual(bhvInteractiveTablet)){
+                return FALSE;
+            }
+        }
         return set_jumping_action(m, ACT_SIDE_FLIP, 0);
     }
 
@@ -1079,6 +1113,11 @@ s32 act_decelerating(struct MarioState *m) {
         }
 
         if (m->input & INPUT_A_PRESSED) {
+            if(m->floor->object != NULL){
+                if(m->floor->object->behavior == segmented_to_virtual(bhvInteractiveTablet)){
+                    return FALSE;
+                }
+            }
             return set_jump_from_landing(m);
         }
 
@@ -1148,6 +1187,11 @@ s32 act_hold_decelerating(struct MarioState *m) {
     }
 
     if (m->input & INPUT_A_PRESSED) {
+        if(m->floor->object != NULL){
+            if(m->floor->object->behavior == segmented_to_virtual(bhvInteractiveTablet)){
+                return FALSE;
+            }
+        }
         return set_jumping_action(m, ACT_HOLD_JUMP, 0);
     }
 
@@ -1202,6 +1246,11 @@ s32 act_riding_shell_ground(struct MarioState *m) {
     s16 startYaw = m->faceAngle[1];
 
     if (m->input & INPUT_A_PRESSED) {
+        if(m->floor->object != NULL){
+            if(m->floor->object->behavior == segmented_to_virtual(bhvInteractiveTablet)){
+                return FALSE;
+            }
+        }
         return set_mario_action(m, ACT_RIDING_SHELL_JUMP, 0);
     }
 
@@ -1255,6 +1304,11 @@ s32 act_crawling(struct MarioState *m) {
     }
 
     if (m->input & INPUT_A_PRESSED) {
+        if(m->floor->object != NULL){
+            if(m->floor->object->behavior == segmented_to_virtual(bhvInteractiveTablet)){
+                return FALSE;
+            }
+        }
         return set_jumping_action(m, ACT_JUMP, 0);
     }
 
@@ -1299,6 +1353,11 @@ s32 act_crawling(struct MarioState *m) {
 
 s32 act_burning_ground(struct MarioState *m) {
     if (m->input & INPUT_A_PRESSED) {
+        if(m->floor->object != NULL){
+            if(m->floor->object->behavior == segmented_to_virtual(bhvInteractiveTablet)){
+                return FALSE;
+            }
+        }
         return set_mario_action(m, ACT_BURNING_JUMP, 0);
     }
 
@@ -1414,6 +1473,11 @@ s32 common_slide_action_with_jump(struct MarioState *m, u32 stopAction, u32 jump
     }
     if (m->actionTimer == 5) {
         if (m->actionState == 1) {
+            if(m->floor->object != NULL){
+                if(m->floor->object->behavior == segmented_to_virtual(bhvInteractiveTablet)){
+                    return FALSE;
+                }
+            }
             return set_jumping_action(m, jumpAction, 0);
         }
     } else {
@@ -1422,6 +1486,11 @@ s32 common_slide_action_with_jump(struct MarioState *m, u32 stopAction, u32 jump
 #else
     if (m->actionTimer == 5) {
         if (m->input & INPUT_A_PRESSED) {
+            if(m->floor->object != NULL){
+                if(m->floor->object->behavior == segmented_to_virtual(bhvInteractiveTablet)){
+                    return FALSE;
+                }
+            }
             return set_jumping_action(m, jumpAction, 0);
         }
     } else {
@@ -1463,6 +1532,11 @@ s32 act_crouch_slide(struct MarioState *m) {
     if (m->actionTimer < 30) {
         m->actionTimer++;
         if (m->input & INPUT_A_PRESSED) {
+            if(m->floor->object != NULL){
+                if(m->floor->object->behavior == segmented_to_virtual(bhvInteractiveTablet)){
+                    return FALSE;
+                }
+            }
             if (m->forwardVel > 10.0f) {
                 return set_jumping_action(m, ACT_LONG_JUMP, 0);
             }
@@ -1478,6 +1552,11 @@ s32 act_crouch_slide(struct MarioState *m) {
     }
 
     if (m->input & INPUT_A_PRESSED) {
+        if(m->floor->object != NULL){
+            if(m->floor->object->behavior == segmented_to_virtual(bhvInteractiveTablet)){
+                return FALSE;
+            }
+        }
         return set_jumping_action(m, ACT_JUMP, 0);
     }
 
@@ -1491,6 +1570,11 @@ s32 act_crouch_slide(struct MarioState *m) {
 
 s32 act_slide_kick_slide(struct MarioState *m) {
     if (m->input & INPUT_A_PRESSED) {
+        if(m->floor->object != NULL){
+            if(m->floor->object->behavior == segmented_to_virtual(bhvInteractiveTablet)){
+                return FALSE;
+            }
+        }
 #if ENABLE_RUMBLE
         queue_rumble_data(5, 80);
 #endif
@@ -1526,6 +1610,11 @@ s32 stomach_slide_action(struct MarioState *m, u32 stopAction, u32 airAction, s3
 #if ENABLE_RUMBLE
             queue_rumble_data(5, 80);
 #endif
+        if(m->floor->object != NULL){
+            if(m->floor->object->behavior == segmented_to_virtual(bhvInteractiveTablet)){
+                return FALSE;
+            }
+        }
             return drop_and_set_mario_action(
                 m, m->forwardVel >= 0.0f ? ACT_FORWARD_ROLLOUT : ACT_BACKWARD_ROLLOUT, 0);
         }
@@ -1558,6 +1647,11 @@ s32 act_dive_slide(struct MarioState *m) {
 #if ENABLE_RUMBLE
         queue_rumble_data(5, 80);
 #endif
+        if(m->floor->object != NULL){
+            if(m->floor->object->behavior == segmented_to_virtual(bhvInteractiveTablet)){
+                return FALSE;
+            }
+        }
         return set_mario_action(m, m->forwardVel > 0.0f ? ACT_FORWARD_ROLLOUT : ACT_BACKWARD_ROLLOUT,
                                 0);
     }
@@ -1770,6 +1864,11 @@ s32 common_landing_cancels(struct MarioState *m, struct LandingAction *landingAc
     }
 
     if (m->input & INPUT_A_PRESSED) {
+        if(m->floor->object != NULL){
+            if(m->floor->object->behavior == segmented_to_virtual(bhvInteractiveTablet)){
+                return FALSE;
+            }
+        }
         return setAPressAction(m, landingAction->aPressedAction, 0);
     }
 

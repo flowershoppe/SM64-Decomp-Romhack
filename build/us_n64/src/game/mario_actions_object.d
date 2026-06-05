@@ -38,4 +38,12 @@ build/us_n64/src/game/mario_actions_object.o: \
  src/game/mario_actions_object.h include/types.h src/game/mario_step.h \
  src/game/mario.h include/macros.h src/audio/external.h \
  include/level_table.h src/game/interaction.h src/engine/math_util.h \
- src/game/puppyprint.h src/game/profiling.h src/game/rumble_init.h
+ src/game/puppyprint.h src/game/profiling.h src/game/rumble_init.h \
+ src/engine/surface_collision.h include/config/config_world.h \
+ src/game/area.h src/game/camera.h src/engine/geo_layout.h \
+ src/game/memory.h src/engine/graph_node.h include/geo_commands.h \
+ include/command_macros_base.h src/game/shadow.h \
+ src/game/object_helpers.h src/game/behavior_actions.h \
+ src/game/segment2.h src/game/mario_misc.h \
+ src/game/mario_actions_cutscene.h src/game/puppycam2.h src/game/memory.h \
+ include/behavior_data.h

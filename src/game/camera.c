@@ -873,7 +873,7 @@ s32 update_8_directions_camera(struct Camera *c, Vec3f focus, Vec3f pos) {
     f32 posY;
     f32 focusY;
     f32 yOff = 125.f;
-    f32 baseDist = 1000.f;
+    f32 baseDist = 1500.f;
 
     sAreaYaw = camYaw;
     calc_y_to_curr_floor(&posY, 1.f, 200.f, &focusY, 0.9f, 200.f);
