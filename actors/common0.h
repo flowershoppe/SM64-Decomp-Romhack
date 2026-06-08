@@ -238,4 +238,9 @@ extern const Collision unknown_seg8_collision_080262F8[];
 #include "silver_star/anim_header.h"
 #include "sync_block/geo_header.h"
 #include "sync_block/collision_header.h"
+#include "bomboom_bomb/geo_header.h"
+#include "bomboom_bomb/anim_header.h"
+#include "bomboom/geo_header.h"
+#include "bomboom/anim_header.h"
+#include "bomboom/collision_header.h"
 #endif

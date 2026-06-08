@@ -1,4 +1,4 @@
-extern void scroll_bob_dl_Cube_009_mesh_layer_1_vtx_1();
+extern void scroll_bob_dl_render_027_mesh_layer_1_vtx_1();
 extern void scroll_bob_dl_Cube_020_mesh_layer_1_vtx_1();
 extern void scroll_bob_dl_Cube_021_mesh_layer_1_vtx_1();
 extern void scroll_bob_dl_Cube_031_mesh_layer_1_vtx_1();
@@ -10,4 +10,11 @@ extern void scroll_bob_dl_Cube_039_mesh_layer_1_vtx_1();
 extern void scroll_bob_dl_Cube_041_mesh_layer_1_vtx_1();
 extern void scroll_bob_dl_Cube_043_mesh_layer_1_vtx_1();
 extern void scroll_bob_dl_Cube_046_mesh_layer_1_vtx_1();
+extern void scroll_bob_dl_Cube_048_mesh_layer_1_vtx_1();
+extern void scroll_bob_dl_Cube_051_mesh_layer_1_vtx_1();
+extern void scroll_bob_dl_Cube_053_mesh_layer_1_vtx_1();
+extern void scroll_bob_dl_Cube_056_mesh_layer_1_vtx_1();
+extern void scroll_bob_dl_Cube_057_mesh_layer_1_vtx_1();
+extern void scroll_bob_dl_Cube_058_mesh_layer_1_vtx_1();
+extern void scroll_bob_dl_Cube_059_mesh_layer_1_vtx_1();
 extern void scroll_bob();

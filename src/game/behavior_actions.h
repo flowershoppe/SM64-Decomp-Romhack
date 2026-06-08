@@ -587,6 +587,12 @@ Gfx *sync_block_color(s32 callContext, struct GraphNode *node);
 void sync_block_color_init(void);
 void sync_block_color_loop(void);
 
+Gfx *bomboom_bomb_color(s32 callContext, UNUSED struct GraphNode *node);
+void bomboom_bomb_init(void);
+void bomboom_bomb_loop(void);
+void bomboom_init(void);
+void bomboom_loop(void);
+
 Gfx *geo_move_mario_part_from_parent(s32 callContext, UNUSED struct GraphNode *node, Mat4 mtx);
 
 // Bowser

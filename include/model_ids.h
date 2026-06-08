@@ -26,6 +26,8 @@
 #define MODEL_SILVER_STAR                 234
 #define MODEL_SILVER_STAR_PODIUM          233
 #define MODEL_SYNC_BLOCK                  232
+#define MODEL_BOMBOOM_BOMB                231
+#define MODEL_BOMBOOM                     230
 
 /* Global models that are loaded for every level */
 

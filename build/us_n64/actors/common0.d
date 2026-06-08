@@ -142,4 +142,9 @@ build/us_n64/actors/common0.o: actors/common0.c \
  actors/silver_star/model.inc.c actors/silver_star/anims/data.inc.c \
  actors/silver_star/anims/table.inc.c \
  actors/silver_star/anims/table_enum.h actors/sync_block/model.inc.c \
- actors/sync_block/collision.inc.c
+ actors/sync_block/collision.inc.c actors/bomboom_bomb/model.inc.c \
+ actors/bomboom_bomb/anims/data.inc.c \
+ actors/bomboom_bomb/anims/table.inc.c \
+ actors/bomboom_bomb/anims/table_enum.h actors/bomboom/model.inc.c \
+ actors/bomboom/anims/data.inc.c actors/bomboom/anims/table.inc.c \
+ actors/bomboom/anims/table_enum.h actors/bomboom/collision.inc.c

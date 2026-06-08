@@ -1372,4 +1372,11 @@ os16112*/
 #define oSyncBlockCycle                          OBJECT_FIELD_F32(0x1E)
 #define oSyncBlockTargetBlinkColor               OBJECT_FIELD_S32(0x1F)
 #define oSyncBlockCurrentBlinkColor              OBJECT_FIELD_S32(0x20)
+
+#define oBomboomBombTimer           OBJECT_FIELD_F32(0x1B)
+#define oBomboomBombColorTimer      OBJECT_FIELD_F32(0x1C)
+#define oBomboomBombCurrentColor    OBJECT_FIELD_S32(0x1D)
+#define oBomboomBombTargetColor     OBJECT_FIELD_S32(0x1E)
+#define oBomboomBombSpeed           OBJECT_FIELD_F32(0x1F)
+#define oBomboomTimer               OBJECT_FIELD_F32(0x1B)
 #endif // OBJECT_FIELDS_H

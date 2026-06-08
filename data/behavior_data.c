@@ -6319,3 +6319,28 @@ const BehaviorScript bhvSyncBlock[] = {
         CALL_NATIVE(sync_block_color_loop),
     END_LOOP(),
 };
+
+const BehaviorScript bhvBomboomBomb[] = {
+    BEGIN(OBJ_LIST_PUSHABLE),
+    OR_INT(oFlags, OBJ_FLAG_MOVE_Y_WITH_TERMINAL_VEL | OBJ_FLAG_MOVE_XZ_USING_FVEL | OBJ_FLAG_COMPUTE_ANGLE_TO_MARIO | OBJ_FLAG_COMPUTE_DIST_TO_MARIO | OBJ_FLAG_SET_FACE_YAW_TO_MOVE_YAW | OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE),
+    SET_OBJ_PHYSICS(/*Wall hitbox radius*/ 30, /*Gravity*/ -400, /*Bounciness*/ 0, /*Drag strength*/ 1000, /*Friction*/ 1000, /*Buoyancy*/ 0, /*Unused*/ 0, 0),
+    LOAD_ANIMATIONS(oAnimations, bomboom_bomb_anims),
+    CALL_NATIVE(bomboom_bomb_init),
+    BEGIN_LOOP(),
+        CALL_NATIVE(bomboom_bomb_loop),
+    END_LOOP(),
+};
+
+const BehaviorScript bhvBomboom[] = {
+    BEGIN(OBJ_LIST_SURFACE),
+    OR_INT(oFlags, OBJ_FLAG_MOVE_Y_WITH_TERMINAL_VEL | OBJ_FLAG_MOVE_XZ_USING_FVEL | OBJ_FLAG_COMPUTE_ANGLE_TO_MARIO | OBJ_FLAG_COMPUTE_DIST_TO_MARIO | OBJ_FLAG_SET_FACE_YAW_TO_MOVE_YAW | OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE),
+    SET_OBJ_PHYSICS(/*Wall hitbox radius*/ 60, /*Gravity*/ -400, /*Bounciness*/ 0, /*Drag strength*/ 1000, /*Friction*/ 1000, /*Buoyancy*/ 0, /*Unused*/ 0, 0),
+    LOAD_ANIMATIONS(oAnimations, bomboom_anims),
+    LOAD_COLLISION_DATA(bomboom_collision),
+    ANIMATE(0),
+    CALL_NATIVE(bomboom_init),
+    BEGIN_LOOP(),
+        CALL_NATIVE(bomboom_loop),
+        CALL_NATIVE(load_object_collision_model),
+    END_LOOP(),
+};

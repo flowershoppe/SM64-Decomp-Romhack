@@ -70,8 +70,11 @@ build/us_n64/src/game/obj_behaviors_2.o: src/game/obj_behaviors_2.c \
  actors/silver_star_podium/geo_header.h actors/silver_star/geo_header.h \
  actors/silver_star/anim_header.h actors/silver_star/anims/table_enum.h \
  actors/sync_block/geo_header.h actors/sync_block/collision_header.h \
- actors/group11.h actors/group17.h src/audio/external.h \
- include/level_table.h src/game/behavior_actions.h \
+ actors/bomboom_bomb/geo_header.h actors/bomboom_bomb/anim_header.h \
+ actors/bomboom_bomb/anims/table_enum.h actors/bomboom/geo_header.h \
+ actors/bomboom/anim_header.h actors/bomboom/anims/table_enum.h \
+ actors/bomboom/collision_header.h actors/group11.h actors/group17.h \
+ src/audio/external.h include/level_table.h src/game/behavior_actions.h \
  include/behavior_data.h src/game/camera.h src/game/area.h \
  src/engine/graph_node.h include/geo_commands.h \
  include/command_macros_base.h src/game/shadow.h \
@@ -142,4 +145,5 @@ build/us_n64/src/game/obj_behaviors_2.o: src/game/obj_behaviors_2.c \
  src/game/behaviors/interactive_tablet.inc.c \
  src/game/behaviors/block_swap.inc.c \
  src/game/behaviors/fading_platform.inc.c \
- src/game/behaviors/silver_star.inc.c src/game/behaviors/sync_block.inc.c
+ src/game/behaviors/silver_star.inc.c src/game/behaviors/sync_block.inc.c \
+ src/game/behaviors/bomboom.inc.c

@@ -562,4 +562,6 @@ extern const BehaviorScript bhvFadingPlatform[];
 extern const BehaviorScript bhvSilverStar[];
 extern const BehaviorScript bhvSilverStarPodium[];
 extern const BehaviorScript bhvSyncBlock[];
+extern const BehaviorScript bhvBomboomBomb[];
+extern const BehaviorScript bhvBomboom[];
 #endif // BEHAVIOR_DATA_H

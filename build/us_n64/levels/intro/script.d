@@ -79,5 +79,9 @@ build/us_n64/levels/intro/script.o: levels/intro/script.c \
  actors/silver_star_podium/geo_header.h actors/silver_star/geo_header.h \
  actors/silver_star/anim_header.h actors/silver_star/anims/table_enum.h \
  actors/sync_block/geo_header.h actors/sync_block/collision_header.h \
- actors/common1.h include/make_const_nonconst.h levels/intro/header.h \
- include/farcall.h src/game/print.h src/game/object_list_processor.h
+ actors/bomboom_bomb/geo_header.h actors/bomboom_bomb/anim_header.h \
+ actors/bomboom_bomb/anims/table_enum.h actors/bomboom/geo_header.h \
+ actors/bomboom/anim_header.h actors/bomboom/anims/table_enum.h \
+ actors/bomboom/collision_header.h actors/common1.h \
+ include/make_const_nonconst.h levels/intro/header.h include/farcall.h \
+ src/game/print.h src/game/object_list_processor.h

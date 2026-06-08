@@ -1125,11 +1125,11 @@ void mode_8_directions_camera(struct Camera *c) {
 
     radial_camera_input(c);
 
-    if (gPlayer1Controller->buttonPressed & R_CBUTTONS) {
+    if (gPlayer1Controller->buttonPressed & R_JPAD) {
         s8DirModeYawOffset += DEGREES(45);
         play_sound_cbutton_side();
     }
-    if (gPlayer1Controller->buttonPressed & L_CBUTTONS) {
+    if (gPlayer1Controller->buttonPressed & L_JPAD) {
         s8DirModeYawOffset -= DEGREES(45);
         play_sound_cbutton_side();
     }
@@ -1148,10 +1148,10 @@ void mode_8_directions_camera(struct Camera *c) {
 #endif // ENABLE_DEBUG_FREE_MOVE
             s8DirModeYawOffset = snap_to_45_degrees(s8DirModeYawOffset);
         }
-        if (gPlayer1Controller->buttonDown & L_JPAD) {
+        if (gPlayer1Controller->buttonDown & L_CBUTTONS) {
             s8DirModeYawOffset -= DEGREES(2);
         } 
-        if (gPlayer1Controller->buttonDown & R_JPAD) {
+        if (gPlayer1Controller->buttonDown & R_CBUTTONS) {
             s8DirModeYawOffset += DEGREES(2);
         }
 #ifdef PUPPYPRINT_DEBUG

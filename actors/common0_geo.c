@@ -49,3 +49,5 @@
 #include "silver_star_podium/geo.inc.c"
 #include "silver_star/geo.inc.c"
 #include "sync_block/geo.inc.c"
+#include "bomboom_bomb/geo.inc.c"
+#include "bomboom/geo.inc.c"

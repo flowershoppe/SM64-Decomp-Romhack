@@ -825,3 +825,4 @@ void obj_spit_fire(s16 relativePosX, s16 relativePosY, s16 relativePosZ, f32 sca
 #include "behaviors/fading_platform.inc.c"
 #include "behaviors/silver_star.inc.c"
 #include "behaviors/sync_block.inc.c"
+#include "behaviors/bomboom.inc.c"
