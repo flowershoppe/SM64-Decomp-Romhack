@@ -34,3 +34,10 @@ void bhv_fading_warp_loop() {
 
     o->oInteractStatus = INT_STATUS_NONE;
 }
+
+
+void bhv_death_warp_init(){
+    o->oPosX = gMarioState->pos[0];
+    o->oPosY = gMarioState->pos[1];
+    o->oPosZ = gMarioState->pos[2];
+}

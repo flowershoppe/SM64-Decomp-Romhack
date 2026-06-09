@@ -1,6 +1,6 @@
 void scroll_bob_dl_render_027_mesh_layer_1_vtx_1() {
 	int i = 0;
-	int count = 4;
+	int count = 5;
 	int width = 32 * 0x20;
 	int height = 32 * 0x20;
 

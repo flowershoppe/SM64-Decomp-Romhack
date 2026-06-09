@@ -557,6 +557,7 @@ void bhv_king_whomp_star_loop(u32 params);
 void bhv_checkpoint(void);
 void bhv_checkpoint_init(void);
 void set_active(void);
+void bhv_death_warp_init(void);
 
 Gfx *interactive_tablet_state(s32 callContext, struct GraphNode *node);
 void interactive_tablet_init(void);
