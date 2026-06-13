@@ -53,17 +53,17 @@ void sync_block_color_init(void) {
 
 // this code runs over and over forever
 void sync_block_color_loop(void) {
-    f32 max_cycles = 7; // a cycle lasts 1 second, this is after how many seconds we swap the blocks !
+    f32 max_cycles = 4; // a cycle lasts 1 second, this is after how many seconds we swap the blocks !
     if (o->oSyncBlockState == 1) { // If the block is visible, make it so Mario can stand on it !
         load_object_collision_model();
     }
 
     if (o->oSyncBlockTimer >= 30) { // If 1 seconds has last
         o->oSyncBlockTimer = 0; // reset the timer to be able to count again
-        if (o->oSyncBlockCycle > max_cycles - 5) { // If we are just a few cycle away from swapping, do the following:
+        if (o->oSyncBlockCycle > max_cycles - 4) { // If we are just a few cycle away from swapping, do the following:
             if (o->oDistanceToMario < 1000) { // Mario needs to be close for the sounds to play (we could use cur_obj_play_sound_2 but it's a bit buggy four our purpose)
                 if (o->oSyncBlockCycle >= max_cycles - 1) { // If its the last cycle, do the following:
-                    play_sound(SOUND_MENU_CAMERA_ZOOM_IN, gGlobalSoundSource); // Play swap sound !
+                    play_sound(SOUND_MENU_PINCH_MARIO_FACE, gGlobalSoundSource); // Play swap sound !
                 } else {
                     play_sound(SOUND_MENU_REVERSE_PAUSE, gGlobalSoundSource); // else, play the cycle ding sound !
                 }
@@ -85,7 +85,7 @@ void sync_block_color_loop(void) {
     o->oSyncBlockTimer += 1; // Increase timer that make cycles happen
     o->oSyncBlockCurrentBlinkColor = approach_s32(o->oSyncBlockCurrentBlinkColor, o->oSyncBlockTargetBlinkColor, 10, 10); // Interpolate transparency for the block blinking
 
-    if (o->oSyncBlockCycle > max_cycles - 4) { // If we are just a few cycle away from swapping, do the following:
+    if (o->oSyncBlockCycle > max_cycles - 2) { // If we are just a few cycle away from swapping, do the following:
         if (o->oSyncBlockCurrentBlinkColor <= 0) { // If we are opaque, make our goal to be semi transparent
             o->oSyncBlockTargetBlinkColor = 100;
         }

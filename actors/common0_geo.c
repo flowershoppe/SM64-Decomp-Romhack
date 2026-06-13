@@ -51,3 +51,4 @@
 #include "sync_block/geo.inc.c"
 #include "bomboom_bomb/geo.inc.c"
 #include "bomboom/geo.inc.c"
+#include "MODEL_STAR_DOOR/geo.inc.c"

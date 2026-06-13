@@ -130,3 +130,5 @@ UNUSED static const u64 binid_18 = 18;
 #include "bomboom/anims/data.inc.c"
 #include "bomboom/anims/table.inc.c"
 #include "bomboom/collision.inc.c"
+#include "MODEL_STAR_DOOR/collision.inc.c"
+#include "MODEL_STAR_DOOR/model.inc.c"

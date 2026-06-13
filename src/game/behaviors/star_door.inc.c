@@ -8,7 +8,7 @@ void star_door_update_pos(void) {
 }
 
 void bhv_star_door_loop(void) {
-    struct Object *doorObj = cur_obj_nearest_object_with_behavior(bhvStarDoor);
+    struct Object *doorObj = cur_obj_nearest_object_with_behavior(bhvStarDoorNew);
 
     switch (o->oAction) {
         case STAR_DOOR_ACT_CLOSED:
@@ -16,7 +16,7 @@ void bhv_star_door_loop(void) {
             if (o->oInteractStatus & (INT_STATUS_DOOR_PULLED | INT_STATUS_DOOR_PUSHED)) {
                 o->oAction = STAR_DOOR_ACT_OPENING;
             }
-            if (doorObj != NULL && doorObj->oAction != STAR_DOOR_ACT_CLOSED) {
+            if (doorObj->oAction != STAR_DOOR_ACT_CLOSED) {
                 o->oAction = STAR_DOOR_ACT_OPENING;
             }
             break;

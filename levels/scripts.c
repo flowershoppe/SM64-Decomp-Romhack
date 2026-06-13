@@ -174,6 +174,7 @@ static const LevelScript script_exec_ ## folder [] = { \
 #undef DEFINE_LEVEL
 
 const LevelScript script_func_global_1[] = {
+    LOAD_MODEL_FROM_GEO(MODEL_STAR_DOOR, MODEL_STAR_DOOR_geo),
     LOAD_MODEL_FROM_GEO(MODEL_BOMBOOM_BOMB,      bomboom_bomb_geo),
     LOAD_MODEL_FROM_GEO(MODEL_BOMBOOM,      bomboom_geo),
     LOAD_MODEL_FROM_GEO(MODEL_SYNC_BLOCK,      sync_block_geo),

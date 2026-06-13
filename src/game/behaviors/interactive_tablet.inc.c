@@ -53,7 +53,23 @@ void interactive_tablet_loop(void){
                 cur_obj_play_sound_2(SOUND_OBJ_CANNON_BARREL_PITCH);
             } else if (o->oInteractiveTabletState == 1) {
                 o->oInteractiveTabletState = 0;
-                cur_obj_play_sound_2(SOUND_OBJ_CANNON_BARREL_PITCH);
+                play_sound(SOUND_MENU_CAMERA_BUZZ, gGlobalSoundSource);
+                uintptr_t *behaviorAddr = segmented_to_virtual(bhvInteractiveTablet);
+                struct ObjectNode *listHead = &gObjectLists[get_object_list_from_behavior(behaviorAddr)];
+                struct ObjectNode *obj = listHead->next;
+
+                if (o->oInteractiveTabletPodiumSpawnStar == FALSE) { // If we haven't spawned a star for completing the puzzle yet, do the following:
+                    while (listHead != obj) {
+                        // Here we are finding every single tablet actors
+                        if (((struct Object *) obj)->behavior == behaviorAddr) {
+                            // We look to see if they have the same first behavior parameter as the podium
+                            if ((((struct Object *) obj)->oBehParams >> 24) == (o->oBehParams >> 24)) {
+                                ((struct Object *) obj)->oInteractiveTabletState = 0;                            
+                            }
+                        }
+                        obj = obj->next; // iterate through the next object
+                    }
+                }
             }
             o->oInteractiveTabletInteractTimer = 30; // Sets cooldown timer
             o->oInteractiveTabletCanInteract = FALSE; // Set the boolean to not be able to interact with the same platform again just yet

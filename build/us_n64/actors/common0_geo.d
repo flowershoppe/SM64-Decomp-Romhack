@@ -76,7 +76,9 @@ build/us_n64/actors/common0_geo.o: actors/common0_geo.c \
  actors/bomboom_bomb/geo_header.h actors/bomboom_bomb/anim_header.h \
  actors/bomboom_bomb/anims/table_enum.h actors/bomboom/geo_header.h \
  actors/bomboom/anim_header.h actors/bomboom/anims/table_enum.h \
- actors/bomboom/collision_header.h actors/blue_coin_switch/geo.inc.c \
+ actors/bomboom/collision_header.h \
+ actors/MODEL_STAR_DOOR/collision_header.h \
+ actors/MODEL_STAR_DOOR/geo_header.h actors/blue_coin_switch/geo.inc.c \
  actors/test_platform/geo.inc.c actors/amp/geo.inc.c \
  actors/cannon_lid/geo.inc.c actors/cannon_base/geo.inc.c \
  actors/cannon_barrel/geo.inc.c actors/chuckya/geo.inc.c \
@@ -98,4 +100,5 @@ build/us_n64/actors/common0_geo.o: actors/common0_geo.c \
  actors/block_swap_switch/geo.inc.c actors/block_swap_block/geo.inc.c \
  actors/fading_platform/geo.inc.c actors/silver_star_podium/geo.inc.c \
  actors/silver_star/geo.inc.c actors/sync_block/geo.inc.c \
- actors/bomboom_bomb/geo.inc.c actors/bomboom/geo.inc.c
+ actors/bomboom_bomb/geo.inc.c actors/bomboom/geo.inc.c \
+ actors/MODEL_STAR_DOOR/geo.inc.c

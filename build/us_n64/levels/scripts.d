@@ -81,7 +81,9 @@ build/us_n64/levels/scripts.o: levels/scripts.c include/n64/ultra64.h \
  actors/bomboom_bomb/geo_header.h actors/bomboom_bomb/anim_header.h \
  actors/bomboom_bomb/anims/table_enum.h actors/bomboom/geo_header.h \
  actors/bomboom/anim_header.h actors/bomboom/anims/table_enum.h \
- actors/bomboom/collision_header.h actors/common1.h actors/group0.h \
+ actors/bomboom/collision_header.h \
+ actors/MODEL_STAR_DOOR/collision_header.h \
+ actors/MODEL_STAR_DOOR/geo_header.h actors/common1.h actors/group0.h \
  actors/group1.h actors/group2.h actors/group3.h actors/group4.h \
  actors/group5.h actors/group6.h actors/group7.h actors/group8.h \
  actors/group9.h actors/group10.h actors/group11.h actors/group12.h \

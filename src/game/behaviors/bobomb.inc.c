@@ -66,10 +66,9 @@ void bobomb_check_interactions(void) {
 
 void bobomb_act_patrol(void) {
     o->oForwardVel = 5.0f;
-
     s16 collisionFlags = object_step();
-    if (obj_return_home_if_safe(o, o->oHomeX, o->oHomeY, o->oHomeZ, 400)
-     && obj_check_if_facing_toward_angle(o->oMoveAngleYaw, o->oAngleToMario, 0x2000)) {
+    obj_return_home_if_safe(o, o->oHomeX, o->oHomeY, o->oHomeZ, 400);
+    if (o->oDistanceToMario < 1000) {
         o->oBobombFuseLit = TRUE;
         o->oAction = BOBOMB_ACT_CHASE_MARIO;
     }
@@ -89,6 +88,10 @@ void bobomb_act_chase_mario(void) {
 
     obj_turn_toward_object(o, gMarioObject, O_MOVE_ANGLE_YAW_INDEX, 0x800);
     obj_check_floor_death(collisionFlags, sObjFloor);
+
+    if(o->oDistanceToMario <= 100){
+        o->oAction = BOBOMB_ACT_EXPLODE;
+    }
 }
 
 void bobomb_act_launched(void) {

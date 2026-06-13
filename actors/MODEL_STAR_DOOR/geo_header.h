@@ -1,0 +1,10 @@
+extern const GeoLayout MODEL_STAR_DOOR_geo[];
+extern Lights1 MODEL_STAR_DOOR_door_left_lights;
+extern u8 MODEL_STAR_DOOR__07003800_rgba16[];
+extern Vtx MODEL_STAR_DOOR_star_door_mesh_layer_1_vtx_cull[8];
+extern Vtx MODEL_STAR_DOOR_star_door_mesh_layer_1_vtx_0[4];
+extern Gfx MODEL_STAR_DOOR_star_door_mesh_layer_1_tri_0[];
+extern Gfx mat_MODEL_STAR_DOOR_door_left[];
+extern Gfx mat_revert_MODEL_STAR_DOOR_door_left[];
+extern Gfx MODEL_STAR_DOOR_star_door_mesh_layer_1[];
+extern Gfx MODEL_STAR_DOOR_final_revert_mesh_layer_1[];

@@ -49,8 +49,8 @@ void bomboom_bomb_init(void) {
     o->oBomboomBombTimer = 0;
     o->oBomboomBombTargetColor = 255;
     o->oBomboomBombCurrentColor = 255;
-    o->oBomboomBombSpeed = random_float() + 0.2;
-    o->oForwardVel = o->oBomboomBombSpeed * 35;
+    o->oBomboomBombSpeed = random_float() * 5;
+    o->oForwardVel = o->oBomboomBombSpeed + 25;
     cur_obj_play_sound_2(SOUND_AIR_BOBOMB_LIT_FUSE);
 }
 
@@ -75,6 +75,7 @@ void bomboom_bomb_loop(void) {
         break;
 
         case 1: // Explode, boom ! :D
+            spawn_object(o, MODEL_EXPLOSION, bhvExplosion);
             cur_obj_play_sound_1(SOUND_GENERAL2_BOBOMB_EXPLOSION); // play sound
             obj_mark_for_deletion(o);
         break;

@@ -902,13 +902,13 @@ u32 interact_warp(struct MarioState *m, UNUSED u32 interactType, struct Object *
                 play_sound(SOUND_MENU_ENTER_PIPE, m->marioObj->header.gfx.cameraToObject);
                 queue_rumble_data(15, 80);
             } else {
-                play_sound(SOUND_MENU_ENTER_HOLE, m->marioObj->header.gfx.cameraToObject);
+                play_sound(SOUND_MENU_MESSAGE_DISAPPEAR, m->marioObj->header.gfx.cameraToObject);
                 queue_rumble_data(12, 80);
             }
 #else
             play_sound(obj->collisionData == segmented_to_virtual(warp_pipe_seg3_collision_03009AC8)
                            ? SOUND_MENU_ENTER_PIPE
-                           : SOUND_MENU_ENTER_HOLE,
+                           : SOUND_MENU_MESSAGE_DISAPPEAR,
                        m->marioObj->header.gfx.cameraToObject);
 #endif
 

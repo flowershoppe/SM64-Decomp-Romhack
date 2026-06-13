@@ -73,7 +73,9 @@ build/us_n64/src/game/obj_behaviors_2.o: src/game/obj_behaviors_2.c \
  actors/bomboom_bomb/geo_header.h actors/bomboom_bomb/anim_header.h \
  actors/bomboom_bomb/anims/table_enum.h actors/bomboom/geo_header.h \
  actors/bomboom/anim_header.h actors/bomboom/anims/table_enum.h \
- actors/bomboom/collision_header.h actors/group11.h actors/group17.h \
+ actors/bomboom/collision_header.h \
+ actors/MODEL_STAR_DOOR/collision_header.h \
+ actors/MODEL_STAR_DOOR/geo_header.h actors/group11.h actors/group17.h \
  src/audio/external.h include/level_table.h src/game/behavior_actions.h \
  include/behavior_data.h src/game/camera.h src/game/area.h \
  src/engine/graph_node.h include/geo_commands.h \

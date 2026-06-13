@@ -1,6 +1,6 @@
-COURSE_ACTS(COURSE_BOB, _(" 1 BOB-OMB BATTLEFIELD"),
-       _("WIP")     , _("WIP") , _("WIP"),
-       _("WIP")          , _("WIP")        , _("RUBY STAR"))
+COURSE_ACTS(COURSE_BOB, _(" 1 STRIX TEMPLE"),
+       _("5 SILVER STARS")     , _("SWITCH MATCHING") , _("THE GAUNTLET"),
+       _("PERFECT TIMING")          , _("WIP")        , _("RUBY STAR"))
 
 COURSE_ACTS(COURSE_WF, _(" 2 WHOMP'S FORTRESS"),
        _("CHIP OFF WHOMP'S BLOCK")        , _("TO THE TOP OF THE FORTRESS")    , _("SHOOT INTO THE WILD BLUE"),

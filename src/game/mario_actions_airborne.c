@@ -729,6 +729,10 @@ s32 act_dive(struct MarioState *m) {
     } else {
         play_mario_sound(m, SOUND_ACTION_TERRAIN_JUMP, 0);
     }
+    
+    if (m->input & INPUT_Z_PRESSED) {
+        return set_mario_action(m, ACT_GROUND_POUND, 0);
+    }
 
     set_mario_animation(m, MARIO_ANIM_DIVE);
     if (mario_check_object_grab(m)) {
