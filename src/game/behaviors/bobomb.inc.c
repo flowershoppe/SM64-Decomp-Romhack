@@ -89,7 +89,7 @@ void bobomb_act_chase_mario(void) {
     obj_turn_toward_object(o, gMarioObject, O_MOVE_ANGLE_YAW_INDEX, 0x800);
     obj_check_floor_death(collisionFlags, sObjFloor);
 
-    if(o->oDistanceToMario <= 100){
+    if(o->oDistanceToMario <= 150){
         o->oAction = BOBOMB_ACT_EXPLODE;
     }
 }

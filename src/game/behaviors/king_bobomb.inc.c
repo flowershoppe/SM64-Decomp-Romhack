@@ -178,7 +178,9 @@ void king_bobomb_act_hit_ground(void) { // act 6
         if (cur_obj_init_animation_and_check_if_near_end(KING_BOBOMB_ANIM_STAND_UP)) {
             o->oSubAction++; // KING_BOBOMB_SUB_ACT_HIT_GROUND_START_WALKING
             o->oInteractType = INTERACT_GRABBABLE;
-
+            if(o->oHealth > 0){
+                o->oAction = KING_BOBOMB_ACT_THROW_BOMBS;
+            }
             cur_obj_become_intangible();
         }
     } else {
@@ -310,6 +312,19 @@ void king_bobomb_act_return_home(void) { // act 5
     }
 }
 
+void king_bobomb_act_throw_bombs(void){ // act 9
+    if (cur_obj_check_grabbed_mario()) {
+        o->oAction = KING_BOBOMB_ACT_GRABBED_MARIO;
+    }
+    cur_obj_init_animation_and_check_if_near_end(KING_BOBOMB_ANIM_WALKING);
+    if(o->oTimer > 120){
+        o->oAction = KING_BOBOMB_ACT_ACTIVE;
+    }
+    if(o->oDistanceToMario)
+    o->oForwardVel = 30.0f;
+    cur_obj_rotate_yaw_toward(o->oAngleToMario, 0x300);
+}
+
 ObjActionFunc sKingBobombActions[] = {
     king_bobomb_act_inactive,
     king_bobomb_act_activate,
@@ -320,6 +335,7 @@ ObjActionFunc sKingBobombActions[] = {
     king_bobomb_act_hit_ground,
     king_bobomb_act_death,
     king_bobomb_act_stop_music,
+    king_bobomb_act_throw_bombs
 };
 
 struct SoundState sKingBobombSoundStates[] = {

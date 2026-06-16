@@ -1,5 +1,5 @@
 COURSE_ACTS(COURSE_BOB, _(" 1 STRIX TEMPLE"),
-       _("5 SILVER STARS")     , _("SWITCH MATCHING") , _("THE GAUNTLET"),
+       _("5 SILVER STARS")     , _("THE XANTHOUS PATH") , _("THE GAUNTLET"),
        _("PERFECT TIMING")          , _("WIP")        , _("RUBY STAR"))
 
 COURSE_ACTS(COURSE_WF, _(" 2 WHOMP'S FORTRESS"),

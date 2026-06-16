@@ -214,7 +214,7 @@ const GeoLayout jrb_area_1_geo[] = {
 		GEO_TRANSLATE_NODE_WITH_DL(LAYER_ALPHA, -9403, -1200, 4689, jrb_dl_wind_grate_004_mesh_layer_4),
 		GEO_TRANSLATE_NODE_WITH_DL(LAYER_ALPHA, -9403, -2322, 5444, jrb_dl_wind_grate_005_mesh_layer_4),
 		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_ALPHA, -3119, -1026, 12472, 0, 4, 0, jrb_dl_wind_grate_006_mesh_layer_4),
-		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_ALPHA, -2417, -1132, 5579, 0, -7, 0, jrb_dl_wind_grate_007_mesh_layer_4),
+		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_ALPHA, -3449, -690, 6072, 0, -7, 0, jrb_dl_wind_grate_007_mesh_layer_4),
 		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_ALPHA, 6210, 2274, -3339, 0, -13, 0, jrb_dl_wind_grate_008_mesh_layer_4),
 		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_ALPHA, 6369, 2100, -3989, 0, -13, 0, jrb_dl_wind_grate_009_mesh_layer_4),
 		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_ALPHA, 6527, 1898, -4647, 0, -13, 0, jrb_dl_wind_grate_010_mesh_layer_4),

@@ -392,7 +392,7 @@ enum BehaviorCommands {
 const BehaviorScript bhvStarDoor[] = {
     BEGIN(OBJ_LIST_SURFACE),
     SET_INT(oInteractType, INTERACT_DOOR),
-    LOAD_COLLISION_DATA(inside_castle_seg7_collision_star_door),
+    LOAD_COLLISION_DATA(MODEL_STAR_DOOR_collision),
     SET_INT(oInteractionSubtype, INT_SUBTYPE_STAR_DOOR),
     OR_INT(oFlags, (OBJ_FLAG_ACTIVE_FROM_AFAR | OBJ_FLAG_COMPUTE_DIST_TO_MARIO | OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE)),
     SET_HITBOX(/*Radius*/ 80, /*Height*/ 100),

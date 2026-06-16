@@ -8,8 +8,7 @@ void star_door_update_pos(void) {
 }
 
 void bhv_star_door_loop(void) {
-    struct Object *doorObj = cur_obj_nearest_object_with_behavior(bhvStarDoorNew);
-
+    struct Object *doorObj = cur_obj_nearest_object_with_behavior(bhvStarDoor);
     switch (o->oAction) {
         case STAR_DOOR_ACT_CLOSED:
             cur_obj_become_tangible();

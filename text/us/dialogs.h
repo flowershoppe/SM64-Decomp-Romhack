@@ -20,7 +20,7 @@ It's a checkpoint, so\n\
 you'll return there if\n\
 you ever die."))
 
-DEFINE_DIALOG(DIALOG_001, 1, 4, 95, 200, _("\
+DEFINE_DIALOG(DIALOG_001, 1, 6, 30, 200, _("\
 Everyone else already\n\
 fled! I was asleep when\n\
 Wally Whomp and his\n\
@@ -28,56 +28,29 @@ goons attacked our\n\
 village. I'm too afraid\n\
 to leave now!"))
 
-DEFINE_DIALOG(DIALOG_002, 1, 4, 95, 200, _("\
+DEFINE_DIALOG(DIALOG_002, 1, 2, 95, 200, _("\
 8 CRIMSON COINS \n\
 5 GOLDEN POINTS"))
 
-DEFINE_DIALOG(DIALOG_003, 1, 5, 95, 200, _("\
-Thank you, Mario! The Big\n\
-Bob-omb is nothing but a\n\
-big dud now! But the\n\
-battle for the castle has\n\
-just begun.\n\
-Other enemies are holding\n\
-the other Power Stars. If\n\
-you recover more Stars,\n\
-you can open new doors\n\
-that lead to new worlds!\n\
-My Bob-omb Buddies are\n\
-waiting for you. Be sure\n\
-to talk to them--they'll\n\
-set up cannons for you."))
+DEFINE_DIALOG(DIALOG_003, 1, 2, 95, 200, _("\
+TRACE THE XANTHOUS PATH\n\
+WITH EARTHBOUND STEPS."))
 
-DEFINE_DIALOG(DIALOG_004, 1, 3, 95, 200, _("\
-We're peace-loving\n\
-Bob-ombs, so we don't use\n\
-cannons.\n\
-But if you'd like\n\
-to blast off, we don't\n\
-mind. Help yourself.\n\
-We'll prepare all of the\n\
-cannons in this course for\n\
-you to use. Bon Voyage!"))
+DEFINE_DIALOG(DIALOG_004, 1, 6, 30, 200, _("\
+Hey friend!\n\
+I heard you got some new\n\
+moves. Apparently, you\n\
+can dive in any direction\n\
+and out of any jump? Oh!\n\
+and your wall kicks are\n\
+way better? You gotta\n\
+show me!"))
 
 DEFINE_DIALOG(DIALOG_005, 1, 3, 30, 200, _("\
-Hey, Mario! Is it true\n\
-that you beat the Big\n\
-Bob-omb? Cool!\n\
-You must be strong. And\n\
-pretty fast. So, how fast\n\
-are you, anyway?\n\
-Fast enough to beat me...\n\
-Koopa the Quick? I don't\n\
-think so. Just try me.\n\
-How about a race to the\n\
-mountaintop, where the\n\
-Big Bob-omb was?\n\
-Whaddya say? When I say\n\
-『Go,』 let the race begin!\n\
-\n\
-Ready....\n\
-\n\
-//Go!////Don't Go"))
+I think you'll need to\n\
+use your new moves in\n\
+some creative ways\n\
+for this star."))
 
 DEFINE_DIALOG(DIALOG_006, 1, 3, 30, 200, _("\
 Hey!!! Don't try to " SCAM_ME
@@ -168,13 +141,13 @@ DEFINE_DIALOG(DIALOG_013, 1, 5, 30, 200, _("\
 You found a Power Star!\n\
 Great work!\n\
 Do you want to Save?\n\
-//You Bet//Not Now"))
+//Yes//No"))
 
 DEFINE_DIALOG(DIALOG_014, 1, 4, 30, 200, _("\
 You found a Power Star!\n\
 Great work!\n\
 Do you want to Save?\n\
-//You Bet//Not Now"))
+//Yes//No"))
 
 DEFINE_DIALOG(DIALOG_015, 1, 4, 30, 200, _("\
 You can punch enemies to\n\
@@ -192,30 +165,7 @@ ride wherever you want to\n\
 go! Shred those enemies!"))
 
 DEFINE_DIALOG(DIALOG_017, 1, 4, 30, 200, _("\
-I'm the Big Bob-omb, lord\n\
-of all blasting matter,\n\
-king of ka-booms the\n\
-world over!\n\
-How dare you scale my\n\
-mountain? By what right\n\
-do you set foot on my\n\
-imperial mountaintop?\n\
-You may have eluded my\n\
-guards, but you'll never\n\
-escape my grasp...\n\
-\n\
-...and you'll never take\n\
-away my Power Star. I\n\
-hereby challenge you,\n\
-Mario!\n\
-If you want the Star I\n\
-hold, you must prove\n\
-yourself in battle.\n\
-\n\
-Can you pick me up from\n\
-the back and hurl me to\n\
-this royal turf? I think\n\
-that you cannot!"))
+bitch-ass"))
 
 DEFINE_DIALOG(DIALOG_018, 1, 4, 30, 200, _("\
 I'm sleeping because...\n\

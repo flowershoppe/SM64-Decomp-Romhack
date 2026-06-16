@@ -8,7 +8,7 @@ const GeoLayout bob_area_1_geo[] = {
 		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_OPAQUE, 3164, 2891, 210, 0, -90, 0, bob_dl_arch_002_mesh_layer_1),
 		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_OPAQUE, -95, 291, -4765, 0, 90, 0, bob_dl_arch_004_mesh_layer_1),
 		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_OPAQUE, -8837, 3816, 2765, 0, 90, 0, bob_dl_arch_005_mesh_layer_1),
-		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_OPAQUE, 476, 470, -4779, 90, 0, 0, bob_dl_black_mesh_layer_1),
+		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_OPAQUE, -99, 470, -4779, 90, 0, 0, bob_dl_black_mesh_layer_1),
 		GEO_TRANSLATE_NODE_WITH_DL(LAYER_OPAQUE, 3163, 2833, -35, bob_dl_Cube_mesh_layer_1),
 		GEO_TRANSLATE_NODE_WITH_DL(LAYER_OPAQUE, -1286, 1374, 3104, bob_dl_Cube_001_mesh_layer_1),
 		GEO_TRANSLATE_NODE_WITH_DL(LAYER_OPAQUE, -98, -410, 6208, bob_dl_Cube_002_mesh_layer_1),

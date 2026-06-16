@@ -2294,6 +2294,7 @@ enum animIDsFirePiranhaPlant {
     #define KING_BOBOMB_ACT_HIT_GROUND                      0x6
     #define KING_BOBOMB_ACT_DEATH                           0x7
     #define KING_BOBOMB_ACT_STOP_MUSIC                      0x8
+    #define KING_BOBOMB_ACT_THROW_BOMBS                     0x9
     /* oSubAction */
         /* KING_BOBOMB_ACT_INACTIVE */
     #define KING_BOBOMB_SUB_ACT_INACTIVE_INIT               0x0
