@@ -90,12 +90,13 @@ build/us_n64/levels/scripts.o: levels/scripts.c include/n64/ultra64.h \
  actors/group13.h actors/group14.h actors/group15.h actors/group16.h \
  actors/group17.h levels/menu/header.h levels/intro/header.h \
  build/us_n64/include/level_headers.h levels/bbh/header.h \
- src/game/moving_texture.h levels/ccm/header.h levels/ccm/header.inc.h \
- levels/castle_inside/header.h src/game/paintings.h levels/hmc/header.h \
- levels/ssl/header.h levels/bob/header.h levels/bob/header.inc.h \
- levels/sl/header.h levels/wdw/header.h levels/jrb/header.h \
- levels/jrb/header.inc.h levels/thi/header.h levels/ttc/header.h \
- levels/rr/header.h levels/castle_grounds/header.h levels/bitdw/header.h \
+ src/game/moving_texture.h levels/bbh/header.inc.h levels/ccm/header.h \
+ levels/ccm/header.inc.h levels/castle_inside/header.h \
+ src/game/paintings.h levels/hmc/header.h levels/ssl/header.h \
+ levels/bob/header.h levels/bob/header.inc.h levels/sl/header.h \
+ levels/wdw/header.h levels/jrb/header.h levels/jrb/header.inc.h \
+ levels/thi/header.h levels/ttc/header.h levels/rr/header.h \
+ levels/castle_grounds/header.h levels/bitdw/header.h \
  levels/vcutm/header.h levels/bitfs/header.h levels/sa/header.h \
  levels/bits/header.h levels/lll/header.h levels/ddd/header.h \
  levels/wf/header.h levels/wf/header.inc.h levels/ending/header.h \

@@ -43,10 +43,11 @@ build/us_n64/levels/bbh/geo.o: levels/bbh/geo.c include/n64/ultra64.h \
  src/game/puppycam2.h include/level_table.h src/game/moving_texture.h \
  src/game/screen_transition.h src/game/paintings.h \
  include/make_const_nonconst.h levels/bbh/header.h \
- levels/bbh/staircase_step/geo.inc.c \
+ levels/bbh/header.inc.h levels/bbh/staircase_step/geo.inc.c \
  levels/bbh/tilting_trap_platform/geo.inc.c \
  levels/bbh/tumbling_platform_far/geo.inc.c \
  levels/bbh/tumbling_platform_near/geo.inc.c \
  levels/bbh/moving_bookshelf/geo.inc.c levels/bbh/mesh_elevator/geo.inc.c \
  levels/bbh/merry_go_round/geo.inc.c levels/bbh/coffin/geo.inc.c \
- levels/bbh/areas/1/geo.inc.c
+ levels/bbh/areas/1/geo.inc.c levels/bbh/geo.inc.c \
+ levels/bbh/area_1/geo.inc.c src/game/envfx_snow.h

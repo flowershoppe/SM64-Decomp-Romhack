@@ -39,4 +39,5 @@ build/us_n64/levels/bbh/script.o: levels/bbh/script.c \
  include/command_macros_base.h include/level_table.h \
  src/game/level_update.h include/types.h levels/scripts.h \
  src/game/puppycam2.h actors/common1.h include/make_const_nonconst.h \
- levels/bbh/header.h src/game/moving_texture.h include/macros.h
+ levels/bbh/header.h src/game/moving_texture.h include/macros.h \
+ levels/bbh/header.inc.h

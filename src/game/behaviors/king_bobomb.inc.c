@@ -18,6 +18,12 @@ void bhv_bobomb_anchor_mario_loop(void) {
 }
 
 void king_bobomb_act_inactive(void) { // act 0
+    u8 starId = GET_BPARAM1(o->oBehParams);
+    u8 currentLevelStarFlags = save_file_get_star_flags((gCurrSaveFileNum - 1), COURSE_NUM_TO_INDEX(gCurrCourseNum));
+    if (currentLevelStarFlags & (1 << starId)) {
+        obj_mark_for_deletion(o);
+    } else {
+    }
     o->oForwardVel = 0.0f;
     o->oVelY = 0.0f;
 

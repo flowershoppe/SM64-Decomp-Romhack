@@ -16,7 +16,7 @@ void opened_cannon_act_idle(void) { // act 0
         cur_obj_become_tangible();
     }
 
-    if (o->oDistanceToMario < 500.0f) {
+    if (TRUE) {
         cur_obj_become_tangible();
         cur_obj_enable_rendering();
         if (o->oInteractStatus & INT_STATUS_INTERACTED

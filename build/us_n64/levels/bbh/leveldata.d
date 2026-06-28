@@ -79,4 +79,7 @@ build/us_n64/levels/bbh/leveldata.o: levels/bbh/leveldata.c \
  levels/bbh/moving_bookshelf/collision.inc.c \
  levels/bbh/mesh_elevator/collision.inc.c \
  levels/bbh/merry_go_round/collision.inc.c \
- levels/bbh/coffin/collision.inc.c levels/bbh/areas/1/movtext.inc.c
+ levels/bbh/coffin/collision.inc.c levels/bbh/areas/1/movtext.inc.c \
+ levels/bbh/leveldata.inc.c levels/bbh/area_1/collision.inc.c \
+ levels/bbh/area_1/macro.inc.c levels/bbh/area_1/spline.inc.c \
+ levels/bbh/model.inc.c

@@ -78,7 +78,7 @@ build/us_n64/src/game/behavior_actions.o: src/game/behavior_actions.c \
  src/game/behaviors/coin.inc.c src/game/behaviors/collide_particles.inc.c \
  src/game/behaviors/door.inc.c src/game/behaviors/thwomp.inc.c \
  src/game/behaviors/tumbling_bridge.inc.c levels/bbh/header.h \
- levels/lll/header.h levels/bitfs/header.h \
+ levels/bbh/header.inc.h levels/lll/header.h levels/bitfs/header.h \
  src/game/behaviors/elevator.inc.c \
  src/game/behaviors/water_mist_particle.inc.c \
  src/game/behaviors/break_particles.inc.c \
@@ -128,9 +128,11 @@ build/us_n64/src/game/behavior_actions.o: src/game/behavior_actions.c \
  src/game/behaviors/circle_loop.inc.c src/game/behaviors/rotate.inc.c \
  src/game/behaviors/battle_star.inc.c \
  src/game/behaviors/kingwhomp_star.inc.c \
- src/game/behaviors/checkpoint.inc.c src/game/behaviors/tuxie.inc.c \
- src/game/behaviors/fish.inc.c src/game/behaviors/express_elevator.inc.c \
- src/game/behaviors/bub.inc.c src/game/behaviors/exclamation_box.inc.c \
+ src/game/behaviors/checkpoint.inc.c \
+ src/game/behaviors/spindrift_spawner.inc.c \
+ src/game/behaviors/tuxie.inc.c src/game/behaviors/fish.inc.c \
+ src/game/behaviors/express_elevator.inc.c src/game/behaviors/bub.inc.c \
+ src/game/behaviors/exclamation_box.inc.c \
  src/game/behaviors/sound_spawner.inc.c src/game/behaviors/ddd_sub.inc.c \
  src/game/behaviors/sushi.inc.c src/game/behaviors/jrb_ship.inc.c \
  src/game/behaviors/white_puff.inc.c src/game/behaviors/blue_coin.inc.c \

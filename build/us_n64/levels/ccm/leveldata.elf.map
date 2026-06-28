@@ -216,112 +216,204 @@ LOAD build/us_n64/levels/ccm/leveldata.o
  *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
                 0x0000000007000000                . = DATA_SEGMENT_RELRO_END (., 0x0)
 
-.data           0x0000000007000000    0x25038 load address 0x0000000007000018
+.data           0x0000000007000000    0x4d748 load address 0x0000000007000018
                 0x0000000007000000                _fdata = .
  *(.data .data.* .gnu.linkonce.d.*)
- .data          0x0000000007000000    0x25038 build/us_n64/levels/ccm/leveldata.o
+ .data          0x0000000007000000    0x4d748 build/us_n64/levels/ccm/leveldata.o
                 0x0000000007000000                ccm_dl_final_revert_mesh_layer_1
-                0x0000000007000040                ccm_dl_Floor_007_mesh_layer_1
-                0x0000000007000080                ccm_dl_Floor_006_mesh_layer_1
-                0x00000000070000d8                ccm_dl_Floor_005_mesh_layer_1
-                0x0000000007000118                ccm_dl_Floor_004_mesh_layer_1
-                0x0000000007000158                ccm_dl_Floor_003_mesh_layer_1
-                0x0000000007000198                ccm_dl_Floor_002_mesh_layer_1
-                0x00000000070001d8                ccm_dl_Floor_001_mesh_layer_1
-                0x0000000007000218                ccm_dl_Floor_mesh_layer_1
-                0x0000000007000258                mat_revert_ccm_dl_custom_flow
-                0x0000000007000278                mat_ccm_dl_custom_flow
-                0x0000000007000308                mat_revert_ccm_dl_fast64_flow
-                0x0000000007000328                mat_ccm_dl_fast64_flow
-                0x00000000070003b8                mat_revert_ccm_dl_f3dlite_material_001
-                0x00000000070003d8                mat_ccm_dl_f3dlite_material_001
-                0x0000000007000468                mat_revert_ccm_dl_f3dlite_material
-                0x0000000007000488                mat_ccm_dl_f3dlite_material
-                0x0000000007000518                ccm_dl_Floor_007_mesh_layer_1_tri_0
-                0x0000000007000558                ccm_dl_Floor_007_mesh_layer_1_vtx_0
-                0x00000000070006d8                ccm_dl_Floor_007_mesh_layer_1_vtx_cull
-                0x0000000007000758                ccm_dl_Floor_006_mesh_layer_1_tri_1
-                0x0000000007000770                ccm_dl_Floor_006_mesh_layer_1_vtx_1
-                0x00000000070007b0                ccm_dl_Floor_006_mesh_layer_1_tri_0
-                0x00000000070007e8                ccm_dl_Floor_006_mesh_layer_1_vtx_0
-                0x0000000007000928                ccm_dl_Floor_006_mesh_layer_1_vtx_cull
-                0x00000000070009a8                ccm_dl_Floor_005_mesh_layer_1_tri_0
-                0x00000000070009e8                ccm_dl_Floor_005_mesh_layer_1_vtx_0
-                0x0000000007000b68                ccm_dl_Floor_005_mesh_layer_1_vtx_cull
-                0x0000000007000be8                ccm_dl_Floor_004_mesh_layer_1_tri_0
-                0x0000000007000c28                ccm_dl_Floor_004_mesh_layer_1_vtx_0
-                0x0000000007000da8                ccm_dl_Floor_004_mesh_layer_1_vtx_cull
-                0x0000000007000e28                ccm_dl_Floor_003_mesh_layer_1_tri_0
-                0x0000000007000e68                ccm_dl_Floor_003_mesh_layer_1_vtx_0
-                0x0000000007000fe8                ccm_dl_Floor_003_mesh_layer_1_vtx_cull
-                0x0000000007001068                ccm_dl_Floor_002_mesh_layer_1_tri_0
-                0x00000000070010a8                ccm_dl_Floor_002_mesh_layer_1_vtx_0
-                0x0000000007001228                ccm_dl_Floor_002_mesh_layer_1_vtx_cull
-                0x00000000070012a8                ccm_dl_Floor_001_mesh_layer_1_tri_0
-                0x00000000070012e8                ccm_dl_Floor_001_mesh_layer_1_vtx_0
-                0x0000000007001468                ccm_dl_Floor_001_mesh_layer_1_vtx_cull
-                0x00000000070014e8                ccm_dl_Floor_mesh_layer_1_tri_0
-                0x0000000007001528                ccm_dl_Floor_mesh_layer_1_vtx_0
-                0x00000000070016a8                ccm_dl_Floor_mesh_layer_1_vtx_cull
-                0x0000000007001728                ccm_dl_Stary2_pal_rgba16
-                0x0000000007001918                ccm_dl_Stary2_pal_rgba16_aligner
-                0x0000000007001920                ccm_dl_Stary2_ci8
-                0x0000000007001d20                ccm_dl_Stary2_ci8_aligner
-                0x0000000007001d28                ccm_dl_rgba16_elarix_WaterCartoon_pal_rgba16
-                0x0000000007001df8                ccm_dl_rgba16_elarix_WaterCartoon_pal_rgba16_aligner
-                0x0000000007001e00                ccm_dl_rgba16_elarix_WaterCartoon_ci8
-                0x0000000007002200                ccm_dl_rgba16_elarix_WaterCartoon_ci8_aligner
-                0x0000000007002208                ccm_dl_tri_pal_rgba16
-                0x00000000070022f0                ccm_dl_tri_pal_rgba16_aligner
-                0x00000000070022f8                ccm_dl_tri_ci8
-                0x00000000070026f8                ccm_dl_tri_ci8_aligner
-                0x0000000007002700                ccm_area_1_macro_objs
-                0x0000000007002704                ccm_area_1_collision
-                0x0000000007002b98                ccm_seg7_trajectory_penguin_race
-                0x0000000007002d44                ccm_seg7_area_2_macro_objs
-                0x0000000007002ee0                ccm_seg7_area_2_collision
-                0x00000000070063d8                ccm_seg7_dl_070207F0
-                0x0000000007006c98                ccm_seg7_dl_0701FE60
-                0x0000000007006d88                ccm_seg7_dl_0701FD78
-                0x0000000007006e88                ccm_seg7_dl_0701FC78
-                0x0000000007008268                ccm_seg7_dl_0701E6B0
-                0x0000000007008368                ccm_seg7_dl_0701E558
-                0x0000000007009890                ccm_seg7_dl_0701CE30
-                0x000000000700f390                ccm_movtex_penguin_puddle_water
-                0x000000000700f3c0                ccm_seg7_trajectory_ropeway_lift
-                0x000000000700f40c                ccm_seg7_trajectory_snowman
-                0x000000000700f500                ccm_seg7_collision_ropeway_lift
-                0x000000000700f708                ccm_seg7_area_1_macro_objs
-                0x000000000700f87c                ccm_seg7_area_1_collision
-                0x0000000007012a70                ccm_seg7_dl_07013870
-                0x0000000007012c10                ccm_seg7_dl_070136D0
-                0x00000000070135d0                ccm_seg7_dl_07012BD8
-                0x0000000007014790                ccm_seg7_dl_070118B0
-                0x0000000007015040                ccm_seg7_dl_07010F28
-                0x00000000070153e0                ccm_seg7_dl_07010B50
-                0x0000000007015538                ccm_seg7_dl_070109D0
-                0x0000000007015888                ccm_seg7_dl_07010660
-                0x0000000007016148                ccm_seg7_dl_0700FD08
-                0x0000000007016330                ccm_seg7_dl_0700FB00
-                0x0000000007016668                ccm_seg7_dl_0700F780
-                0x0000000007016778                ccm_seg7_dl_0700F650
-                0x0000000007016978                ccm_seg7_dl_0700F440
-                0x0000000007017370                ccm_seg7_dl_0700E970
-                0x00000000070175b8                ccm_seg7_dl_0700E708
-                0x0000000007017e20                ccm_seg7_dl_0700DDF0
-                0x0000000007018590                ccm_seg7_dl_0700D578
-                0x0000000007019658                ccm_seg7_dl_0700C380
-                0x000000000701a6f0                ccm_seg7_dl_0700B1D8
-                0x000000000701a810                ccm_seg7_dl_0700B090
+                0x0000000007000040                ccm_dl_render_088_mesh_layer_1
+                0x0000000007000080                ccm_dl_Icosphere_006_mesh_layer_1
+                0x00000000070000c0                ccm_dl_Icosphere_005_mesh_layer_1
+                0x0000000007000100                ccm_dl_Icosphere_004_mesh_layer_1
+                0x0000000007000140                ccm_dl_Icosphere_003_mesh_layer_1
+                0x0000000007000180                ccm_dl_Icosphere_002_mesh_layer_1
+                0x00000000070001c0                ccm_dl_Icosphere_001_mesh_layer_1
+                0x0000000007000200                ccm_dl_Cube_027_mesh_layer_1
+                0x0000000007000240                ccm_dl_Cube_026_mesh_layer_1
+                0x0000000007000280                ccm_dl_Cube_025_mesh_layer_1
+                0x00000000070002c0                ccm_dl_Cube_024_mesh_layer_1
+                0x0000000007000300                ccm_dl_Cube_023_mesh_layer_1
+                0x0000000007000340                ccm_dl_Cube_022_mesh_layer_1
+                0x0000000007000380                ccm_dl_Cube_021_mesh_layer_1
+                0x00000000070003c0                ccm_dl_Cube_020_mesh_layer_1
+                0x0000000007000400                ccm_dl_Cube_019_mesh_layer_1
+                0x0000000007000440                ccm_dl_Cube_013_mesh_layer_1
+                0x0000000007000480                ccm_dl_Cube_008_mesh_layer_1
+                0x00000000070004c0                ccm_dl_Cube_003_mesh_layer_1
+                0x0000000007000500                ccm_dl_Cube_002_mesh_layer_1
+                0x0000000007000540                ccm_dl_Cube_001_mesh_layer_1
+                0x0000000007000580                ccm_dl_Cube_mesh_layer_1
+                0x00000000070005c0                ccm_dl_black_001_mesh_layer_1
+                0x0000000007000600                ccm_dl_black_mesh_layer_1
+                0x0000000007000640                mat_revert_ccm_dl_grey_checker
+                0x0000000007000660                mat_ccm_dl_grey_checker
+                0x00000000070006f0                mat_revert_ccm_dl_grass
+                0x0000000007000710                mat_ccm_dl_grass
+                0x00000000070007a0                mat_revert_ccm_dl_wood
+                0x00000000070007c0                mat_ccm_dl_wood
+                0x0000000007000850                mat_revert_ccm_dl_swirl
+                0x0000000007000870                mat_ccm_dl_swirl
+                0x0000000007000900                mat_revert_ccm_dl_rock
+                0x0000000007000920                mat_ccm_dl_rock
+                0x00000000070009b0                mat_revert_ccm_dl_f3dlite_material
+                0x00000000070009d0                mat_ccm_dl_f3dlite_material
+                0x0000000007000a60                mat_revert_ccm_dl_swirl_001
+                0x0000000007000a80                mat_ccm_dl_swirl_001
+                0x0000000007000b10                mat_revert_ccm_dl_dirt
+                0x0000000007000b30                mat_ccm_dl_dirt
+                0x0000000007000bc0                mat_revert_ccm_dl_black
+                0x0000000007000bd8                mat_ccm_dl_black
+                0x0000000007000c20                ccm_dl_render_088_mesh_layer_1_tri_0
+                0x0000000007000c60                ccm_dl_render_088_mesh_layer_1_vtx_0
+                0x0000000007000de0                ccm_dl_render_088_mesh_layer_1_vtx_cull
+                0x0000000007000e60                ccm_dl_Icosphere_006_mesh_layer_1_tri_0
+                0x0000000007001468                ccm_dl_Icosphere_006_mesh_layer_1_vtx_0
+                0x0000000007005068                ccm_dl_Icosphere_006_mesh_layer_1_vtx_cull
+                0x00000000070050e8                ccm_dl_Icosphere_005_mesh_layer_1_tri_0
+                0x00000000070056f0                ccm_dl_Icosphere_005_mesh_layer_1_vtx_0
+                0x00000000070092f0                ccm_dl_Icosphere_005_mesh_layer_1_vtx_cull
+                0x0000000007009370                ccm_dl_Icosphere_004_mesh_layer_1_tri_0
+                0x0000000007009978                ccm_dl_Icosphere_004_mesh_layer_1_vtx_0
+                0x000000000700d578                ccm_dl_Icosphere_004_mesh_layer_1_vtx_cull
+                0x000000000700d5f8                ccm_dl_Icosphere_003_mesh_layer_1_tri_0
+                0x000000000700dc00                ccm_dl_Icosphere_003_mesh_layer_1_vtx_0
+                0x0000000007011800                ccm_dl_Icosphere_003_mesh_layer_1_vtx_cull
+                0x0000000007011880                ccm_dl_Icosphere_002_mesh_layer_1_tri_0
+                0x0000000007011e88                ccm_dl_Icosphere_002_mesh_layer_1_vtx_0
+                0x0000000007015a88                ccm_dl_Icosphere_002_mesh_layer_1_vtx_cull
+                0x0000000007015b08                ccm_dl_Icosphere_001_mesh_layer_1_tri_0
+                0x0000000007016110                ccm_dl_Icosphere_001_mesh_layer_1_vtx_0
+                0x0000000007019d10                ccm_dl_Icosphere_001_mesh_layer_1_vtx_cull
+                0x0000000007019d90                ccm_dl_Cube_027_mesh_layer_1_tri_0
+                0x0000000007019f58                ccm_dl_Cube_027_mesh_layer_1_vtx_0
+                0x000000000701ab18                ccm_dl_Cube_027_mesh_layer_1_vtx_cull
+                0x000000000701ab98                ccm_dl_Cube_026_mesh_layer_1_tri_0
+                0x000000000701abd8                ccm_dl_Cube_026_mesh_layer_1_vtx_0
+                0x000000000701ad58                ccm_dl_Cube_026_mesh_layer_1_vtx_cull
+                0x000000000701add8                ccm_dl_Cube_025_mesh_layer_1_tri_0
+                0x000000000701ae18                ccm_dl_Cube_025_mesh_layer_1_vtx_0
+                0x000000000701af98                ccm_dl_Cube_025_mesh_layer_1_vtx_cull
+                0x000000000701b018                ccm_dl_Cube_024_mesh_layer_1_tri_0
+                0x000000000701b058                ccm_dl_Cube_024_mesh_layer_1_vtx_0
+                0x000000000701b1d8                ccm_dl_Cube_024_mesh_layer_1_vtx_cull
+                0x000000000701b258                ccm_dl_Cube_023_mesh_layer_1_tri_0
+                0x000000000701b298                ccm_dl_Cube_023_mesh_layer_1_vtx_0
+                0x000000000701b418                ccm_dl_Cube_023_mesh_layer_1_vtx_cull
+                0x000000000701b498                ccm_dl_Cube_022_mesh_layer_1_tri_0
+                0x000000000701b660                ccm_dl_Cube_022_mesh_layer_1_vtx_0
+                0x000000000701c220                ccm_dl_Cube_022_mesh_layer_1_vtx_cull
+                0x000000000701c2a0                ccm_dl_Cube_021_mesh_layer_1_tri_0
+                0x000000000701c468                ccm_dl_Cube_021_mesh_layer_1_vtx_0
+                0x000000000701d028                ccm_dl_Cube_021_mesh_layer_1_vtx_cull
+                0x000000000701d0a8                ccm_dl_Cube_020_mesh_layer_1_tri_0
+                0x000000000701d270                ccm_dl_Cube_020_mesh_layer_1_vtx_0
+                0x000000000701de30                ccm_dl_Cube_020_mesh_layer_1_vtx_cull
+                0x000000000701deb0                ccm_dl_Cube_019_mesh_layer_1_tri_0
+                0x000000000701e078                ccm_dl_Cube_019_mesh_layer_1_vtx_0
+                0x000000000701ec38                ccm_dl_Cube_019_mesh_layer_1_vtx_cull
+                0x000000000701ecb8                ccm_dl_Cube_013_mesh_layer_1_tri_0
+                0x000000000701ecf8                ccm_dl_Cube_013_mesh_layer_1_vtx_0
+                0x000000000701ee78                ccm_dl_Cube_013_mesh_layer_1_vtx_cull
+                0x000000000701eef8                ccm_dl_Cube_008_mesh_layer_1_tri_0
+                0x000000000701ef38                ccm_dl_Cube_008_mesh_layer_1_vtx_0
+                0x000000000701f0b8                ccm_dl_Cube_008_mesh_layer_1_vtx_cull
+                0x000000000701f138                ccm_dl_Cube_003_mesh_layer_1_tri_0
+                0x000000000701f2d8                ccm_dl_Cube_003_mesh_layer_1_vtx_0
+                0x000000000701fb78                ccm_dl_Cube_003_mesh_layer_1_vtx_cull
+                0x000000000701fbf8                ccm_dl_Cube_002_mesh_layer_1_tri_0
+                0x000000000701fc38                ccm_dl_Cube_002_mesh_layer_1_vtx_0
+                0x000000000701fdb8                ccm_dl_Cube_002_mesh_layer_1_vtx_cull
+                0x000000000701fe38                ccm_dl_Cube_001_mesh_layer_1_tri_0
+                0x000000000701feb0                ccm_dl_Cube_001_mesh_layer_1_vtx_0
+                0x0000000007020130                ccm_dl_Cube_001_mesh_layer_1_vtx_cull
+                0x00000000070201b0                ccm_dl_Cube_mesh_layer_1_tri_0
+                0x0000000007020378                ccm_dl_Cube_mesh_layer_1_vtx_0
+                0x0000000007020f38                ccm_dl_Cube_mesh_layer_1_vtx_cull
+                0x0000000007020fb8                ccm_dl_black_001_mesh_layer_1_tri_0
+                0x0000000007020ff8                ccm_dl_black_001_mesh_layer_1_vtx_0
+                0x0000000007021178                ccm_dl_black_001_mesh_layer_1_vtx_cull
+                0x00000000070211f8                ccm_dl_black_mesh_layer_1_tri_0
+                0x0000000007021210                ccm_dl_black_mesh_layer_1_vtx_0
+                0x0000000007021250                ccm_dl_black_mesh_layer_1_vtx_cull
+                0x00000000070212d0                ccm_dl_ci4_anonmoose_Tiles1_pal_rgba16
+                0x00000000070212f0                ccm_dl_ci4_anonmoose_Tiles1_pal_rgba16_aligner
+                0x00000000070212f8                ccm_dl_ci4_anonmoose_Tiles1_ci4
+                0x0000000007021af8                ccm_dl_ci4_anonmoose_Tiles1_ci4_aligner
+                0x0000000007021b00                ccm_dl__12_pal_rgba16
+                0x0000000007021b68                ccm_dl__12_pal_rgba16_aligner
+                0x0000000007021b70                ccm_dl__12_ci8
+                0x0000000007021f70                _ci8_aligner::ccm_dl(void)
+                0x0000000007021f78                ccm_dl_ci4_sophie_broom_pal_rgba16
+                0x0000000007021f98                ccm_dl_ci4_sophie_broom_pal_rgba16_aligner
+                0x0000000007021fa0                ccm_dl_ci4_sophie_broom_ci4
+                0x00000000070227a0                ccm_dl_ci4_sophie_broom_ci4_aligner
+                0x00000000070227a8                ccm_dl_rgba16_anonmoose_swirl1_pal_rgba16_copy
+                0x00000000070227f8                ccm_dl_rgba16_anonmoose_swirl1_pal_rgba16_copy_aligner
+                0x0000000007022800                ccm_dl_rgba16_anonmoose_swirl1_ci8_copy
+                0x0000000007022c00                ccm_dl_rgba16_anonmoose_swirl1_ci8_copy_aligner
+                0x0000000007022c08                ccm_dl__25_pal_rgba16
+                0x0000000007022c78                ccm_dl__25_pal_rgba16_aligner
+                0x0000000007022c80                ccm_dl__25_ci8
+                0x0000000007023080                ccm_dl__25_ci8_aligner
+                0x0000000007023088                ccm_dl_KKIIDDZZ_DAT_735__p00_pal_rgba16
+                0x00000000070230a8                ccm_dl_KKIIDDZZ_DAT_735__p00_pal_rgba16_aligner
+                0x00000000070230b0                ccm_dl_KKIIDDZZ_DAT_735__p00_ci4
+                0x00000000070232b0                ccm_dl_KKIIDDZZ_DAT_735__p00_ci4_aligner
+                0x00000000070232b8                ccm_dl_rgba16_anonmoose_swirl1_pal_rgba16
+                0x0000000007023308                ccm_dl_rgba16_anonmoose_swirl1_pal_rgba16_aligner
+                0x0000000007023310                ccm_dl_rgba16_anonmoose_swirl1_ci8
+                0x0000000007023710                ccm_dl_rgba16_anonmoose_swirl1_ci8_aligner
+                0x0000000007023718                ccm_dl_ci4_anonmoose_Dirt1_pal_rgba16
+                0x0000000007023750                ccm_dl_ci4_anonmoose_Dirt1_pal_rgba16_aligner
+                0x0000000007023758                ccm_dl_ci4_anonmoose_Dirt1_ci8
+                0x0000000007023b58                ccm_dl_ci4_anonmoose_Dirt1_ci8_aligner
+                0x0000000007023b60                ccm_area_1_macro_objs
+                0x0000000007023b64                ccm_area_1_collision
+                0x000000000702b2a8                ccm_seg7_trajectory_penguin_race
+                0x000000000702b454                ccm_seg7_area_2_macro_objs
+                0x000000000702b5f0                ccm_seg7_area_2_collision
+                0x000000000702eae8                ccm_seg7_dl_070207F0
+                0x000000000702f3a8                ccm_seg7_dl_0701FE60
+                0x000000000702f498                ccm_seg7_dl_0701FD78
+                0x000000000702f598                ccm_seg7_dl_0701FC78
+                0x0000000007030978                ccm_seg7_dl_0701E6B0
+                0x0000000007030a78                ccm_seg7_dl_0701E558
+                0x0000000007031fa0                ccm_seg7_dl_0701CE30
+                0x0000000007037aa0                ccm_movtex_penguin_puddle_water
+                0x0000000007037ad0                ccm_seg7_trajectory_ropeway_lift
+                0x0000000007037b1c                ccm_seg7_trajectory_snowman
+                0x0000000007037c10                ccm_seg7_collision_ropeway_lift
+                0x0000000007037e18                ccm_seg7_area_1_macro_objs
+                0x0000000007037f8c                ccm_seg7_area_1_collision
+                0x000000000703b180                ccm_seg7_dl_07013870
+                0x000000000703b320                ccm_seg7_dl_070136D0
+                0x000000000703bce0                ccm_seg7_dl_07012BD8
+                0x000000000703cea0                ccm_seg7_dl_070118B0
+                0x000000000703d750                ccm_seg7_dl_07010F28
+                0x000000000703daf0                ccm_seg7_dl_07010B50
+                0x000000000703dc48                ccm_seg7_dl_070109D0
+                0x000000000703df98                ccm_seg7_dl_07010660
+                0x000000000703e858                ccm_seg7_dl_0700FD08
+                0x000000000703ea40                ccm_seg7_dl_0700FB00
+                0x000000000703ed78                ccm_seg7_dl_0700F780
+                0x000000000703ee88                ccm_seg7_dl_0700F650
+                0x000000000703f088                ccm_seg7_dl_0700F440
+                0x000000000703fa80                ccm_seg7_dl_0700E970
+                0x000000000703fcc8                ccm_seg7_dl_0700E708
+                0x0000000007040530                ccm_seg7_dl_0700DDF0
+                0x0000000007040ca0                ccm_seg7_dl_0700D578
+                0x0000000007041d68                ccm_seg7_dl_0700C380
+                0x0000000007042e00                ccm_seg7_dl_0700B1D8
+                0x0000000007042f20                ccm_seg7_dl_0700B090
 
 .data1
  *(.data1)
 
 .got.plt
  *(.got.plt)
-                0x0000000007025038                . = .
-                0x0000000007025038                . = .
-                0x000000000702d030                _gp = (ALIGN (0x10) + 0x7ff0)
+                0x000000000704d748                . = .
+                0x000000000704d748                . = .
+                0x0000000007055740                _gp = (ALIGN (0x10) + 0x7ff0)
 
 .got
  *(.got)
@@ -334,29 +426,29 @@ LOAD build/us_n64/levels/ccm/leveldata.o
 
 .lit4
  *(.lit4)
-                0x0000000007025038                _edata = .
+                0x000000000704d748                _edata = .
                 [!provide]                        PROVIDE (edata = .)
-                0x0000000007025038                . = .
-                0x0000000007025038                __bss_start = .
-                0x0000000007025038                _fbss = .
+                0x000000000704d748                . = .
+                0x000000000704d748                __bss_start = .
+                0x000000000704d748                _fbss = .
 
 .sbss
  *(.dynsbss)
  *(.sbss .sbss.* .gnu.linkonce.sb.*)
  *(.scommon)
 
-.bss            0x0000000007025038        0x0 load address 0x0000000007025050
+.bss            0x000000000704d748        0x0 load address 0x000000000704d760
  *(.dynbss)
  *(.bss .bss.* .gnu.linkonce.b.*)
- .bss           0x0000000007025038        0x0 build/us_n64/levels/ccm/leveldata.o
+ .bss           0x000000000704d748        0x0 build/us_n64/levels/ccm/leveldata.o
  *(COMMON)
-                0x0000000007025038                . = ALIGN ((. != 0x0)?0x4:0x1)
-                0x0000000007025038                . = ALIGN (0x4)
-                0x0000000007025038                . = SEGMENT_START ("ldata-segment", .)
-                0x0000000007025038                . = ALIGN (0x4)
-                0x0000000007025038                _end = .
+                0x000000000704d748                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x000000000704d748                . = ALIGN (0x4)
+                0x000000000704d748                . = SEGMENT_START ("ldata-segment", .)
+                0x000000000704d748                . = ALIGN (0x4)
+                0x000000000704d748                _end = .
                 [!provide]                        PROVIDE (end = .)
-                0x0000000007025038                . = DATA_SEGMENT_END (.)
+                0x000000000704d748                . = DATA_SEGMENT_END (.)
 
 .stab
  *(.stab)

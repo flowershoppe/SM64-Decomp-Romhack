@@ -780,7 +780,7 @@ s32 act_tornado_twirling(struct MarioState *m) {
     f32 dx = (m->pos[0] - usedObj->oPosX) * 0.95f;
     f32 dz = (m->pos[2] - usedObj->oPosZ) * 0.95f;
 
-    if (m->vel[1] < 60.0f) {
+    if (m->vel[1] < 100.0f) {
         m->vel[1] += 1.0f;
     }
 
@@ -788,17 +788,17 @@ s32 act_tornado_twirling(struct MarioState *m) {
         marioObj->oMarioTornadoPosY = 0.0f;
     }
     if (marioObj->oMarioTornadoPosY > usedObj->hitboxHeight) {
-        if (m->vel[1] < 20.0f) {
-            m->vel[1] = 20.0f;
+        if (m->vel[1] < 100.0f) {
+            m->vel[1] = 100.0f;
         }
         return set_mario_action(m, ACT_TWIRLING, 1);
     }
 
-    if (m->angleVel[1] < 0x3000) {
+    if (m->angleVel[1] < 0x2000) {
         m->angleVel[1] += 0x100;
     }
 
-    if (marioObj->oMarioTornadoYawVel < 0x1000) {
+    if (marioObj->oMarioTornadoYawVel < 0x2000) {
         marioObj->oMarioTornadoYawVel += 0x100;
     }
 

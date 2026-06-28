@@ -91,12 +91,13 @@ build/us_n64/data/behavior_data.o: data/behavior_data.c include/sm64.h \
  actors/group9.h actors/group10.h actors/group11.h actors/group12.h \
  actors/group13.h actors/group14.h actors/group15.h actors/group16.h \
  actors/group17.h levels/bbh/header.h src/game/moving_texture.h \
- levels/castle_inside/header.h src/game/paintings.h levels/hmc/header.h \
- levels/ssl/header.h levels/bob/header.h levels/bob/header.inc.h \
- levels/sl/header.h levels/wdw/header.h levels/jrb/header.h \
- levels/jrb/header.inc.h levels/thi/header.h levels/ttc/header.h \
- levels/rr/header.h levels/castle_grounds/header.h levels/bitdw/header.h \
- levels/lll/header.h levels/sa/header.h levels/bitfs/header.h \
- levels/ddd/header.h levels/wf/header.h levels/wf/header.inc.h \
- levels/bowser_2/header.h levels/ttm/header.h \
- include/make_const_nonconst.h include/behavior_data.h
+ levels/bbh/header.inc.h levels/castle_inside/header.h \
+ src/game/paintings.h levels/hmc/header.h levels/ssl/header.h \
+ levels/bob/header.h levels/bob/header.inc.h levels/sl/header.h \
+ levels/wdw/header.h levels/jrb/header.h levels/jrb/header.inc.h \
+ levels/thi/header.h levels/ttc/header.h levels/rr/header.h \
+ levels/castle_grounds/header.h levels/bitdw/header.h levels/lll/header.h \
+ levels/sa/header.h levels/bitfs/header.h levels/ddd/header.h \
+ levels/wf/header.h levels/wf/header.inc.h levels/bowser_2/header.h \
+ levels/ttm/header.h include/make_const_nonconst.h \
+ include/behavior_data.h

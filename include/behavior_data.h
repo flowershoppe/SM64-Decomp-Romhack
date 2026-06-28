@@ -565,4 +565,6 @@ extern const BehaviorScript bhvSyncBlock[];
 extern const BehaviorScript bhvBomboomBomb[];
 extern const BehaviorScript bhvBomboom[];
 extern const BehaviorScript bhvStarDoorNew[];
+extern const BehaviorScript bhvTiltingPlatform[];
+extern const BehaviorScript bhvSpindriftSpawner[];
 #endif // BEHAVIOR_DATA_H

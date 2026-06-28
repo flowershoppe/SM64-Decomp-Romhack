@@ -42,9 +42,9 @@ I heard you got some new\n\
 moves. Apparently, you\n\
 can dive in any direction\n\
 and out of any jump? Oh!\n\
-and your wall kicks are\n\
-way better? You gotta\n\
-show me!"))
+and you can wall kick up\n\
+to 80 degrees on a wall?\n\
+You gotta show me!"))
 
 DEFINE_DIALOG(DIALOG_005, 1, 3, 30, 200, _("\
 I think you'll need to\n\
@@ -52,34 +52,30 @@ use your new moves in\n\
 some creative ways\n\
 for this star."))
 
-DEFINE_DIALOG(DIALOG_006, 1, 3, 30, 200, _("\
-Hey!!! Don't try to " SCAM_ME
-"You've gotta run\n\
-the whole course.\n\
-Later. Look me up when\n\
-you want to race for\n\
-real."))
+DEFINE_DIALOG(DIALOG_006, 1, 5, 30, 200, _("\
+Are you here to help us?\n\
+Thank goodness. We've\n\
+tried locking up some of\n\
+the power stars to keep\n\
+them safe. There's one\n\
+nearby that you'll need\n\
+to find 5 silver mini-\n\
+stars to reveal."))
 
 DEFINE_DIALOG(DIALOG_007, 1, 5, 30, 200, _("\
-Hufff...fff...pufff...\n\
-Whoa! You...really...are...\n\
-fast! A human blur!\n\
-Here you go--you've won\n\
-it, fair and square!"))
+I can't get this cannon\n\
+open! I've been trying\n\
+all day. Usually Oalf\n\
+opens it but he got\n\
+scared and ran off \n\
+after those goons\n\
+showed up."))
 
 DEFINE_DIALOG(DIALOG_008, 1, 4, 30, 200, _("\
-BEWARE OF CHAIN CHOMP\n\
-Extreme Danger!\n\
-Get close and press [C]^\n\
-for a better look.\n\
-Scary, huh?\n\
-See the Red Coin on top\n\
-of the stake?\n\
-\n\
-When you collect eight of\n\
-them, a Power Star will\n\
-appear in the meadow\n\
-across the bridge."))
+To reach this star,\n\
+perform a triple jump,\n\
+then a wall kick, then\n\
+dive toward the ledge."))
 
 DEFINE_DIALOG(DIALOG_009, 1, 5, 30, 200, _("\
 Long time, no see! Wow,\n\
@@ -141,28 +137,27 @@ DEFINE_DIALOG(DIALOG_013, 1, 5, 30, 200, _("\
 You found a Power Star!\n\
 Great work!\n\
 Do you want to Save?\n\
-//Yes//No"))
+//Yes     //No"))
 
 DEFINE_DIALOG(DIALOG_014, 1, 4, 30, 200, _("\
 You found a Power Star!\n\
 Great work!\n\
 Do you want to Save?\n\
-//Yes//No"))
+//Yes     //No"))
 
 DEFINE_DIALOG(DIALOG_015, 1, 4, 30, 200, _("\
-You can punch enemies to\n\
-knock them down. Press [A]\n\
-to jump, [B] to punch.\n\
-Press [A] then [B] to Kick.\n\
-To pick something up,\n\
-press [B], too. To throw\n\
-something you're holding,\n\
-press [B] again."))
+To reach this star,\n\
+perform a long jump,\n\
+then a wall kick.\n\
+For extra distance,\n\
+you can then dive."))
 
 DEFINE_DIALOG(DIALOG_016, 1, 3, 30, 200, _("\
-Hop on the shiny shell and\n\
-ride wherever you want to\n\
-go! Shred those enemies!"))
+You're finally here!\n\
+The islands only have\n\
+so much reserve power\n\
+left. Please, help us\n\
+reclaim the power stars!"))
 
 DEFINE_DIALOG(DIALOG_017, 1, 4, 30, 200, _("\
 bitch-ass"))
@@ -502,9 +497,14 @@ Practice, practice,\n\
 practice. You don't stand\n\
 a chance without them."))
 
-DEFINE_DIALOG(DIALOG_047, 1, 2, 95, 200, _("\
-Hi! I'll prepare the\n\
-cannon for you!"))
+DEFINE_DIALOG(DIALOG_047, 1, 5, 95, 200, _("\
+What? Who are you?\n\
+Leave me alone.\n\
+You need the cannon\n\
+opened? Fine, but don't\n\
+come crying to me when\n\
+the goombas get their\n\
+hands -- feet? -- on it."))
 
 DEFINE_DIALOG(DIALOG_048, 1, 4, 30, 200, _("\
 Snow Mountain Summit\n\
@@ -1199,8 +1199,7 @@ grab on to trees or poles\n\
 to land."))
 
 DEFINE_DIALOG(DIALOG_106, 1, 2, 95, 200, _("\
-Ready for blastoff! Come\n\
-on, hop into the cannon!"))
+All yours."))
 
 DEFINE_DIALOG(DIALOG_107, 1, 3, 95, 200, _("\
 Ghosts...\n\

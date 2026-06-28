@@ -63,4 +63,7 @@ build/us_n64/levels/jrb/leveldata.o: levels/jrb/leveldata.c \
  levels/jrb/areas/2/macro.inc.c levels/jrb/areas/2/movtext.inc.c \
  levels/jrb/leveldata.inc.c levels/jrb/area_1/collision.inc.c \
  levels/jrb/area_1/macro.inc.c levels/jrb/area_1/spline.inc.c \
+ levels/jrb/area_2/collision.inc.c levels/jrb/area_2/macro.inc.c \
+ levels/jrb/area_2/spline.inc.c levels/jrb/area_3/collision.inc.c \
+ levels/jrb/area_3/macro.inc.c levels/jrb/area_3/spline.inc.c \
  levels/jrb/model.inc.c

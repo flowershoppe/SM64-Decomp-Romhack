@@ -1,22 +1,22 @@
 COURSE_ACTS(COURSE_BOB, _(" 1 STRIX TEMPLE"),
+       _("WIP")     , _("WIP") ,   _("WIP"),
+       _("WIP")     , _("WIP") ,   _("WIP"))
+
+COURSE_ACTS(COURSE_WF, _(" 2 SKYBORNE ISLANDS"),
+       _("OPEN SAYS-A-ME")     , _("5 SILVER STARS") ,   _("HEAD IN THE CLOUDS"),
+       _("WIP")     , _("WIP") ,   _("RUBY STAR"))
+
+COURSE_ACTS(COURSE_JRB, _(" 3 STRIX TEMPLE"),
        _("5 SILVER STARS")     , _("THE XANTHOUS PATH") , _("THE GAUNTLET"),
-       _("PERFECT TIMING")          , _("WIP")        , _("RUBY STAR"))
-
-COURSE_ACTS(COURSE_WF, _(" 2 WHOMP'S FORTRESS"),
-       _("CHIP OFF WHOMP'S BLOCK")        , _("TO THE TOP OF THE FORTRESS")    , _("SHOOT INTO THE WILD BLUE"),
-       _("RED COINS ON THE FLOATING ISLE"), _("FALL ONTO THE CAGED ISLAND")    , _("BLAST AWAY THE WALL"))
-
-COURSE_ACTS(COURSE_JRB, _(" 3 BELEAGUERED BASIN"),
-       _("THE BELFRY BULLIES")    , _("KING OF THE HILL") , _("CONCENTRIC QUARTER-CIRCLES"),
-       _("UP THE TREE")  , _("THE WATERFALL GAMBIT")     , _("RUBY STAR"))
+       _("PERFECT TIMING")          , _("BOSS STAR")        , _("RUBY STAR"))
 
 COURSE_ACTS(COURSE_CCM, _(" 4 COOL, COOL MOUNTAIN"),
-       _("SLIP SLIDIN' AWAY")             , _("LI'L PENGUIN LOST")             , _("BIG PENGUIN RACE"),
-       _("FROSTY SLIDE FOR 8 RED COINS")  , _("SNOWMAN'S LOST HIS HEAD")       , _("WALL KICKS WILL WORK"))
+       _("WIP")     , _("WIP") ,   _("WIP"),
+       _("WIP")     , _("WIP") ,   _("WIP"))
 
-COURSE_ACTS(COURSE_BBH, _(" 5 BIG BOO'S HAUNT"),
-       _("GO ON A GHOST HUNT")            , _("RIDE BIG BOO'S MERRY-GO-ROUND") , _("SECRET OF THE HAUNTED BOOKS"),
-       _("SEEK THE 8 RED COINS")          , _("BIG BOO'S BALCONY")             , _("EYE TO EYE IN THE SECRET ROOM"))
+COURSE_ACTS(COURSE_BBH, _(" 5 BELEAGUERED BASIN"),
+       _("THE BELFRY BULLIES")            , _("KING OF THE HILL") , _("CONCENTRIC QUARTER-CIRCLES"),
+       _("UP THE TREE")          , _("THE WATERFALL GAMBIT")             , _("RUBY STAR"))
 
 COURSE_ACTS(COURSE_HMC, _(" 6 HAZY MAZE CAVE"),
        _("SWIMMING BEAST IN THE CAVERN")  , _("ELEVATE FOR 8 RED COINS")       , _("METAL-HEAD MARIO CAN MOVE!"),
