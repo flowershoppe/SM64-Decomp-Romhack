@@ -71,7 +71,7 @@ const LevelScript level_wf_entry[] = {
 
 	AREA(1, wf_area_1),
 		WARP_NODE(0xF1, LEVEL_WF, 0x01, 0x02, WARP_NO_CHECKPOINT),
-		MARIO_POS(0x01, 89, -6966, 0, 12838),
+		MARIO_POS(0x01, 179, -6966, 100, 12838),
 		OBJECT(MODEL_AMP, 7967, 6251, 1926, 0, 135, 0, 0x00000000, bhvCirclingAmp),
 		OBJECT(MODEL_AMP, 6042, 6053, -1210, 0, 135, 0, 0x00000000, bhvCirclingAmp),
 		OBJECT(MODEL_AMP, 9460, 7186, 4647, 0, 135, 0, 0x00000000, bhvCirclingAmp),
@@ -102,10 +102,6 @@ const LevelScript level_wf_entry[] = {
 		OBJECT(MODEL_EXCLAMATION_BOX, -10422, 443, -4560, 0, 33, 0, (5 << 16), bhvExclamationBox),
 		OBJECT(MODEL_BOWLING_BALL, 1076, 3577, -5302, 0, -135, 0, 0x00000000, bhvFireSpitter),
 		OBJECT(MODEL_BOWLING_BALL, 1960, 3577, -4418, 0, -135, 0, 0x00000000, bhvFireSpitter),
-		OBJECT(MODEL_FLYGUY, 17710, 7420, 3035, 0, -31, 0, 0x00000000, bhvFlyGuy),
-		OBJECT(MODEL_FLYGUY, 17764, 7420, 3785, 0, -108, 0, 0x00000000, bhvFlyGuy),
-		OBJECT(MODEL_FLYGUY, 18701, 7420, 3465, 0, -108, 0, 0x00000000, bhvFlyGuy),
-		OBJECT(MODEL_FLYGUY, 18548, 7420, 2798, 0, -174, 0, 0x00000000, bhvFlyGuy),
 		OBJECT(MODEL_GOOMBA, -5808, 1082, 6159, 0, 113, 0, (0 << 24), bhvGoomba),
 		OBJECT(MODEL_GOOMBA, -8193, 1082, 6356, 0, 113, 0, (0 << 24), bhvGoomba),
 		OBJECT(MODEL_GOOMBA, 11640, 6441, 4702, 0, 135, 0, 0x00000000, bhvGoomba),
@@ -237,7 +233,7 @@ const LevelScript level_wf_entry[] = {
 		/* Fast64 end persistent block [area commands] */
 	END_AREA(),
 	FREE_LEVEL_POOL(),
-	MARIO_POS(0x01, 89, -6966, 0, 12838),
+	MARIO_POS(0x01, 179, -6966, 100, 12838),
 	CALL(0, lvl_init_or_update),
 	CALL_LOOP(1, lvl_init_or_update),
 	CLEAR_LEVEL(),
