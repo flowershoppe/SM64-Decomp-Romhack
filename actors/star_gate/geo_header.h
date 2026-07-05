@@ -1,0 +1,11 @@
+extern const GeoLayout star_gate_geo[];
+extern Lights1 star_gate_force_field_lights;
+extern u8 star_gate_Material62_ci8[];
+extern u8 star_gate_Material62_pal_rgba16[];
+extern Vtx star_gate_star_gate_mesh_layer_1_vtx_cull[8];
+extern Vtx star_gate_star_gate_mesh_layer_1_vtx_0[26];
+extern Gfx star_gate_star_gate_mesh_layer_1_tri_0[];
+extern Gfx mat_star_gate_force_field[];
+extern Gfx mat_revert_star_gate_force_field[];
+extern Gfx star_gate_star_gate_mesh_layer_1[];
+extern Gfx star_gate_final_revert_mesh_layer_1[];

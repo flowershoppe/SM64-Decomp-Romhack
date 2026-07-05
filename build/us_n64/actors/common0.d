@@ -149,4 +149,5 @@ build/us_n64/actors/common0.o: actors/common0.c \
  actors/bomboom/anims/data.inc.c actors/bomboom/anims/table.inc.c \
  actors/bomboom/anims/table_enum.h actors/bomboom/collision.inc.c \
  actors/MODEL_STAR_DOOR/collision.inc.c \
- actors/MODEL_STAR_DOOR/model.inc.c
+ actors/MODEL_STAR_DOOR/model.inc.c actors/star_gate/collision.inc.c \
+ actors/star_gate/model.inc.c

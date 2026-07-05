@@ -6383,3 +6383,15 @@ const BehaviorScript bhvSpindriftSpawner[] = {
         CALL_NATIVE(bhv_spindrift_spawner_loop),
     END_LOOP(),
 };
+
+const BehaviorScript bhvStarGate[] = {
+    BEGIN(OBJ_LIST_SURFACE),
+    OR_INT(oFlags, (OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE | OBJ_FLAG_COMPUTE_DIST_TO_MARIO)),
+    SET_FLOAT(oDrawingDistance, 10000),
+    LOAD_COLLISION_DATA(star_gate_collision),
+    SET_HOME(),
+    BEGIN_LOOP(),
+        CALL_NATIVE(bhv_star_gate_loop),        
+        CALL_NATIVE(load_object_collision_model),
+    END_LOOP(),
+};

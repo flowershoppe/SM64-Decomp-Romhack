@@ -35,9 +35,55 @@ build/us_n64/src/game/texscroll.o: src/game/texscroll.c include/types.h \
  src/game/texscroll.h src/game/texscroll/bob_texscroll.inc.h \
  levels/bob/texscroll.inc.h src/game/texscroll/jrb_texscroll.inc.h \
  levels/jrb/texscroll.inc.h src/game/texscroll/bbh_texscroll.inc.h \
- levels/bbh/texscroll.inc.h src/game/texscroll/bob_texscroll.inc.c \
- levels/bob/header.h levels/bob/header.inc.h levels/bob/texscroll.inc.c \
+ levels/bbh/texscroll.inc.h src/game/texscroll/wf_texscroll.inc.h \
+ src/game/texscroll/common0_texscroll.inc.h \
+ src/game/texscroll/bob_texscroll.inc.c levels/bob/header.h \
+ levels/bob/header.inc.h levels/bob/texscroll.inc.c \
  src/game/texscroll/jrb_texscroll.inc.c levels/jrb/header.h \
  src/game/moving_texture.h levels/jrb/header.inc.h \
  levels/jrb/texscroll.inc.c src/game/texscroll/bbh_texscroll.inc.c \
- levels/bbh/header.h levels/bbh/header.inc.h levels/bbh/texscroll.inc.c
+ levels/bbh/header.h levels/bbh/header.inc.h levels/bbh/texscroll.inc.c \
+ src/game/texscroll/wf_texscroll.inc.c levels/wf/header.h \
+ levels/wf/header.inc.h src/game/texscroll/common0_texscroll.inc.c \
+ actors/common0.h actors/giant_fan/collision_header.h \
+ actors/giant_fan/geo_header.h actors/giant_fan_wide/collision_header.h \
+ actors/giant_fan_wide/geo_header.h actors/small_fan/collision_header.h \
+ actors/small_fan/geo_header.h actors/magic_platform/collision_header.h \
+ actors/magic_platform/geo_header.h actors/custom_pole/collision_header.h \
+ actors/custom_pole/geo_header.h \
+ actors/tilting_platform/collision_header.h \
+ actors/tilting_platform/geo_header.h actors/barrier/collision_header.h \
+ actors/barrier/geo_header.h actors/orbiting_platform1/collision_header.h \
+ actors/orbiting_platform1/geo_header.h \
+ actors/orbiting_platform2/collision_header.h \
+ actors/orbiting_platform2/geo_header.h \
+ actors/orbiting_platform3/collision_header.h \
+ actors/orbiting_platform3/geo_header.h \
+ actors/orbiting_platform4/collision_header.h \
+ actors/orbiting_platform4/geo_header.h \
+ actors/orbiting_platform5/collision_header.h \
+ actors/orbiting_platform5/geo_header.h \
+ actors/orbiting_platform6/collision_header.h \
+ actors/orbiting_platform6/geo_header.h \
+ actors/orbiting_platform7/collision_header.h \
+ actors/orbiting_platform7/geo_header.h \
+ actors/interactive_tablet/geo_header.h \
+ actors/interactive_tablet/collision_header.h \
+ actors/interactive_tablet_podium/collision_header.h \
+ actors/interactive_tablet_podium/geo_header.h \
+ actors/block_swap_switch/collision_header.h \
+ actors/block_swap_switch/geo_header.h \
+ actors/block_swap_block/geo_header.h \
+ actors/block_swap_block/collision_header.h \
+ actors/fading_platform/collision_header.h \
+ actors/fading_platform/geo_header.h \
+ actors/silver_star_podium/geo_header.h actors/silver_star/geo_header.h \
+ actors/silver_star/anim_header.h actors/silver_star/anims/table_enum.h \
+ actors/sync_block/geo_header.h actors/sync_block/collision_header.h \
+ actors/bomboom_bomb/geo_header.h actors/bomboom_bomb/anim_header.h \
+ actors/bomboom_bomb/anims/table_enum.h actors/bomboom/geo_header.h \
+ actors/bomboom/anim_header.h actors/bomboom/anims/table_enum.h \
+ actors/bomboom/collision_header.h \
+ actors/MODEL_STAR_DOOR/collision_header.h \
+ actors/MODEL_STAR_DOOR/geo_header.h actors/star_gate/collision_header.h \
+ actors/star_gate/geo_header.h

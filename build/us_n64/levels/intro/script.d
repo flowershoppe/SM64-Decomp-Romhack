@@ -84,6 +84,7 @@ build/us_n64/levels/intro/script.o: levels/intro/script.c \
  actors/bomboom/anim_header.h actors/bomboom/anims/table_enum.h \
  actors/bomboom/collision_header.h \
  actors/MODEL_STAR_DOOR/collision_header.h \
- actors/MODEL_STAR_DOOR/geo_header.h actors/common1.h \
+ actors/MODEL_STAR_DOOR/geo_header.h actors/star_gate/collision_header.h \
+ actors/star_gate/geo_header.h actors/common1.h \
  include/make_const_nonconst.h levels/intro/header.h include/farcall.h \
  src/game/print.h src/game/object_list_processor.h

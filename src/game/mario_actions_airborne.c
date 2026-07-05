@@ -685,7 +685,7 @@ s32 act_twirling(struct MarioState *m) {
     if (m->input & INPUT_A_DOWN) {
         yawVelTarget = 0x2000;
     } else {
-        yawVelTarget = 0x1800;
+        yawVelTarget = 0x1200;
     }
 
     m->angleVel[1] = approach_s32_symmetric(m->angleVel[1], yawVelTarget, 0x200);

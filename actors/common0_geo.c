@@ -52,3 +52,4 @@
 #include "bomboom_bomb/geo.inc.c"
 #include "bomboom/geo.inc.c"
 #include "MODEL_STAR_DOOR/geo.inc.c"
+#include "star_gate/geo.inc.c"
