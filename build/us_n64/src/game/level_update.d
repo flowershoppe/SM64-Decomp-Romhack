@@ -3,9 +3,9 @@ build/us_n64/src/game/level_update.o: src/game/level_update.c \
  levels/bob/texscroll.inc.h src/game/texscroll/jrb_texscroll.inc.h \
  levels/jrb/texscroll.inc.h src/game/texscroll/bbh_texscroll.inc.h \
  levels/bbh/texscroll.inc.h src/game/texscroll/wf_texscroll.inc.h \
- src/game/texscroll/common0_texscroll.inc.h include/n64/ultra64.h \
- include/n64/PR/ultratypes.h include/n64/PR/rcp.h include/n64/PR/R4300.h \
- include/n64/PR/os.h include/n64/PR/os_thread.h \
+ levels/wf/texscroll.inc.h src/game/texscroll/common0_texscroll.inc.h \
+ include/n64/ultra64.h include/n64/PR/ultratypes.h include/n64/PR/rcp.h \
+ include/n64/PR/R4300.h include/n64/PR/os.h include/n64/PR/os_thread.h \
  include/n64/PR/os_message.h include/n64/PR/os_exception.h \
  include/n64/PR/os_tlb.h include/n64/PR/os_pi.h \
  include/n64/PR/os_thread.h include/n64/PR/os_message.h \

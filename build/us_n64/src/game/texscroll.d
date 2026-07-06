@@ -36,7 +36,7 @@ build/us_n64/src/game/texscroll.o: src/game/texscroll.c include/types.h \
  levels/bob/texscroll.inc.h src/game/texscroll/jrb_texscroll.inc.h \
  levels/jrb/texscroll.inc.h src/game/texscroll/bbh_texscroll.inc.h \
  levels/bbh/texscroll.inc.h src/game/texscroll/wf_texscroll.inc.h \
- src/game/texscroll/common0_texscroll.inc.h \
+ levels/wf/texscroll.inc.h src/game/texscroll/common0_texscroll.inc.h \
  src/game/texscroll/bob_texscroll.inc.c levels/bob/header.h \
  levels/bob/header.inc.h levels/bob/texscroll.inc.c \
  src/game/texscroll/jrb_texscroll.inc.c levels/jrb/header.h \
@@ -44,9 +44,10 @@ build/us_n64/src/game/texscroll.o: src/game/texscroll.c include/types.h \
  levels/jrb/texscroll.inc.c src/game/texscroll/bbh_texscroll.inc.c \
  levels/bbh/header.h levels/bbh/header.inc.h levels/bbh/texscroll.inc.c \
  src/game/texscroll/wf_texscroll.inc.c levels/wf/header.h \
- levels/wf/header.inc.h src/game/texscroll/common0_texscroll.inc.c \
- actors/common0.h actors/giant_fan/collision_header.h \
- actors/giant_fan/geo_header.h actors/giant_fan_wide/collision_header.h \
+ levels/wf/header.inc.h levels/wf/texscroll.inc.c \
+ src/game/texscroll/common0_texscroll.inc.c actors/common0.h \
+ actors/giant_fan/collision_header.h actors/giant_fan/geo_header.h \
+ actors/giant_fan_wide/collision_header.h \
  actors/giant_fan_wide/geo_header.h actors/small_fan/collision_header.h \
  actors/small_fan/geo_header.h actors/magic_platform/collision_header.h \
  actors/magic_platform/geo_header.h actors/custom_pole/collision_header.h \
