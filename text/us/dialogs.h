@@ -159,14 +159,16 @@ so much reserve power\n\
 left. Please, help us\n\
 reclaim the power stars!"))
 
-DEFINE_DIALOG(DIALOG_017, 1, 4, 30, 200, _("\
-bitch-ass"))
+DEFINE_DIALOG(DIALOG_017, 1, 4, 95, 200, _("\
+You can press Z while\n\
+twirling to fall more\n\
+quickly or A to fall\n\
+more slowly."))
 
-DEFINE_DIALOG(DIALOG_018, 1, 4, 30, 200, _("\
-I'm sleeping because...\n\
-...I'm sleepy. I don't\n\
-like being disturbed.\n\
-Please walk quietly."))
+DEFINE_DIALOG(DIALOG_018, 1, 3, 30, 200, _("\
+C'mon! Catch that stupid\n\
+bird so we can deliver\n\
+that star back to the boss!"))
 
 DEFINE_DIALOG(DIALOG_019, 1, 2, 30, 200, _("\
 Shhh! Please walk\n\
