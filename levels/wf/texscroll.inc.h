@@ -1,7 +1,6 @@
 extern void scroll_wf_dl_platform_001_mesh_layer_1_vtx_1();
 extern void scroll_wf_dl_platform_002_mesh_layer_1_vtx_1();
 extern void scroll_wf_dl_platform_003_mesh_layer_1_vtx_1();
-extern void scroll_wf_dl_platform_014_mesh_layer_1_vtx_1();
 extern void scroll_wf_dl_platform_015_mesh_layer_1_vtx_1();
 extern void scroll_wf_dl_platform_016_mesh_layer_1_vtx_1();
 extern void scroll_wf_dl_platform_019_mesh_layer_1_vtx_1();
