@@ -79,6 +79,15 @@ void bhv_klepto_init(void) {
     o->oHomeX = o->oPosX;
     o->oHomeY = o->oPosY;
     o->oHomeZ = o->oPosZ;
+    sKleptoTargetPositions[0][0] = o->oHomeX;
+    sKleptoTargetPositions[0][1] = o->oHomeY;
+    sKleptoTargetPositions[0][2] = o->oHomeZ;
+    sKleptoTargetPositions[1][0] = o->oHomeX;
+    sKleptoTargetPositions[1][1] = o->oHomeY;
+    sKleptoTargetPositions[1][2] = o->oHomeZ;
+    sKleptoTargetPositions[2][0] = o->oHomeX;
+    sKleptoTargetPositions[2][1] = o->oHomeY;
+    sKleptoTargetPositions[2][2] = o->oHomeZ;
     if (GET_BPARAM1(o->oBehParams) != NULL) {
         u8 starId = GET_BPARAM1(o->oBehParams);
         u8 currentLevelStarFlags = save_file_get_star_flags((gCurrSaveFileNum - 1), COURSE_NUM_TO_INDEX(gCurrCourseNum));
@@ -121,17 +130,24 @@ static void klepto_change_target(void) {
         newTarget = random_u16() % 3;
     }
 
-    o->oKleptoHomeYOffset  = 400 * absi(newTarget - o->oKleptoTargetNumber);
+    //o->oKleptoHomeYOffset  = 400 * absi(newTarget - o->oKleptoTargetNumber);
     o->oKleptoTargetNumber = newTarget;
 
-    vec3f_copy_y_off(&o->oHomeVec, sKleptoTargetPositions[o->oKleptoTargetNumber], o->oKleptoHomeYOffset);
+    //vec3f_copy_y_off(&o->oHomeVec, sKleptoTargetPositions[o->oKleptoTargetNumber], o->oKleptoHomeYOffset);
 
     o->oKleptoHalfLateralDistToHome = cur_obj_lateral_dist_to_home() / 2;
 }
 
 static void klepto_circle_target(f32 radius, f32 targetSpeed) {
+    if (o->oAnimState != KLEPTO_ANIM_STATE_HOLDING_NOTHING
+        && ((o->oTimer > 60 && o->oDistanceToMario > 2000.0f)
+            || o->oTimer >= o->oKleptoTimeUntilTargetChange)) {
+        klepto_change_target();
+        o->oKleptoTimeUntilTargetChange = random_linear_offset(300, 300);
+        o->oAction = KLEPTO_ACT_APPROACH_TARGET_HOLDING;
+    } else {
         s16 turnAmount = 0x4000 - atan2s(radius, o->oKleptoDistanceToTarget - radius);
-        f32 accel = 0.05f;
+        f32 accel = 2.0f;
 
         if ((s16)(o->oMoveAngleYaw - o->oKleptoYawToTarget) < 0) {
             turnAmount = -turnAmount;
@@ -147,19 +163,17 @@ static void klepto_circle_target(f32 radius, f32 targetSpeed) {
         clamp_s16(&turnAmount, 400, 700);
         obj_rotate_yaw_and_bounce_off_walls(o->oKleptoYawToTarget, turnAmount);
 
-        if (o->oKleptoSpeed > 50.0f) {
-            accel = 2.0f;
-        }
+        
 
         approach_f32_ptr(&o->oKleptoSpeed, targetSpeed, accel);
-    
+    }
 }
 
 static void klepto_approach_target(f32 targetSpeed) {
     if (o->oKleptoDistanceToTarget < 1800.0f) {
         o->oAction = KLEPTO_ACT_CIRCLE_TARGET_HOLDING;
     } else {
-        if (o->oKleptoHalfLateralDistToHome > 0.0f) {
+        if (FALSE && o->oKleptoHalfLateralDistToHome > 0.0f) {
             o->oKleptoHalfLateralDistToHome -= o->oForwardVel;
             if (o->oKleptoHalfLateralDistToHome <= 0.0f) {
                 o->oHomeY -= o->oKleptoHomeYOffset;
@@ -181,7 +195,7 @@ static void klepto_act_wait_for_mario(void) {
         }
     }
 
-    klepto_circle_target(500.0f, 40.0f);
+    klepto_circle_target(300.0f, 40.0f);
 }
 
 static void klepto_act_turn_toward_mario(void) {
@@ -271,6 +285,7 @@ static void klepto_act_struck_by_mario(void) {
         o->oMoveAnglePitch = -obj_get_pitch_from_vel();
         o->oKleptoSpeed = sqrtf(sqr(o->oForwardVel) + sqr(o->oVelY));
 
+        //vec3f_copy_y_off(&o->oHomeVec, &o->oPosVec, 500.0f);
     }
 }
 
@@ -285,7 +300,7 @@ static void klepto_act_retreat(void) {
 
     if (obj_face_yaw_approach(o->oMoveAngleYaw, 1000)
         && abs_angle_diff(o->oFaceAnglePitch, o->oMoveAnglePitch) == 0) {
-        //o->oAction = KLEPTO_ACT_RESET_POSITION;
+        o->oAction = KLEPTO_ACT_RESET_POSITION;
         o->oKleptoDiveTimer = -100;
         o->oFlags |= OBJ_FLAG_SET_FACE_YAW_TO_MOVE_YAW;
         cur_obj_become_tangible();
@@ -293,15 +308,7 @@ static void klepto_act_retreat(void) {
 }
 
 static void klepto_act_reset_position(void) {
-    if (o->oTimer < 300) {
-        klepto_circle_target(300.0f, 20.0f);
-    } 
-    else {
-        o->oAction = KLEPTO_ACT_WAIT_FOR_MARIO;
-        o->oHomeX = o->oPosX;
-        o->oHomeY = o->oPosY;
-        o->oHomeZ = o->oPosZ;
-    }
+    o->oAction = KLEPTO_ACT_WAIT_FOR_MARIO;  
 }
 
 void obj_set_speed_to_zero(void) {

@@ -200,7 +200,7 @@ const LevelScript level_jrb_entry[] = {
 		OBJECT(MODEL_NONE, -8823, 3655, 2313, 0, 180, 0, (0 << 24) | (0x06 << 16), bhvAirborneWarp),
 		OBJECT(MODEL_NONE, -102, 81, -4483, 0, 0, 0, (0 << 24) | (0x07 << 16), bhvInstantActiveWarp),
 		OBJECT(MODEL_NONE, -115, 25, 7201, 0, 180, 0, (0 << 24) | (0x08 << 16), bhvInstantActiveWarp),
-		OBJECT(MODEL_NONE, -115, -200, 8201, 0, 180, 0, (0 << 24) | (0x09 << 16), bhvWarp),
+		OBJECT(MODEL_NONE, -115, -250, 8201, 0, 180, 0, (0 << 24) | (0x09 << 16), bhvWarp),
 		OBJECT(MODEL_NONE, 3168, 2706, 204, 0, 0, 0, (0 << 24) | (0x03 << 16), bhvWarp),
 		OBJECT(MODEL_NONE, -8823, 3655, 2713, 0, 180, 0, (0 << 24) | (0x05 << 16), bhvWarp),
 		OBJECT(MODEL_NONE, -99, 81, -4721, 0, 0, 0, (0 << 24) | (0x01 << 16), bhvWarp),
