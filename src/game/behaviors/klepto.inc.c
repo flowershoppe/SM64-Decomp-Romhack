@@ -130,13 +130,6 @@ static void klepto_change_target(void) {
 }
 
 static void klepto_circle_target(f32 radius, f32 targetSpeed) {
-    if (o->oAnimState != KLEPTO_ANIM_STATE_HOLDING_NOTHING
-        && ((o->oTimer > 60 && o->oDistanceToMario > 2000.0f)
-            || o->oTimer >= o->oKleptoTimeUntilTargetChange)) {
-        //klepto_change_target();
-        o->oKleptoTimeUntilTargetChange = random_linear_offset(300, 300);
-        o->oAction = KLEPTO_ACT_APPROACH_TARGET_HOLDING;
-    } else {
         s16 turnAmount = 0x4000 - atan2s(radius, o->oKleptoDistanceToTarget - radius);
         f32 accel = 0.05f;
 
@@ -159,7 +152,7 @@ static void klepto_circle_target(f32 radius, f32 targetSpeed) {
         }
 
         approach_f32_ptr(&o->oKleptoSpeed, targetSpeed, accel);
-    }
+    
 }
 
 static void klepto_approach_target(f32 targetSpeed) {
@@ -292,7 +285,7 @@ static void klepto_act_retreat(void) {
 
     if (obj_face_yaw_approach(o->oMoveAngleYaw, 1000)
         && abs_angle_diff(o->oFaceAnglePitch, o->oMoveAnglePitch) == 0) {
-        o->oAction = KLEPTO_ACT_RESET_POSITION;
+        //o->oAction = KLEPTO_ACT_RESET_POSITION;
         o->oKleptoDiveTimer = -100;
         o->oFlags |= OBJ_FLAG_SET_FACE_YAW_TO_MOVE_YAW;
         cur_obj_become_tangible();
