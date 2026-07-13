@@ -4,7 +4,7 @@ COURSE_ACTS(COURSE_BOB, _(" 1 STRIX TEMPLE"),
 
 COURSE_ACTS(COURSE_WF, _(" 2 SKYBORNE ISLANDS"),
        _("OPEN SAYS-A-ME")     , _("5 SILVER STARS") ,   _("HEAD IN THE CLOUDS"),
-       _("WIP")     , _("WIP") ,   _("RUBY STAR"))
+       _("SPIN TO WIN")     , _("KLEPTO'S FIND") ,   _("RUBY STAR"))
 
 COURSE_ACTS(COURSE_JRB, _(" 3 STRIX TEMPLE"),
        _("5 SILVER STARS")     , _("THE XANTHOUS PATH") , _("THE GAUNTLET"),

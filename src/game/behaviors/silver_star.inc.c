@@ -75,7 +75,7 @@ void silver_star_check_interact(void) {
     // If Mario touches the star, do the following:
     if (obj_check_if_collided_with_object(o, gMarioObject)) {
         o->oSilverStarTargetScale = 1.5; // Start our little scale animation
-        play_sound(SOUND_MENU_MESSAGE_APPEAR, gGlobalSoundSource); // Play a sound !
+        play_sound(SOUND_MENU_COLLECT_SECRET, gGlobalSoundSource); // Play a sound !
         o->oSilverStarCollected = TRUE; // Mark this star as collected !
         o->oAction = 1; // switch to the 'follow Mario' state !
     }

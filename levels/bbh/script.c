@@ -53,7 +53,6 @@ const LevelScript level_bbh_entry[] = {
 		OBJECT(MODEL_EXCLAMATION_BOX, -235, -2361, 817, 0, 116, 0, (6 << 16), bhvExclamationBox),
 		OBJECT(MODEL_WHOMP, -1495, 3970, 2353, 0, -127, 0, 0x00000000, bhvWhompKingBoss),
 		OBJECT(MODEL_NONE, -1495, 4173, 2353, 0, -127, 0, (1 << 24), bhvKingWhompStar),
-		MARIO_POS(0x01, 90, -11509, 39, 6150),
 		OBJECT(MODEL_YELLOW_COIN, -3131, -974, 12466, 0, -7, 0, 0x00000000, bhvYellowCoin),
 		OBJECT(MODEL_YELLOW_COIN, -3131, -724, 12466, 0, -7, 0, 0x00000000, bhvYellowCoin),
 		OBJECT(MODEL_YELLOW_COIN, -3131, -199, 12466, 0, -7, 0, 0x00000000, bhvYellowCoin),
@@ -333,7 +332,7 @@ const LevelScript level_bbh_entry[] = {
 		/* Fast64 end persistent block [area commands] */
 	END_AREA(),
 	FREE_LEVEL_POOL(),
-	MARIO_POS(0x01, 90, -11509, 39, 6150),
+	MARIO_POS(1, 0, 0, 0, 0),
 	CALL(0, lvl_init_or_update),
 	CALL_LOOP(1, lvl_init_or_update),
 	CLEAR_LEVEL(),

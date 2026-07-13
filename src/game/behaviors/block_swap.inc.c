@@ -70,7 +70,8 @@ void block_swap_switch_loop(void) {
         o->oBlockSwapSwitchStateOn = !o->oBlockSwapSwitchStateOn; // Set the switch to the other state
         o->oBlockSwapSwitchIncrementTimer = TRUE; // allow a cooldown timer to increase
         o->oBlockSwapSwitchTimer = 10; // set the cooldown timer to 10 frames (otherwise the block would swap state over and over again every frame that mario hits it)
-        play_sound(SOUND_GENERAL_BUTTON_PRESS_2, gGlobalSoundSource); // play a sound
+        play_sound(SOUND_OBJ_CANNON_BARREL_PITCH, gGlobalSoundSource); // play a sound
+        cur_obj_shake_screen(SHAKE_POS_SMALL);
     }
 
     if (o->oBlockSwapSwitchIncrementTimer == TRUE) { // If we allow the cooldown timer to decrease, decrease it

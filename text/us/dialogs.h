@@ -170,9 +170,10 @@ C'mon! Catch that stupid\n\
 bird so we can deliver\n\
 that star back to the boss!"))
 
-DEFINE_DIALOG(DIALOG_019, 1, 2, 30, 200, _("\
-Shhh! Please walk\n\
-quietly in the hallway!"))
+DEFINE_DIALOG(DIALOG_019, 1, 3, 95, 200, _("\
+You can return to the last\n\
+checkpoint you touched in\n\
+the pause menu."))
 
 DEFINE_DIALOG(DIALOG_020, 1, 6, 95, 150, _("\
 Dear Mario:\n\
