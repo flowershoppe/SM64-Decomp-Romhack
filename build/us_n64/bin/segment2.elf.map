@@ -215,7 +215,7 @@ LOAD build/us_n64/bin/segment2.o
  *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
                 0x0000000002000000                . = DATA_SEGMENT_RELRO_END (., 0x0)
 
-.data           0x0000000002000000    0x1bee8 load address 0x0000000002000018
+.data           0x0000000002000000    0x20468 load address 0x0000000002000018
                 0x0000000002000000                _fdata = .
  *(.data .data.* .gnu.linkonce.d.*)
  .data          0x0000000002000000        0x0 build/us_n64/bin/segment2.o
@@ -1963,15 +1963,73 @@ LOAD build/us_n64/bin/segment2.o
                 0x000000000201bae8      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_0
                 0x000000000201bce8      0x200 build/us_n64/bin/segment2.o
+ .data.puppyprint_kerning_lut
+                0x000000000201bee8      0x17c build/us_n64/bin/segment2.o
+                0x000000000201bee8                puppyprint_kerning_lut
+ .data.puppyprint_font_lut
+                0x000000000201c064       0x10 build/us_n64/bin/segment2.o
+                0x000000000201c064                puppyprint_font_lut
+ .data.gPuppyPrintFontTable
+                0x000000000201c074       0x10 build/us_n64/bin/segment2.o
+                0x000000000201c074                gPuppyPrintFontTable
+ .data.sPPFont_vanilla
+                0x000000000201c084       0x18 build/us_n64/bin/segment2.o
+                0x000000000201c084                sPPFont_vanilla
+ .data.sPPFont_plain
+                0x000000000201c09c       0x18 build/us_n64/bin/segment2.o
+                0x000000000201c09c                sPPFont_plain
+ .data.sPPFont_outline
+                0x000000000201c0b4       0x18 build/us_n64/bin/segment2.o
+                0x000000000201c0b4                sPPFont_outline
+ .data.sPPFont_default
+                0x000000000201c0cc       0x18 build/us_n64/bin/segment2.o
+                0x000000000201c0cc                sPPFont_default
+ .data.small_font_offsets_vanilla
+                0x000000000201c0e4       0xbe build/us_n64/bin/segment2.o
+                0x000000000201c0e4                small_font_offsets_vanilla
+ *fill*         0x000000000201c1a2        0x2 
+ .data.small_font_kerning_vanilla
+                0x000000000201c1a4       0x5e build/us_n64/bin/segment2.o
+ *fill*         0x000000000201c202        0x2 
+ .data.small_font_offsets_plain
+                0x000000000201c204       0xbe build/us_n64/bin/segment2.o
+                0x000000000201c204                small_font_offsets_plain
+ *fill*         0x000000000201c2c2        0x2 
+ .data.small_font_kerning_plain
+                0x000000000201c2c4       0x5e build/us_n64/bin/segment2.o
+ *fill*         0x000000000201c322        0x2 
+ .data.small_font_offsets_outline
+                0x000000000201c324       0xbe build/us_n64/bin/segment2.o
+                0x000000000201c324                small_font_offsets_outline
+ *fill*         0x000000000201c3e2        0x2 
+ .data.small_font_kerning_outline
+                0x000000000201c3e4       0x5e build/us_n64/bin/segment2.o
+ *fill*         0x000000000201c442        0x2 
+ .data.small_font_offsets_default
+                0x000000000201c444       0xbe build/us_n64/bin/segment2.o
+                0x000000000201c444                small_font_offsets_default
+ *fill*         0x000000000201c502        0x2 
+ .data.small_font_kerning_default
+                0x000000000201c504       0x5e build/us_n64/bin/segment2.o
+                0x000000000201c504                small_font_kerning_default
+ *fill*         0x000000000201c562        0x6 
+ .data.small_font_vanilla
+                0x000000000201c568      0xfc0 build/us_n64/bin/segment2.o
+ .data.small_font_plain
+                0x000000000201d528      0xfc0 build/us_n64/bin/segment2.o
+ .data.small_font_outline
+                0x000000000201e4e8      0xfc0 build/us_n64/bin/segment2.o
+ .data.small_font_default
+                0x000000000201f4a8      0xfc0 build/us_n64/bin/segment2.o
 
 .data1
  *(.data1)
 
 .got.plt
  *(.got.plt)
-                0x000000000201bee8                . = .
-                0x000000000201bee8                . = .
-                0x0000000002023ee0                _gp = (ALIGN (0x10) + 0x7ff0)
+                0x0000000002020468                . = .
+                0x0000000002020468                . = .
+                0x0000000002028460                _gp = (ALIGN (0x10) + 0x7ff0)
 
 .got
  *(.got)
@@ -1984,29 +2042,29 @@ LOAD build/us_n64/bin/segment2.o
 
 .lit4
  *(.lit4)
-                0x000000000201bee8                _edata = .
+                0x0000000002020468                _edata = .
                 [!provide]                        PROVIDE (edata = .)
-                0x000000000201bee8                . = .
-                0x000000000201bee8                __bss_start = .
-                0x000000000201bee8                _fbss = .
+                0x0000000002020468                . = .
+                0x0000000002020468                __bss_start = .
+                0x0000000002020468                _fbss = .
 
 .sbss
  *(.dynsbss)
  *(.sbss .sbss.* .gnu.linkonce.sb.*)
  *(.scommon)
 
-.bss            0x000000000201bee8        0x0 load address 0x000000000201bf00
+.bss            0x0000000002020468        0x0 load address 0x0000000002020480
  *(.dynbss)
  *(.bss .bss.* .gnu.linkonce.b.*)
- .bss           0x000000000201bee8        0x0 build/us_n64/bin/segment2.o
+ .bss           0x0000000002020468        0x0 build/us_n64/bin/segment2.o
  *(COMMON)
-                0x000000000201bee8                . = ALIGN ((. != 0x0)?0x4:0x1)
-                0x000000000201bee8                . = ALIGN (0x4)
-                0x000000000201bee8                . = SEGMENT_START ("ldata-segment", .)
-                0x000000000201bee8                . = ALIGN (0x4)
-                0x000000000201bee8                _end = .
+                0x0000000002020468                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000000002020468                . = ALIGN (0x4)
+                0x0000000002020468                . = SEGMENT_START ("ldata-segment", .)
+                0x0000000002020468                . = ALIGN (0x4)
+                0x0000000002020468                _end = .
                 [!provide]                        PROVIDE (end = .)
-                0x000000000201bee8                . = DATA_SEGMENT_END (.)
+                0x0000000002020468                . = DATA_SEGMENT_END (.)
 
 .stab
  *(.stab)

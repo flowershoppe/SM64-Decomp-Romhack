@@ -88,7 +88,7 @@ void bhv_klepto_init(void) {
     sKleptoTargetPositions[2][0] = o->oHomeX;
     sKleptoTargetPositions[2][1] = o->oHomeY;
     sKleptoTargetPositions[2][2] = o->oHomeZ;
-    if (GET_BPARAM1(o->oBehParams) != NULL) {
+    if (GET_BPARAM1(o->oBehParams) >= 0) {
         u8 starId = GET_BPARAM1(o->oBehParams);
         u8 currentLevelStarFlags = save_file_get_star_flags((gCurrSaveFileNum - 1), COURSE_NUM_TO_INDEX(gCurrCourseNum));
         if (currentLevelStarFlags & (1 << starId)) {
