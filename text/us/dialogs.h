@@ -57,10 +57,13 @@ Are you here to help us?\n\
 Thank goodness. We've\n\
 tried locking up some of\n\
 the power stars to keep\n\
-them safe. There's one\n\
-nearby that you'll need\n\
-to find 5 silver mini-\n\
-stars to reveal."))
+them safe.\n\
+There's one nearby, but\n\
+you'll need to find \n\
+5 silver mini-\n\
+stars to reveal it.\n\
+Every mini-star is \n\
+on this island."))
 
 DEFINE_DIALOG(DIALOG_007, 1, 5, 30, 200, _("\
 I can't get this cannon\n\
@@ -72,7 +75,7 @@ after those goons\n\
 showed up."))
 
 DEFINE_DIALOG(DIALOG_008, 1, 4, 30, 200, _("\
-To reach this star,\n\
+To reach this mini-star,\n\
 perform a triple jump,\n\
 then a wall kick, then\n\
 dive toward the ledge."))
@@ -146,7 +149,7 @@ Do you want to Save?\n\
 //Yes     //No"))
 
 DEFINE_DIALOG(DIALOG_015, 1, 4, 30, 200, _("\
-To reach this star,\n\
+To reach this mini-star,\n\
 perform a long jump,\n\
 then a wall kick.\n\
 For extra distance,\n\
