@@ -247,4 +247,6 @@ extern const Collision unknown_seg8_collision_080262F8[];
 #include "MODEL_STAR_DOOR/geo_header.h"
 #include "star_gate/collision_header.h"
 #include "star_gate/geo_header.h"
+#include "custom_peach/collision_header.h"
+#include "custom_peach/geo_header.h"
 #endif

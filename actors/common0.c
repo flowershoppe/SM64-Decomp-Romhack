@@ -134,3 +134,5 @@ UNUSED static const u64 binid_18 = 18;
 #include "MODEL_STAR_DOOR/model.inc.c"
 #include "star_gate/collision.inc.c"
 #include "star_gate/model.inc.c"
+#include "custom_peach/collision.inc.c"
+#include "custom_peach/model.inc.c"
