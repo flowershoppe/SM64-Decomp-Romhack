@@ -131,6 +131,7 @@ const LevelScript level_wf_entry[] = {
 		OBJECT(MODEL_DL_CANNON_LID, -2822, 4892, -10231, 0, -24, 0, (160 << 16), bhvCannonClosed),
 		OBJECT(MODEL_ORBITING_PLATFORM1, 1067, 7627, -3013, 0, -180, 0, (5 << 24), bhvOrbitingPlatform1),
 		OBJECT(MODEL_ORBITING_PLATFORM1, 1067, 7627, -1763, 0, 0, 0, (5 << 24), bhvOrbitingPlatform1),
+		OBJECT(MODEL_CUSTOM_PEACH, -4848, 4037, 11449, 0, 180, 0, 0x00000000, bhvWarp),
 		OBJECT(MODEL_SCUTTLEBUG, -6333, 4909, -5201, 0, 33, 0, 0x00000000, bhvScuttlebug),
 		OBJECT(MODEL_RED_COIN, -10499, 7784, 4587, 0, 0, 0, 0x00000000, bhvRedCoin),
 		OBJECT(MODEL_NONE, 1859, 15941, 4912, 0, -155, 0, (5 << 24), bhvHiddenRedCoinStar),
