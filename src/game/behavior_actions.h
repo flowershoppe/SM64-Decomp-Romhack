@@ -561,6 +561,7 @@ void bhv_death_warp_init(void);
 void bhv_spindrift_spawner_loop(void);
 void bhv_star_gate_loop(void);
 void bhv_invisible_dialog_loop(void);
+void bhv_custom_peach_loop(void);
 
 Gfx *interactive_tablet_state(s32 callContext, struct GraphNode *node);
 void interactive_tablet_init(void);
