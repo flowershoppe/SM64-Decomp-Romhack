@@ -54,7 +54,4 @@ build/us_n64/levels/bob/leveldata.o: levels/bob/leveldata.c \
  levels/bob/grate_door/collision.inc.c \
  levels/bob/areas/1/trajectory.inc.c levels/bob/leveldata.inc.c \
  levels/bob/area_1/collision.inc.c levels/bob/area_1/macro.inc.c \
- levels/bob/area_1/spline.inc.c levels/bob/area_2/collision.inc.c \
- levels/bob/area_2/macro.inc.c levels/bob/area_2/spline.inc.c \
- levels/bob/area_3/collision.inc.c levels/bob/area_3/macro.inc.c \
- levels/bob/area_3/spline.inc.c levels/bob/model.inc.c
+ levels/bob/area_1/spline.inc.c levels/bob/model.inc.c

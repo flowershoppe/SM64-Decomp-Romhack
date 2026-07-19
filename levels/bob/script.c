@@ -43,7 +43,7 @@ const LevelScript level_bob_entry[] = {
 	/* Fast64 end persistent block [level commands] */
 
 	AREA(1, bob_area_1),
-		MARIO_POS(0x01, 0, 0, 100, 0),
+		MARIO_POS(0x01, 0, 0, 300, 0),
 		OBJECT(MODEL_CUSTOM_PEACH, 300, 0, -300, 0, 0, 0, 0x00000000, bhvWarp),
 		TERRAIN(bob_area_1_collision),
 		MACRO_OBJECTS(bob_area_1_macro_objs),
@@ -53,7 +53,7 @@ const LevelScript level_bob_entry[] = {
 		/* Fast64 end persistent block [area commands] */
 	END_AREA(),
 	FREE_LEVEL_POOL(),
-	MARIO_POS(0x01, 0, 0, 100, 0),
+	MARIO_POS(0x01, 0, 0, 300, 0),
 	CALL(0, lvl_init_or_update),
 	CALL_LOOP(1, lvl_init_or_update),
 	CLEAR_LEVEL(),

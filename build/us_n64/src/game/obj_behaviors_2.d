@@ -150,4 +150,4 @@ build/us_n64/src/game/obj_behaviors_2.o: src/game/obj_behaviors_2.c \
  src/game/behaviors/block_swap.inc.c \
  src/game/behaviors/fading_platform.inc.c \
  src/game/behaviors/silver_star.inc.c src/game/behaviors/sync_block.inc.c \
- src/game/behaviors/bomboom.inc.c
+ src/game/behaviors/bomboom.inc.c src/game/behaviors/custom_peach.inc.c
