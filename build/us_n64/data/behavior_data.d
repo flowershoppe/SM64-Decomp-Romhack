@@ -87,7 +87,8 @@ build/us_n64/data/behavior_data.o: data/behavior_data.c include/sm64.h \
  actors/MODEL_STAR_DOOR/collision_header.h \
  actors/MODEL_STAR_DOOR/geo_header.h actors/star_gate/collision_header.h \
  actors/star_gate/geo_header.h actors/custom_peach/collision_header.h \
- actors/custom_peach/geo_header.h actors/common1.h actors/group0.h \
+ actors/custom_peach/geo_header.h actors/custom_peach/anim_header.h \
+ actors/custom_peach/anims/table_enum.h actors/common1.h actors/group0.h \
  actors/group1.h actors/group2.h actors/group3.h actors/group4.h \
  actors/group5.h actors/group6.h actors/group7.h actors/group8.h \
  actors/group9.h actors/group10.h actors/group11.h actors/group12.h \

@@ -77,7 +77,8 @@ build/us_n64/src/game/obj_behaviors_2.o: src/game/obj_behaviors_2.c \
  actors/MODEL_STAR_DOOR/collision_header.h \
  actors/MODEL_STAR_DOOR/geo_header.h actors/star_gate/collision_header.h \
  actors/star_gate/geo_header.h actors/custom_peach/collision_header.h \
- actors/custom_peach/geo_header.h actors/group11.h actors/group17.h \
+ actors/custom_peach/geo_header.h actors/custom_peach/anim_header.h \
+ actors/custom_peach/anims/table_enum.h actors/group11.h actors/group17.h \
  src/audio/external.h include/level_table.h src/game/behavior_actions.h \
  include/behavior_data.h src/game/camera.h src/game/area.h \
  src/engine/graph_node.h include/geo_commands.h \

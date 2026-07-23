@@ -2713,4 +2713,18 @@ enum gCutsceneObjSpawns {
     CUTSCENE_OBJ_2_END_BIRDS_1
 };
 
+enum oActionsCustomPeach {
+    PEACH_IDLE,
+    PEACH_TURN_TO_TALK,
+    PEACH_TALK
+};
+
+enum oAnimStatesCustomPeach {
+    CUSTOM_PEACH_ANIM_TALKING,
+    CUSTOM_PEACH_ANIM_WALKING,
+    CUSTOM_PEACH_ANIM_IDLE,
+    CUSTOM_PEACH_ANIM_LOOK_DOWN
+};
+
+
 #endif // OBJECT_CONSTANTS_H

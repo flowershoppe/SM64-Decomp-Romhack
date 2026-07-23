@@ -215,7 +215,7 @@ LOAD build/us_n64/bin/segment2.o
  *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
                 0x0000000002000000                . = DATA_SEGMENT_RELRO_END (., 0x0)
 
-.data           0x0000000002000000    0x1bf18 load address 0x0000000002000018
+.data           0x0000000002000000    0x1bf08 load address 0x0000000002000018
                 0x0000000002000000                _fdata = .
  *(.data .data.* .gnu.linkonce.d.*)
  .data          0x0000000002000000        0x0 build/us_n64/bin/segment2.o
@@ -1291,690 +1291,691 @@ LOAD build/us_n64/bin/segment2.o
  .data.dialog_text_DIALOG_110
                 0x000000000200d6f8       0x70 build/us_n64/bin/segment2.o
  .data.dialog_text_DIALOG_109
-                0x000000000200d768       0xb8 build/us_n64/bin/segment2.o
+                0x000000000200d768       0x69 build/us_n64/bin/segment2.o
+ *fill*         0x000000000200d7d1        0x3 
  .data.dialog_text_DIALOG_108
-                0x000000000200d820       0x59 build/us_n64/bin/segment2.o
- *fill*         0x000000000200d879        0x3 
+                0x000000000200d7d4       0x59 build/us_n64/bin/segment2.o
+ *fill*         0x000000000200d82d        0x3 
  .data.dialog_text_DIALOG_107
-                0x000000000200d87c       0x50 build/us_n64/bin/segment2.o
+                0x000000000200d830       0x50 build/us_n64/bin/segment2.o
  .data.dialog_text_DIALOG_106
-                0x000000000200d8cc        0x9 build/us_n64/bin/segment2.o
- *fill*         0x000000000200d8d5        0x3 
+                0x000000000200d880        0x9 build/us_n64/bin/segment2.o
+ *fill*         0x000000000200d889        0x3 
  .data.dialog_text_DIALOG_105
-                0x000000000200d8d8       0xdd build/us_n64/bin/segment2.o
- *fill*         0x000000000200d9b5        0x3 
+                0x000000000200d88c       0xdd build/us_n64/bin/segment2.o
+ *fill*         0x000000000200d969        0x3 
  .data.dialog_text_DIALOG_104
-                0x000000000200d9b8       0x6c build/us_n64/bin/segment2.o
+                0x000000000200d96c       0x6c build/us_n64/bin/segment2.o
  .data.dialog_text_DIALOG_103
-                0x000000000200da24       0x4a build/us_n64/bin/segment2.o
- *fill*         0x000000000200da6e        0x2 
+                0x000000000200d9d8       0x4a build/us_n64/bin/segment2.o
+ *fill*         0x000000000200da22        0x2 
  .data.dialog_text_DIALOG_102
-                0x000000000200da70       0xc5 build/us_n64/bin/segment2.o
- *fill*         0x000000000200db35        0x3 
+                0x000000000200da24       0xc5 build/us_n64/bin/segment2.o
+ *fill*         0x000000000200dae9        0x3 
  .data.dialog_text_DIALOG_101
-                0x000000000200db38       0xd9 build/us_n64/bin/segment2.o
- *fill*         0x000000000200dc11        0x3 
+                0x000000000200daec       0xd9 build/us_n64/bin/segment2.o
+ *fill*         0x000000000200dbc5        0x3 
  .data.dialog_text_DIALOG_100
-                0x000000000200dc14       0x46 build/us_n64/bin/segment2.o
- *fill*         0x000000000200dc5a        0x2 
+                0x000000000200dbc8       0x46 build/us_n64/bin/segment2.o
+ *fill*         0x000000000200dc0e        0x2 
  .data.dialog_text_DIALOG_099
-                0x000000000200dc5c       0x68 build/us_n64/bin/segment2.o
+                0x000000000200dc10       0x68 build/us_n64/bin/segment2.o
  .data.dialog_text_DIALOG_098
-                0x000000000200dcc4       0x27 build/us_n64/bin/segment2.o
- *fill*         0x000000000200dceb        0x1 
+                0x000000000200dc78       0x27 build/us_n64/bin/segment2.o
+ *fill*         0x000000000200dc9f        0x1 
  .data.dialog_text_DIALOG_097
-                0x000000000200dcec       0x75 build/us_n64/bin/segment2.o
- *fill*         0x000000000200dd61        0x3 
+                0x000000000200dca0       0x75 build/us_n64/bin/segment2.o
+ *fill*         0x000000000200dd15        0x3 
  .data.dialog_text_DIALOG_096
-                0x000000000200dd64       0xb0 build/us_n64/bin/segment2.o
+                0x000000000200dd18       0xb0 build/us_n64/bin/segment2.o
  .data.dialog_text_DIALOG_095
-                0x000000000200de14       0xdb build/us_n64/bin/segment2.o
- *fill*         0x000000000200deef        0x1 
+                0x000000000200ddc8       0xdb build/us_n64/bin/segment2.o
+ *fill*         0x000000000200dea3        0x1 
  .data.dialog_text_DIALOG_094
-                0x000000000200def0       0x4d build/us_n64/bin/segment2.o
- *fill*         0x000000000200df3d        0x3 
+                0x000000000200dea4       0x4d build/us_n64/bin/segment2.o
+ *fill*         0x000000000200def1        0x3 
  .data.dialog_text_DIALOG_093
-                0x000000000200df40       0xee build/us_n64/bin/segment2.o
- *fill*         0x000000000200e02e        0x2 
+                0x000000000200def4       0xee build/us_n64/bin/segment2.o
+ *fill*         0x000000000200dfe2        0x2 
  .data.dialog_text_DIALOG_092
-                0x000000000200e030       0xb6 build/us_n64/bin/segment2.o
- *fill*         0x000000000200e0e6        0x2 
+                0x000000000200dfe4       0xb6 build/us_n64/bin/segment2.o
+ *fill*         0x000000000200e09a        0x2 
  .data.dialog_text_DIALOG_091
-                0x000000000200e0e8       0x35 build/us_n64/bin/segment2.o
- *fill*         0x000000000200e11d        0x3 
+                0x000000000200e09c       0x35 build/us_n64/bin/segment2.o
+ *fill*         0x000000000200e0d1        0x3 
  .data.dialog_text_DIALOG_090
-                0x000000000200e120       0x6c build/us_n64/bin/segment2.o
+                0x000000000200e0d4       0x6c build/us_n64/bin/segment2.o
  .data.dialog_text_DIALOG_089
-                0x000000000200e18c       0xfc build/us_n64/bin/segment2.o
+                0x000000000200e140       0xfc build/us_n64/bin/segment2.o
  .data.dialog_text_DIALOG_088
-                0x000000000200e288       0x5a build/us_n64/bin/segment2.o
- *fill*         0x000000000200e2e2        0x2 
+                0x000000000200e23c       0x5a build/us_n64/bin/segment2.o
+ *fill*         0x000000000200e296        0x2 
  .data.dialog_text_DIALOG_087
-                0x000000000200e2e4       0x58 build/us_n64/bin/segment2.o
+                0x000000000200e298       0x58 build/us_n64/bin/segment2.o
  .data.dialog_text_DIALOG_086
-                0x000000000200e33c       0x3d build/us_n64/bin/segment2.o
- *fill*         0x000000000200e379        0x3 
+                0x000000000200e2f0       0x3d build/us_n64/bin/segment2.o
+ *fill*         0x000000000200e32d        0x3 
  .data.dialog_text_DIALOG_085
-                0x000000000200e37c       0x6b build/us_n64/bin/segment2.o
- *fill*         0x000000000200e3e7        0x1 
+                0x000000000200e330       0x6b build/us_n64/bin/segment2.o
+ *fill*         0x000000000200e39b        0x1 
  .data.dialog_text_DIALOG_084
-                0x000000000200e3e8       0xf9 build/us_n64/bin/segment2.o
- *fill*         0x000000000200e4e1        0x3 
+                0x000000000200e39c       0xf9 build/us_n64/bin/segment2.o
+ *fill*         0x000000000200e495        0x3 
  .data.dialog_text_DIALOG_083
-                0x000000000200e4e4       0x89 build/us_n64/bin/segment2.o
- *fill*         0x000000000200e56d        0x3 
+                0x000000000200e498       0x89 build/us_n64/bin/segment2.o
+ *fill*         0x000000000200e521        0x3 
  .data.dialog_text_DIALOG_082
-                0x000000000200e570      0x190 build/us_n64/bin/segment2.o
+                0x000000000200e524      0x190 build/us_n64/bin/segment2.o
  .data.dialog_text_DIALOG_081
-                0x000000000200e700       0x7b build/us_n64/bin/segment2.o
- *fill*         0x000000000200e77b        0x1 
+                0x000000000200e6b4       0x7b build/us_n64/bin/segment2.o
+ *fill*         0x000000000200e72f        0x1 
  .data.dialog_text_DIALOG_080
-                0x000000000200e77c       0x12 build/us_n64/bin/segment2.o
- *fill*         0x000000000200e78e        0x2 
+                0x000000000200e730       0x12 build/us_n64/bin/segment2.o
+ *fill*         0x000000000200e742        0x2 
  .data.dialog_text_DIALOG_079
-                0x000000000200e790       0xc0 build/us_n64/bin/segment2.o
+                0x000000000200e744       0xc0 build/us_n64/bin/segment2.o
  .data.dialog_text_DIALOG_078
-                0x000000000200e850       0xc5 build/us_n64/bin/segment2.o
- *fill*         0x000000000200e915        0x3 
+                0x000000000200e804       0xc5 build/us_n64/bin/segment2.o
+ *fill*         0x000000000200e8c9        0x3 
  .data.dialog_text_DIALOG_077
-                0x000000000200e918       0x2e build/us_n64/bin/segment2.o
- *fill*         0x000000000200e946        0x2 
+                0x000000000200e8cc       0x2e build/us_n64/bin/segment2.o
+ *fill*         0x000000000200e8fa        0x2 
  .data.dialog_text_DIALOG_076
-                0x000000000200e948      0x16b build/us_n64/bin/segment2.o
- *fill*         0x000000000200eab3        0x1 
+                0x000000000200e8fc      0x16b build/us_n64/bin/segment2.o
+ *fill*         0x000000000200ea67        0x1 
  .data.dialog_text_DIALOG_075
-                0x000000000200eab4      0x210 build/us_n64/bin/segment2.o
+                0x000000000200ea68      0x210 build/us_n64/bin/segment2.o
  .data.dialog_text_DIALOG_074
-                0x000000000200ecc4      0x130 build/us_n64/bin/segment2.o
+                0x000000000200ec78      0x130 build/us_n64/bin/segment2.o
  .data.dialog_text_DIALOG_073
-                0x000000000200edf4       0xc0 build/us_n64/bin/segment2.o
+                0x000000000200eda8       0xc0 build/us_n64/bin/segment2.o
  .data.dialog_text_DIALOG_072
-                0x000000000200eeb4       0x62 build/us_n64/bin/segment2.o
- *fill*         0x000000000200ef16        0x2 
+                0x000000000200ee68       0x62 build/us_n64/bin/segment2.o
+ *fill*         0x000000000200eeca        0x2 
  .data.dialog_text_DIALOG_071
-                0x000000000200ef18       0x92 build/us_n64/bin/segment2.o
- *fill*         0x000000000200efaa        0x2 
+                0x000000000200eecc       0x92 build/us_n64/bin/segment2.o
+ *fill*         0x000000000200ef5e        0x2 
  .data.dialog_text_DIALOG_070
-                0x000000000200efac      0x217 build/us_n64/bin/segment2.o
- *fill*         0x000000000200f1c3        0x1 
+                0x000000000200ef60      0x217 build/us_n64/bin/segment2.o
+ *fill*         0x000000000200f177        0x1 
  .data.dialog_text_DIALOG_069
-                0x000000000200f1c4       0x7a build/us_n64/bin/segment2.o
- *fill*         0x000000000200f23e        0x2 
+                0x000000000200f178       0x7a build/us_n64/bin/segment2.o
+ *fill*         0x000000000200f1f2        0x2 
  .data.dialog_text_DIALOG_068
-                0x000000000200f240       0xa7 build/us_n64/bin/segment2.o
- *fill*         0x000000000200f2e7        0x1 
+                0x000000000200f1f4       0xa7 build/us_n64/bin/segment2.o
+ *fill*         0x000000000200f29b        0x1 
  .data.dialog_text_DIALOG_067
-                0x000000000200f2e8       0xc6 build/us_n64/bin/segment2.o
- *fill*         0x000000000200f3ae        0x2 
+                0x000000000200f29c       0xc6 build/us_n64/bin/segment2.o
+ *fill*         0x000000000200f362        0x2 
  .data.dialog_text_DIALOG_066
-                0x000000000200f3b0      0x1fb build/us_n64/bin/segment2.o
- *fill*         0x000000000200f5ab        0x1 
+                0x000000000200f364      0x1fb build/us_n64/bin/segment2.o
+ *fill*         0x000000000200f55f        0x1 
  .data.dialog_text_DIALOG_065
-                0x000000000200f5ac      0x1e0 build/us_n64/bin/segment2.o
+                0x000000000200f560      0x1e0 build/us_n64/bin/segment2.o
  .data.dialog_text_DIALOG_064
-                0x000000000200f78c       0xcd build/us_n64/bin/segment2.o
- *fill*         0x000000000200f859        0x3 
+                0x000000000200f740       0xcd build/us_n64/bin/segment2.o
+ *fill*         0x000000000200f80d        0x3 
  .data.dialog_text_DIALOG_063
-                0x000000000200f85c       0xb2 build/us_n64/bin/segment2.o
- *fill*         0x000000000200f90e        0x2 
+                0x000000000200f810       0xb2 build/us_n64/bin/segment2.o
+ *fill*         0x000000000200f8c2        0x2 
  .data.dialog_text_DIALOG_062
-                0x000000000200f910       0xd0 build/us_n64/bin/segment2.o
+                0x000000000200f8c4       0xd0 build/us_n64/bin/segment2.o
  .data.dialog_text_DIALOG_061
-                0x000000000200f9e0       0x46 build/us_n64/bin/segment2.o
- *fill*         0x000000000200fa26        0x2 
+                0x000000000200f994       0x46 build/us_n64/bin/segment2.o
+ *fill*         0x000000000200f9da        0x2 
  .data.dialog_text_DIALOG_060
-                0x000000000200fa28      0x1d4 build/us_n64/bin/segment2.o
+                0x000000000200f9dc      0x1d4 build/us_n64/bin/segment2.o
  .data.dialog_text_DIALOG_059
-                0x000000000200fbfc       0x51 build/us_n64/bin/segment2.o
- *fill*         0x000000000200fc4d        0x3 
+                0x000000000200fbb0       0x51 build/us_n64/bin/segment2.o
+ *fill*         0x000000000200fc01        0x3 
  .data.dialog_text_DIALOG_058
-                0x000000000200fc50       0xa0 build/us_n64/bin/segment2.o
+                0x000000000200fc04       0xa0 build/us_n64/bin/segment2.o
  .data.dialog_text_DIALOG_057
-                0x000000000200fcf0       0xf0 build/us_n64/bin/segment2.o
+                0x000000000200fca4       0xf0 build/us_n64/bin/segment2.o
  .data.dialog_text_DIALOG_056
-                0x000000000200fde0       0xc1 build/us_n64/bin/segment2.o
- *fill*         0x000000000200fea1        0x3 
+                0x000000000200fd94       0xc1 build/us_n64/bin/segment2.o
+ *fill*         0x000000000200fe55        0x3 
  .data.dialog_text_DIALOG_055
-                0x000000000200fea4       0xe6 build/us_n64/bin/segment2.o
- *fill*         0x000000000200ff8a        0x2 
+                0x000000000200fe58       0xe6 build/us_n64/bin/segment2.o
+ *fill*         0x000000000200ff3e        0x2 
  .data.dialog_text_DIALOG_054
-                0x000000000200ff8c       0x69 build/us_n64/bin/segment2.o
- *fill*         0x000000000200fff5        0x3 
+                0x000000000200ff40       0x69 build/us_n64/bin/segment2.o
+ *fill*         0x000000000200ffa9        0x3 
  .data.dialog_text_DIALOG_053
-                0x000000000200fff8       0xa2 build/us_n64/bin/segment2.o
- *fill*         0x000000000201009a        0x2 
+                0x000000000200ffac       0xa2 build/us_n64/bin/segment2.o
+ *fill*         0x000000000201004e        0x2 
  .data.dialog_text_DIALOG_052
-                0x000000000201009c       0xb5 build/us_n64/bin/segment2.o
- *fill*         0x0000000002010151        0x3 
+                0x0000000002010050       0xb5 build/us_n64/bin/segment2.o
+ *fill*         0x0000000002010105        0x3 
  .data.dialog_text_DIALOG_051
-                0x0000000002010154      0x11f build/us_n64/bin/segment2.o
- *fill*         0x0000000002010273        0x1 
+                0x0000000002010108      0x11f build/us_n64/bin/segment2.o
+ *fill*         0x0000000002010227        0x1 
  .data.dialog_text_DIALOG_050
-                0x0000000002010274       0xf3 build/us_n64/bin/segment2.o
- *fill*         0x0000000002010367        0x1 
+                0x0000000002010228       0xf3 build/us_n64/bin/segment2.o
+ *fill*         0x000000000201031b        0x1 
  .data.dialog_text_DIALOG_049
-                0x0000000002010368       0xeb build/us_n64/bin/segment2.o
- *fill*         0x0000000002010453        0x1 
+                0x000000000201031c       0xeb build/us_n64/bin/segment2.o
+ *fill*         0x0000000002010407        0x1 
  .data.dialog_text_DIALOG_048
-                0x0000000002010454       0x52 build/us_n64/bin/segment2.o
- *fill*         0x00000000020104a6        0x2 
+                0x0000000002010408       0x52 build/us_n64/bin/segment2.o
+ *fill*         0x000000000201045a        0x2 
  .data.dialog_text_DIALOG_047
-                0x00000000020104a8       0x8d build/us_n64/bin/segment2.o
- *fill*         0x0000000002010535        0x3 
+                0x000000000201045c       0x8d build/us_n64/bin/segment2.o
+ *fill*         0x00000000020104e9        0x3 
  .data.dialog_text_DIALOG_046
-                0x0000000002010538      0x1d8 build/us_n64/bin/segment2.o
+                0x00000000020104ec      0x1d8 build/us_n64/bin/segment2.o
  .data.dialog_text_DIALOG_045
-                0x0000000002010710       0x82 build/us_n64/bin/segment2.o
- *fill*         0x0000000002010792        0x2 
+                0x00000000020106c4       0x82 build/us_n64/bin/segment2.o
+ *fill*         0x0000000002010746        0x2 
  .data.dialog_text_DIALOG_044
-                0x0000000002010794      0x11c build/us_n64/bin/segment2.o
+                0x0000000002010748      0x11c build/us_n64/bin/segment2.o
  .data.dialog_text_DIALOG_043
-                0x00000000020108b0       0x6e build/us_n64/bin/segment2.o
- *fill*         0x000000000201091e        0x2 
+                0x0000000002010864       0x6e build/us_n64/bin/segment2.o
+ *fill*         0x00000000020108d2        0x2 
  .data.dialog_text_DIALOG_042
-                0x0000000002010920      0x133 build/us_n64/bin/segment2.o
- *fill*         0x0000000002010a53        0x1 
+                0x00000000020108d4      0x133 build/us_n64/bin/segment2.o
+ *fill*         0x0000000002010a07        0x1 
  .data.dialog_text_DIALOG_041
-                0x0000000002010a54       0x65 build/us_n64/bin/segment2.o
- *fill*         0x0000000002010ab9        0x3 
+                0x0000000002010a08       0x65 build/us_n64/bin/segment2.o
+ *fill*         0x0000000002010a6d        0x3 
  .data.dialog_text_DIALOG_040
-                0x0000000002010abc       0x24 build/us_n64/bin/segment2.o
+                0x0000000002010a70       0x24 build/us_n64/bin/segment2.o
  .data.dialog_text_DIALOG_039
-                0x0000000002010ae0      0x175 build/us_n64/bin/segment2.o
- *fill*         0x0000000002010c55        0x3 
+                0x0000000002010a94      0x175 build/us_n64/bin/segment2.o
+ *fill*         0x0000000002010c09        0x3 
  .data.dialog_text_DIALOG_038
-                0x0000000002010c58       0x2f build/us_n64/bin/segment2.o
- *fill*         0x0000000002010c87        0x1 
+                0x0000000002010c0c       0x2f build/us_n64/bin/segment2.o
+ *fill*         0x0000000002010c3b        0x1 
  .data.dialog_text_DIALOG_037
-                0x0000000002010c88       0x61 build/us_n64/bin/segment2.o
- *fill*         0x0000000002010ce9        0x3 
+                0x0000000002010c3c       0x61 build/us_n64/bin/segment2.o
+ *fill*         0x0000000002010c9d        0x3 
  .data.dialog_text_DIALOG_036
-                0x0000000002010cec      0x10f build/us_n64/bin/segment2.o
- *fill*         0x0000000002010dfb        0x1 
+                0x0000000002010ca0      0x10f build/us_n64/bin/segment2.o
+ *fill*         0x0000000002010daf        0x1 
  .data.dialog_text_DIALOG_035
-                0x0000000002010dfc      0x19d build/us_n64/bin/segment2.o
- *fill*         0x0000000002010f99        0x3 
+                0x0000000002010db0      0x19d build/us_n64/bin/segment2.o
+ *fill*         0x0000000002010f4d        0x3 
  .data.dialog_text_DIALOG_034
-                0x0000000002010f9c      0x265 build/us_n64/bin/segment2.o
- *fill*         0x0000000002011201        0x3 
+                0x0000000002010f50      0x265 build/us_n64/bin/segment2.o
+ *fill*         0x00000000020111b5        0x3 
  .data.dialog_text_DIALOG_033
-                0x0000000002011204      0x104 build/us_n64/bin/segment2.o
+                0x00000000020111b8      0x104 build/us_n64/bin/segment2.o
  .data.dialog_text_DIALOG_032
-                0x0000000002011308       0xf5 build/us_n64/bin/segment2.o
- *fill*         0x00000000020113fd        0x3 
+                0x00000000020112bc       0xf5 build/us_n64/bin/segment2.o
+ *fill*         0x00000000020113b1        0x3 
  .data.dialog_text_DIALOG_031
-                0x0000000002011400       0xbc build/us_n64/bin/segment2.o
+                0x00000000020113b4       0xbc build/us_n64/bin/segment2.o
  .data.dialog_text_DIALOG_030
-                0x00000000020114bc      0x1c0 build/us_n64/bin/segment2.o
+                0x0000000002011470      0x1c0 build/us_n64/bin/segment2.o
  .data.dialog_text_DIALOG_029
-                0x000000000201167c       0x4d build/us_n64/bin/segment2.o
- *fill*         0x00000000020116c9        0x3 
+                0x0000000002011630       0x4d build/us_n64/bin/segment2.o
+ *fill*         0x000000000201167d        0x3 
  .data.dialog_text_DIALOG_028
-                0x00000000020116cc       0x47 build/us_n64/bin/segment2.o
- *fill*         0x0000000002011713        0x1 
+                0x0000000002011680       0x47 build/us_n64/bin/segment2.o
+ *fill*         0x00000000020116c7        0x1 
  .data.dialog_text_DIALOG_027
-                0x0000000002011714       0x47 build/us_n64/bin/segment2.o
- *fill*         0x000000000201175b        0x1 
+                0x00000000020116c8       0x47 build/us_n64/bin/segment2.o
+ *fill*         0x000000000201170f        0x1 
  .data.dialog_text_DIALOG_026
-                0x000000000201175c       0x46 build/us_n64/bin/segment2.o
- *fill*         0x00000000020117a2        0x2 
+                0x0000000002011710       0x46 build/us_n64/bin/segment2.o
+ *fill*         0x0000000002011756        0x2 
  .data.dialog_text_DIALOG_025
-                0x00000000020117a4       0x46 build/us_n64/bin/segment2.o
- *fill*         0x00000000020117ea        0x2 
+                0x0000000002011758       0x46 build/us_n64/bin/segment2.o
+ *fill*         0x000000000201179e        0x2 
  .data.dialog_text_DIALOG_024
-                0x00000000020117ec       0x6e build/us_n64/bin/segment2.o
- *fill*         0x000000000201185a        0x2 
+                0x00000000020117a0       0x6e build/us_n64/bin/segment2.o
+ *fill*         0x000000000201180e        0x2 
  .data.dialog_text_DIALOG_023
-                0x000000000201185c       0x33 build/us_n64/bin/segment2.o
- *fill*         0x000000000201188f        0x1 
+                0x0000000002011810       0x33 build/us_n64/bin/segment2.o
+ *fill*         0x0000000002011843        0x1 
  .data.dialog_text_DIALOG_022
-                0x0000000002011890       0x22 build/us_n64/bin/segment2.o
- *fill*         0x00000000020118b2        0x2 
+                0x0000000002011844       0x22 build/us_n64/bin/segment2.o
+ *fill*         0x0000000002011866        0x2 
  .data.dialog_text_DIALOG_021
-                0x00000000020118b4       0x44 build/us_n64/bin/segment2.o
+                0x0000000002011868       0x44 build/us_n64/bin/segment2.o
  .data.dialog_text_DIALOG_020
-                0x00000000020118f8       0x5f build/us_n64/bin/segment2.o
- *fill*         0x0000000002011957        0x1 
+                0x00000000020118ac       0x69 build/us_n64/bin/segment2.o
+ *fill*         0x0000000002011915        0x3 
  .data.dialog_text_DIALOG_019
-                0x0000000002011958       0x3f build/us_n64/bin/segment2.o
- *fill*         0x0000000002011997        0x1 
+                0x0000000002011918       0x3f build/us_n64/bin/segment2.o
+ *fill*         0x0000000002011957        0x1 
  .data.dialog_text_DIALOG_018
-                0x0000000002011998       0x4a build/us_n64/bin/segment2.o
- *fill*         0x00000000020119e2        0x2 
+                0x0000000002011958       0x47 build/us_n64/bin/segment2.o
+ *fill*         0x000000000201199f        0x1 
  .data.dialog_text_DIALOG_017
-                0x00000000020119e4       0x4e build/us_n64/bin/segment2.o
- *fill*         0x0000000002011a32        0x2 
+                0x00000000020119a0       0x4e build/us_n64/bin/segment2.o
+ *fill*         0x00000000020119ee        0x2 
  .data.dialog_text_DIALOG_016
-                0x0000000002011a34       0x6e build/us_n64/bin/segment2.o
- *fill*         0x0000000002011aa2        0x2 
+                0x00000000020119f0       0x6e build/us_n64/bin/segment2.o
+ *fill*         0x0000000002011a5e        0x2 
  .data.dialog_text_DIALOG_015
-                0x0000000002011aa4       0x5c build/us_n64/bin/segment2.o
+                0x0000000002011a60       0x61 build/us_n64/bin/segment2.o
+ *fill*         0x0000000002011ac1        0x3 
  .data.dialog_text_DIALOG_014
-                0x0000000002011b00       0x46 build/us_n64/bin/segment2.o
- *fill*         0x0000000002011b46        0x2 
+                0x0000000002011ac4       0x46 build/us_n64/bin/segment2.o
+ *fill*         0x0000000002011b0a        0x2 
  .data.dialog_text_DIALOG_013
-                0x0000000002011b48       0x46 build/us_n64/bin/segment2.o
- *fill*         0x0000000002011b8e        0x2 
+                0x0000000002011b0c       0x46 build/us_n64/bin/segment2.o
+ *fill*         0x0000000002011b52        0x2 
  .data.dialog_text_DIALOG_012
-                0x0000000002011b90       0xb1 build/us_n64/bin/segment2.o
- *fill*         0x0000000002011c41        0x3 
+                0x0000000002011b54       0xb1 build/us_n64/bin/segment2.o
+ *fill*         0x0000000002011c05        0x3 
  .data.dialog_text_DIALOG_011
-                0x0000000002011c44       0xb2 build/us_n64/bin/segment2.o
- *fill*         0x0000000002011cf6        0x2 
+                0x0000000002011c08       0xb2 build/us_n64/bin/segment2.o
+ *fill*         0x0000000002011cba        0x2 
  .data.dialog_text_DIALOG_010
-                0x0000000002011cf8       0xae build/us_n64/bin/segment2.o
- *fill*         0x0000000002011da6        0x2 
+                0x0000000002011cbc       0xae build/us_n64/bin/segment2.o
+ *fill*         0x0000000002011d6a        0x2 
  .data.dialog_text_DIALOG_009
-                0x0000000002011da8      0x101 build/us_n64/bin/segment2.o
- *fill*         0x0000000002011ea9        0x3 
+                0x0000000002011d6c      0x101 build/us_n64/bin/segment2.o
+ *fill*         0x0000000002011e6d        0x3 
  .data.dialog_text_DIALOG_008
-                0x0000000002011eac       0x53 build/us_n64/bin/segment2.o
- *fill*         0x0000000002011eff        0x1 
+                0x0000000002011e70       0x58 build/us_n64/bin/segment2.o
  .data.dialog_text_DIALOG_007
-                0x0000000002011f00       0x8a build/us_n64/bin/segment2.o
- *fill*         0x0000000002011f8a        0x2 
+                0x0000000002011ec8       0x8a build/us_n64/bin/segment2.o
+ *fill*         0x0000000002011f52        0x2 
  .data.dialog_text_DIALOG_006
-                0x0000000002011f8c       0xaf build/us_n64/bin/segment2.o
- *fill*         0x000000000201203b        0x1 
+                0x0000000002011f54       0xd7 build/us_n64/bin/segment2.o
+ *fill*         0x000000000201202b        0x1 
  .data.dialog_text_DIALOG_005
-                0x000000000201203c       0x4b build/us_n64/bin/segment2.o
- *fill*         0x0000000002012087        0x1 
+                0x000000000201202c       0x4b build/us_n64/bin/segment2.o
+ *fill*         0x0000000002012077        0x1 
  .data.dialog_text_DIALOG_004
-                0x0000000002012088       0xae build/us_n64/bin/segment2.o
- *fill*         0x0000000002012136        0x2 
+                0x0000000002012078       0xae build/us_n64/bin/segment2.o
+ *fill*         0x0000000002012126        0x2 
  .data.dialog_text_DIALOG_003
-                0x0000000002012138       0x2f build/us_n64/bin/segment2.o
- *fill*         0x0000000002012167        0x1 
+                0x0000000002012128       0x2f build/us_n64/bin/segment2.o
+ *fill*         0x0000000002012157        0x1 
  .data.dialog_text_DIALOG_002
-                0x0000000002012168       0x21 build/us_n64/bin/segment2.o
- *fill*         0x0000000002012189        0x3 
+                0x0000000002012158       0x21 build/us_n64/bin/segment2.o
+ *fill*         0x0000000002012179        0x3 
  .data.dialog_text_DIALOG_001
-                0x000000000201218c       0x7b build/us_n64/bin/segment2.o
- *fill*         0x0000000002012207        0x1 
+                0x000000000201217c       0x7b build/us_n64/bin/segment2.o
+ *fill*         0x00000000020121f7        0x1 
  .data.dialog_text_DIALOG_000
-                0x0000000002012208       0x74 build/us_n64/bin/segment2.o
+                0x00000000020121f8       0x74 build/us_n64/bin/segment2.o
  .data.main_hud_camera_lut
-                0x000000000201227c       0x18 build/us_n64/bin/segment2.o
-                0x000000000201227c                main_hud_camera_lut
+                0x000000000201226c       0x18 build/us_n64/bin/segment2.o
+                0x000000000201226c                main_hud_camera_lut
  .data.main_credits_font_lut
-                0x0000000002012294       0x94 build/us_n64/bin/segment2.o
-                0x0000000002012294                main_credits_font_lut
+                0x0000000002012284       0x94 build/us_n64/bin/segment2.o
+                0x0000000002012284                main_credits_font_lut
  .data.main_font_lut
-                0x0000000002012328      0x400 build/us_n64/bin/segment2.o
-                0x0000000002012328                main_font_lut
+                0x0000000002012318      0x400 build/us_n64/bin/segment2.o
+                0x0000000002012318                main_font_lut
  .data.main_hud_lut
-                0x0000000002012728       0xec build/us_n64/bin/segment2.o
-                0x0000000002012728                main_hud_lut
- *fill*         0x0000000002012814        0x4 
+                0x0000000002012718       0xec build/us_n64/bin/segment2.o
+                0x0000000002012718                main_hud_lut
+ *fill*         0x0000000002012804        0x4 
  .data.texture_hud_char_arrow_down
-                0x0000000002012818       0x80 build/us_n64/bin/segment2.o
+                0x0000000002012808       0x80 build/us_n64/bin/segment2.o
  .data.texture_hud_char_arrow_up
-                0x0000000002012898       0x80 build/us_n64/bin/segment2.o
+                0x0000000002012888       0x80 build/us_n64/bin/segment2.o
  .data.texture_hud_char_no_camera
-                0x0000000002012918      0x200 build/us_n64/bin/segment2.o
+                0x0000000002012908      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_lakitu
-                0x0000000002012b18      0x200 build/us_n64/bin/segment2.o
+                0x0000000002012b08      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_camera
-                0x0000000002012d18      0x200 build/us_n64/bin/segment2.o
+                0x0000000002012d08      0x200 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_button_C_right
-                0x0000000002012f18       0x40 build/us_n64/bin/segment2.o
+                0x0000000002012f08       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_button_C_left
-                0x0000000002012f58       0x40 build/us_n64/bin/segment2.o
+                0x0000000002012f48       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_button_C_down
-                0x0000000002012f98       0x40 build/us_n64/bin/segment2.o
+                0x0000000002012f88       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_button_C_up
-                0x0000000002012fd8       0x40 build/us_n64/bin/segment2.o
+                0x0000000002012fc8       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_button_R
-                0x0000000002013018       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013008       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_button_Z
-                0x0000000002013058       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013048       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_button_C
-                0x0000000002013098       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013088       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_button_B
-                0x00000000020130d8       0x40 build/us_n64/bin/segment2.o
+                0x00000000020130c8       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_button_A
-                0x0000000002013118       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013108       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_ampersand
-                0x0000000002013158       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013148       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_slash
-                0x0000000002013198       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013188       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_ellipsis
-                0x00000000020131d8       0x40 build/us_n64/bin/segment2.o
+                0x00000000020131c8       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_double_quote_close
-                0x0000000002013218       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013208       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_double_quote_open
-                0x0000000002013258       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013248       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_star_hollow
-                0x0000000002013298       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013288       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_star_filled
-                0x00000000020132d8       0x40 build/us_n64/bin/segment2.o
+                0x00000000020132c8       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_question
-                0x0000000002013318       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013308       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_apostrophe
-                0x0000000002013358       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013348       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_comma
-                0x0000000002013398       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013388       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_interpunct
-                0x00000000020133d8       0x40 build/us_n64/bin/segment2.o
+                0x00000000020133c8       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_percent
-                0x0000000002013418       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013408       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_period
-                0x0000000002013458       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013448       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_tilde
-                0x0000000002013498       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013488       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_close_parentheses
-                0x00000000020134d8       0x40 build/us_n64/bin/segment2.o
+                0x00000000020134c8       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_close_open_parentheses
-                0x0000000002013518       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013508       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_open_parentheses
-                0x0000000002013558       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013548       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_multiply
-                0x0000000002013598       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013588       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_coin
-                0x00000000020135d8       0x40 build/us_n64/bin/segment2.o
+                0x00000000020135c8       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_exclamation
-                0x0000000002013618       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013608       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_left_right_arrow
-                0x0000000002013658       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013648       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_z
-                0x0000000002013698       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013688       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_y
-                0x00000000020136d8       0x40 build/us_n64/bin/segment2.o
+                0x00000000020136c8       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_x
-                0x0000000002013718       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013708       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_w
-                0x0000000002013758       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013748       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_v
-                0x0000000002013798       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013788       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_u
-                0x00000000020137d8       0x40 build/us_n64/bin/segment2.o
+                0x00000000020137c8       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_t
-                0x0000000002013818       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013808       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_s
-                0x0000000002013858       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013848       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_r
-                0x0000000002013898       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013888       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_q
-                0x00000000020138d8       0x40 build/us_n64/bin/segment2.o
+                0x00000000020138c8       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_p
-                0x0000000002013918       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013908       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_o
-                0x0000000002013958       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013948       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_n
-                0x0000000002013998       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013988       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_m
-                0x00000000020139d8       0x40 build/us_n64/bin/segment2.o
+                0x00000000020139c8       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_l
-                0x0000000002013a18       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013a08       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_k
-                0x0000000002013a58       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013a48       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_j
-                0x0000000002013a98       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013a88       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_i
-                0x0000000002013ad8       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013ac8       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_h
-                0x0000000002013b18       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013b08       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_g
-                0x0000000002013b58       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013b48       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_f
-                0x0000000002013b98       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013b88       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_e
-                0x0000000002013bd8       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013bc8       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_d
-                0x0000000002013c18       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013c08       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_c
-                0x0000000002013c58       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013c48       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_b
-                0x0000000002013c98       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013c88       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_a
-                0x0000000002013cd8       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013cc8       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_Z
-                0x0000000002013d18       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013d08       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_Y
-                0x0000000002013d58       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013d48       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_X
-                0x0000000002013d98       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013d88       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_W
-                0x0000000002013dd8       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013dc8       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_V
-                0x0000000002013e18       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013e08       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_U
-                0x0000000002013e58       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013e48       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_T
-                0x0000000002013e98       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013e88       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_S
-                0x0000000002013ed8       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013ec8       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_R
-                0x0000000002013f18       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013f08       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_Q
-                0x0000000002013f58       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013f48       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_P
-                0x0000000002013f98       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013f88       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_O
-                0x0000000002013fd8       0x40 build/us_n64/bin/segment2.o
+                0x0000000002013fc8       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_N
-                0x0000000002014018       0x40 build/us_n64/bin/segment2.o
+                0x0000000002014008       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_M
-                0x0000000002014058       0x40 build/us_n64/bin/segment2.o
+                0x0000000002014048       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_L
-                0x0000000002014098       0x40 build/us_n64/bin/segment2.o
+                0x0000000002014088       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_K
-                0x00000000020140d8       0x40 build/us_n64/bin/segment2.o
+                0x00000000020140c8       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_J
-                0x0000000002014118       0x40 build/us_n64/bin/segment2.o
+                0x0000000002014108       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_I
-                0x0000000002014158       0x40 build/us_n64/bin/segment2.o
+                0x0000000002014148       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_H
-                0x0000000002014198       0x40 build/us_n64/bin/segment2.o
+                0x0000000002014188       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_G
-                0x00000000020141d8       0x40 build/us_n64/bin/segment2.o
+                0x00000000020141c8       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_F
-                0x0000000002014218       0x40 build/us_n64/bin/segment2.o
+                0x0000000002014208       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_E
-                0x0000000002014258       0x40 build/us_n64/bin/segment2.o
+                0x0000000002014248       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_D
-                0x0000000002014298       0x40 build/us_n64/bin/segment2.o
+                0x0000000002014288       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_C
-                0x00000000020142d8       0x40 build/us_n64/bin/segment2.o
+                0x00000000020142c8       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_B
-                0x0000000002014318       0x40 build/us_n64/bin/segment2.o
+                0x0000000002014308       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_A
-                0x0000000002014358       0x40 build/us_n64/bin/segment2.o
+                0x0000000002014348       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_9
-                0x0000000002014398       0x40 build/us_n64/bin/segment2.o
+                0x0000000002014388       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_8
-                0x00000000020143d8       0x40 build/us_n64/bin/segment2.o
+                0x00000000020143c8       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_7
-                0x0000000002014418       0x40 build/us_n64/bin/segment2.o
+                0x0000000002014408       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_6
-                0x0000000002014458       0x40 build/us_n64/bin/segment2.o
+                0x0000000002014448       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_5
-                0x0000000002014498       0x40 build/us_n64/bin/segment2.o
+                0x0000000002014488       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_4
-                0x00000000020144d8       0x40 build/us_n64/bin/segment2.o
+                0x00000000020144c8       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_3
-                0x0000000002014518       0x40 build/us_n64/bin/segment2.o
+                0x0000000002014508       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_2
-                0x0000000002014558       0x40 build/us_n64/bin/segment2.o
+                0x0000000002014548       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_1
-                0x0000000002014598       0x40 build/us_n64/bin/segment2.o
+                0x0000000002014588       0x40 build/us_n64/bin/segment2.o
  .data.texture_font_char_us_0
-                0x00000000020145d8       0x40 build/us_n64/bin/segment2.o
+                0x00000000020145c8       0x40 build/us_n64/bin/segment2.o
  .data.texture_credits_char_period
-                0x0000000002014618       0x80 build/us_n64/bin/segment2.o
+                0x0000000002014608       0x80 build/us_n64/bin/segment2.o
  .data.texture_credits_char_Z
-                0x0000000002014698       0x80 build/us_n64/bin/segment2.o
+                0x0000000002014688       0x80 build/us_n64/bin/segment2.o
  .data.texture_credits_char_Y
-                0x0000000002014718       0x80 build/us_n64/bin/segment2.o
+                0x0000000002014708       0x80 build/us_n64/bin/segment2.o
  .data.texture_credits_char_X
-                0x0000000002014798       0x80 build/us_n64/bin/segment2.o
+                0x0000000002014788       0x80 build/us_n64/bin/segment2.o
  .data.texture_credits_char_W
-                0x0000000002014818       0x80 build/us_n64/bin/segment2.o
+                0x0000000002014808       0x80 build/us_n64/bin/segment2.o
  .data.texture_credits_char_V
-                0x0000000002014898       0x80 build/us_n64/bin/segment2.o
+                0x0000000002014888       0x80 build/us_n64/bin/segment2.o
  .data.texture_credits_char_U
-                0x0000000002014918       0x80 build/us_n64/bin/segment2.o
+                0x0000000002014908       0x80 build/us_n64/bin/segment2.o
  .data.texture_credits_char_T
-                0x0000000002014998       0x80 build/us_n64/bin/segment2.o
+                0x0000000002014988       0x80 build/us_n64/bin/segment2.o
  .data.texture_credits_char_S
-                0x0000000002014a18       0x80 build/us_n64/bin/segment2.o
+                0x0000000002014a08       0x80 build/us_n64/bin/segment2.o
  .data.texture_credits_char_R
-                0x0000000002014a98       0x80 build/us_n64/bin/segment2.o
+                0x0000000002014a88       0x80 build/us_n64/bin/segment2.o
  .data.texture_credits_char_Q
-                0x0000000002014b18       0x80 build/us_n64/bin/segment2.o
+                0x0000000002014b08       0x80 build/us_n64/bin/segment2.o
  .data.texture_credits_char_P
-                0x0000000002014b98       0x80 build/us_n64/bin/segment2.o
+                0x0000000002014b88       0x80 build/us_n64/bin/segment2.o
  .data.texture_credits_char_O
-                0x0000000002014c18       0x80 build/us_n64/bin/segment2.o
+                0x0000000002014c08       0x80 build/us_n64/bin/segment2.o
  .data.texture_credits_char_N
-                0x0000000002014c98       0x80 build/us_n64/bin/segment2.o
+                0x0000000002014c88       0x80 build/us_n64/bin/segment2.o
  .data.texture_credits_char_M
-                0x0000000002014d18       0x80 build/us_n64/bin/segment2.o
+                0x0000000002014d08       0x80 build/us_n64/bin/segment2.o
  .data.texture_credits_char_L
-                0x0000000002014d98       0x80 build/us_n64/bin/segment2.o
+                0x0000000002014d88       0x80 build/us_n64/bin/segment2.o
  .data.texture_credits_char_K
-                0x0000000002014e18       0x80 build/us_n64/bin/segment2.o
+                0x0000000002014e08       0x80 build/us_n64/bin/segment2.o
  .data.texture_credits_char_J
-                0x0000000002014e98       0x80 build/us_n64/bin/segment2.o
+                0x0000000002014e88       0x80 build/us_n64/bin/segment2.o
  .data.texture_credits_char_I
-                0x0000000002014f18       0x80 build/us_n64/bin/segment2.o
+                0x0000000002014f08       0x80 build/us_n64/bin/segment2.o
  .data.texture_credits_char_H
-                0x0000000002014f98       0x80 build/us_n64/bin/segment2.o
+                0x0000000002014f88       0x80 build/us_n64/bin/segment2.o
  .data.texture_credits_char_G
-                0x0000000002015018       0x80 build/us_n64/bin/segment2.o
+                0x0000000002015008       0x80 build/us_n64/bin/segment2.o
  .data.texture_credits_char_F
-                0x0000000002015098       0x80 build/us_n64/bin/segment2.o
+                0x0000000002015088       0x80 build/us_n64/bin/segment2.o
  .data.texture_credits_char_E
-                0x0000000002015118       0x80 build/us_n64/bin/segment2.o
+                0x0000000002015108       0x80 build/us_n64/bin/segment2.o
  .data.texture_credits_char_D
-                0x0000000002015198       0x80 build/us_n64/bin/segment2.o
+                0x0000000002015188       0x80 build/us_n64/bin/segment2.o
  .data.texture_credits_char_C
-                0x0000000002015218       0x80 build/us_n64/bin/segment2.o
+                0x0000000002015208       0x80 build/us_n64/bin/segment2.o
  .data.texture_credits_char_B
-                0x0000000002015298       0x80 build/us_n64/bin/segment2.o
+                0x0000000002015288       0x80 build/us_n64/bin/segment2.o
  .data.texture_credits_char_A
-                0x0000000002015318       0x80 build/us_n64/bin/segment2.o
+                0x0000000002015308       0x80 build/us_n64/bin/segment2.o
  .data.texture_credits_char_6
-                0x0000000002015398       0x80 build/us_n64/bin/segment2.o
+                0x0000000002015388       0x80 build/us_n64/bin/segment2.o
  .data.texture_credits_char_4
-                0x0000000002015418       0x80 build/us_n64/bin/segment2.o
+                0x0000000002015408       0x80 build/us_n64/bin/segment2.o
  .data.texture_credits_char_3
-                0x0000000002015498       0x80 build/us_n64/bin/segment2.o
+                0x0000000002015488       0x80 build/us_n64/bin/segment2.o
  .data.texture_hud_char_beta_key
-                0x0000000002015518      0x200 build/us_n64/bin/segment2.o
+                0x0000000002015508      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_decimal_point
-                0x0000000002015718      0x200 build/us_n64/bin/segment2.o
+                0x0000000002015708      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_star
-                0x0000000002015918      0x200 build/us_n64/bin/segment2.o
+                0x0000000002015908      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_mario_head
-                0x0000000002015b18      0x200 build/us_n64/bin/segment2.o
+                0x0000000002015b08      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_silver_coin
-                0x0000000002015d18      0x200 build/us_n64/bin/segment2.o
+                0x0000000002015d08      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_red_coin
-                0x0000000002015f18      0x200 build/us_n64/bin/segment2.o
+                0x0000000002015f08      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_coin
-                0x0000000002016118      0x200 build/us_n64/bin/segment2.o
+                0x0000000002016108      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_multiply
-                0x0000000002016318      0x200 build/us_n64/bin/segment2.o
+                0x0000000002016308      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_minus
-                0x0000000002016518      0x200 build/us_n64/bin/segment2.o
+                0x0000000002016508      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_percent
-                0x0000000002016718      0x200 build/us_n64/bin/segment2.o
+                0x0000000002016708      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_ampersand
-                0x0000000002016918      0x200 build/us_n64/bin/segment2.o
+                0x0000000002016908      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_question
-                0x0000000002016b18      0x200 build/us_n64/bin/segment2.o
+                0x0000000002016b08      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_double_exclamation
-                0x0000000002016d18      0x200 build/us_n64/bin/segment2.o
+                0x0000000002016d08      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_exclamation
-                0x0000000002016f18      0x200 build/us_n64/bin/segment2.o
+                0x0000000002016f08      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_umlaut
-                0x0000000002017118      0x200 build/us_n64/bin/segment2.o
+                0x0000000002017108      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_double_quote
-                0x0000000002017318      0x200 build/us_n64/bin/segment2.o
+                0x0000000002017308      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_apostrophe
-                0x0000000002017518      0x200 build/us_n64/bin/segment2.o
+                0x0000000002017508      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_Z
-                0x0000000002017718      0x200 build/us_n64/bin/segment2.o
+                0x0000000002017708      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_Y
-                0x0000000002017918      0x200 build/us_n64/bin/segment2.o
+                0x0000000002017908      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_X
-                0x0000000002017b18      0x200 build/us_n64/bin/segment2.o
+                0x0000000002017b08      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_W
-                0x0000000002017d18      0x200 build/us_n64/bin/segment2.o
+                0x0000000002017d08      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_V
-                0x0000000002017f18      0x200 build/us_n64/bin/segment2.o
+                0x0000000002017f08      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_U
-                0x0000000002018118      0x200 build/us_n64/bin/segment2.o
+                0x0000000002018108      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_T
-                0x0000000002018318      0x200 build/us_n64/bin/segment2.o
+                0x0000000002018308      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_S
-                0x0000000002018518      0x200 build/us_n64/bin/segment2.o
+                0x0000000002018508      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_R
-                0x0000000002018718      0x200 build/us_n64/bin/segment2.o
+                0x0000000002018708      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_Q
-                0x0000000002018918      0x200 build/us_n64/bin/segment2.o
+                0x0000000002018908      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_P
-                0x0000000002018b18      0x200 build/us_n64/bin/segment2.o
+                0x0000000002018b08      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_O
-                0x0000000002018d18      0x200 build/us_n64/bin/segment2.o
+                0x0000000002018d08      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_N
-                0x0000000002018f18      0x200 build/us_n64/bin/segment2.o
+                0x0000000002018f08      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_M
-                0x0000000002019118      0x200 build/us_n64/bin/segment2.o
+                0x0000000002019108      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_L
-                0x0000000002019318      0x200 build/us_n64/bin/segment2.o
+                0x0000000002019308      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_K
-                0x0000000002019518      0x200 build/us_n64/bin/segment2.o
+                0x0000000002019508      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_J
-                0x0000000002019718      0x200 build/us_n64/bin/segment2.o
+                0x0000000002019708      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_I
-                0x0000000002019918      0x200 build/us_n64/bin/segment2.o
+                0x0000000002019908      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_H
-                0x0000000002019b18      0x200 build/us_n64/bin/segment2.o
+                0x0000000002019b08      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_G
-                0x0000000002019d18      0x200 build/us_n64/bin/segment2.o
+                0x0000000002019d08      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_F
-                0x0000000002019f18      0x200 build/us_n64/bin/segment2.o
+                0x0000000002019f08      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_E
-                0x000000000201a118      0x200 build/us_n64/bin/segment2.o
+                0x000000000201a108      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_D
-                0x000000000201a318      0x200 build/us_n64/bin/segment2.o
+                0x000000000201a308      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_C
-                0x000000000201a518      0x200 build/us_n64/bin/segment2.o
+                0x000000000201a508      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_B
-                0x000000000201a718      0x200 build/us_n64/bin/segment2.o
+                0x000000000201a708      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_A
-                0x000000000201a918      0x200 build/us_n64/bin/segment2.o
+                0x000000000201a908      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_9
-                0x000000000201ab18      0x200 build/us_n64/bin/segment2.o
+                0x000000000201ab08      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_8
-                0x000000000201ad18      0x200 build/us_n64/bin/segment2.o
+                0x000000000201ad08      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_7
-                0x000000000201af18      0x200 build/us_n64/bin/segment2.o
+                0x000000000201af08      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_6
-                0x000000000201b118      0x200 build/us_n64/bin/segment2.o
+                0x000000000201b108      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_5
-                0x000000000201b318      0x200 build/us_n64/bin/segment2.o
+                0x000000000201b308      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_4
-                0x000000000201b518      0x200 build/us_n64/bin/segment2.o
+                0x000000000201b508      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_3
-                0x000000000201b718      0x200 build/us_n64/bin/segment2.o
+                0x000000000201b708      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_2
-                0x000000000201b918      0x200 build/us_n64/bin/segment2.o
+                0x000000000201b908      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_1
-                0x000000000201bb18      0x200 build/us_n64/bin/segment2.o
+                0x000000000201bb08      0x200 build/us_n64/bin/segment2.o
  .data.texture_hud_char_0
-                0x000000000201bd18      0x200 build/us_n64/bin/segment2.o
+                0x000000000201bd08      0x200 build/us_n64/bin/segment2.o
 
 .data1
  *(.data1)
 
 .got.plt
  *(.got.plt)
-                0x000000000201bf18                . = .
-                0x000000000201bf18                . = .
-                0x0000000002023f10                _gp = (ALIGN (0x10) + 0x7ff0)
+                0x000000000201bf08                . = .
+                0x000000000201bf08                . = .
+                0x0000000002023f00                _gp = (ALIGN (0x10) + 0x7ff0)
 
 .got
  *(.got)
@@ -1987,29 +1988,29 @@ LOAD build/us_n64/bin/segment2.o
 
 .lit4
  *(.lit4)
-                0x000000000201bf18                _edata = .
+                0x000000000201bf08                _edata = .
                 [!provide]                        PROVIDE (edata = .)
-                0x000000000201bf18                . = .
-                0x000000000201bf18                __bss_start = .
-                0x000000000201bf18                _fbss = .
+                0x000000000201bf08                . = .
+                0x000000000201bf08                __bss_start = .
+                0x000000000201bf08                _fbss = .
 
 .sbss
  *(.dynsbss)
  *(.sbss .sbss.* .gnu.linkonce.sb.*)
  *(.scommon)
 
-.bss            0x000000000201bf18        0x0 load address 0x000000000201bf30
+.bss            0x000000000201bf08        0x0 load address 0x000000000201bf20
  *(.dynbss)
  *(.bss .bss.* .gnu.linkonce.b.*)
- .bss           0x000000000201bf18        0x0 build/us_n64/bin/segment2.o
+ .bss           0x000000000201bf08        0x0 build/us_n64/bin/segment2.o
  *(COMMON)
-                0x000000000201bf18                . = ALIGN ((. != 0x0)?0x4:0x1)
-                0x000000000201bf18                . = ALIGN (0x4)
-                0x000000000201bf18                . = SEGMENT_START ("ldata-segment", .)
-                0x000000000201bf18                . = ALIGN (0x4)
-                0x000000000201bf18                _end = .
+                0x000000000201bf08                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x000000000201bf08                . = ALIGN (0x4)
+                0x000000000201bf08                . = SEGMENT_START ("ldata-segment", .)
+                0x000000000201bf08                . = ALIGN (0x4)
+                0x000000000201bf08                _end = .
                 [!provide]                        PROVIDE (end = .)
-                0x000000000201bf18                . = DATA_SEGMENT_END (.)
+                0x000000000201bf08                . = DATA_SEGMENT_END (.)
 
 .stab
  *(.stab)

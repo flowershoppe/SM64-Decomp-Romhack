@@ -1,5 +1,3 @@
-
-
 Gfx bob_dl__3_ci8_aligner[] = {gsSPEndDisplayList()};
 u8 bob_dl__3_ci8[] = {
 	0x00, 0x01, 0x02, 0x02, 0x02, 0x03, 0x04, 0x04, 
@@ -491,8 +489,8 @@ Gfx bob_dl_Plane_001_mesh_layer_1_tri_0[] = {
 };
 
 Gfx mat_bob_dl_f3dlite_material_001[] = {
-    gsSPLightColor(LIGHT_1, 0xffffffff),
-    gsSPLightColor(LIGHT_2, 0x7f7f7fff),
+	gsSPLightColor(LIGHT_1, 0xFFFFFFFF),
+	gsSPLightColor(LIGHT_2, 0x7F7F7FFF),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, ENVIRONMENT, TEXEL0, 0, SHADE, 0, 0, 0, 0, ENVIRONMENT),
 	gsDPSetAlphaDither(G_AD_NOISE),
@@ -517,8 +515,8 @@ Gfx mat_revert_bob_dl_f3dlite_material_001[] = {
 };
 
 Gfx mat_bob_dl_f3dlite_material[] = {
-    gsSPLightColor(LIGHT_1, 0xffffffff),
-    gsSPLightColor(LIGHT_2, 0x7f7f7fff),
+	gsSPLightColor(LIGHT_1, 0xFFFFFFFF),
+	gsSPLightColor(LIGHT_2, 0x7F7F7FFF),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, ENVIRONMENT, TEXEL0, 0, SHADE, 0, 0, 0, 0, ENVIRONMENT),
 	gsDPSetAlphaDither(G_AD_NOISE),

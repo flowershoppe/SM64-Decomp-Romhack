@@ -171,20 +171,19 @@ more slowly."))
 DEFINE_DIALOG(DIALOG_018, 1, 3, 30, 200, _("\
 C'mon! Catch that stupid\n\
 bird so we can deliver\n\
-that star back to the boss!"))
+the star back to the boss!"))
 
 DEFINE_DIALOG(DIALOG_019, 1, 3, 95, 200, _("\
 You can return to the last\n\
 checkpoint you touched in\n\
 the pause menu."))
 
-DEFINE_DIALOG(DIALOG_020, 1, 6, 95, 150, _("\
-Dear Mario:\n\
-Please come to the\n\
-castle. I've baked\n\
-a cake for you.\n\
-Yours truly--\n\
-Princess Toadstool"))
+DEFINE_DIALOG(DIALOG_020, 1, 5, 95, 200, _("\
+Hello Mario. Are you\n\
+enjoying the picnic?\n\
+It's wonderful that we\n\
+finally have a chance\n\
+to spend time together."))
 
 DEFINE_DIALOG(DIALOG_021, 1, 5, 95, 200, _("\
 Welcome.\n\
@@ -1222,17 +1221,12 @@ the tower of terror,\n\
 the Big Boo!\n\
 Ka ha ha ha..."))
 
-DEFINE_DIALOG(DIALOG_109, 1, 4, 95, 200, _("\
-Ooooo Nooooo!\n\
-Talk about out-of-body\n\
-experiences--my body\n\
-has melted away!\n\
-Have you run in to any\n\
-headhunters lately??\n\
-I could sure use a new\n\
-body!\n\
-Brrr! My face might\n\
-freeze like this!"))
+DEFINE_DIALOG(DIALOG_109, 1, 5, 30, 200, _("\
+Hello Mario. Are you\n\
+enjoying the picnic?\n\
+It's wonderful that we\n\
+finally have a chance\n\
+to spend time together."))
 
 DEFINE_DIALOG(DIALOG_110, 1, 5, 95, 200, _("\
 I need a good head on my\n\
