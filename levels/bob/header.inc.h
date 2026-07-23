@@ -2,8 +2,6 @@ extern const GeoLayout bob_area_1_geo[];
 extern const GeoLayout bob_area_1[];
 extern const Collision bob_area_1_collision[];
 extern const MacroObject bob_area_1_macro_objs[];
-extern Lights1 bob_dl_f3dlite_material_001_lights;
-extern Lights1 bob_dl_f3dlite_material_lights;
 extern u8 bob_dl__3_ci8[];
 extern u8 bob_dl__3_pal_rgba16[];
 extern u8 bob_dl_ci4_zeina_water_1_ci4[];

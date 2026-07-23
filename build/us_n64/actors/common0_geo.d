@@ -80,7 +80,8 @@ build/us_n64/actors/common0_geo.o: actors/common0_geo.c \
  actors/MODEL_STAR_DOOR/collision_header.h \
  actors/MODEL_STAR_DOOR/geo_header.h actors/star_gate/collision_header.h \
  actors/star_gate/geo_header.h actors/custom_peach/collision_header.h \
- actors/custom_peach/geo_header.h actors/blue_coin_switch/geo.inc.c \
+ actors/custom_peach/geo_header.h actors/custom_peach/anim_header.h \
+ actors/custom_peach/anims/table_enum.h actors/blue_coin_switch/geo.inc.c \
  actors/test_platform/geo.inc.c actors/amp/geo.inc.c \
  actors/cannon_lid/geo.inc.c actors/cannon_base/geo.inc.c \
  actors/cannon_barrel/geo.inc.c actors/chuckya/geo.inc.c \

@@ -569,4 +569,5 @@ extern const BehaviorScript bhvTiltingPlatform[];
 extern const BehaviorScript bhvSpindriftSpawner[];
 extern const BehaviorScript bhvStarGate[];
 extern const BehaviorScript bhvInvisibleDialog[];
+extern const BehaviorScript bhvCustomPeach[];
 #endif // BEHAVIOR_DATA_H
