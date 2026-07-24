@@ -280,7 +280,7 @@ const LevelScript level_wf_entry[] = {
 		OBJECT(MODEL_YELLOW_COIN, -6807, 5439, -4229, 0, 0, 0, 0x00000000, bhvYellowCoin),
 		TERRAIN(wf_area_1_collision),
 		MACRO_OBJECTS(wf_area_1_macro_objs),
-		SET_BACKGROUND_MUSIC(0x00, SEQ_LEVEL_INSIDE_CASTLE),
+		SET_BACKGROUND_MUSIC(0x00, SEQ_LEVEL_HOT),
 		TERRAIN_TYPE(TERRAIN_GRASS),
 		/* Fast64 begin persistent block [area commands] */
 		/* Fast64 end persistent block [area commands] */
