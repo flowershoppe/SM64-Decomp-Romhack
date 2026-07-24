@@ -169,7 +169,7 @@ const LevelScript level_wf_entry[] = {
 		OBJECT(MODEL_SMALL_FAN, 3252, 13634, 14087, 0, 20, 0, (40 << 24), bhvRotateSmall),
 		OBJECT(MODEL_SMALL_FAN, 2752, 12434, 14237, 0, 10, 0, (40 << 24), bhvRotateSmall),
 		OBJECT(MODEL_STAR, -4848, 5577, 2589, 0, 0, 0, (0 << 24), bhvStar),
-		OBJECT(MODEL_STAR_GATE, 6194, 16697, -2396, 0, -111, 0, (6 << 24), bhvStarGate),
+		OBJECT(MODEL_STAR_GATE, 6194, 16697, -2396, 0, -111, 0, (7 << 24), bhvStarGate),
 		OBJECT(MODEL_STAR, -9247, 8901, -8898, 0, -30, 0, (2 << 24), bhvStar),
 		OBJECT(MODEL_STAR, 7874, 18189, 10838, 0, 90, 0, (3 << 24), bhvStar),
 		OBJECT(MODEL_BLOCK_SWAP_BLOCK, -5048, 5497, 3935, 0, 180, 0, (1 << 24), bhvBlockSwapBlock),

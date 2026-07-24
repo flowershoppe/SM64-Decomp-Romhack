@@ -60,10 +60,9 @@ the power stars to keep\n\
 them safe.\n\
 There's one nearby, but\n\
 you'll need to find \n\
-5 silver mini-\n\
-stars to reveal it.\n\
-Every mini-star is \n\
-on this island."))
+5 silver mini-stars to\n\
+reveal it. Every mini-\n\
+star is on this island."))
 
 DEFINE_DIALOG(DIALOG_007, 1, 5, 30, 200, _("\
 I can't get this cannon\n\

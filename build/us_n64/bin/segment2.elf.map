@@ -1575,8 +1575,8 @@ LOAD build/us_n64/bin/segment2.o
                 0x0000000002011ec8       0x8a build/us_n64/bin/segment2.o
  *fill*         0x0000000002011f52        0x2 
  .data.dialog_text_DIALOG_006
-                0x0000000002011f54       0xd7 build/us_n64/bin/segment2.o
- *fill*         0x000000000201202b        0x1 
+                0x0000000002011f54       0xd6 build/us_n64/bin/segment2.o
+ *fill*         0x000000000201202a        0x2 
  .data.dialog_text_DIALOG_005
                 0x000000000201202c       0x4b build/us_n64/bin/segment2.o
  *fill*         0x0000000002012077        0x1 
