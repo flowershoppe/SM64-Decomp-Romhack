@@ -1,7 +1,12 @@
 void peach_act_idle(void){
     if (o->oDistanceToMario < 500.0f) {
-        cur_obj_init_animation(CUSTOM_PEACH_ANIM_LOOK_DOWN);
         o->oMoveAngleYaw = approach_s16_symmetric(o->oMoveAngleYaw, o->oAngleToMario, 0x140);
+        if(o->oMoveAngleYaw > 0x200){
+            cur_obj_init_animation(CUSTOM_PEACH_ANIM_WALKING);
+        }
+        else{
+            cur_obj_init_animation(CUSTOM_PEACH_ANIM_LOOK_DOWN); 
+        }
     }
     else{
         cur_obj_init_animation(CUSTOM_PEACH_ANIM_IDLE);

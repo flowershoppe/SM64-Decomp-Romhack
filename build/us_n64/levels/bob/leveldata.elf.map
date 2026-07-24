@@ -216,59 +216,151 @@ LOAD build/us_n64/levels/bob/leveldata.o
  *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
                 0x0000000007000000                . = DATA_SEGMENT_RELRO_END (., 0x0)
 
-.data           0x0000000007000000    0x12190 load address 0x0000000007000018
+.data           0x0000000007000000    0x181c8 load address 0x0000000007000018
                 0x0000000007000000                _fdata = .
  *(.data .data.* .gnu.linkonce.d.*)
- .data          0x0000000007000000    0x12190 build/us_n64/levels/bob/leveldata.o
-                0x0000000007000000                bob_dl_final_revert_mesh_layer_1
-                0x0000000007000040                bob_dl_Plane_001_mesh_layer_1
-                0x0000000007000080                bob_dl_Plane_mesh_layer_1
-                0x00000000070000c0                mat_revert_bob_dl_f3dlite_material
-                0x00000000070000e0                mat_bob_dl_f3dlite_material
-                0x0000000007000170                mat_revert_bob_dl_f3dlite_material_001
-                0x0000000007000190                mat_bob_dl_f3dlite_material_001
-                0x0000000007000220                bob_dl_Plane_001_mesh_layer_1_tri_0
-                0x0000000007000238                bob_dl_Plane_001_mesh_layer_1_vtx_0
-                0x0000000007000278                bob_dl_Plane_001_mesh_layer_1_vtx_cull
-                0x00000000070002f8                bob_dl_Plane_mesh_layer_1_tri_0
-                0x0000000007000310                bob_dl_Plane_mesh_layer_1_vtx_0
-                0x0000000007000350                bob_dl_Plane_mesh_layer_1_vtx_cull
-                0x00000000070003d0                bob_dl_ci4_zeina_water_1_pal_rgba16
-                0x00000000070003f0                bob_dl_ci4_zeina_water_1_pal_rgba16_aligner
-                0x00000000070003f8                bob_dl_ci4_zeina_water_1_ci4
-                0x0000000007000bf8                bob_dl_ci4_zeina_water_1_ci4_aligner
-                0x0000000007000c00                bob_dl__3_pal_rgba16
-                0x0000000007000d18                bob_dl__3_pal_rgba16_aligner
-                0x0000000007000d20                bob_dl__3_ci8
-                0x0000000007001120                _ci::bob_dl(_aligner)
-                0x0000000007001128                bob_area_1_macro_objs
-                0x000000000700112c                bob_area_1_collision
-                0x0000000007001188                bob_seg7_trajectory_koopa
-                0x00000000070012ac                bob_seg7_metal_ball_path1
-                0x0000000007001388                bob_seg7_metal_ball_path0
-                0x000000000700141c                bob_seg7_collision_gate
-                0x00000000070014f4                bob_seg7_collision_bridge
-                0x0000000007001590                bob_seg7_collision_chain_chomp_gate
-                0x00000000070015c4                bob_seg7_macro_objs
-                0x0000000007001938                bob_seg7_collision_level
-                0x0000000007004878                bob_seg7_dl_0700E8A0
-                0x00000000070049b8                bob_seg7_dl_0700E768
-                0x0000000007004c80                bob_seg7_dl_0700E458
-                0x0000000007004da8                bob_seg7_dl_0700E338
-                0x00000000070052d8                bob_seg7_dl_0700DD18
-                0x00000000070081e0                bob_seg7_dl_0700A920
-                0x0000000007008688                bob_seg7_dl_0700A470
-                0x0000000007008c58                bob_seg7_dl_07009D80
-                0x000000000700dfc8                bob_seg7_dl_07004390
+ .data          0x0000000007000000    0x181c8 build/us_n64/levels/bob/leveldata.o
+                0x0000000007000000                bob_dl_final_revert_mesh_layer_4
+                0x0000000007000040                bob_dl_final_revert_mesh_layer_5
+                0x0000000007000080                bob_dl_final_revert_mesh_layer_1
+                0x00000000070000c0                bob_dl_Plane_014_mesh_layer_1
+                0x0000000007000100                bob_dl_Plane_013_mesh_layer_5
+                0x0000000007000140                bob_dl_Plane_012_mesh_layer_5
+                0x0000000007000180                bob_dl_Plane_011_mesh_layer_4
+                0x00000000070001c0                bob_dl_Plane_010_mesh_layer_4
+                0x0000000007000200                bob_dl_Plane_009_mesh_layer_4
+                0x0000000007000240                bob_dl_Plane_008_mesh_layer_4
+                0x0000000007000280                bob_dl_Plane_007_mesh_layer_4
+                0x00000000070002c0                bob_dl_Plane_006_mesh_layer_4
+                0x0000000007000300                bob_dl_Plane_005_mesh_layer_4
+                0x0000000007000340                bob_dl_Plane_004_mesh_layer_4
+                0x0000000007000380                bob_dl_Plane_003_mesh_layer_4
+                0x00000000070003c0                bob_dl_Plane_002_mesh_layer_5
+                0x0000000007000400                bob_dl_Plane_001_mesh_layer_1
+                0x0000000007000440                bob_dl_Plane_mesh_layer_1
+                0x00000000070004b0                bob_dl_Cube_mesh_layer_1
+                0x0000000007000508                mat_revert_bob_dl_f3dlite_material_001
+                0x0000000007000528                mat_bob_dl_f3dlite_material_001
+                0x00000000070005b8                mat_revert_bob_dl_trees
+                0x00000000070005e0                mat_bob_dl_trees
+                0x0000000007000678                mat_revert_bob_dl_invisible
+                0x0000000007000698                mat_bob_dl_invisible
+                0x0000000007000718                mat_revert_bob_dl_f3dlite_material
+                0x0000000007000738                mat_bob_dl_f3dlite_material
+                0x00000000070007c8                mat_revert_bob_dl_grass
+                0x00000000070007e8                mat_bob_dl_grass
+                0x0000000007000878                mat_revert_bob_dl_dirt
+                0x0000000007000898                mat_bob_dl_dirt
+                0x0000000007000928                mat_revert_bob_dl_rock
+                0x0000000007000948                mat_bob_dl_rock
+                0x00000000070009d8                bob_dl_Plane_014_mesh_layer_1_tri_0
+                0x00000000070009f0                bob_dl_Plane_014_mesh_layer_1_vtx_0
+                0x0000000007000a30                bob_dl_Plane_014_mesh_layer_1_vtx_cull
+                0x0000000007000ab0                bob_dl_Plane_013_mesh_layer_5_tri_0
+                0x0000000007000ac8                bob_dl_Plane_013_mesh_layer_5_vtx_0
+                0x0000000007000b08                bob_dl_Plane_013_mesh_layer_5_vtx_cull
+                0x0000000007000b88                bob_dl_Plane_012_mesh_layer_5_tri_0
+                0x0000000007000ba0                bob_dl_Plane_012_mesh_layer_5_vtx_0
+                0x0000000007000be0                bob_dl_Plane_012_mesh_layer_5_vtx_cull
+                0x0000000007000c60                bob_dl_Plane_011_mesh_layer_4_tri_0
+                0x0000000007000c78                bob_dl_Plane_011_mesh_layer_4_vtx_0
+                0x0000000007000cb8                bob_dl_Plane_011_mesh_layer_4_vtx_cull
+                0x0000000007000d38                bob_dl_Plane_010_mesh_layer_4_tri_0
+                0x0000000007000d50                bob_dl_Plane_010_mesh_layer_4_vtx_0
+                0x0000000007000d90                bob_dl_Plane_010_mesh_layer_4_vtx_cull
+                0x0000000007000e10                bob_dl_Plane_009_mesh_layer_4_tri_0
+                0x0000000007000e28                bob_dl_Plane_009_mesh_layer_4_vtx_0
+                0x0000000007000e68                bob_dl_Plane_009_mesh_layer_4_vtx_cull
+                0x0000000007000ee8                bob_dl_Plane_008_mesh_layer_4_tri_0
+                0x0000000007000f00                bob_dl_Plane_008_mesh_layer_4_vtx_0
+                0x0000000007000f40                bob_dl_Plane_008_mesh_layer_4_vtx_cull
+                0x0000000007000fc0                bob_dl_Plane_007_mesh_layer_4_tri_0
+                0x0000000007000fd8                bob_dl_Plane_007_mesh_layer_4_vtx_0
+                0x0000000007001018                bob_dl_Plane_007_mesh_layer_4_vtx_cull
+                0x0000000007001098                bob_dl_Plane_006_mesh_layer_4_tri_0
+                0x00000000070010b0                bob_dl_Plane_006_mesh_layer_4_vtx_0
+                0x00000000070010f0                bob_dl_Plane_006_mesh_layer_4_vtx_cull
+                0x0000000007001170                bob_dl_Plane_005_mesh_layer_4_tri_0
+                0x0000000007001188                bob_dl_Plane_005_mesh_layer_4_vtx_0
+                0x00000000070011c8                bob_dl_Plane_005_mesh_layer_4_vtx_cull
+                0x0000000007001248                bob_dl_Plane_004_mesh_layer_4_tri_0
+                0x0000000007001260                bob_dl_Plane_004_mesh_layer_4_vtx_0
+                0x00000000070012a0                bob_dl_Plane_004_mesh_layer_4_vtx_cull
+                0x0000000007001320                bob_dl_Plane_003_mesh_layer_4_tri_0
+                0x0000000007001338                bob_dl_Plane_003_mesh_layer_4_vtx_0
+                0x0000000007001378                bob_dl_Plane_003_mesh_layer_4_vtx_cull
+                0x00000000070013f8                bob_dl_Plane_002_mesh_layer_5_tri_0
+                0x0000000007001410                bob_dl_Plane_002_mesh_layer_5_vtx_0
+                0x0000000007001450                bob_dl_Plane_002_mesh_layer_5_vtx_cull
+                0x00000000070014d0                bob_dl_Plane_001_mesh_layer_1_tri_0
+                0x00000000070014e8                bob_dl_Plane_001_mesh_layer_1_vtx_0
+                0x0000000007001528                bob_dl_Plane_001_mesh_layer_1_vtx_cull
+                0x00000000070015a8                bob_dl_Plane_mesh_layer_1_tri_2
+                0x00000000070015e8                bob_dl_Plane_mesh_layer_1_vtx_2
+                0x00000000070016e8                bob_dl_Plane_mesh_layer_1_tri_1
+                0x0000000007001800                bob_dl_Plane_mesh_layer_1_vtx_1
+                0x0000000007001db0                bob_dl_Plane_mesh_layer_1_tri_0
+                0x0000000007001de8                bob_dl_Plane_mesh_layer_1_vtx_0
+                0x0000000007001eb8                bob_dl_Plane_mesh_layer_1_vtx_cull
+                0x0000000007001f38                bob_dl_Cube_mesh_layer_1_tri_1
+                0x0000000007001fd0                bob_dl_Cube_mesh_layer_1_vtx_1
+                0x0000000007002390                bob_dl_Cube_mesh_layer_1_tri_0
+                0x0000000007002678                bob_dl_Cube_mesh_layer_1_vtx_0
+                0x00000000070037a8                bob_dl_Cube_mesh_layer_1_vtx_cull
+                0x0000000007003828                bob_dl_ci4_sophie_tablecloth_pal_rgba16
+                0x0000000007003848                bob_dl_ci4_sophie_tablecloth_pal_rgba16_aligner
+                0x0000000007003850                bob_dl_ci4_sophie_tablecloth_ci4
+                0x0000000007004050                bob_dl_ci4_sophie_tablecloth_ci4_aligner
+                0x0000000007004058                bob_dl__7321A20CF4EF7CA7FA098077FD6D226E_pal_rgba16
+                0x00000000070040c0                bob_dl__7321A20CF4EF7CA7FA098077FD6D226E_pal_rgba16_aligner
+                0x00000000070040c8                bob_dl__7321A20CF4EF7CA7FA098077FD6D226E_ci8
+                0x00000000070048c8                bob_dl__7321A20CF4EF7CA7FA098077FD6D226E_ci8_aligner
+                0x00000000070048d0                bob_dl_invisible_ia8
+                0x0000000007004cd0                bob_dl_invisible_ia8_aligner
+                0x0000000007004cd8                bob_dl_ci4_sophie_water_pal_rgba16
+                0x0000000007004cf8                bob_dl_ci4_sophie_water_pal_rgba16_aligner
+                0x0000000007004d00                bob_dl_ci4_sophie_water_ci4
+                0x0000000007005500                bob_dl_ci4_sophie_water_ci4_aligner
+                0x0000000007005508                bob_dl_bright_grass_pal_rgba16
+                0x00000000070055a0                bob_dl_bright_grass_pal_rgba16_aligner
+                0x00000000070055a8                bob_dl_bright_grass_ci8
+                0x00000000070059a8                bob_dl_bright_grass_ci8_aligner
+                0x00000000070059b0                bob_dl__8_pal_rgba16
+                0x0000000007005b30                bob_dl__8_pal_rgba16_aligner
+                0x0000000007005b38                bob_dl__8_ci8
+                0x0000000007005f38                bob_dl__8_ci8_aligner
+                0x0000000007005f40                bob_dl__25_pal_rgba16
+                0x0000000007005fb0                bob_dl__25_pal_rgba16_aligner
+                0x0000000007005fb8                bob_dl__25_ci8
+                0x00000000070063b8                bob_dl__25_ci8_aligner
+                0x00000000070063c0                bob_area_1_macro_objs
+                0x00000000070063c4                bob_area_1_collision
+                0x00000000070071c0                bob_seg7_trajectory_koopa
+                0x00000000070072e4                bob_seg7_metal_ball_path1
+                0x00000000070073c0                bob_seg7_metal_ball_path0
+                0x0000000007007454                bob_seg7_collision_gate
+                0x000000000700752c                bob_seg7_collision_bridge
+                0x00000000070075c8                bob_seg7_collision_chain_chomp_gate
+                0x00000000070075fc                bob_seg7_macro_objs
+                0x0000000007007970                bob_seg7_collision_level
+                0x000000000700a8b0                bob_seg7_dl_0700E8A0
+                0x000000000700a9f0                bob_seg7_dl_0700E768
+                0x000000000700acb8                bob_seg7_dl_0700E458
+                0x000000000700ade0                bob_seg7_dl_0700E338
+                0x000000000700b310                bob_seg7_dl_0700DD18
+                0x000000000700e218                bob_seg7_dl_0700A920
+                0x000000000700e6c0                bob_seg7_dl_0700A470
+                0x000000000700ec90                bob_seg7_dl_07009D80
+                0x0000000007014000                bob_seg7_dl_07004390
 
 .data1
  *(.data1)
 
 .got.plt
  *(.got.plt)
-                0x0000000007012190                . = .
-                0x0000000007012190                . = .
-                0x000000000701a180                _gp = (ALIGN (0x10) + 0x7ff0)
+                0x00000000070181c8                . = .
+                0x00000000070181c8                . = .
+                0x00000000070201c0                _gp = (ALIGN (0x10) + 0x7ff0)
 
 .got
  *(.got)
@@ -281,29 +373,29 @@ LOAD build/us_n64/levels/bob/leveldata.o
 
 .lit4
  *(.lit4)
-                0x0000000007012190                _edata = .
+                0x00000000070181c8                _edata = .
                 [!provide]                        PROVIDE (edata = .)
-                0x0000000007012190                . = .
-                0x0000000007012190                __bss_start = .
-                0x0000000007012190                _fbss = .
+                0x00000000070181c8                . = .
+                0x00000000070181c8                __bss_start = .
+                0x00000000070181c8                _fbss = .
 
 .sbss
  *(.dynsbss)
  *(.sbss .sbss.* .gnu.linkonce.sb.*)
  *(.scommon)
 
-.bss            0x0000000007012190        0x0 load address 0x00000000070121a8
+.bss            0x00000000070181c8        0x0 load address 0x00000000070181e0
  *(.dynbss)
  *(.bss .bss.* .gnu.linkonce.b.*)
- .bss           0x0000000007012190        0x0 build/us_n64/levels/bob/leveldata.o
+ .bss           0x00000000070181c8        0x0 build/us_n64/levels/bob/leveldata.o
  *(COMMON)
-                0x0000000007012190                . = ALIGN ((. != 0x0)?0x4:0x1)
-                0x0000000007012190                . = ALIGN (0x4)
-                0x0000000007012190                . = SEGMENT_START ("ldata-segment", .)
-                0x0000000007012190                . = ALIGN (0x4)
-                0x0000000007012190                _end = .
+                0x00000000070181c8                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x00000000070181c8                . = ALIGN (0x4)
+                0x00000000070181c8                . = SEGMENT_START ("ldata-segment", .)
+                0x00000000070181c8                . = ALIGN (0x4)
+                0x00000000070181c8                _end = .
                 [!provide]                        PROVIDE (end = .)
-                0x0000000007012190                . = DATA_SEGMENT_END (.)
+                0x00000000070181c8                . = DATA_SEGMENT_END (.)
 
 .stab
  *(.stab)
