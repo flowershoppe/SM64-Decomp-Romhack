@@ -216,151 +216,324 @@ LOAD build/us_n64/levels/bob/leveldata.o
  *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
                 0x0000000007000000                . = DATA_SEGMENT_RELRO_END (., 0x0)
 
-.data           0x0000000007000000    0x181c8 load address 0x0000000007000018
+.data           0x0000000007000000    0x24450 load address 0x0000000007000018
                 0x0000000007000000                _fdata = .
  *(.data .data.* .gnu.linkonce.d.*)
- .data          0x0000000007000000    0x181c8 build/us_n64/levels/bob/leveldata.o
-                0x0000000007000000                bob_dl_final_revert_mesh_layer_4
-                0x0000000007000040                bob_dl_final_revert_mesh_layer_5
-                0x0000000007000080                bob_dl_final_revert_mesh_layer_1
-                0x00000000070000c0                bob_dl_Plane_014_mesh_layer_1
-                0x0000000007000100                bob_dl_Plane_013_mesh_layer_5
-                0x0000000007000140                bob_dl_Plane_012_mesh_layer_5
-                0x0000000007000180                bob_dl_Plane_011_mesh_layer_4
-                0x00000000070001c0                bob_dl_Plane_010_mesh_layer_4
-                0x0000000007000200                bob_dl_Plane_009_mesh_layer_4
-                0x0000000007000240                bob_dl_Plane_008_mesh_layer_4
-                0x0000000007000280                bob_dl_Plane_007_mesh_layer_4
-                0x00000000070002c0                bob_dl_Plane_006_mesh_layer_4
-                0x0000000007000300                bob_dl_Plane_005_mesh_layer_4
-                0x0000000007000340                bob_dl_Plane_004_mesh_layer_4
-                0x0000000007000380                bob_dl_Plane_003_mesh_layer_4
-                0x00000000070003c0                bob_dl_Plane_002_mesh_layer_5
-                0x0000000007000400                bob_dl_Plane_001_mesh_layer_1
-                0x0000000007000440                bob_dl_Plane_mesh_layer_1
-                0x00000000070004b0                bob_dl_Cube_mesh_layer_1
-                0x0000000007000508                mat_revert_bob_dl_f3dlite_material_001
-                0x0000000007000528                mat_bob_dl_f3dlite_material_001
-                0x00000000070005b8                mat_revert_bob_dl_trees
-                0x00000000070005e0                mat_bob_dl_trees
-                0x0000000007000678                mat_revert_bob_dl_invisible
-                0x0000000007000698                mat_bob_dl_invisible
-                0x0000000007000718                mat_revert_bob_dl_f3dlite_material
-                0x0000000007000738                mat_bob_dl_f3dlite_material
-                0x00000000070007c8                mat_revert_bob_dl_grass
-                0x00000000070007e8                mat_bob_dl_grass
-                0x0000000007000878                mat_revert_bob_dl_dirt
-                0x0000000007000898                mat_bob_dl_dirt
-                0x0000000007000928                mat_revert_bob_dl_rock
-                0x0000000007000948                mat_bob_dl_rock
-                0x00000000070009d8                bob_dl_Plane_014_mesh_layer_1_tri_0
-                0x00000000070009f0                bob_dl_Plane_014_mesh_layer_1_vtx_0
-                0x0000000007000a30                bob_dl_Plane_014_mesh_layer_1_vtx_cull
-                0x0000000007000ab0                bob_dl_Plane_013_mesh_layer_5_tri_0
-                0x0000000007000ac8                bob_dl_Plane_013_mesh_layer_5_vtx_0
-                0x0000000007000b08                bob_dl_Plane_013_mesh_layer_5_vtx_cull
-                0x0000000007000b88                bob_dl_Plane_012_mesh_layer_5_tri_0
-                0x0000000007000ba0                bob_dl_Plane_012_mesh_layer_5_vtx_0
-                0x0000000007000be0                bob_dl_Plane_012_mesh_layer_5_vtx_cull
-                0x0000000007000c60                bob_dl_Plane_011_mesh_layer_4_tri_0
-                0x0000000007000c78                bob_dl_Plane_011_mesh_layer_4_vtx_0
-                0x0000000007000cb8                bob_dl_Plane_011_mesh_layer_4_vtx_cull
-                0x0000000007000d38                bob_dl_Plane_010_mesh_layer_4_tri_0
-                0x0000000007000d50                bob_dl_Plane_010_mesh_layer_4_vtx_0
-                0x0000000007000d90                bob_dl_Plane_010_mesh_layer_4_vtx_cull
-                0x0000000007000e10                bob_dl_Plane_009_mesh_layer_4_tri_0
-                0x0000000007000e28                bob_dl_Plane_009_mesh_layer_4_vtx_0
-                0x0000000007000e68                bob_dl_Plane_009_mesh_layer_4_vtx_cull
-                0x0000000007000ee8                bob_dl_Plane_008_mesh_layer_4_tri_0
-                0x0000000007000f00                bob_dl_Plane_008_mesh_layer_4_vtx_0
-                0x0000000007000f40                bob_dl_Plane_008_mesh_layer_4_vtx_cull
-                0x0000000007000fc0                bob_dl_Plane_007_mesh_layer_4_tri_0
-                0x0000000007000fd8                bob_dl_Plane_007_mesh_layer_4_vtx_0
-                0x0000000007001018                bob_dl_Plane_007_mesh_layer_4_vtx_cull
-                0x0000000007001098                bob_dl_Plane_006_mesh_layer_4_tri_0
-                0x00000000070010b0                bob_dl_Plane_006_mesh_layer_4_vtx_0
-                0x00000000070010f0                bob_dl_Plane_006_mesh_layer_4_vtx_cull
-                0x0000000007001170                bob_dl_Plane_005_mesh_layer_4_tri_0
-                0x0000000007001188                bob_dl_Plane_005_mesh_layer_4_vtx_0
-                0x00000000070011c8                bob_dl_Plane_005_mesh_layer_4_vtx_cull
-                0x0000000007001248                bob_dl_Plane_004_mesh_layer_4_tri_0
-                0x0000000007001260                bob_dl_Plane_004_mesh_layer_4_vtx_0
-                0x00000000070012a0                bob_dl_Plane_004_mesh_layer_4_vtx_cull
-                0x0000000007001320                bob_dl_Plane_003_mesh_layer_4_tri_0
-                0x0000000007001338                bob_dl_Plane_003_mesh_layer_4_vtx_0
-                0x0000000007001378                bob_dl_Plane_003_mesh_layer_4_vtx_cull
-                0x00000000070013f8                bob_dl_Plane_002_mesh_layer_5_tri_0
-                0x0000000007001410                bob_dl_Plane_002_mesh_layer_5_vtx_0
-                0x0000000007001450                bob_dl_Plane_002_mesh_layer_5_vtx_cull
-                0x00000000070014d0                bob_dl_Plane_001_mesh_layer_1_tri_0
-                0x00000000070014e8                bob_dl_Plane_001_mesh_layer_1_vtx_0
-                0x0000000007001528                bob_dl_Plane_001_mesh_layer_1_vtx_cull
-                0x00000000070015a8                bob_dl_Plane_mesh_layer_1_tri_2
-                0x00000000070015e8                bob_dl_Plane_mesh_layer_1_vtx_2
-                0x00000000070016e8                bob_dl_Plane_mesh_layer_1_tri_1
-                0x0000000007001800                bob_dl_Plane_mesh_layer_1_vtx_1
-                0x0000000007001db0                bob_dl_Plane_mesh_layer_1_tri_0
-                0x0000000007001de8                bob_dl_Plane_mesh_layer_1_vtx_0
-                0x0000000007001eb8                bob_dl_Plane_mesh_layer_1_vtx_cull
-                0x0000000007001f38                bob_dl_Cube_mesh_layer_1_tri_1
-                0x0000000007001fd0                bob_dl_Cube_mesh_layer_1_vtx_1
-                0x0000000007002390                bob_dl_Cube_mesh_layer_1_tri_0
-                0x0000000007002678                bob_dl_Cube_mesh_layer_1_vtx_0
-                0x00000000070037a8                bob_dl_Cube_mesh_layer_1_vtx_cull
-                0x0000000007003828                bob_dl_ci4_sophie_tablecloth_pal_rgba16
-                0x0000000007003848                bob_dl_ci4_sophie_tablecloth_pal_rgba16_aligner
-                0x0000000007003850                bob_dl_ci4_sophie_tablecloth_ci4
-                0x0000000007004050                bob_dl_ci4_sophie_tablecloth_ci4_aligner
-                0x0000000007004058                bob_dl__7321A20CF4EF7CA7FA098077FD6D226E_pal_rgba16
-                0x00000000070040c0                bob_dl__7321A20CF4EF7CA7FA098077FD6D226E_pal_rgba16_aligner
-                0x00000000070040c8                bob_dl__7321A20CF4EF7CA7FA098077FD6D226E_ci8
-                0x00000000070048c8                bob_dl__7321A20CF4EF7CA7FA098077FD6D226E_ci8_aligner
-                0x00000000070048d0                bob_dl_invisible_ia8
-                0x0000000007004cd0                bob_dl_invisible_ia8_aligner
-                0x0000000007004cd8                bob_dl_ci4_sophie_water_pal_rgba16
-                0x0000000007004cf8                bob_dl_ci4_sophie_water_pal_rgba16_aligner
-                0x0000000007004d00                bob_dl_ci4_sophie_water_ci4
-                0x0000000007005500                bob_dl_ci4_sophie_water_ci4_aligner
-                0x0000000007005508                bob_dl_bright_grass_pal_rgba16
-                0x00000000070055a0                bob_dl_bright_grass_pal_rgba16_aligner
-                0x00000000070055a8                bob_dl_bright_grass_ci8
-                0x00000000070059a8                bob_dl_bright_grass_ci8_aligner
-                0x00000000070059b0                bob_dl__8_pal_rgba16
-                0x0000000007005b30                bob_dl__8_pal_rgba16_aligner
-                0x0000000007005b38                bob_dl__8_ci8
-                0x0000000007005f38                bob_dl__8_ci8_aligner
-                0x0000000007005f40                bob_dl__25_pal_rgba16
-                0x0000000007005fb0                bob_dl__25_pal_rgba16_aligner
-                0x0000000007005fb8                bob_dl__25_ci8
-                0x00000000070063b8                bob_dl__25_ci8_aligner
-                0x00000000070063c0                bob_area_1_macro_objs
-                0x00000000070063c4                bob_area_1_collision
-                0x00000000070071c0                bob_seg7_trajectory_koopa
-                0x00000000070072e4                bob_seg7_metal_ball_path1
-                0x00000000070073c0                bob_seg7_metal_ball_path0
-                0x0000000007007454                bob_seg7_collision_gate
-                0x000000000700752c                bob_seg7_collision_bridge
-                0x00000000070075c8                bob_seg7_collision_chain_chomp_gate
-                0x00000000070075fc                bob_seg7_macro_objs
-                0x0000000007007970                bob_seg7_collision_level
-                0x000000000700a8b0                bob_seg7_dl_0700E8A0
-                0x000000000700a9f0                bob_seg7_dl_0700E768
-                0x000000000700acb8                bob_seg7_dl_0700E458
-                0x000000000700ade0                bob_seg7_dl_0700E338
-                0x000000000700b310                bob_seg7_dl_0700DD18
-                0x000000000700e218                bob_seg7_dl_0700A920
-                0x000000000700e6c0                bob_seg7_dl_0700A470
-                0x000000000700ec90                bob_seg7_dl_07009D80
-                0x0000000007014000                bob_seg7_dl_07004390
+ .data          0x0000000007000000    0x24450 build/us_n64/levels/bob/leveldata.o
+                0x0000000007000000                bob_dl_final_revert_mesh_layer_5
+                0x0000000007000040                bob_dl_final_revert_mesh_layer_4
+                0x0000000007000080                bob_dl_final_revert_mesh_layer_6
+                0x00000000070000c0                bob_dl_final_revert_mesh_layer_1
+                0x0000000007000100                bob_dl_umbrella_001_mesh_layer_1
+                0x0000000007000158                bob_dl_Plane_014_mesh_layer_1
+                0x0000000007000198                bob_dl_Plane_013_mesh_layer_5
+                0x00000000070001d8                bob_dl_Plane_012_mesh_layer_5
+                0x0000000007000218                bob_dl_Plane_011_mesh_layer_4
+                0x0000000007000258                bob_dl_Plane_010_mesh_layer_4
+                0x0000000007000298                bob_dl_Plane_009_mesh_layer_4
+                0x00000000070002d8                bob_dl_Plane_008_mesh_layer_4
+                0x0000000007000318                bob_dl_Plane_007_mesh_layer_4
+                0x0000000007000358                bob_dl_Plane_006_mesh_layer_4
+                0x0000000007000398                bob_dl_Plane_005_mesh_layer_4
+                0x00000000070003d8                bob_dl_Plane_004_mesh_layer_4
+                0x0000000007000418                bob_dl_Plane_003_mesh_layer_4
+                0x0000000007000458                bob_dl_Plane_002_mesh_layer_5
+                0x0000000007000498                bob_dl_Plane_001_mesh_layer_1
+                0x00000000070004d8                bob_dl_Plane_mesh_layer_6
+                0x0000000007000518                bob_dl_Plane_mesh_layer_1
+                0x0000000007000588                bob_dl_grass_013_mesh_layer_1
+                0x00000000070005c8                bob_dl_grass_012_mesh_layer_1
+                0x0000000007000608                bob_dl_grass_011_mesh_layer_1
+                0x0000000007000648                bob_dl_grass_010_mesh_layer_1
+                0x0000000007000688                bob_dl_grass_009_mesh_layer_1
+                0x00000000070006c8                bob_dl_grass_008_mesh_layer_1
+                0x0000000007000708                bob_dl_grass_007_mesh_layer_1
+                0x0000000007000748                bob_dl_grass_006_mesh_layer_1
+                0x0000000007000788                bob_dl_grass_005_mesh_layer_1
+                0x00000000070007c8                bob_dl_grass_004_mesh_layer_1
+                0x0000000007000808                bob_dl_grass_003_mesh_layer_1
+                0x0000000007000848                bob_dl_grass_002_mesh_layer_1
+                0x0000000007000888                bob_dl_grass_001_mesh_layer_1
+                0x00000000070008c8                bob_dl_flowers_002_mesh_layer_5
+                0x0000000007000908                bob_dl_flowers_002_mesh_layer_4
+                0x0000000007000948                bob_dl_flowers_001_mesh_layer_5
+                0x0000000007000988                bob_dl_flowers_001_mesh_layer_4
+                0x00000000070009c8                bob_dl_flowers_mesh_layer_5
+                0x0000000007000a08                bob_dl_flowers_mesh_layer_4
+                0x0000000007000a48                bob_dl_dirt_002_mesh_layer_6
+                0x0000000007000a88                bob_dl_dirt_mesh_layer_6
+                0x0000000007000ac8                bob_dl_Cube_007_mesh_layer_1
+                0x0000000007000b08                bob_dl_Cube_006_mesh_layer_1
+                0x0000000007000b48                bob_dl_Cube_005_mesh_layer_1
+                0x0000000007000b88                bob_dl_Cube_003_mesh_layer_1
+                0x0000000007000bc8                bob_dl_Cube_002_mesh_layer_1
+                0x0000000007000c08                bob_dl_Cube_001_mesh_layer_1
+                0x0000000007000c48                bob_dl_Cube_mesh_layer_1
+                0x0000000007000ca0                bob_dl_basket_001_mesh_layer_1
+                0x0000000007000ce0                bob_dl_basket_mesh_layer_1
+                0x0000000007000d20                mat_revert_bob_dl_f3dlite_material_006
+                0x0000000007000d40                mat_bob_dl_f3dlite_material_006
+                0x0000000007000dd0                mat_revert_bob_dl_wood2
+                0x0000000007000df0                mat_bob_dl_wood2
+                0x0000000007000e80                mat_revert_bob_dl_f3dlite_material_001
+                0x0000000007000ea0                mat_bob_dl_f3dlite_material_001
+                0x0000000007000f30                mat_revert_bob_dl_trees
+                0x0000000007000f50                mat_bob_dl_trees
+                0x0000000007000fe0                mat_revert_bob_dl_invisible
+                0x0000000007001000                mat_bob_dl_invisible
+                0x0000000007001080                mat_revert_bob_dl_f3dlite_material
+                0x00000000070010a0                mat_bob_dl_f3dlite_material
+                0x0000000007001130                mat_revert_bob_dl_grass
+                0x0000000007001158                mat_bob_dl_grass
+                0x00000000070011f0                mat_revert_bob_dl_f3dlite_material_005
+                0x0000000007001218                mat_bob_dl_f3dlite_material_005
+                0x00000000070012b0                mat_revert_bob_dl_death_plane_001
+                0x00000000070012d0                mat_bob_dl_death_plane_001
+                0x0000000007001350                mat_revert_bob_dl_flowers
+                0x0000000007001378                mat_bob_dl_flowers
+                0x0000000007001410                mat_revert_bob_dl_dirt2
+                0x0000000007001430                mat_bob_dl_dirt2
+                0x00000000070014c0                mat_revert_bob_dl_f3dlite_material_003
+                0x00000000070014e0                mat_bob_dl_f3dlite_material_003
+                0x0000000007001570                mat_revert_bob_dl_dirt
+                0x0000000007001590                mat_bob_dl_dirt
+                0x0000000007001620                mat_revert_bob_dl_rock
+                0x0000000007001640                mat_bob_dl_rock
+                0x00000000070016d0                mat_revert_bob_dl_hay
+                0x00000000070016f0                mat_bob_dl_hay
+                0x0000000007001780                bob_dl_umbrella_001_mesh_layer_1_tri_1
+                0x00000000070017d8                bob_dl_umbrella_001_mesh_layer_1_vtx_1
+                0x0000000007001ad8                bob_dl_umbrella_001_mesh_layer_1_tri_0
+                0x0000000007001bf0                bob_dl_umbrella_001_mesh_layer_1_vtx_0
+                0x0000000007002670                bob_dl_umbrella_001_mesh_layer_1_vtx_cull
+                0x00000000070026f0                bob_dl_Plane_014_mesh_layer_1_tri_0
+                0x0000000007002708                bob_dl_Plane_014_mesh_layer_1_vtx_0
+                0x0000000007002748                bob_dl_Plane_014_mesh_layer_1_vtx_cull
+                0x00000000070027c8                bob_dl_Plane_013_mesh_layer_5_tri_0
+                0x00000000070027e0                bob_dl_Plane_013_mesh_layer_5_vtx_0
+                0x0000000007002820                bob_dl_Plane_013_mesh_layer_5_vtx_cull
+                0x00000000070028a0                bob_dl_Plane_012_mesh_layer_5_tri_0
+                0x00000000070028b8                bob_dl_Plane_012_mesh_layer_5_vtx_0
+                0x00000000070028f8                bob_dl_Plane_012_mesh_layer_5_vtx_cull
+                0x0000000007002978                bob_dl_Plane_011_mesh_layer_4_tri_0
+                0x0000000007002990                bob_dl_Plane_011_mesh_layer_4_vtx_0
+                0x00000000070029d0                bob_dl_Plane_011_mesh_layer_4_vtx_cull
+                0x0000000007002a50                bob_dl_Plane_010_mesh_layer_4_tri_0
+                0x0000000007002a68                bob_dl_Plane_010_mesh_layer_4_vtx_0
+                0x0000000007002aa8                bob_dl_Plane_010_mesh_layer_4_vtx_cull
+                0x0000000007002b28                bob_dl_Plane_009_mesh_layer_4_tri_0
+                0x0000000007002b40                bob_dl_Plane_009_mesh_layer_4_vtx_0
+                0x0000000007002b80                bob_dl_Plane_009_mesh_layer_4_vtx_cull
+                0x0000000007002c00                bob_dl_Plane_008_mesh_layer_4_tri_0
+                0x0000000007002c18                bob_dl_Plane_008_mesh_layer_4_vtx_0
+                0x0000000007002c58                bob_dl_Plane_008_mesh_layer_4_vtx_cull
+                0x0000000007002cd8                bob_dl_Plane_007_mesh_layer_4_tri_0
+                0x0000000007002cf0                bob_dl_Plane_007_mesh_layer_4_vtx_0
+                0x0000000007002d30                bob_dl_Plane_007_mesh_layer_4_vtx_cull
+                0x0000000007002db0                bob_dl_Plane_006_mesh_layer_4_tri_0
+                0x0000000007002dc8                bob_dl_Plane_006_mesh_layer_4_vtx_0
+                0x0000000007002e08                bob_dl_Plane_006_mesh_layer_4_vtx_cull
+                0x0000000007002e88                bob_dl_Plane_005_mesh_layer_4_tri_0
+                0x0000000007002ea0                bob_dl_Plane_005_mesh_layer_4_vtx_0
+                0x0000000007002ee0                bob_dl_Plane_005_mesh_layer_4_vtx_cull
+                0x0000000007002f60                bob_dl_Plane_004_mesh_layer_4_tri_0
+                0x0000000007002f78                bob_dl_Plane_004_mesh_layer_4_vtx_0
+                0x0000000007002fb8                bob_dl_Plane_004_mesh_layer_4_vtx_cull
+                0x0000000007003038                bob_dl_Plane_003_mesh_layer_4_tri_0
+                0x0000000007003050                bob_dl_Plane_003_mesh_layer_4_vtx_0
+                0x0000000007003090                bob_dl_Plane_003_mesh_layer_4_vtx_cull
+                0x0000000007003110                bob_dl_Plane_002_mesh_layer_5_tri_0
+                0x0000000007003128                bob_dl_Plane_002_mesh_layer_5_vtx_0
+                0x0000000007003168                bob_dl_Plane_002_mesh_layer_5_vtx_cull
+                0x00000000070031e8                bob_dl_Plane_001_mesh_layer_1_tri_0
+                0x0000000007003238                bob_dl_Plane_001_mesh_layer_1_vtx_0
+                0x0000000007003348                bob_dl_Plane_001_mesh_layer_1_vtx_cull
+                0x00000000070033c8                bob_dl_Plane_mesh_layer_6_tri_0
+                0x00000000070033f8                bob_dl_Plane_mesh_layer_6_vtx_0
+                0x0000000007003498                bob_dl_Plane_mesh_layer_6_vtx_cull
+                0x0000000007003518                bob_dl_Plane_mesh_layer_1_tri_2
+                0x0000000007003558                bob_dl_Plane_mesh_layer_1_vtx_2
+                0x0000000007003658                bob_dl_Plane_mesh_layer_1_tri_1
+                0x0000000007003788                bob_dl_Plane_mesh_layer_1_vtx_1
+                0x0000000007003d78                bob_dl_Plane_mesh_layer_1_tri_0
+                0x0000000007003df0                bob_dl_Plane_mesh_layer_1_vtx_0
+                0x0000000007003f90                bob_dl_Plane_mesh_layer_1_vtx_cull
+                0x0000000007004010                bob_dl_grass_013_mesh_layer_1_tri_0
+                0x0000000007004088                bob_dl_grass_013_mesh_layer_1_vtx_0
+                0x00000000070042f8                bob_dl_grass_013_mesh_layer_1_vtx_cull
+                0x0000000007004378                bob_dl_grass_012_mesh_layer_1_tri_0
+                0x00000000070043f0                bob_dl_grass_012_mesh_layer_1_vtx_0
+                0x0000000007004660                bob_dl_grass_012_mesh_layer_1_vtx_cull
+                0x00000000070046e0                bob_dl_grass_011_mesh_layer_1_tri_0
+                0x0000000007004758                bob_dl_grass_011_mesh_layer_1_vtx_0
+                0x00000000070049c8                bob_dl_grass_011_mesh_layer_1_vtx_cull
+                0x0000000007004a48                bob_dl_grass_010_mesh_layer_1_tri_0
+                0x0000000007004ac0                bob_dl_grass_010_mesh_layer_1_vtx_0
+                0x0000000007004d30                bob_dl_grass_010_mesh_layer_1_vtx_cull
+                0x0000000007004db0                bob_dl_grass_009_mesh_layer_1_tri_0
+                0x0000000007004e28                bob_dl_grass_009_mesh_layer_1_vtx_0
+                0x0000000007005098                bob_dl_grass_009_mesh_layer_1_vtx_cull
+                0x0000000007005118                bob_dl_grass_008_mesh_layer_1_tri_0
+                0x0000000007005190                bob_dl_grass_008_mesh_layer_1_vtx_0
+                0x0000000007005400                bob_dl_grass_008_mesh_layer_1_vtx_cull
+                0x0000000007005480                bob_dl_grass_007_mesh_layer_1_tri_0
+                0x00000000070054f8                bob_dl_grass_007_mesh_layer_1_vtx_0
+                0x0000000007005768                bob_dl_grass_007_mesh_layer_1_vtx_cull
+                0x00000000070057e8                bob_dl_grass_006_mesh_layer_1_tri_0
+                0x0000000007005860                bob_dl_grass_006_mesh_layer_1_vtx_0
+                0x0000000007005ad0                bob_dl_grass_006_mesh_layer_1_vtx_cull
+                0x0000000007005b50                bob_dl_grass_005_mesh_layer_1_tri_0
+                0x0000000007005bc8                bob_dl_grass_005_mesh_layer_1_vtx_0
+                0x0000000007005e38                bob_dl_grass_005_mesh_layer_1_vtx_cull
+                0x0000000007005eb8                bob_dl_grass_004_mesh_layer_1_tri_0
+                0x0000000007005f30                bob_dl_grass_004_mesh_layer_1_vtx_0
+                0x00000000070061a0                bob_dl_grass_004_mesh_layer_1_vtx_cull
+                0x0000000007006220                bob_dl_grass_003_mesh_layer_1_tri_0
+                0x0000000007006298                bob_dl_grass_003_mesh_layer_1_vtx_0
+                0x0000000007006508                bob_dl_grass_003_mesh_layer_1_vtx_cull
+                0x0000000007006588                bob_dl_grass_002_mesh_layer_1_tri_0
+                0x0000000007006600                bob_dl_grass_002_mesh_layer_1_vtx_0
+                0x0000000007006870                bob_dl_grass_002_mesh_layer_1_vtx_cull
+                0x00000000070068f0                bob_dl_grass_001_mesh_layer_1_tri_0
+                0x0000000007006968                bob_dl_grass_001_mesh_layer_1_vtx_0
+                0x0000000007006bd8                bob_dl_grass_001_mesh_layer_1_vtx_cull
+                0x0000000007006c58                bob_dl_flowers_002_mesh_layer_5_tri_0
+                0x0000000007006cf8                bob_dl_flowers_002_mesh_layer_5_vtx_0
+                0x00000000070070b8                bob_dl_flowers_002_mesh_layer_5_vtx_cull
+                0x0000000007007138                bob_dl_flowers_002_mesh_layer_4_tri_0
+                0x0000000007007188                bob_dl_flowers_002_mesh_layer_4_vtx_0
+                0x0000000007007338                bob_dl_flowers_002_mesh_layer_4_vtx_cull
+                0x00000000070073b8                bob_dl_flowers_001_mesh_layer_5_tri_0
+                0x0000000007007450                bob_dl_flowers_001_mesh_layer_5_vtx_0
+                0x00000000070077e0                bob_dl_flowers_001_mesh_layer_5_vtx_cull
+                0x0000000007007860                bob_dl_flowers_001_mesh_layer_4_tri_0
+                0x00000000070078b0                bob_dl_flowers_001_mesh_layer_4_vtx_0
+                0x0000000007007a80                bob_dl_flowers_001_mesh_layer_4_vtx_cull
+                0x0000000007007b00                bob_dl_flowers_mesh_layer_5_tri_0
+                0x0000000007007b98                bob_dl_flowers_mesh_layer_5_vtx_0
+                0x0000000007007f48                bob_dl_flowers_mesh_layer_5_vtx_cull
+                0x0000000007007fc8                bob_dl_flowers_mesh_layer_4_tri_0
+                0x0000000007008018                bob_dl_flowers_mesh_layer_4_vtx_0
+                0x00000000070081e8                bob_dl_flowers_mesh_layer_4_vtx_cull
+                0x0000000007008268                bob_dl_dirt_002_mesh_layer_6_tri_0
+                0x0000000007008350                bob_dl_dirt_002_mesh_layer_6_vtx_0
+                0x0000000007008770                bob_dl_dirt_002_mesh_layer_6_vtx_cull
+                0x00000000070087f0                bob_dl_dirt_mesh_layer_6_tri_0
+                0x00000000070088d0                bob_dl_dirt_mesh_layer_6_vtx_0
+                0x0000000007008ca0                bob_dl_dirt_mesh_layer_6_vtx_cull
+                0x0000000007008d20                bob_dl_Cube_007_mesh_layer_1_tri_0
+                0x0000000007008d60                bob_dl_Cube_007_mesh_layer_1_vtx_0
+                0x0000000007008ee0                bob_dl_Cube_007_mesh_layer_1_vtx_cull
+                0x0000000007008f60                bob_dl_Cube_006_mesh_layer_1_tri_0
+                0x0000000007008fa0                bob_dl_Cube_006_mesh_layer_1_vtx_0
+                0x0000000007009120                bob_dl_Cube_006_mesh_layer_1_vtx_cull
+                0x00000000070091a0                bob_dl_Cube_005_mesh_layer_1_tri_0
+                0x00000000070091e0                bob_dl_Cube_005_mesh_layer_1_vtx_0
+                0x0000000007009360                bob_dl_Cube_005_mesh_layer_1_vtx_cull
+                0x00000000070093e0                bob_dl_Cube_003_mesh_layer_1_tri_0
+                0x0000000007009420                bob_dl_Cube_003_mesh_layer_1_vtx_0
+                0x00000000070095a0                bob_dl_Cube_003_mesh_layer_1_vtx_cull
+                0x0000000007009620                bob_dl_Cube_002_mesh_layer_1_tri_0
+                0x0000000007009738                bob_dl_Cube_002_mesh_layer_1_vtx_0
+                0x0000000007009d68                bob_dl_Cube_002_mesh_layer_1_vtx_cull
+                0x0000000007009de8                bob_dl_Cube_001_mesh_layer_1_tri_0
+                0x0000000007009e28                bob_dl_Cube_001_mesh_layer_1_vtx_0
+                0x0000000007009fa8                bob_dl_Cube_001_mesh_layer_1_vtx_cull
+                0x000000000700a028                bob_dl_Cube_mesh_layer_1_tri_1
+                0x000000000700a0c0                bob_dl_Cube_mesh_layer_1_vtx_1
+                0x000000000700a480                bob_dl_Cube_mesh_layer_1_tri_0
+                0x000000000700a768                bob_dl_Cube_mesh_layer_1_vtx_0
+                0x000000000700b898                bob_dl_Cube_mesh_layer_1_vtx_cull
+                0x000000000700b918                bob_dl_basket_001_mesh_layer_1_tri_0
+                0x000000000700b9a0                bob_dl_basket_001_mesh_layer_1_vtx_0
+                0x000000000700bcc0                bob_dl_basket_001_mesh_layer_1_vtx_cull
+                0x000000000700bd40                bob_dl_basket_mesh_layer_1_tri_0
+                0x000000000700bd80                bob_dl_basket_mesh_layer_1_vtx_0
+                0x000000000700bf00                bob_dl_basket_mesh_layer_1_vtx_cull
+                0x000000000700bf80                bob_dl_auto_pal_rgba16
+                0x000000000700c0e8                bob_dl_auto_pal_rgba16_aligner
+                0x000000000700c0f0                bob_dl_auto_ci8
+                0x000000000700c4f0                bob_dl_auto_ci8_aligner
+                0x000000000700c4f8                bob_dl_ci4_sophie_wood2_pal_rgba16
+                0x000000000700c518                bob_dl_ci4_sophie_wood2_pal_rgba16_aligner
+                0x000000000700c520                bob_dl_ci4_sophie_wood2_ci4
+                0x000000000700cd20                bob_dl_ci4_sophie_wood2_ci4_aligner
+                0x000000000700cd28                bob_dl_ci4_sophie_tablecloth_pal_rgba16
+                0x000000000700cd48                bob_dl_ci4_sophie_tablecloth_pal_rgba16_aligner
+                0x000000000700cd50                bob_dl_ci4_sophie_tablecloth_ci4
+                0x000000000700d550                bob_dl_ci4_sophie_tablecloth_ci4_aligner
+                0x000000000700d558                bob_dl__7321A20CF4EF7CA7FA098077FD6D226E_pal_rgba16
+                0x000000000700d5c0                bob_dl__7321A20CF4EF7CA7FA098077FD6D226E_pal_rgba16_aligner
+                0x000000000700d5c8                bob_dl__7321A20CF4EF7CA7FA098077FD6D226E_ci8
+                0x000000000700ddc8                bob_dl__7321A20CF4EF7CA7FA098077FD6D226E_ci8_aligner
+                0x000000000700ddd0                bob_dl_invisible_ia8_copy
+                0x000000000700e1d0                bob_dl_invisible_ia8_copy_aligner
+                0x000000000700e1d8                bob_dl_ci4_sophie_water_pal_rgba16
+                0x000000000700e1f8                bob_dl_ci4_sophie_water_pal_rgba16_aligner
+                0x000000000700e200                bob_dl_ci4_sophie_water_ci4
+                0x000000000700ea00                bob_dl_ci4_sophie_water_ci4_aligner
+                0x000000000700ea08                bob_dl_bright_grass_pal_rgba16
+                0x000000000700eaa0                bob_dl_bright_grass_pal_rgba16_aligner
+                0x000000000700eaa8                bob_dl_bright_grass_ci8
+                0x000000000700eea8                bob_dl_bright_grass_ci8_aligner
+                0x000000000700eeb0                bob_dl_tempImgEd04E6_pal_rgba16
+                0x000000000700eed0                bob_dl_tempImgEd04E6_pal_rgba16_aligner
+                0x000000000700eed8                bob_dl_tempImgEd04E6_ci4
+                0x000000000700f0d8                bob_dl_tempImgEd04E6_ci4_aligner
+                0x000000000700f0e0                bob_dl_invisible_ia8
+                0x000000000700f4e0                bob_dl_invisible_ia8_aligner
+                0x000000000700f4e8                bob_dl_flower_pal_rgba16
+                0x000000000700f548                bob_dl_flower_pal_rgba16_aligner
+                0x000000000700f550                bob_dl_flower_ci8
+                0x000000000700f950                bob_dl_flower_ci8_aligner
+                0x000000000700f958                bob_dl_KKIIDDZZ_DAT_2255__p00_pal_rgba16
+                0x000000000700f980                bob_dl_KKIIDDZZ_DAT_2255__p00_pal_rgba16_aligner
+                0x000000000700f988                bob_dl_KKIIDDZZ_DAT_2255__p00_ci8
+                0x000000000700fd88                bob_dl_KKIIDDZZ_DAT_2255__p00_ci8_aligner
+                0x000000000700fd90                bob_dl_ci4_zeina_wooden_planks_1_pal_rgba16
+                0x000000000700fdb0                bob_dl_ci4_zeina_wooden_planks_1_pal_rgba16_aligner
+                0x000000000700fdb8                bob_dl_ci4_zeina_wooden_planks_1_ci4
+                0x00000000070105b8                bob_dl_ci4_zeina_wooden_planks_1_ci4_aligner
+                0x00000000070105c0                bob_dl__8_pal_rgba16
+                0x0000000007010740                bob_dl__8_pal_rgba16_aligner
+                0x0000000007010748                bob_dl__8_ci8
+                0x0000000007010b48                bob_dl__8_ci8_aligner
+                0x0000000007010b50                bob_dl__25_pal_rgba16
+                0x0000000007010bc0                bob_dl__25_pal_rgba16_aligner
+                0x0000000007010bc8                bob_dl__25_ci8
+                0x0000000007010fc8                bob_dl__25_ci8_aligner
+                0x0000000007010fd0                bob_dl_Bamboo_pal_rgba16
+                0x00000000070111b8                bob_dl_Bamboo_pal_rgba16_aligner
+                0x00000000070111c0                bob_dl_Bamboo_ci8
+                0x00000000070119c0                bob_dl_Bamboo_ci8_aligner
+                0x00000000070119c8                bob_area_1_macro_objs
+                0x00000000070119cc                bob_area_1_collision
+                0x0000000007013448                bob_seg7_trajectory_koopa
+                0x000000000701356c                bob_seg7_metal_ball_path1
+                0x0000000007013648                bob_seg7_metal_ball_path0
+                0x00000000070136dc                bob_seg7_collision_gate
+                0x00000000070137b4                bob_seg7_collision_bridge
+                0x0000000007013850                bob_seg7_collision_chain_chomp_gate
+                0x0000000007013884                bob_seg7_macro_objs
+                0x0000000007013bf8                bob_seg7_collision_level
+                0x0000000007016b38                bob_seg7_dl_0700E8A0
+                0x0000000007016c78                bob_seg7_dl_0700E768
+                0x0000000007016f40                bob_seg7_dl_0700E458
+                0x0000000007017068                bob_seg7_dl_0700E338
+                0x0000000007017598                bob_seg7_dl_0700DD18
+                0x000000000701a4a0                bob_seg7_dl_0700A920
+                0x000000000701a948                bob_seg7_dl_0700A470
+                0x000000000701af18                bob_seg7_dl_07009D80
+                0x0000000007020288                bob_seg7_dl_07004390
 
 .data1
  *(.data1)
 
 .got.plt
  *(.got.plt)
-                0x00000000070181c8                . = .
-                0x00000000070181c8                . = .
-                0x00000000070201c0                _gp = (ALIGN (0x10) + 0x7ff0)
+                0x0000000007024450                . = .
+                0x0000000007024450                . = .
+                0x000000000702c440                _gp = (ALIGN (0x10) + 0x7ff0)
 
 .got
  *(.got)
@@ -373,29 +546,29 @@ LOAD build/us_n64/levels/bob/leveldata.o
 
 .lit4
  *(.lit4)
-                0x00000000070181c8                _edata = .
+                0x0000000007024450                _edata = .
                 [!provide]                        PROVIDE (edata = .)
-                0x00000000070181c8                . = .
-                0x00000000070181c8                __bss_start = .
-                0x00000000070181c8                _fbss = .
+                0x0000000007024450                . = .
+                0x0000000007024450                __bss_start = .
+                0x0000000007024450                _fbss = .
 
 .sbss
  *(.dynsbss)
  *(.sbss .sbss.* .gnu.linkonce.sb.*)
  *(.scommon)
 
-.bss            0x00000000070181c8        0x0 load address 0x00000000070181e0
+.bss            0x0000000007024450        0x0 load address 0x0000000007024468
  *(.dynbss)
  *(.bss .bss.* .gnu.linkonce.b.*)
- .bss           0x00000000070181c8        0x0 build/us_n64/levels/bob/leveldata.o
+ .bss           0x0000000007024450        0x0 build/us_n64/levels/bob/leveldata.o
  *(COMMON)
-                0x00000000070181c8                . = ALIGN ((. != 0x0)?0x4:0x1)
-                0x00000000070181c8                . = ALIGN (0x4)
-                0x00000000070181c8                . = SEGMENT_START ("ldata-segment", .)
-                0x00000000070181c8                . = ALIGN (0x4)
-                0x00000000070181c8                _end = .
+                0x0000000007024450                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000000007024450                . = ALIGN (0x4)
+                0x0000000007024450                . = SEGMENT_START ("ldata-segment", .)
+                0x0000000007024450                . = ALIGN (0x4)
+                0x0000000007024450                _end = .
                 [!provide]                        PROVIDE (end = .)
-                0x00000000070181c8                . = DATA_SEGMENT_END (.)
+                0x0000000007024450                . = DATA_SEGMENT_END (.)
 
 .stab
  *(.stab)

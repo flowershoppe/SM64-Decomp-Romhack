@@ -138,3 +138,4 @@ UNUSED static const u64 binid_18 = 18;
 #include "custom_peach/model.inc.c"
 #include "custom_peach/anims/data.inc.c"
 #include "custom_peach/anims/table.inc.c"
+#include "owl/model.inc.c"

@@ -6422,4 +6422,19 @@ const BehaviorScript bhvCustomPeach[] = {
     END_LOOP(),
 };
 
-
+const BehaviorScript bhvOwl[] = {
+    BEGIN(OBJ_LIST_GENACTOR),
+    OR_INT(oFlags, (OBJ_FLAG_COMPUTE_ANGLE_TO_MARIO | OBJ_FLAG_COMPUTE_DIST_TO_MARIO | OBJ_FLAG_SET_FACE_YAW_TO_MOVE_YAW | OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE)),
+    SET_INTERACT_TYPE(INTERACT_TEXT),
+    DROP_TO_FLOOR(),
+    SET_HITBOX(/*Radius*/ 100, /*Height*/ 60),
+    LOAD_ANIMATIONS(oAnimations, owl_anims),
+    SET_INT(oInteractionSubtype, INT_SUBTYPE_NPC),
+    ANIMATE(CUSTOM_OWL_IDLE),
+    SET_HOME(),
+    BEGIN_LOOP(),
+        CALL_NATIVE(bhv_owl_loop),
+        //CALL_NATIVE(bhv_bobomb_buddy_loop)
+        SET_INT(oIntangibleTimer, 0),
+    END_LOOP(),
+};

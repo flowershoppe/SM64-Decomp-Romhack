@@ -364,7 +364,7 @@ LOAD build/us_n64/levels/wf/leveldata.o
                 0x00000000070026a0                wf_dl_pillar_mesh_layer_1
                 0x00000000070026e0                wf_dl_owl_crest_001_mesh_layer_1
                 0x0000000007002750                wf_dl_Mesh_Owl_001_mesh_layer_1
-                0x0000000007002790                wf_dl_island_015_mesh_layer_1
+                0x0000000007002790                wf_dl_island_016_mesh_layer_1
                 0x0000000007002800                wf_dl_island_014_mesh_layer_1
                 0x0000000007002870                wf_dl_island_013_mesh_layer_1
                 0x00000000070028e0                wf_dl_island_012_mesh_layer_1
@@ -1033,13 +1033,13 @@ LOAD build/us_n64/levels/wf/leveldata.o
                 0x00000000070372f8                wf_dl_Mesh_Owl_001_mesh_layer_1_tri_0
                 0x0000000007037ac8                wf_dl_Mesh_Owl_001_mesh_layer_1_vtx_0
                 0x000000000703b078                wf_dl_Mesh_Owl_001_mesh_layer_1_vtx_cull
-                0x000000000703b0f8                wf_dl_island_015_mesh_layer_1_tri_2
-                0x000000000703b1f8                wf_dl_island_015_mesh_layer_1_vtx_2
-                0x000000000703b8a8                wf_dl_island_015_mesh_layer_1_tri_1
-                0x000000000703b8e0                wf_dl_island_015_mesh_layer_1_vtx_1
-                0x000000000703b9a0                wf_dl_island_015_mesh_layer_1_tri_0
-                0x000000000703ba70                wf_dl_island_015_mesh_layer_1_vtx_0
-                0x000000000703bff0                wf_dl_island_015_mesh_layer_1_vtx_cull
+                0x000000000703b0f8                wf_dl_island_016_mesh_layer_1_tri_2
+                0x000000000703b1f8                wf_dl_island_016_mesh_layer_1_vtx_2
+                0x000000000703b8a8                wf_dl_island_016_mesh_layer_1_tri_1
+                0x000000000703b8e0                wf_dl_island_016_mesh_layer_1_vtx_1
+                0x000000000703b9a0                wf_dl_island_016_mesh_layer_1_tri_0
+                0x000000000703ba70                wf_dl_island_016_mesh_layer_1_vtx_0
+                0x000000000703bff0                wf_dl_island_016_mesh_layer_1_vtx_cull
                 0x000000000703c070                wf_dl_island_014_mesh_layer_1_tri_2
                 0x000000000703c170                wf_dl_island_014_mesh_layer_1_vtx_2
                 0x000000000703c820                wf_dl_island_014_mesh_layer_1_tri_1

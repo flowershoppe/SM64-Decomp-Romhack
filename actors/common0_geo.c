@@ -54,3 +54,4 @@
 #include "MODEL_STAR_DOOR/geo.inc.c"
 #include "star_gate/geo.inc.c"
 #include "custom_peach/geo.inc.c"
+#include "owl/geo.inc.c"

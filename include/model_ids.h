@@ -4,6 +4,7 @@
 #define MODEL_NONE                             0x00
 
 /* fast64 object exports get inserted here */
+#define MODEL_OWL                         226
 #define MODEL_CUSTOM_PEACH                227
 #define MODEL_STAR_GATE                   228
 #define MODEL_STAR_DOOR                   229
