@@ -89,4 +89,5 @@ build/us_n64/src/game/texscroll.o: src/game/texscroll.c include/types.h \
  actors/MODEL_STAR_DOOR/geo_header.h actors/star_gate/collision_header.h \
  actors/star_gate/geo_header.h actors/custom_peach/collision_header.h \
  actors/custom_peach/geo_header.h actors/custom_peach/anim_header.h \
- actors/custom_peach/anims/table_enum.h actors/owl/geo_header.h
+ actors/custom_peach/anims/table_enum.h actors/owl/geo_header.h \
+ actors/owl/anim_header.h actors/owl/anims/table_enum.h

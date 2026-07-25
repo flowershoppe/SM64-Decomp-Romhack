@@ -40,7 +40,7 @@ extern Vtx owl_l_wing_3_mesh_layer_4_vtx_0[6];
 extern Gfx owl_l_wing_3_mesh_layer_4_tri_0[];
 extern Vtx owl_r_foot_mesh_layer_1_vtx_0[100];
 extern Gfx owl_r_foot_mesh_layer_1_tri_0[];
-extern Vtx owl_r_foot_mesh_layer_1_vtx_1[36];
+extern Vtx owl_r_foot_mesh_layer_1_vtx_1[35];
 extern Gfx owl_r_foot_mesh_layer_1_tri_1[];
 extern Vtx owl_r_wing_1_mesh_layer_4_vtx_0[8];
 extern Gfx owl_r_wing_1_mesh_layer_4_tri_0[];

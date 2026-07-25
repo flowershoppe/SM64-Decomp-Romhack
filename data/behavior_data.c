@@ -6430,7 +6430,7 @@ const BehaviorScript bhvOwl[] = {
     SET_HITBOX(/*Radius*/ 100, /*Height*/ 60),
     LOAD_ANIMATIONS(oAnimations, owl_anims),
     SET_INT(oInteractionSubtype, INT_SUBTYPE_NPC),
-    ANIMATE(CUSTOM_OWL_IDLE),
+    ANIMATE(OWL_IDLE),
     SET_HOME(),
     BEGIN_LOOP(),
         CALL_NATIVE(bhv_owl_loop),

@@ -5,7 +5,7 @@ void owl_act_idle(void){
             cur_obj_init_animation(OWL_ANIM_WALKING);
         }
         else{
-            cur_obj_init_animation(OWL_ANIM_LOOK_DOWN); 
+            cur_obj_init_animation(OWL_ANIM_IDLE); 
         }
     }
     else{
@@ -22,20 +22,20 @@ void owl_act_turn_to_talk(void){
     o->oMoveAngleYaw = approach_s16_symmetric(o->oMoveAngleYaw, o->oAngleToMario, 0x400);
 
     if ((s16) o->oMoveAngleYaw == (s16) o->oAngleToMario) {
-        o->oAction =owl_TALK;
+        o->oAction = OWL_TALK;
         cur_obj_play_sound_2(SOUND_PEACH_MARIO);
     }    
 }
 
 void owl_act_talk(void){
     cur_obj_init_animation(OWL_ANIM_TALKING);
-    if (set_mario_npc_dialog(MARIO_DIALOG_LOOK_UP) == MARIO_DIALOG_STATUS_SPEAK) {
+    if (set_mario_npc_dialog(MARIO_DIALOG_LOOK_FRONT    ) == MARIO_DIALOG_STATUS_SPEAK) {
         o->activeFlags |= ACTIVE_FLAG_INITIATED_TIME_STOP;
         if (cutscene_object_with_dialog(CUTSCENE_DIALOG, o, o->oBehParams2ndByte)) {
             set_mario_npc_dialog(MARIO_DIALOG_STOP);
 
             o->oInteractStatus = INT_STATUS_NONE;
-            o->oAction =owl_IDLE;
+            o->oAction = OWL_IDLE;
             cur_obj_init_animation(OWL_ANIM_IDLE);
         }
     }

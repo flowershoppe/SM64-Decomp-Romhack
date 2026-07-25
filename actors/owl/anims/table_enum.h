@@ -1,0 +1,5 @@
+enum OwlAnims {
+	aOWL_ANIM_IDLE,
+	aOWL_ANIM_TALKING,
+	aOWL_ANIM_WALKING,
+};

@@ -2726,5 +2726,17 @@ enum oAnimStatesCustomPeach {
     CUSTOM_PEACH_ANIM_LOOK_DOWN
 };
 
+enum oActionsOwl {
+    OWL_IDLE,
+    OWL_TURN_TO_TALK,
+    OWL_TALK
+};
+
+enum oAnimStatesOwl {
+    OWL_ANIM_IDLE,
+    OWL_ANIM_TALKING,
+    OWL_ANIM_WALKING,
+};
+
 
 #endif // OBJECT_CONSTANTS_H

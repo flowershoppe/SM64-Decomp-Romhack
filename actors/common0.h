@@ -251,4 +251,5 @@ extern const Collision unknown_seg8_collision_080262F8[];
 #include "custom_peach/geo_header.h"
 #include "custom_peach/anim_header.h"
 #include "owl/geo_header.h"
+#include "owl/anim_header.h"
 #endif
