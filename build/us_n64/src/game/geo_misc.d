@@ -45,7 +45,8 @@ build/us_n64/src/game/geo_misc.o: src/game/geo_misc.c \
  src/game/profiling.h src/game/level_update.h \
  levels/castle_inside/header.h src/game/paintings.h \
  src/game/moving_texture.h levels/ending/header.h levels/rr/header.h \
- src/game/mario.h src/game/mario_actions_cutscene.h src/game/memory.h \
+ levels/rr/header.inc.h src/game/camera.h src/game/mario.h \
+ src/game/mario_actions_cutscene.h src/game/memory.h \
  src/game/object_list_processor.h src/game/rendering_graph_node.h \
  src/game/save_file.h include/course_table.h levels/course_defines.h \
  src/game/segment2.h

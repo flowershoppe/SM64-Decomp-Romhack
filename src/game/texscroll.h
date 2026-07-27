@@ -6,6 +6,7 @@
 #include "src/game/texscroll/bbh_texscroll.inc.h"
 #include "src/game/texscroll/wf_texscroll.inc.h"
 #include "src/game/texscroll/common0_texscroll.inc.h"
+#include "src/game/texscroll/rr_texscroll.inc.h"
 extern void scroll_textures();
 
 #endif

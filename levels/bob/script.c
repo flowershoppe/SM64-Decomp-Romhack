@@ -43,6 +43,7 @@ const LevelScript level_bob_entry[] = {
 	/* Fast64 end persistent block [level commands] */
 
 	AREA(1, bob_area_1),
+		WARP_NODE(0x01, LEVEL_RR, 0x01, 0x01, WARP_NO_CHECKPOINT),
 		MARIO_POS(0x01, -90, 2094, 300, 0),
 		OBJECT(MODEL_CUSTOM_PEACH, 1027, 0, -300, 0, 0, 0, (109 << 16), bhvCustomPeach),
 		OBJECT(MODEL_BUTTERFLY, -993, 231, 177, 0, 0, 0, 0x00000000, bhvButterfly),
@@ -57,6 +58,8 @@ const LevelScript level_bob_entry[] = {
 		OBJECT(MODEL_BOB_BUBBLY_TREE, 1934, 0, -3003, 0, 0, 0, 0x00000000, bhvTree),
 		OBJECT(MODEL_BOB_BUBBLY_TREE, -1880, 0, 2690, 0, 0, 0, 0x00000000, bhvTree),
 		OBJECT(MODEL_BOB_BUBBLY_TREE, -6069, 1701, 394, 0, 0, 0, 0x00000000, bhvTree),
+		OBJECT(MODEL_NONE, -437, 1850, -1089, 0, 0, 0, 0x00000000, bhvBirdsSoundLoop),
+		OBJECT(MODEL_NONE, -8219, 1701, -156, 0, 0, 0, (100 << 24) | (0x01 << 16), bhvWarp),
 		OBJECT(MODEL_MIST, -3377, -1301, -2987, 0, 141, 0, 0x00000000, bhvWaterMist2),
 		OBJECT(MODEL_MIST, -3377, -1301, -2987, 0, 141, 0, 0x00000000, bhvWaterMist2),
 		OBJECT(MODEL_MIST, -3377, -1301, -3387, 0, 141, 0, 0x00000000, bhvWaterMist2),

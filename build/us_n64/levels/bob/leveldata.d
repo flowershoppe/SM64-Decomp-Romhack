@@ -54,4 +54,11 @@ build/us_n64/levels/bob/leveldata.o: levels/bob/leveldata.c \
  levels/bob/grate_door/collision.inc.c \
  levels/bob/areas/1/trajectory.inc.c levels/bob/leveldata.inc.c \
  levels/bob/area_1/collision.inc.c levels/bob/area_1/macro.inc.c \
- levels/bob/area_1/spline.inc.c levels/bob/model.inc.c
+ levels/bob/area_1/spline.inc.c src/game/camera.h src/game/area.h \
+ src/game/camera.h src/engine/graph_node.h include/geo_commands.h \
+ include/command_macros_base.h src/game/shadow.h \
+ src/game/object_helpers.h src/game/behavior_actions.h \
+ src/game/segment2.h src/game/mario_misc.h \
+ src/game/mario_actions_cutscene.h src/game/memory.h \
+ src/engine/geo_layout.h src/game/puppycam2.h include/level_table.h \
+ levels/bob/model.inc.c

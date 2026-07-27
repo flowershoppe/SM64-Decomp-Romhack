@@ -51,7 +51,7 @@ build/us_n64/src/game/behavior_actions.o: src/game/behavior_actions.c \
  src/game/game_init.h src/game/memory.h src/game/ingame_menu.h \
  src/game/interaction.h include/level_misc_macros.h \
  src/game/level_update.h levels/bob/header.h levels/bob/header.inc.h \
- levels/bowser_3/header.h levels/castle_inside/header.h \
+ src/game/camera.h levels/bowser_3/header.h levels/castle_inside/header.h \
  src/game/paintings.h src/game/moving_texture.h levels/hmc/header.h \
  src/game/main.h src/game/mario.h src/game/mario_actions_cutscene.h \
  src/game/mario_step.h src/game/obj_behaviors.h \

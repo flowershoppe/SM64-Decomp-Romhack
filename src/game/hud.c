@@ -593,18 +593,22 @@ void render_debug_mode(void) {
  * Renders the amount of coins collected.
  */
 void render_hud_coins(void) {
-    print_text(HUD_COINS_X, 24, "$"); // 'Coin' glyph
-    print_text((HUD_COINS_X + 32), 24, "*"); // 'X' glyph
-    print_text_fmt_int((HUD_COINS_X + 50), 24, "%d", gHudDisplay.coins);
+    if(gCurrLevelNum != LEVEL_RR){
+        print_text(HUD_COINS_X, HUD_TOP_Y - 196, "$"); // 'Coin' glyph
+        print_text((HUD_COINS_X + 32), HUD_TOP_Y - 196, "*"); // 'X' glyph
+        print_text_fmt_int((HUD_COINS_X + 50), HUD_TOP_Y - 196, "%d", gHudDisplay.coins);
+    }
 }
 
 /**
  * Renders the amount of stars collected.
  */
 void render_hud_stars(void) {
-    print_text(HUD_STARS_X, 0, "^"); // 'Star' glyph
-    print_text((HUD_STARS_X + 32), 0, "*"); // 'X' glyph
-    print_text_fmt_int((HUD_STARS_X + 50), 0, "%d", gHudDisplay.stars);
+    if(gCurrLevelNum != LEVEL_RR){
+        print_text(HUD_STARS_X, HUD_TOP_Y - 220, "^"); // 'Star' glyph
+        print_text((HUD_STARS_X + 32), HUD_TOP_Y - 220, "*"); // 'X' glyph
+        print_text_fmt_int((HUD_STARS_X + 50), HUD_TOP_Y - 220, "%d", gHudDisplay.stars);
+    }
 }
 
 /**
@@ -757,7 +761,7 @@ void render_hud(void) {
         if (hudDisplayFlags & HUD_DISPLAY_FLAG_BREATH_METER) render_hud_breath_meter();
 #endif
 
-        if (hudDisplayFlags & HUD_DISPLAY_FLAG_CAMERA_AND_POWER) {
+        if (hudDisplayFlags & HUD_DISPLAY_FLAG_CAMERA_AND_POWER && gCurrLevelNum != LEVEL_RR) {
             render_hud_power_meter();
 #ifdef PUPPYCAM
             if (!gPuppyCam.enabled) {

@@ -49,8 +49,9 @@ build/us_n64/src/game/obj_behaviors.o: src/game/obj_behaviors.c \
  src/game/envfx_bubbles.h src/game/game_init.h src/game/memory.h \
  src/game/ingame_menu.h src/game/interaction.h \
  include/level_misc_macros.h src/game/level_update.h levels/bob/header.h \
- levels/bob/header.inc.h levels/ttm/header.h src/game/moving_texture.h \
- src/game/mario.h src/game/mario_actions_cutscene.h src/game/mario_misc.h \
+ levels/bob/header.inc.h src/game/camera.h levels/ttm/header.h \
+ src/game/moving_texture.h src/game/mario.h \
+ src/game/mario_actions_cutscene.h src/game/mario_misc.h \
  src/game/obj_behaviors.h src/game/object_helpers.h \
  src/game/object_list_processor.h src/game/rendering_graph_node.h \
  src/game/save_file.h src/game/spawn_object.h src/game/spawn_sound.h \

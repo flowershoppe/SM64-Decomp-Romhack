@@ -3256,6 +3256,12 @@ void init_camera(struct Camera *c) {
         case LEVEL_BOWSER_3:
             start_cutscene(c, CUTSCENE_ENTER_BOWSER_ARENA);
             break;
+        case LEVEL_BOB:
+            start_cutscene(c, CUTSCENE_INTRO);
+            break;
+        case LEVEL_RR:
+            start_cutscene(c, CUTSCENE_TITLE);
+            break;
 
 #ifdef ENABLE_VANILLA_CAM_PROCESSING
         //! Hardcoded position checks determine which cutscene to play when Mario enters castle grounds.
@@ -5908,15 +5914,7 @@ struct CameraTrigger sCamSSL[] = {
  * the end of the ride.
  */
 struct CameraTrigger sCamRR[] = {
-#ifdef ENABLE_VANILLA_CAM_PROCESSING
-    { 1, cam_rr_exit_building_side, -4197, 3819, -3087, 1769, 1490, 342, 0 },
-    { 1, cam_rr_enter_building_side, -4197, 3819, -3771, 769, 490, 342, 0 },
-    { 1, cam_rr_enter_building_window, -5603, 4834, -5209, 300, 600, 591, 0 },
-    { 1, cam_rr_enter_building, -2609, 3730, -5463, 300, 650, 577, 0 },
-    { 1, cam_rr_exit_building_top, -4196, 7343, -5155, 4500, 1000, 4500, 0 },
-    { 1, cam_rr_enter_building, -4196, 6043, -5155, 500, 300, 500, 0 },
-#endif // ENABLE_VANILLA_CAM_PROCESSING
-    NULL_TRIGGER,
+	NULL_TRIGGER
 };
 
 /**
@@ -10694,6 +10692,61 @@ struct CutsceneSplinePoint sCcmOutsideCreditsSplineFocus[] = {
     { -1, 50, { -4730, -1215, 1795 } }
 };
 
+//CUSTOM CUTSCENES
+//                                         INTRO
+
+extern struct CutsceneSplinePoint bob_area_1_spline_IntroCutscenePathPos[];
+extern struct CutsceneSplinePoint bob_area_1_spline_IntroCutscenePathFoc[];
+
+void intro_cutscene_main(struct Camera *c) {
+    
+    move_point_along_spline(c->pos, segmented_to_virtual(bob_area_1_spline_IntroCutscenePathPos), &sCutsceneSplineSegment, &sCutsceneSplineSegmentProgress);
+    move_point_along_spline(c->focus, segmented_to_virtual(bob_area_1_spline_IntroCutscenePathFoc), &sCutsceneSplineSegment, &sCutsceneSplineSegmentProgress);
+
+}
+void intro_cutscene(struct Camera *c) {
+    // Function, camera, starting frame, ending frame (-1 to play every frame after 5)
+    cutscene_event(intro_cutscene_main, c, 5, -1);
+}
+
+void intro_cutscene_stop(struct Camera *c) {
+    c->cutscene = 0;
+    gCutsceneTimer = CUTSCENE_STOP;
+}
+
+
+struct Cutscene sCutsceneIntro[] = {
+    { intro_cutscene, 1},
+    { intro_cutscene_stop, 0},
+};
+
+//                                        TITLE
+
+extern struct CutsceneSplinePoint rr_area_1_spline_TitleCutscenePathFoc[];
+extern struct CutsceneSplinePoint rr_area_1_spline_TitleCutscenePathPos[];
+
+void title_cutscene_main(struct Camera *c) {
+    
+    move_point_along_spline(c->pos, segmented_to_virtual(rr_area_1_spline_TitleCutscenePathPos), &sCutsceneSplineSegment, &sCutsceneSplineSegmentProgress);
+    move_point_along_spline(c->focus, segmented_to_virtual(rr_area_1_spline_TitleCutscenePathFoc), &sCutsceneSplineSegment, &sCutsceneSplineSegmentProgress);
+
+}
+void title_cutscene(struct Camera *c) {
+    // Function, camera, starting frame, ending frame (-1 to play every frame after 5)
+    cutscene_event(title_cutscene_main, c, 5, -1);
+}
+
+void title_cutscene_stop(struct Camera *c) {
+    c->cutscene = 0;
+    gCutsceneTimer = CUTSCENE_STOP;
+}
+
+
+struct Cutscene sCutsceneTitle[] = {
+    { title_cutscene, 10000},
+    { title_cutscene_stop, 0},
+};
+
 /**
  * Play the current cutscene until either gCutsceneTimer reaches the max time, or c->cutscene is set to 0
  *
@@ -10759,6 +10812,8 @@ void play_cutscene(struct Camera *c) {
         CUTSCENE(CUTSCENE_RACE_DIALOG,          sCutsceneDialog)
         CUTSCENE(CUTSCENE_ENTER_PYRAMID_TOP,    sCutsceneEnterPyramidTop)
         CUTSCENE(CUTSCENE_SSL_PYRAMID_EXPLODE,  sCutscenePyramidTopExplode)
+        CUTSCENE(CUTSCENE_INTRO,                sCutsceneIntro)        
+        CUTSCENE(CUTSCENE_TITLE,                sCutsceneTitle)
     }
 
 #undef CUTSCENE
@@ -11074,3 +11129,4 @@ void obj_rotate_towards_point(struct Object *obj, Vec3f point, s16 pitchOff, s16
 #include "behaviors/end_birds_1.inc.c"
 #include "behaviors/end_birds_2.inc.c"
 #include "behaviors/intro_scene.inc.c"
+

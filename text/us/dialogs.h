@@ -155,11 +155,12 @@ For extra distance,\n\
 you can then dive."))
 
 DEFINE_DIALOG(DIALOG_016, 1, 3, 30, 200, _("\
-You're finally here!\n\
-The islands only have\n\
-so much reserve power\n\
-left. Please, help us\n\
-reclaim the power stars!"))
+Whew... you're heavier\n\
+than I thought you\n\
+would be. This is as\n\
+far as I can take you,\n\
+friend. Please,\n\
+reclaim our power stars!"))
 
 DEFINE_DIALOG(DIALOG_017, 1, 4, 95, 200, _("\
 You can press Z while\n\
@@ -198,8 +199,27 @@ those jerks arrived.\n\
 If you're planning to go\n\
 inside, be careful!"))
 
-DEFINE_DIALOG(DIALOG_023, 1, 3, 30, 200, _("\
-I'm an owl c:"))
+DEFINE_DIALOG(DIALOG_023, 1, 5, 30, 200, _("\
+Mario! There you are!\n\
+I've been looking all over\n\
+the land for you! I'm from\n\
+the Skyborne Islands. A\n\
+bunch of awful jerks just\n\
+attacked our home!\n\
+They're stealing the\n\
+power stars that keep \n\
+our islands floating\n\
+in the sky!\n\
+\n\
+\n\
+\n\
+\n\
+\n\
+Hm? Peach? A picnic?\n\
+I'm sure she'll understand.\n\
+There's no time, the\n\
+islands are going to fall\n\
+from the sky!"))    
 
 DEFINE_DIALOG(DIALOG_024, 1, 5, 95, 200, _("\
 You need Star power to\n\

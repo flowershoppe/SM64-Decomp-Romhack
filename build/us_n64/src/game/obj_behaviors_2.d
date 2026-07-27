@@ -95,17 +95,18 @@ build/us_n64/src/game/obj_behaviors_2.o: src/game/obj_behaviors_2.c \
  src/game/game_init.h src/game/memory.h src/game/geo_misc.h \
  src/game/ingame_menu.h src/game/interaction.h src/game/level_update.h \
  levels/bitdw/header.h levels/bitfs/header.h levels/bits/header.h \
- levels/bob/header.h levels/bob/header.inc.h levels/ccm/header.h \
- src/game/moving_texture.h levels/ccm/header.inc.h levels/hmc/header.h \
- levels/jrb/header.h levels/jrb/header.inc.h levels/lll/header.h \
- levels/rr/header.h levels/ssl/header.h levels/thi/header.h \
- levels/ttc/header.h levels/vcutm/header.h src/game/mario.h \
- src/game/mario_actions_cutscene.h src/game/obj_behaviors.h \
- src/game/obj_behaviors_2.h include/object_constants.h \
- src/game/object_helpers.h src/game/object_list_processor.h \
- src/game/platform_displacement.h src/game/rendering_graph_node.h \
- src/game/save_file.h include/course_table.h levels/course_defines.h \
- include/seq_ids.h src/game/spawn_sound.h src/game/behaviors/koopa.inc.c \
+ levels/bob/header.h levels/bob/header.inc.h src/game/camera.h \
+ levels/ccm/header.h src/game/moving_texture.h levels/ccm/header.inc.h \
+ levels/hmc/header.h levels/jrb/header.h levels/jrb/header.inc.h \
+ levels/lll/header.h levels/rr/header.h levels/rr/header.inc.h \
+ levels/ssl/header.h levels/thi/header.h levels/ttc/header.h \
+ levels/vcutm/header.h src/game/mario.h src/game/mario_actions_cutscene.h \
+ src/game/obj_behaviors.h src/game/obj_behaviors_2.h \
+ include/object_constants.h src/game/object_helpers.h \
+ src/game/object_list_processor.h src/game/platform_displacement.h \
+ src/game/rendering_graph_node.h src/game/save_file.h \
+ include/course_table.h levels/course_defines.h include/seq_ids.h \
+ src/game/spawn_sound.h src/game/behaviors/koopa.inc.c \
  src/game/behaviors/pokey.inc.c src/game/behaviors/swoop.inc.c \
  src/game/behaviors/fly_guy.inc.c src/game/behaviors/goomba.inc.c \
  src/game/behaviors/chain_chomp.inc.c src/game/behaviors/wiggler.inc.c \
