@@ -43,7 +43,8 @@ build/us_n64/levels/bob/geo.o: levels/bob/geo.c include/n64/ultra64.h \
  src/game/puppycam2.h include/level_table.h src/game/moving_texture.h \
  src/game/screen_transition.h src/game/paintings.h \
  include/make_const_nonconst.h levels/bob/header.h \
- levels/bob/header.inc.h levels/bob/chain_chomp_gate/geo.inc.c \
+ levels/bob/header.inc.h src/game/camera.h \
+ levels/bob/chain_chomp_gate/geo.inc.c \
  levels/bob/seesaw_platform/geo.inc.c levels/bob/grate_door/geo.inc.c \
  levels/bob/areas/1/geo.inc.c levels/bob/geo.inc.c \
  levels/bob/area_1/geo.inc.c src/game/envfx_snow.h

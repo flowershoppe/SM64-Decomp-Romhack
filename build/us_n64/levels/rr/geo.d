@@ -42,18 +42,19 @@ build/us_n64/levels/rr/geo.o: levels/rr/geo.c include/n64/ultra64.h \
  src/engine/graph_node.h src/game/memory.h src/engine/geo_layout.h \
  src/game/puppycam2.h include/level_table.h src/game/moving_texture.h \
  src/game/screen_transition.h src/game/paintings.h \
- include/make_const_nonconst.h levels/rr/header.h \
- levels/rr/areas/1/2/geo.inc.c levels/rr/areas/1/3/geo.inc.c \
- levels/rr/areas/1/4/geo.inc.c levels/rr/areas/1/5/geo.inc.c \
- levels/rr/areas/1/6/geo.inc.c levels/rr/areas/1/7/geo.inc.c \
- levels/rr/areas/1/8/geo.inc.c levels/rr/areas/1/9/geo.inc.c \
- levels/rr/areas/1/10/geo.inc.c levels/rr/areas/1/11/geo.inc.c \
- levels/rr/areas/1/12/geo.inc.c levels/rr/areas/1/13/geo.inc.c \
- levels/rr/areas/1/14/geo.inc.c levels/rr/areas/1/15/geo.inc.c \
- levels/rr/areas/1/16/geo.inc.c levels/rr/areas/1/17/geo.inc.c \
- levels/rr/areas/1/18/geo.inc.c levels/rr/areas/1/19/geo.inc.c \
- levels/rr/areas/1/20/geo.inc.c levels/rr/areas/1/21/geo.inc.c \
- levels/rr/flying_carpet/geo.inc.c levels/rr/swinging_platform/geo.inc.c \
+ include/make_const_nonconst.h levels/rr/header.h levels/rr/header.inc.h \
+ src/game/camera.h levels/rr/areas/1/2/geo.inc.c \
+ levels/rr/areas/1/3/geo.inc.c levels/rr/areas/1/4/geo.inc.c \
+ levels/rr/areas/1/5/geo.inc.c levels/rr/areas/1/6/geo.inc.c \
+ levels/rr/areas/1/7/geo.inc.c levels/rr/areas/1/8/geo.inc.c \
+ levels/rr/areas/1/9/geo.inc.c levels/rr/areas/1/10/geo.inc.c \
+ levels/rr/areas/1/11/geo.inc.c levels/rr/areas/1/12/geo.inc.c \
+ levels/rr/areas/1/13/geo.inc.c levels/rr/areas/1/14/geo.inc.c \
+ levels/rr/areas/1/15/geo.inc.c levels/rr/areas/1/16/geo.inc.c \
+ levels/rr/areas/1/17/geo.inc.c levels/rr/areas/1/18/geo.inc.c \
+ levels/rr/areas/1/19/geo.inc.c levels/rr/areas/1/20/geo.inc.c \
+ levels/rr/areas/1/21/geo.inc.c levels/rr/flying_carpet/geo.inc.c \
+ levels/rr/swinging_platform/geo.inc.c \
  levels/rr/rotating_bridge_platform/geo.inc.c \
  levels/rr/cruiser_wing/geo.inc.c levels/rr/octagonal_platform/geo.inc.c \
  levels/rr/sliding_platform/geo.inc.c \
@@ -64,4 +65,5 @@ build/us_n64/levels/rr/geo.o: levels/rr/geo.c include/n64/ultra64.h \
  levels/rr/tricky_triangles_2/geo.inc.c \
  levels/rr/tricky_triangles_3/geo.inc.c \
  levels/rr/tricky_triangles_4/geo.inc.c \
- levels/rr/tricky_triangles_5/geo.inc.c levels/rr/areas/1/geo.inc.c
+ levels/rr/tricky_triangles_5/geo.inc.c levels/rr/areas/1/geo.inc.c \
+ levels/rr/geo.inc.c levels/rr/area_1/geo.inc.c src/game/envfx_snow.h

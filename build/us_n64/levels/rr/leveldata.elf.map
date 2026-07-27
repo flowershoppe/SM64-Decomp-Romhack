@@ -216,82 +216,118 @@ LOAD build/us_n64/levels/rr/leveldata.o
  *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
                 0x0000000007000000                . = DATA_SEGMENT_RELRO_END (., 0x0)
 
-.data           0x0000000007000000    0x2cb10 load address 0x0000000007000018
+.data           0x0000000007000000    0x433c0 load address 0x0000000007000018
                 0x0000000007000000                _fdata = .
  *(.data .data.* .gnu.linkonce.d.*)
- .data          0x0000000007000000    0x2cb10 build/us_n64/levels/rr/leveldata.o
-                0x0000000007000000                rr_seg7_trajectory_0702EEE0
-                0x0000000007000154                rr_seg7_trajectory_0702ED9C
-                0x0000000007000298                rr_seg7_trajectory_0702ECC0
-                0x0000000007000374                rr_seg7_trajectory_0702EC3C
-                0x00000000070003f8                rr_seg7_macro_objs
-                0x000000000700065c                rr_seg7_collision_level
-                0x00000000070052d0                rr_seg7_collision_0702A6B4
-                0x000000000700563c                rr_seg7_collision_0702A32C
-                0x0000000007005a5c                rr_seg7_collision_07029FA4
-                0x0000000007005e7c                rr_seg7_collision_07029C1C
-                0x000000000700629c                rr_seg7_collision_07029924
-                0x000000000700660c                rr_seg7_collision_07029858
-                0x0000000007006700                rr_seg7_collision_donut_platform
-                0x000000000700679c                rr_seg7_collision_07029750
-                0x0000000007006838                rr_seg7_collision_elevator_platform
-                0x00000000070068d4                rr_seg7_collision_0702967C
-                0x0000000007006930                rr_seg7_collision_070295F8
-                0x00000000070069cc                rr_seg7_collision_07029508
-                0x0000000007006ae8                rr_seg7_collision_rotating_platform_with_fire
-                0x0000000007006d4c                rr_seg7_collision_pendulum
-                0x0000000007006f54                rr_seg7_collision_flying_carpet
-                0x00000000070070a0                rr_seg7_dl_07028FA8
-                0x00000000070096e8                rr_seg7_dl_07026630
-                0x000000000700be58                rr_seg7_dl_07023B90
-                0x000000000700e5b8                rr_seg7_dl_07021100
-                0x0000000007010d18                rr_seg7_dl_0701E670
-                0x0000000007013368                rr_seg7_dl_0701BD08
-                0x00000000070136a0                rr_seg7_dl_0701B980
-                0x00000000070137c8                rr_seg7_dl_0701B848
-                0x0000000007013b00                rr_seg7_dl_0701B4C0
-                0x0000000007013d50                rr_seg7_dl_0701B220
-                0x0000000007013fa0                rr_seg7_dl_0701AFA0
-                0x0000000007014130                rr_seg7_dl_0701ADF8
-                0x0000000007014380                rr_seg7_dl_0701AB78
-                0x0000000007014810                rr_seg7_dl_0701A680
-                0x00000000070148f0                rr_seg7_dl_0701A568
-                0x00000000070152b0                rr_seg7_dl_07019AE0
-                0x0000000007015980                dl_flying_carpet_end
-                0x00000000070159a8                dl_flying_carpet_model_half
-                0x00000000070159e0                dl_flying_carpet_begin
-                0x0000000007015a60                flying_carpet_static_vertex_data
-                0x0000000007015b08                rr_seg7_dl_070191A0
-                0x00000000070160a8                rr_seg7_dl_07018B58
-                0x0000000007017528                rr_seg7_dl_07017530
-                0x0000000007018bd0                rr_seg7_dl_07015C68
-                0x00000000070190f0                rr_seg7_dl_070156B8
-                0x0000000007019800                rr_seg7_dl_07014F30
-                0x000000000701a130                rr_seg7_dl_07014508
-                0x000000000701baa0                rr_seg7_dl_07012758
-                0x000000000701f438                rr_seg7_dl_0700E830
-                0x000000000701fa60                rr_seg7_dl_0700E178
-                0x000000000701fd30                rr_seg7_dl_0700DE88
-                0x000000000701ffa8                rr_seg7_dl_0700DBD8
-                0x0000000007020f80                rr_seg7_dl_0700CA38
-                0x0000000007021d18                rr_seg7_dl_0700BB48
-                0x0000000007024628                rr_seg7_dl_07008E20
-                0x00000000070250e0                rr_seg7_dl_07008258
-                0x0000000007025460                rr_seg7_dl_07007E60
-                0x0000000007027378                rr_seg7_dl_07005C80
-                0x0000000007028398                rr_seg7_dl_07004A98
-                0x0000000007029d48                rr_seg7_dl_07002E80
-                0x0000000007029ee8                rr_seg7_dl_07002CC8
-                0x000000000702a958                dl_cruiser_metal_holes
+ .data          0x0000000007000000    0x433c0 build/us_n64/levels/rr/leveldata.o
+                0x0000000007000000                rr_dl_final_revert_mesh_layer_1
+                0x0000000007000040                rr_dl_final_revert_mesh_layer_5
+                0x0000000007000080                rr_dl_THE_mesh_layer_1
+                0x00000000070000f0                rr_dl_Cube_mesh_layer_5
+                0x0000000007000130                mat_revert_rr_dl_f3dlite_material
+                0x0000000007000150                mat_rr_dl_f3dlite_material
+                0x00000000070001c0                mat_revert_rr_dl_f3dlite_material_003
+                0x00000000070001d8                mat_rr_dl_f3dlite_material_003
+                0x0000000007000228                mat_revert_rr_dl_f3dlite_material_002
+                0x0000000007000240                mat_rr_dl_f3dlite_material_002
+                0x00000000070002b0                mat_revert_rr_dl_f3dlite_material_001
+                0x00000000070002d0                mat_rr_dl_f3dlite_material_001
+                0x0000000007000350                rr_dl_THE_mesh_layer_1_tri_2
+                0x0000000007000ed0                rr_dl_THE_mesh_layer_1_vtx_2
+                0x0000000007004e80                rr_dl_THE_mesh_layer_1_tri_1
+                0x0000000007004fa8                rr_dl_THE_mesh_layer_1_vtx_1
+                0x0000000007005448                rr_dl_THE_mesh_layer_1_tri_0
+                0x0000000007006de0                rr_dl_THE_mesh_layer_1_vtx_0
+                0x000000000700f4e0                rr_dl_THE_mesh_layer_1_vtx_cull
+                0x000000000700f560                rr_dl_Cube_mesh_layer_5_tri_0
+                0x000000000700f578                rr_dl_Cube_mesh_layer_5_vtx_0
+                0x000000000700f5b8                rr_dl_Cube_mesh_layer_5_vtx_cull
+                0x000000000700f638                rr_dl_is_iceTile_pal_rgba16
+                0x000000000700f770                rr_dl_is_iceTile_pal_rgba16_aligner
+                0x000000000700f778                rr_dl_is_iceTile_ci8
+                0x000000000700fb78                rr_dl_is_iceTile_ci8_aligner
+                0x000000000700fb80                rr_dl_white_i8
+                0x000000000700ff80                rr_dl_white_i8_aligner
+                0x000000000700ff88                rr_dl_black_i8
+                0x0000000007010388                rr_dl_black_i8_aligner
+                0x0000000007010390                rr_dl_invisible_ia8
+                0x0000000007010790                rr_dl_invisible_ia8_aligner
+                0x0000000007010798                rr_area_1_spline_TitleCutscenePathPos
+                0x00000000070107c8                rr_area_1_spline_TitleCutscenePathFoc
+                0x00000000070107f8                rr_area_1_macro_objs
+                0x00000000070107fc                rr_area_1_collision
+                0x00000000070168b0                rr_seg7_trajectory_0702EEE0
+                0x0000000007016a04                rr_seg7_trajectory_0702ED9C
+                0x0000000007016b48                rr_seg7_trajectory_0702ECC0
+                0x0000000007016c24                rr_seg7_trajectory_0702EC3C
+                0x0000000007016ca8                rr_seg7_macro_objs
+                0x0000000007016f0c                rr_seg7_collision_level
+                0x000000000701bb80                rr_seg7_collision_0702A6B4
+                0x000000000701beec                rr_seg7_collision_0702A32C
+                0x000000000701c30c                rr_seg7_collision_07029FA4
+                0x000000000701c72c                rr_seg7_collision_07029C1C
+                0x000000000701cb4c                rr_seg7_collision_07029924
+                0x000000000701cebc                rr_seg7_collision_07029858
+                0x000000000701cfb0                rr_seg7_collision_donut_platform
+                0x000000000701d04c                rr_seg7_collision_07029750
+                0x000000000701d0e8                rr_seg7_collision_elevator_platform
+                0x000000000701d184                rr_seg7_collision_0702967C
+                0x000000000701d1e0                rr_seg7_collision_070295F8
+                0x000000000701d27c                rr_seg7_collision_07029508
+                0x000000000701d398                rr_seg7_collision_rotating_platform_with_fire
+                0x000000000701d5fc                rr_seg7_collision_pendulum
+                0x000000000701d804                rr_seg7_collision_flying_carpet
+                0x000000000701d950                rr_seg7_dl_07028FA8
+                0x000000000701ff98                rr_seg7_dl_07026630
+                0x0000000007022708                rr_seg7_dl_07023B90
+                0x0000000007024e68                rr_seg7_dl_07021100
+                0x00000000070275c8                rr_seg7_dl_0701E670
+                0x0000000007029c18                rr_seg7_dl_0701BD08
+                0x0000000007029f50                rr_seg7_dl_0701B980
+                0x000000000702a078                rr_seg7_dl_0701B848
+                0x000000000702a3b0                rr_seg7_dl_0701B4C0
+                0x000000000702a600                rr_seg7_dl_0701B220
+                0x000000000702a850                rr_seg7_dl_0701AFA0
+                0x000000000702a9e0                rr_seg7_dl_0701ADF8
+                0x000000000702ac30                rr_seg7_dl_0701AB78
+                0x000000000702b0c0                rr_seg7_dl_0701A680
+                0x000000000702b1a0                rr_seg7_dl_0701A568
+                0x000000000702bb60                rr_seg7_dl_07019AE0
+                0x000000000702c230                dl_flying_carpet_end
+                0x000000000702c258                dl_flying_carpet_model_half
+                0x000000000702c290                dl_flying_carpet_begin
+                0x000000000702c310                flying_carpet_static_vertex_data
+                0x000000000702c3b8                rr_seg7_dl_070191A0
+                0x000000000702c958                rr_seg7_dl_07018B58
+                0x000000000702ddd8                rr_seg7_dl_07017530
+                0x000000000702f480                rr_seg7_dl_07015C68
+                0x000000000702f9a0                rr_seg7_dl_070156B8
+                0x00000000070300b0                rr_seg7_dl_07014F30
+                0x00000000070309e0                rr_seg7_dl_07014508
+                0x0000000007032350                rr_seg7_dl_07012758
+                0x0000000007035ce8                rr_seg7_dl_0700E830
+                0x0000000007036310                rr_seg7_dl_0700E178
+                0x00000000070365e0                rr_seg7_dl_0700DE88
+                0x0000000007036858                rr_seg7_dl_0700DBD8
+                0x0000000007037830                rr_seg7_dl_0700CA38
+                0x00000000070385c8                rr_seg7_dl_0700BB48
+                0x000000000703aed8                rr_seg7_dl_07008E20
+                0x000000000703b990                rr_seg7_dl_07008258
+                0x000000000703bd10                rr_seg7_dl_07007E60
+                0x000000000703dc28                rr_seg7_dl_07005C80
+                0x000000000703ec48                rr_seg7_dl_07004A98
+                0x00000000070405f8                rr_seg7_dl_07002E80
+                0x0000000007040798                rr_seg7_dl_07002CC8
+                0x0000000007041208                dl_cruiser_metal_holes
 
 .data1
  *(.data1)
 
 .got.plt
  *(.got.plt)
-                0x000000000702cb10                . = .
-                0x000000000702cb10                . = .
-                0x0000000007034b00                _gp = (ALIGN (0x10) + 0x7ff0)
+                0x00000000070433c0                . = .
+                0x00000000070433c0                . = .
+                0x000000000704b3b0                _gp = (ALIGN (0x10) + 0x7ff0)
 
 .got
  *(.got)
@@ -304,29 +340,29 @@ LOAD build/us_n64/levels/rr/leveldata.o
 
 .lit4
  *(.lit4)
-                0x000000000702cb10                _edata = .
+                0x00000000070433c0                _edata = .
                 [!provide]                        PROVIDE (edata = .)
-                0x000000000702cb10                . = .
-                0x000000000702cb10                __bss_start = .
-                0x000000000702cb10                _fbss = .
+                0x00000000070433c0                . = .
+                0x00000000070433c0                __bss_start = .
+                0x00000000070433c0                _fbss = .
 
 .sbss
  *(.dynsbss)
  *(.sbss .sbss.* .gnu.linkonce.sb.*)
  *(.scommon)
 
-.bss            0x000000000702cb10        0x0 load address 0x000000000702cb28
+.bss            0x00000000070433c0        0x0 load address 0x00000000070433d8
  *(.dynbss)
  *(.bss .bss.* .gnu.linkonce.b.*)
- .bss           0x000000000702cb10        0x0 build/us_n64/levels/rr/leveldata.o
+ .bss           0x00000000070433c0        0x0 build/us_n64/levels/rr/leveldata.o
  *(COMMON)
-                0x000000000702cb10                . = ALIGN ((. != 0x0)?0x4:0x1)
-                0x000000000702cb10                . = ALIGN (0x4)
-                0x000000000702cb10                . = SEGMENT_START ("ldata-segment", .)
-                0x000000000702cb10                . = ALIGN (0x4)
-                0x000000000702cb10                _end = .
+                0x00000000070433c0                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x00000000070433c0                . = ALIGN (0x4)
+                0x00000000070433c0                . = SEGMENT_START ("ldata-segment", .)
+                0x00000000070433c0                . = ALIGN (0x4)
+                0x00000000070433c0                _end = .
                 [!provide]                        PROVIDE (end = .)
-                0x000000000702cb10                . = DATA_SEGMENT_END (.)
+                0x00000000070433c0                . = DATA_SEGMENT_END (.)
 
 .stab
  *(.stab)

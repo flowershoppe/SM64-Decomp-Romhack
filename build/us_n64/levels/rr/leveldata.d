@@ -83,4 +83,13 @@ build/us_n64/levels/rr/leveldata.o: levels/rr/leveldata.c \
  levels/rr/tricky_triangles_4/collision.inc.c \
  levels/rr/tricky_triangles_5/collision.inc.c \
  levels/rr/areas/1/collision.inc.c levels/rr/areas/1/macro.inc.c \
- levels/rr/areas/1/trajectory.inc.c
+ levels/rr/areas/1/trajectory.inc.c levels/rr/leveldata.inc.c \
+ levels/rr/area_1/collision.inc.c levels/rr/area_1/macro.inc.c \
+ levels/rr/area_1/spline.inc.c src/game/camera.h src/game/area.h \
+ src/game/camera.h src/engine/graph_node.h include/geo_commands.h \
+ include/command_macros_base.h src/game/shadow.h \
+ src/game/object_helpers.h src/game/behavior_actions.h \
+ src/game/segment2.h src/game/mario_misc.h \
+ src/game/mario_actions_cutscene.h src/game/memory.h \
+ src/engine/geo_layout.h src/game/puppycam2.h include/level_table.h \
+ levels/rr/model.inc.c

@@ -39,4 +39,10 @@ build/us_n64/levels/bob/script.o: levels/bob/script.c \
  include/command_macros_base.h include/level_table.h \
  src/game/level_update.h include/types.h levels/scripts.h \
  src/game/puppycam2.h actors/common1.h include/make_const_nonconst.h \
- levels/bob/header.h levels/bob/header.inc.h
+ levels/bob/header.h levels/bob/header.inc.h src/game/camera.h \
+ src/game/area.h src/game/camera.h src/engine/graph_node.h \
+ include/geo_commands.h src/game/shadow.h src/game/object_helpers.h \
+ include/macros.h src/game/behavior_actions.h src/game/segment2.h \
+ src/game/mario_misc.h src/game/mario_actions_cutscene.h \
+ src/game/memory.h src/engine/geo_layout.h src/game/puppycam2.h \
+ include/level_table.h

@@ -37,10 +37,21 @@ build/us_n64/src/game/texscroll.o: src/game/texscroll.c include/types.h \
  levels/jrb/texscroll.inc.h src/game/texscroll/bbh_texscroll.inc.h \
  levels/bbh/texscroll.inc.h src/game/texscroll/wf_texscroll.inc.h \
  levels/wf/texscroll.inc.h src/game/texscroll/common0_texscroll.inc.h \
+ src/game/texscroll/rr_texscroll.inc.h levels/rr/texscroll.inc.h \
  src/game/texscroll/bob_texscroll.inc.c levels/bob/header.h \
- levels/bob/header.inc.h levels/bob/texscroll.inc.c \
- src/game/texscroll/jrb_texscroll.inc.c levels/jrb/header.h \
- src/game/moving_texture.h levels/jrb/header.inc.h \
+ levels/bob/header.inc.h src/game/camera.h src/game/area.h \
+ src/game/camera.h src/engine/graph_node.h include/sm64.h include/types.h \
+ include/object_fields.h include/object_constants.h include/sounds.h \
+ include/model_ids.h include/mario_animation_ids.h \
+ include/mario_geo_switch_case_ids.h include/surface_terrains.h \
+ include/segments.h include/segment_names.h include/segment_symbols.h \
+ include/geo_commands.h include/command_macros_base.h src/game/shadow.h \
+ src/game/object_helpers.h src/game/behavior_actions.h \
+ src/game/segment2.h src/game/mario_misc.h \
+ src/game/mario_actions_cutscene.h src/game/memory.h \
+ src/engine/geo_layout.h src/game/puppycam2.h include/level_table.h \
+ levels/bob/texscroll.inc.c src/game/texscroll/jrb_texscroll.inc.c \
+ levels/jrb/header.h src/game/moving_texture.h levels/jrb/header.inc.h \
  levels/jrb/texscroll.inc.c src/game/texscroll/bbh_texscroll.inc.c \
  levels/bbh/header.h levels/bbh/header.inc.h levels/bbh/texscroll.inc.c \
  src/game/texscroll/wf_texscroll.inc.c levels/wf/header.h \
@@ -90,4 +101,6 @@ build/us_n64/src/game/texscroll.o: src/game/texscroll.c include/types.h \
  actors/star_gate/geo_header.h actors/custom_peach/collision_header.h \
  actors/custom_peach/geo_header.h actors/custom_peach/anim_header.h \
  actors/custom_peach/anims/table_enum.h actors/owl/geo_header.h \
- actors/owl/anim_header.h actors/owl/anims/table_enum.h
+ actors/owl/anim_header.h actors/owl/anims/table_enum.h \
+ src/game/texscroll/rr_texscroll.inc.c levels/rr/header.h \
+ levels/rr/header.inc.h levels/rr/texscroll.inc.c

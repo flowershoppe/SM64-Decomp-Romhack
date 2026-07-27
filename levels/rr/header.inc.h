@@ -1,0 +1,35 @@
+extern const GeoLayout rr_area_1_geo[];
+extern const GeoLayout rr_area_1[];
+extern const Collision rr_area_1_collision[];
+extern const MacroObject rr_area_1_macro_objs[];
+#include "src/game/camera.h"
+
+extern struct CutsceneSplinePoint rr_area_1_spline_TitleCutscenePathFoc[];
+extern struct CutsceneSplinePoint rr_area_1_spline_TitleCutscenePathPos[];
+extern u8 rr_dl_invisible_ia8[];
+extern u8 rr_dl_black_i8[];
+extern u8 rr_dl_white_i8[];
+extern u8 rr_dl_is_iceTile_ci8[];
+extern u8 rr_dl_is_iceTile_pal_rgba16[];
+extern Vtx rr_dl_Cube_mesh_layer_5_vtx_cull[8];
+extern Vtx rr_dl_Cube_mesh_layer_5_vtx_0[4];
+extern Gfx rr_dl_Cube_mesh_layer_5_tri_0[];
+extern Vtx rr_dl_THE_mesh_layer_1_vtx_cull[8];
+extern Vtx rr_dl_THE_mesh_layer_1_vtx_0[2160];
+extern Gfx rr_dl_THE_mesh_layer_1_tri_0[];
+extern Vtx rr_dl_THE_mesh_layer_1_vtx_1[74];
+extern Gfx rr_dl_THE_mesh_layer_1_tri_1[];
+extern Vtx rr_dl_THE_mesh_layer_1_vtx_2[1019];
+extern Gfx rr_dl_THE_mesh_layer_1_tri_2[];
+extern Gfx mat_rr_dl_f3dlite_material_001[];
+extern Gfx mat_revert_rr_dl_f3dlite_material_001[];
+extern Gfx mat_rr_dl_f3dlite_material_002[];
+extern Gfx mat_revert_rr_dl_f3dlite_material_002[];
+extern Gfx mat_rr_dl_f3dlite_material_003[];
+extern Gfx mat_revert_rr_dl_f3dlite_material_003[];
+extern Gfx mat_rr_dl_f3dlite_material[];
+extern Gfx mat_revert_rr_dl_f3dlite_material[];
+extern Gfx rr_dl_Cube_mesh_layer_5[];
+extern Gfx rr_dl_THE_mesh_layer_1[];
+extern Gfx rr_dl_final_revert_mesh_layer_5[];
+extern Gfx rr_dl_final_revert_mesh_layer_1[];

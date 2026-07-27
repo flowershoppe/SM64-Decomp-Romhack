@@ -62,7 +62,7 @@ const GeoLayout bob_area_1_geo[] = {
 			GEO_DISPLAY_LIST(LAYER_TRANSPARENT, bob_dl_final_revert_mesh_layer_5),
 		GEO_CLOSE_NODE(),
 		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_OPAQUE, 766, 11, -1, 0, 6, 0, bob_dl_Plane_014_mesh_layer_1),
-		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_OPAQUE, 1051, 247, -146, -48, -126, 7, bob_dl_umbrella_001_mesh_layer_1),
+		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_OPAQUE, 1051, 197, -146, -48, -126, 7, bob_dl_umbrella_001_mesh_layer_1),
 		GEO_OPEN_NODE(),
 			GEO_DISPLAY_LIST(LAYER_OPAQUE, bob_dl_final_revert_mesh_layer_1),
 		GEO_CLOSE_NODE(),

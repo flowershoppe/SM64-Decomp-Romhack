@@ -23,13 +23,12 @@ void owl_act_turn_to_talk(void){
 
     if ((s16) o->oMoveAngleYaw == (s16) o->oAngleToMario) {
         o->oAction = OWL_TALK;
-        cur_obj_play_sound_2(SOUND_PEACH_MARIO);
     }    
 }
 
 void owl_act_talk(void){
     cur_obj_init_animation(OWL_ANIM_TALKING);
-    if (set_mario_npc_dialog(MARIO_DIALOG_LOOK_FRONT    ) == MARIO_DIALOG_STATUS_SPEAK) {
+    if (set_mario_npc_dialog(MARIO_DIALOG_LOOK_FRONT) == MARIO_DIALOG_STATUS_SPEAK) {
         o->activeFlags |= ACTIVE_FLAG_INITIATED_TIME_STOP;
         if (cutscene_object_with_dialog(CUTSCENE_DIALOG, o, o->oBehParams2ndByte)) {
             set_mario_npc_dialog(MARIO_DIALOG_STOP);
@@ -37,6 +36,12 @@ void owl_act_talk(void){
             o->oInteractStatus = INT_STATUS_NONE;
             o->oAction = OWL_IDLE;
             cur_obj_init_animation(OWL_ANIM_IDLE);
+            if(gCurrLevelNum == LEVEL_BOB){
+                f32 dist;
+                cur_obj_find_nearest_object_with_behavior(bhvWarp, &dist)->oPosX = o->oPosX;
+                cur_obj_find_nearest_object_with_behavior(bhvWarp, &dist)->oPosY = o->oPosY;
+                cur_obj_find_nearest_object_with_behavior(bhvWarp, &dist)->oPosZ = o->oPosZ;
+            }
         }
     }
 }
