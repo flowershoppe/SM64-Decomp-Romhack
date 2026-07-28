@@ -3262,6 +3262,9 @@ void init_camera(struct Camera *c) {
         case LEVEL_RR:
             start_cutscene(c, CUTSCENE_TITLE);
             break;
+        case LEVEL_WF:
+            start_cutscene(c, CUTSCENE_RUINS);
+            break;
 
 #ifdef ENABLE_VANILLA_CAM_PROCESSING
         //! Hardcoded position checks determine which cutscene to play when Mario enters castle grounds.
@@ -10705,18 +10708,20 @@ void intro_cutscene_main(struct Camera *c) {
 
 }
 void intro_cutscene(struct Camera *c) {
+    set_mario_npc_dialog(MARIO_DIALOG_LOOK_FRONT);
     // Function, camera, starting frame, ending frame (-1 to play every frame after 5)
     cutscene_event(intro_cutscene_main, c, 5, -1);
 }
 
 void intro_cutscene_stop(struct Camera *c) {
+    set_mario_npc_dialog(MARIO_DIALOG_STOP);
     c->cutscene = 0;
     gCutsceneTimer = CUTSCENE_STOP;
 }
 
 
 struct Cutscene sCutsceneIntro[] = {
-    { intro_cutscene, 1},
+    { intro_cutscene, 800},
     { intro_cutscene_stop, 0},
 };
 
@@ -10745,6 +10750,35 @@ void title_cutscene_stop(struct Camera *c) {
 struct Cutscene sCutsceneTitle[] = {
     { title_cutscene, 10000},
     { title_cutscene_stop, 0},
+};
+
+//                                        RUINS
+
+extern struct CutsceneSplinePoint wf_area_1_spline_RuinsCutscenePathFoc[];
+extern struct CutsceneSplinePoint wf_area_1_spline_RuinsCutscenePathPos[];
+
+void ruins_cutscene_main(struct Camera *c) {
+    
+    move_point_along_spline(c->pos, segmented_to_virtual(wf_area_1_spline_RuinsCutscenePathPos), &sCutsceneSplineSegment, &sCutsceneSplineSegmentProgress);
+    move_point_along_spline(c->focus, segmented_to_virtual(wf_area_1_spline_RuinsCutscenePathFoc), &sCutsceneSplineSegment, &sCutsceneSplineSegmentProgress);
+
+}
+void ruins_cutscene(struct Camera *c) {
+    // Function, camera, starting frame, ending frame (-1 to play every frame after 5)
+    set_mario_npc_dialog(MARIO_DIALOG_LOOK_FRONT);
+    cutscene_event(ruins_cutscene_main, c, 5, -1);
+}
+
+void ruins_cutscene_stop(struct Camera *c) {
+    set_mario_npc_dialog(MARIO_DIALOG_STOP);
+    c->cutscene = 0;
+    gCutsceneTimer = CUTSCENE_STOP;
+}
+
+
+struct Cutscene sCutsceneRuins[] = {
+    { ruins_cutscene, 900},
+    { ruins_cutscene_stop, 0},
 };
 
 /**
@@ -10814,6 +10848,7 @@ void play_cutscene(struct Camera *c) {
         CUTSCENE(CUTSCENE_SSL_PYRAMID_EXPLODE,  sCutscenePyramidTopExplode)
         CUTSCENE(CUTSCENE_INTRO,                sCutsceneIntro)        
         CUTSCENE(CUTSCENE_TITLE,                sCutsceneTitle)
+        CUTSCENE(CUTSCENE_RUINS,                sCutsceneRuins)
     }
 
 #undef CUTSCENE

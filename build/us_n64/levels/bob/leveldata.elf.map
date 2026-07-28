@@ -216,10 +216,10 @@ LOAD build/us_n64/levels/bob/leveldata.o
  *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
                 0x0000000007000000                . = DATA_SEGMENT_RELRO_END (., 0x0)
 
-.data           0x0000000007000000    0x244d0 load address 0x0000000007000018
+.data           0x0000000007000000    0x24518 load address 0x0000000007000018
                 0x0000000007000000                _fdata = .
  *(.data .data.* .gnu.linkonce.d.*)
- .data          0x0000000007000000    0x244d0 build/us_n64/levels/bob/leveldata.o
+ .data          0x0000000007000000    0x24518 build/us_n64/levels/bob/leveldata.o
                 0x0000000007000000                bob_dl_final_revert_mesh_layer_5
                 0x0000000007000040                bob_dl_final_revert_mesh_layer_4
                 0x0000000007000080                bob_dl_final_revert_mesh_layer_6
@@ -507,35 +507,35 @@ LOAD build/us_n64/levels/bob/leveldata.o
                 0x00000000070111d0                bob_dl_Bamboo_ci8
                 0x00000000070119d0                bob_dl_Bamboo_ci8_aligner
                 0x00000000070119d8                bob_area_1_spline_IntroCutscenePathPos
-                0x0000000007011a10                bob_area_1_spline_IntroCutscenePathFoc
-                0x0000000007011a48                bob_area_1_macro_objs
-                0x0000000007011a4c                bob_area_1_collision
-                0x00000000070134c8                bob_seg7_trajectory_koopa
-                0x00000000070135ec                bob_seg7_metal_ball_path1
-                0x00000000070136c8                bob_seg7_metal_ball_path0
-                0x000000000701375c                bob_seg7_collision_gate
-                0x0000000007013834                bob_seg7_collision_bridge
-                0x00000000070138d0                bob_seg7_collision_chain_chomp_gate
-                0x0000000007013904                bob_seg7_macro_objs
-                0x0000000007013c78                bob_seg7_collision_level
-                0x0000000007016bb8                bob_seg7_dl_0700E8A0
-                0x0000000007016cf8                bob_seg7_dl_0700E768
-                0x0000000007016fc0                bob_seg7_dl_0700E458
-                0x00000000070170e8                bob_seg7_dl_0700E338
-                0x0000000007017618                bob_seg7_dl_0700DD18
-                0x000000000701a520                bob_seg7_dl_0700A920
-                0x000000000701a9c8                bob_seg7_dl_0700A470
-                0x000000000701af98                bob_seg7_dl_07009D80
-                0x0000000007020308                bob_seg7_dl_07004390
+                0x0000000007011a38                bob_area_1_spline_IntroCutscenePathFoc
+                0x0000000007011a90                bob_area_1_macro_objs
+                0x0000000007011a94                bob_area_1_collision
+                0x0000000007013510                bob_seg7_trajectory_koopa
+                0x0000000007013634                bob_seg7_metal_ball_path1
+                0x0000000007013710                bob_seg7_metal_ball_path0
+                0x00000000070137a4                bob_seg7_collision_gate
+                0x000000000701387c                bob_seg7_collision_bridge
+                0x0000000007013918                bob_seg7_collision_chain_chomp_gate
+                0x000000000701394c                bob_seg7_macro_objs
+                0x0000000007013cc0                bob_seg7_collision_level
+                0x0000000007016c00                bob_seg7_dl_0700E8A0
+                0x0000000007016d40                bob_seg7_dl_0700E768
+                0x0000000007017008                bob_seg7_dl_0700E458
+                0x0000000007017130                bob_seg7_dl_0700E338
+                0x0000000007017660                bob_seg7_dl_0700DD18
+                0x000000000701a568                bob_seg7_dl_0700A920
+                0x000000000701aa10                bob_seg7_dl_0700A470
+                0x000000000701afe0                bob_seg7_dl_07009D80
+                0x0000000007020350                bob_seg7_dl_07004390
 
 .data1
  *(.data1)
 
 .got.plt
  *(.got.plt)
-                0x00000000070244d0                . = .
-                0x00000000070244d0                . = .
-                0x000000000702c4c0                _gp = (ALIGN (0x10) + 0x7ff0)
+                0x0000000007024518                . = .
+                0x0000000007024518                . = .
+                0x000000000702c510                _gp = (ALIGN (0x10) + 0x7ff0)
 
 .got
  *(.got)
@@ -548,29 +548,29 @@ LOAD build/us_n64/levels/bob/leveldata.o
 
 .lit4
  *(.lit4)
-                0x00000000070244d0                _edata = .
+                0x0000000007024518                _edata = .
                 [!provide]                        PROVIDE (edata = .)
-                0x00000000070244d0                . = .
-                0x00000000070244d0                __bss_start = .
-                0x00000000070244d0                _fbss = .
+                0x0000000007024518                . = .
+                0x0000000007024518                __bss_start = .
+                0x0000000007024518                _fbss = .
 
 .sbss
  *(.dynsbss)
  *(.sbss .sbss.* .gnu.linkonce.sb.*)
  *(.scommon)
 
-.bss            0x00000000070244d0        0x0 load address 0x00000000070244e8
+.bss            0x0000000007024518        0x0 load address 0x0000000007024530
  *(.dynbss)
  *(.bss .bss.* .gnu.linkonce.b.*)
- .bss           0x00000000070244d0        0x0 build/us_n64/levels/bob/leveldata.o
+ .bss           0x0000000007024518        0x0 build/us_n64/levels/bob/leveldata.o
  *(COMMON)
-                0x00000000070244d0                . = ALIGN ((. != 0x0)?0x4:0x1)
-                0x00000000070244d0                . = ALIGN (0x4)
-                0x00000000070244d0                . = SEGMENT_START ("ldata-segment", .)
-                0x00000000070244d0                . = ALIGN (0x4)
-                0x00000000070244d0                _end = .
+                0x0000000007024518                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000000007024518                . = ALIGN (0x4)
+                0x0000000007024518                . = SEGMENT_START ("ldata-segment", .)
+                0x0000000007024518                . = ALIGN (0x4)
+                0x0000000007024518                _end = .
                 [!provide]                        PROVIDE (end = .)
-                0x00000000070244d0                . = DATA_SEGMENT_END (.)
+                0x0000000007024518                . = DATA_SEGMENT_END (.)
 
 .stab
  *(.stab)

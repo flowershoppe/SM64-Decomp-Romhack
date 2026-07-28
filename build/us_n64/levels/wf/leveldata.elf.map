@@ -216,10 +216,10 @@ LOAD build/us_n64/levels/wf/leveldata.o
  *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
                 0x0000000007000000                . = DATA_SEGMENT_RELRO_END (., 0x0)
 
-.data           0x0000000007000000    0xc1af0 load address 0x0000000007000018
+.data           0x0000000007000000    0xc1bc0 load address 0x0000000007000018
                 0x0000000007000000                _fdata = .
  *(.data .data.* .gnu.linkonce.d.*)
- .data          0x0000000007000000    0xc1af0 build/us_n64/levels/wf/leveldata.o
+ .data          0x0000000007000000    0xc1bc0 build/us_n64/levels/wf/leveldata.o
                 0x0000000007000000                wf_dl_final_revert_mesh_layer_6
                 0x0000000007000040                wf_dl_final_revert_mesh_layer_4
                 0x0000000007000080                wf_dl_final_revert_mesh_layer_5
@@ -1554,74 +1554,76 @@ LOAD build/us_n64/levels/wf/leveldata.o
                 0x000000000708d810                wf_dl_star_pal_rgba16_aligner
                 0x000000000708d818                wf_dl_star_ci8
                 0x000000000708dc18                wf_dl_star_ci8_aligner
-                0x000000000708dc20                wf_area_1_macro_objs
-                0x000000000708dc24                wf_area_1_collision
-                0x00000000070b05c0                wf_movtex_water
-                0x00000000070b05f0                wf_seg7_macro_objs
-                0x00000000070b07a0                wf_seg7_collision_070102D8
-                0x00000000070b2600                wf_seg7_collision_bullet_bill_cannon
-                0x00000000070b268c                wf_seg7_collision_tower
-                0x00000000070b2bc0                wf_seg7_collision_rotating_platform
-                0x00000000070b2cd0                wf_seg7_collision_tower_door
-                0x00000000070b2d04                wf_seg7_collision_kickable_board
-                0x00000000070b2da0                wf_seg7_collision_breakable_wall_2
-                0x00000000070b2ddc                wf_seg7_collision_breakable_wall
-                0x00000000070b2e18                wf_seg7_collision_platform
-                0x00000000070b2ea4                wf_seg7_collision_trapezoid
-                0x00000000070b2f30                wf_seg7_collision_tumbling_bridge
-                0x00000000070b2f64                wf_seg7_collision_sliding_brick_platform
-                0x00000000070b2fb4                wf_seg7_collision_clocklike_rotation
-                0x00000000070b3074                wf_seg7_collision_large_bomp
-                0x00000000070b3164                wf_seg7_collision_small_bomp
-                0x00000000070b3258                wf_seg7_dl_0700F7F8
-                0x00000000070b3358                wf_seg7_dl_0700F6C0
-                0x00000000070b3428                wf_seg7_dl_0700F610
-                0x00000000070b36c0                wf_seg7_dl_0700F340
-                0x00000000070b3848                wf_seg7_dl_0700F1A8
-                0x00000000070b39d0                wf_seg7_dl_0700F018
-                0x00000000070b3bf8                wf_seg7_dl_0700EDC0
-                0x00000000070b3e48                wf_seg7_dl_0700EB40
-                0x00000000070b3fc0                wf_seg7_dl_0700E9B8
-                0x00000000070b41e8                wf_seg7_dl_0700E760
-                0x00000000070b4538                wf_seg7_dl_0700E3D0
-                0x00000000070b47e0                wf_seg7_dl_0700E0F0
-                0x00000000070b4a78                wf_seg7_dl_0700DE20
-                0x00000000070b4e60                wf_seg7_dl_0700D9F0
-                0x00000000070b5118                wf_seg7_dl_0700D708
-                0x00000000070b54d8                wf_seg7_dl_0700D300
-                0x00000000070b5770                wf_seg7_dl_0700D028
-                0x00000000070b66d0                wf_seg7_dl_0700BF50
-                0x00000000070b6b40                wf_seg7_dl_0700BA28
-                0x00000000070b7558                wf_seg7_dl_0700AFB8
-                0x00000000070b7638                wf_seg7_dl_0700AEC8
-                0x00000000070b78c0                wf_seg7_dl_0700ABA0
-                0x00000000070b8278                wf_seg7_dl_0700A170
-                0x00000000070b85e0                wf_seg7_dl_07009DB0
-                0x00000000070b8ab8                wf_seg7_dl_07009890
-                0x00000000070b8bb8                wf_seg7_dl_07009780
-                0x00000000070b9070                wf_seg7_dl_07009278
-                0x00000000070b92c0                wf_seg7_dl_07008FE8
-                0x00000000070b9a50                wf_seg7_dl_070087B0
-                0x00000000070bab70                wf_seg7_dl_07007518
-                0x00000000070bae38                wf_seg7_dl_07007220
-                0x00000000070bb760                wf_seg7_dl_07006820
-                0x00000000070bb968                wf_seg7_dl_070065F8
-                0x00000000070bba68                wf_seg7_dl_070064E8
-                0x00000000070bbff8                wf_seg7_dl_07005EE8
-                0x00000000070bc0f8                wf_seg7_dl_07005DD8
-                0x00000000070bc7f0                wf_seg7_dl_07005690
-                0x00000000070bc938                wf_seg7_dl_07005538
-                0x00000000070bcb58                wf_seg7_dl_070052B8
-                0x00000000070bcca0                wf_seg7_dl_070050C8
+                0x000000000708dc20                wf_area_1_spline_RuinsCutscenePathPos
+                0x000000000708dc88                wf_area_1_spline_RuinsCutscenePathFoc
+                0x000000000708dcf0                wf_area_1_macro_objs
+                0x000000000708dcf4                wf_area_1_collision
+                0x00000000070b0690                wf_movtex_water
+                0x00000000070b06c0                wf_seg7_macro_objs
+                0x00000000070b0870                wf_seg7_collision_070102D8
+                0x00000000070b26d0                wf_seg7_collision_bullet_bill_cannon
+                0x00000000070b275c                wf_seg7_collision_tower
+                0x00000000070b2c90                wf_seg7_collision_rotating_platform
+                0x00000000070b2da0                wf_seg7_collision_tower_door
+                0x00000000070b2dd4                wf_seg7_collision_kickable_board
+                0x00000000070b2e70                wf_seg7_collision_breakable_wall_2
+                0x00000000070b2eac                wf_seg7_collision_breakable_wall
+                0x00000000070b2ee8                wf_seg7_collision_platform
+                0x00000000070b2f74                wf_seg7_collision_trapezoid
+                0x00000000070b3000                wf_seg7_collision_tumbling_bridge
+                0x00000000070b3034                wf_seg7_collision_sliding_brick_platform
+                0x00000000070b3084                wf_seg7_collision_clocklike_rotation
+                0x00000000070b3144                wf_seg7_collision_large_bomp
+                0x00000000070b3234                wf_seg7_collision_small_bomp
+                0x00000000070b3328                wf_seg7_dl_0700F7F8
+                0x00000000070b3428                wf_seg7_dl_0700F6C0
+                0x00000000070b34f8                wf_seg7_dl_0700F610
+                0x00000000070b3790                wf_seg7_dl_0700F340
+                0x00000000070b3918                wf_seg7_dl_0700F1A8
+                0x00000000070b3aa0                wf_seg7_dl_0700F018
+                0x00000000070b3cc8                wf_seg7_dl_0700EDC0
+                0x00000000070b3f18                wf_seg7_dl_0700EB40
+                0x00000000070b4090                wf_seg7_dl_0700E9B8
+                0x00000000070b42b8                wf_seg7_dl_0700E760
+                0x00000000070b4608                wf_seg7_dl_0700E3D0
+                0x00000000070b48b0                wf_seg7_dl_0700E0F0
+                0x00000000070b4b48                wf_seg7_dl_0700DE20
+                0x00000000070b4f30                wf_seg7_dl_0700D9F0
+                0x00000000070b51e8                wf_seg7_dl_0700D708
+                0x00000000070b55a8                wf_seg7_dl_0700D300
+                0x00000000070b5840                wf_seg7_dl_0700D028
+                0x00000000070b67a0                wf_seg7_dl_0700BF50
+                0x00000000070b6c10                wf_seg7_dl_0700BA28
+                0x00000000070b7628                wf_seg7_dl_0700AFB8
+                0x00000000070b7708                wf_seg7_dl_0700AEC8
+                0x00000000070b7990                wf_seg7_dl_0700ABA0
+                0x00000000070b8348                wf_seg7_dl_0700A170
+                0x00000000070b86b0                wf_seg7_dl_07009DB0
+                0x00000000070b8b88                wf_seg7_dl_07009890
+                0x00000000070b8c88                wf_seg7_dl_07009780
+                0x00000000070b9140                wf_seg7_dl_07009278
+                0x00000000070b9390                wf_seg7_dl_07008FE8
+                0x00000000070b9b20                wf_seg7_dl_070087B0
+                0x00000000070bac40                wf_seg7_dl_07007518
+                0x00000000070baf08                wf_seg7_dl_07007220
+                0x00000000070bb830                wf_seg7_dl_07006820
+                0x00000000070bba38                wf_seg7_dl_070065F8
+                0x00000000070bbb38                wf_seg7_dl_070064E8
+                0x00000000070bc0c8                wf_seg7_dl_07005EE8
+                0x00000000070bc1c8                wf_seg7_dl_07005DD8
+                0x00000000070bc8c0                wf_seg7_dl_07005690
+                0x00000000070bca08                wf_seg7_dl_07005538
+                0x00000000070bcc28                wf_seg7_dl_070052B8
+                0x00000000070bcd70                wf_seg7_dl_070050C8
 
 .data1
  *(.data1)
 
 .got.plt
  *(.got.plt)
-                0x00000000070c1af0                . = .
-                0x00000000070c1af0                . = .
-                0x00000000070c9ae0                _gp = (ALIGN (0x10) + 0x7ff0)
+                0x00000000070c1bc0                . = .
+                0x00000000070c1bc0                . = .
+                0x00000000070c9bb0                _gp = (ALIGN (0x10) + 0x7ff0)
 
 .got
  *(.got)
@@ -1634,29 +1636,29 @@ LOAD build/us_n64/levels/wf/leveldata.o
 
 .lit4
  *(.lit4)
-                0x00000000070c1af0                _edata = .
+                0x00000000070c1bc0                _edata = .
                 [!provide]                        PROVIDE (edata = .)
-                0x00000000070c1af0                . = .
-                0x00000000070c1af0                __bss_start = .
-                0x00000000070c1af0                _fbss = .
+                0x00000000070c1bc0                . = .
+                0x00000000070c1bc0                __bss_start = .
+                0x00000000070c1bc0                _fbss = .
 
 .sbss
  *(.dynsbss)
  *(.sbss .sbss.* .gnu.linkonce.sb.*)
  *(.scommon)
 
-.bss            0x00000000070c1af0        0x0 load address 0x00000000070c1b08
+.bss            0x00000000070c1bc0        0x0 load address 0x00000000070c1bd8
  *(.dynbss)
  *(.bss .bss.* .gnu.linkonce.b.*)
- .bss           0x00000000070c1af0        0x0 build/us_n64/levels/wf/leveldata.o
+ .bss           0x00000000070c1bc0        0x0 build/us_n64/levels/wf/leveldata.o
  *(COMMON)
-                0x00000000070c1af0                . = ALIGN ((. != 0x0)?0x4:0x1)
-                0x00000000070c1af0                . = ALIGN (0x4)
-                0x00000000070c1af0                . = SEGMENT_START ("ldata-segment", .)
-                0x00000000070c1af0                . = ALIGN (0x4)
-                0x00000000070c1af0                _end = .
+                0x00000000070c1bc0                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x00000000070c1bc0                . = ALIGN (0x4)
+                0x00000000070c1bc0                . = SEGMENT_START ("ldata-segment", .)
+                0x00000000070c1bc0                . = ALIGN (0x4)
+                0x00000000070c1bc0                _end = .
                 [!provide]                        PROVIDE (end = .)
-                0x00000000070c1af0                . = DATA_SEGMENT_END (.)
+                0x00000000070c1bc0                . = DATA_SEGMENT_END (.)
 
 .stab
  *(.stab)

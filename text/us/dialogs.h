@@ -186,11 +186,23 @@ finally have a chance\n\
 to spend time together."))
 
 DEFINE_DIALOG(DIALOG_021, 1, 5, 95, 200, _("\
-Welcome.\n\
-No one's home!\n\
-Now " SCRAM "\n\
-and don't come back!\n\
-Gwa ha ha!"))
+Hello :) In this hack,\n\
+you can dive and ground\n\
+pound from any aerial\n\
+state. You can even do\n\
+both in sequence.\n\
+In addition, you may\n\
+perform wallkicks from up\n\
+to 80 degree angles.\n\
+\n\
+\n\
+Try scaling the watch-\n\
+tower and the wooden\n\
+platform.\n\
+\n\
+\n\
+Thank you for playing\n\
+and have fun."))
 
 DEFINE_DIALOG(DIALOG_022, 1, 2, 30, 200, _("\
 We haven't been able to\n\

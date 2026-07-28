@@ -2,6 +2,10 @@ extern const GeoLayout wf_area_1_geo[];
 extern const GeoLayout wf_area_1[];
 extern const Collision wf_area_1_collision[];
 extern const MacroObject wf_area_1_macro_objs[];
+#include "src/game/camera.h"
+
+extern struct CutsceneSplinePoint wf_area_1_spline_RuinsCutscenePathFoc[];
+extern struct CutsceneSplinePoint wf_area_1_spline_RuinsCutscenePathPos[];
 extern u8 wf_dl_star_ci8[];
 extern u8 wf_dl_star_pal_rgba16[];
 extern u8 wf_dl_Pic__12__ci4[];

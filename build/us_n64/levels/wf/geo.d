@@ -43,14 +43,15 @@ build/us_n64/levels/wf/geo.o: levels/wf/geo.c include/n64/ultra64.h \
  src/game/puppycam2.h include/level_table.h src/game/moving_texture.h \
  src/game/screen_transition.h src/game/paintings.h \
  include/make_const_nonconst.h levels/wf/header.h levels/wf/header.inc.h \
- levels/wf/areas/1/5/geo.inc.c levels/wf/areas/1/6/geo.inc.c \
- levels/wf/areas/1/7/geo.inc.c levels/wf/areas/1/8/geo.inc.c \
- levels/wf/areas/1/9/geo.inc.c levels/wf/areas/1/10/geo.inc.c \
- levels/wf/areas/1/11/geo.inc.c levels/wf/areas/1/12/geo.inc.c \
- levels/wf/areas/1/13/geo.inc.c levels/wf/areas/1/15/geo.inc.c \
- levels/wf/areas/1/16/geo.inc.c levels/wf/areas/1/17/geo.inc.c \
- levels/wf/areas/1/18/geo.inc.c levels/wf/areas/1/19/geo.inc.c \
- levels/wf/small_bomp/geo.inc.c levels/wf/large_bomp/geo.inc.c \
+ src/game/camera.h levels/wf/areas/1/5/geo.inc.c \
+ levels/wf/areas/1/6/geo.inc.c levels/wf/areas/1/7/geo.inc.c \
+ levels/wf/areas/1/8/geo.inc.c levels/wf/areas/1/9/geo.inc.c \
+ levels/wf/areas/1/10/geo.inc.c levels/wf/areas/1/11/geo.inc.c \
+ levels/wf/areas/1/12/geo.inc.c levels/wf/areas/1/13/geo.inc.c \
+ levels/wf/areas/1/15/geo.inc.c levels/wf/areas/1/16/geo.inc.c \
+ levels/wf/areas/1/17/geo.inc.c levels/wf/areas/1/18/geo.inc.c \
+ levels/wf/areas/1/19/geo.inc.c levels/wf/small_bomp/geo.inc.c \
+ levels/wf/large_bomp/geo.inc.c \
  levels/wf/rotating_wooden_platform/geo.inc.c \
  levels/wf/sliding_platform/geo.inc.c \
  levels/wf/tumbling_bridge_near/geo.inc.c \
