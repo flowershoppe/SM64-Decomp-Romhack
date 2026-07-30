@@ -10765,7 +10765,7 @@ void ruins_cutscene_main(struct Camera *c) {
 }
 void ruins_cutscene(struct Camera *c) {
     // Function, camera, starting frame, ending frame (-1 to play every frame after 5)
-    set_mario_npc_dialog(MARIO_DIALOG_LOOK_FRONT);
+    set_mario_npc_dialog(MARIO_DIALOG_LOOK_UP);
     cutscene_event(ruins_cutscene_main, c, 5, -1);
 }
 
