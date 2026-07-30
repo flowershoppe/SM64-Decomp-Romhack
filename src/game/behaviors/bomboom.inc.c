@@ -94,7 +94,7 @@ void bomboom_bomb_loop(void) {
     
     cur_obj_move_standard(78);
     cur_obj_update_floor_and_walls();
-    obj_bounce_off_walls_edges_objects(&o->oMoveAngleYaw);
+    //obj_bounce_off_walls_edges_objects(&o->oMoveAngleYaw);
 }
 
 // idle state

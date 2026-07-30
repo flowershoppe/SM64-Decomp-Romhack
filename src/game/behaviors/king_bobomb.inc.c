@@ -34,7 +34,7 @@ void king_bobomb_act_inactive(void) { // act 0
         cur_obj_set_pos_to_home();
         o->oHealth = 3;
 
-        if (cur_obj_can_mario_activate_textbox_2(500.0f, 100.0f)) {
+        if (o->oDistanceToMario < 3000.0f) {
             o->oSubAction++;
             seq_player_lower_volume(SEQ_PLAYER_LEVEL, 60, 40);
         }
@@ -52,22 +52,28 @@ s32 mario_is_far_below_object(f32 min) {
 void king_bobomb_act_active(void) { // act 2
     cur_obj_become_tangible();
     if(o->oDistanceToMario < 500.0f){
-        //RUN AWAY
+        o->oForwardVel = 2.0f;
+        //MARIO NEAR
         cur_obj_init_animation_and_check_if_near_end(KING_BOBOMB_ANIM_WALKING);
-        o->oForwardVel = -3.0f;
         cur_obj_rotate_yaw_toward(o->oAngleToMario, 0x100);
     }
     else{
         //THROW BOMBS 
         o->oForwardVel = 0.0f;
-        cur_obj_init_animation_and_check_if_near_end(KING_BOBOMB_ANIM_THROW_MARIO);
+       cur_obj_init_animation_and_check_if_near_end(KING_BOBOMB_ANIM_THROW_MARIO);
+       if(cur_obj_check_anim_frame(27))
+       {       
+            spawn_object_relative(0, 0, 300, 0, o, MODEL_BOMBOOM_BOMB, bhvBomboomBomb);
+       }
         cur_obj_rotate_yaw_toward(o->oAngleToMario, 0x1000);
     }
     if (o->oPosY - o->oHomeY < -1000.0f) { // Thrown off hill
         o->oAction = KING_BOBOMB_ACT_RETURN_HOME;
         cur_obj_become_intangible();
     }
-
+    if (cur_obj_check_grabbed_mario()) {
+        o->oAction = KING_BOBOMB_ACT_GRABBED_MARIO;
+    }
     //STOMP
     /*
     if (o->oKingBobombShouldStomp == 0) {
@@ -223,7 +229,7 @@ void king_bobomb_act_stop_music(void) { // act 8
 }
 
 void king_bobomb_act_been_thrown(void) { // act 4
-    if (o->oPosY - o->oHomeY > -100.0f) { // not thrown off hill
+    if (o->oPosY - o->oHomeY > -1000.0f) { // not thrown off hill
         if (o->oMoveFlags & OBJ_MOVE_LANDED) {
             o->oHealth--;
 

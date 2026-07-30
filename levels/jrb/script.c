@@ -139,7 +139,7 @@ const LevelScript level_jrb_entry[] = {
 		OBJECT(MODEL_GIANT_FAN_WIDE, -1550, -625, 5100, 0, 0, 0, (20 << 24), bhvRotate),
 		OBJECT(MODEL_GOOMBA, 1878, 1174, 3601, 0, 0, 0, 0x00000000, bhvGoomba),
 		OBJECT(MODEL_GOOMBA, -2172, 1174, 4326, 0, 0, 0, 0x00000000, bhvGoomba),
-		OBJECT(MODEL_KING_BOBOMB, -92, 918, -8006, 0, 90, 0, 0x00000000, bhvKingBobomb),
+		OBJECT(MODEL_KING_BOBOMB, -92, 918, -8231, 0, 90, 0, 0x00000000, bhvKingBobomb),
 		OBJECT(MODEL_BARRIER, 2966, 2457, -1500, 0, -90, -90, (1 << 24) | (8 << 16) | (100 << 8), bhvBarrierCircleLoop),
 		OBJECT(MODEL_ORBITING_PLATFORM1, -4465, 1521, -1520, 0, -180, 0, (4 << 24), bhvOrbitingPlatform1),
 		OBJECT(MODEL_ORBITING_PLATFORM1, -11265, 3671, -1520, 0, -180, 0, (8 << 24), bhvOrbitingPlatform1),
