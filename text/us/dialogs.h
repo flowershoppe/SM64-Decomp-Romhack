@@ -187,10 +187,10 @@ to spend time together."))
 
 DEFINE_DIALOG(DIALOG_021, 1, 5, 95, 200, _("\
 Hello :) In this hack,\n\
-you can dive and ground\n\
-pound from any aerial\n\
-state. You can even do\n\
-both in sequence.\n\
+you can ground pound\n\
+or dive from any aerial\n\
+state. And, you can dive\n\
+in any direction.\n\
 In addition, you may\n\
 perform wallkicks from up\n\
 to 80 degree angles.\n\

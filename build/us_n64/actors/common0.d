@@ -155,4 +155,5 @@ build/us_n64/actors/common0.o: actors/common0.c \
  actors/custom_peach/anims/table.inc.c \
  actors/custom_peach/anims/table_enum.h actors/owl/model.inc.c \
  actors/owl/anims/data.inc.c actors/owl/anims/table.inc.c \
- actors/owl/anims/table_enum.h
+ actors/owl/anims/table_enum.h actors/custom_star/collision.inc.c \
+ actors/custom_star/model.inc.c

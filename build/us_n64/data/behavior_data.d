@@ -89,12 +89,13 @@ build/us_n64/data/behavior_data.o: data/behavior_data.c include/sm64.h \
  actors/star_gate/geo_header.h actors/custom_peach/collision_header.h \
  actors/custom_peach/geo_header.h actors/custom_peach/anim_header.h \
  actors/custom_peach/anims/table_enum.h actors/owl/geo_header.h \
- actors/owl/anim_header.h actors/owl/anims/table_enum.h actors/common1.h \
- actors/group0.h actors/group1.h actors/group2.h actors/group3.h \
- actors/group4.h actors/group5.h actors/group6.h actors/group7.h \
- actors/group8.h actors/group9.h actors/group10.h actors/group11.h \
- actors/group12.h actors/group13.h actors/group14.h actors/group15.h \
- actors/group16.h actors/group17.h levels/bbh/header.h \
+ actors/owl/anim_header.h actors/owl/anims/table_enum.h \
+ actors/custom_star/collision_header.h actors/custom_star/geo_header.h \
+ actors/common1.h actors/group0.h actors/group1.h actors/group2.h \
+ actors/group3.h actors/group4.h actors/group5.h actors/group6.h \
+ actors/group7.h actors/group8.h actors/group9.h actors/group10.h \
+ actors/group11.h actors/group12.h actors/group13.h actors/group14.h \
+ actors/group15.h actors/group16.h actors/group17.h levels/bbh/header.h \
  src/game/moving_texture.h levels/bbh/header.inc.h \
  levels/castle_inside/header.h src/game/paintings.h levels/hmc/header.h \
  levels/ssl/header.h levels/bob/header.h levels/bob/header.inc.h \

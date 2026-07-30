@@ -79,10 +79,12 @@ build/us_n64/src/game/obj_behaviors_2.o: src/game/obj_behaviors_2.c \
  actors/star_gate/geo_header.h actors/custom_peach/collision_header.h \
  actors/custom_peach/geo_header.h actors/custom_peach/anim_header.h \
  actors/custom_peach/anims/table_enum.h actors/owl/geo_header.h \
- actors/owl/anim_header.h actors/owl/anims/table_enum.h actors/group11.h \
- actors/group17.h src/audio/external.h include/level_table.h \
- src/game/behavior_actions.h include/behavior_data.h src/game/camera.h \
- src/game/area.h src/engine/graph_node.h include/geo_commands.h \
+ actors/owl/anim_header.h actors/owl/anims/table_enum.h \
+ actors/custom_star/collision_header.h actors/custom_star/geo_header.h \
+ actors/group11.h actors/group17.h src/audio/external.h \
+ include/level_table.h src/game/behavior_actions.h \
+ include/behavior_data.h src/game/camera.h src/game/area.h \
+ src/engine/graph_node.h include/geo_commands.h \
  include/command_macros_base.h src/game/shadow.h \
  src/game/object_helpers.h include/macros.h src/game/behavior_actions.h \
  src/game/segment2.h src/game/mario_misc.h \
