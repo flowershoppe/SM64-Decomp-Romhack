@@ -17,4 +17,5 @@ extern void scroll_jrb_dl_Cube_056_mesh_layer_1_vtx_1();
 extern void scroll_jrb_dl_Cube_057_mesh_layer_1_vtx_1();
 extern void scroll_jrb_dl_Cube_058_mesh_layer_1_vtx_1();
 extern void scroll_jrb_dl_Cube_059_mesh_layer_1_vtx_1();
+extern void scroll_jrb_dl_Cube_072_mesh_layer_1_vtx_1();
 extern void scroll_jrb();

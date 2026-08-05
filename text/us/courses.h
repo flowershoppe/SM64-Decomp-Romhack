@@ -8,7 +8,7 @@ COURSE_ACTS(COURSE_WF, _(" 2 SKYBORNE ISLANDS"),
 
 COURSE_ACTS(COURSE_JRB, _(" 3 STRIX TEMPLE"),
        _("5 SILVER STARS")     , _("THE XANTHOUS PATH") , _("THE GAUNTLET"),
-       _("PERFECT TIMING")          , _("BOSS STAR")        , _("RUBY STAR"))
+       _("PERFECT TIMING")          , _("KING OF THE CASTLE")        , _("RUBY STAR"))
 
 COURSE_ACTS(COURSE_CCM, _(" 4 COOL, COOL MOUNTAIN"),
        _("WIP")     , _("WIP") ,   _("WIP"),
