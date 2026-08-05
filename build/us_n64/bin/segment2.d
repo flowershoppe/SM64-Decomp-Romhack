@@ -31,6 +31,10 @@ build/us_n64/bin/segment2.o: bin/segment2.c include/n64/PR/ultratypes.h \
  include/n64/PR/ucode.h include/n64/PR/ultraerror.h \
  include/n64/PR/ultralog.h include/macros.h src/game/ingame_menu.h \
  src/game/puppyprint.h src/game/profiling.h include/make_const_nonconst.h \
+ build/us_n64/textures/segment2/custom_text.i4.preswap.inc.c \
+ build/us_n64/textures/segment2/custom_text2.ia4.preswap.inc.c \
+ build/us_n64/textures/segment2/custom_text3.i4.preswap.inc.c \
+ build/us_n64/textures/segment2/custom_text4.i4.preswap.inc.c \
  build/us_n64/textures/segment2/segment2.00000.rgba16.inc.c \
  build/us_n64/textures/segment2/segment2.00200.rgba16.inc.c \
  build/us_n64/textures/segment2/segment2.00400.rgba16.inc.c \

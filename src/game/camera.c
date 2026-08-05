@@ -29,6 +29,7 @@
 #include "puppyprint.h"
 #include "profiling.h"
 
+
 #define CBUTTON_MASK (U_CBUTTONS | D_CBUTTONS | L_CBUTTONS | R_CBUTTONS)
 
 /**
@@ -1149,10 +1150,10 @@ void mode_8_directions_camera(struct Camera *c) {
             s8DirModeYawOffset = snap_to_45_degrees(s8DirModeYawOffset);
         }
         if (gPlayer1Controller->buttonDown & L_CBUTTONS) {
-            s8DirModeYawOffset -= DEGREES(2);
+            s8DirModeYawOffset -= DEGREES(3);
         } 
         if (gPlayer1Controller->buttonDown & R_CBUTTONS) {
-            s8DirModeYawOffset += DEGREES(2);
+            s8DirModeYawOffset += DEGREES(3);
         }
 #ifdef PUPPYPRINT_DEBUG
     }
@@ -3263,7 +3264,10 @@ void init_camera(struct Camera *c) {
             start_cutscene(c, CUTSCENE_TITLE);
             break;
         case LEVEL_WF:
-            start_cutscene(c, CUTSCENE_RUINS);
+            if(o->oRuinsCutscenePlayed != TRUE){
+                start_cutscene(c, CUTSCENE_RUINS);
+                o->oRuinsCutscenePlayed = TRUE;
+            }
             break;
 
 #ifdef ENABLE_VANILLA_CAM_PROCESSING
@@ -10698,31 +10702,40 @@ struct CutsceneSplinePoint sCcmOutsideCreditsSplineFocus[] = {
 //CUSTOM CUTSCENES
 //                                         INTRO
 
-extern struct CutsceneSplinePoint bob_area_1_spline_IntroCutscenePathPos[];
-extern struct CutsceneSplinePoint bob_area_1_spline_IntroCutscenePathFoc[];
-
-void intro_cutscene_main(struct Camera *c) {
-    
-    move_point_along_spline(c->pos, segmented_to_virtual(bob_area_1_spline_IntroCutscenePathPos), &sCutsceneSplineSegment, &sCutsceneSplineSegmentProgress);
-    move_point_along_spline(c->focus, segmented_to_virtual(bob_area_1_spline_IntroCutscenePathFoc), &sCutsceneSplineSegment, &sCutsceneSplineSegmentProgress);
-
-}
-void intro_cutscene(struct Camera *c) {
-    set_mario_npc_dialog(MARIO_DIALOG_LOOK_FRONT);
-    // Function, camera, starting frame, ending frame (-1 to play every frame after 5)
-    cutscene_event(intro_cutscene_main, c, 5, -1);
-}
-
-void intro_cutscene_stop(struct Camera *c) {
+void cutscene_stop(struct Camera *c){
     set_mario_npc_dialog(MARIO_DIALOG_STOP);
     c->cutscene = 0;
     gCutsceneTimer = CUTSCENE_STOP;
 }
 
+extern struct CutsceneSplinePoint bob_area_1_spline_IntroCutscenePathPos[];
+extern struct CutsceneSplinePoint bob_area_1_spline_IntroCutscenePathFoc[];
+
+void intro_cutscene_main(struct Camera *c) {
+    char textBytes[2000];
+    prepare_blank_box();
+    render_blank_box(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT, 0, 0, 0, 168);
+    finish_blank_box();
+
+    print_set_envcolour(255, 255, 255, 255);
+    sprintf(textBytes, "Press A or B to skip cutscene");
+    print_small_text_light(50, 50, textBytes, PRINT_TEXT_ALIGN_LEFT, PRINT_ALL, FONT_DEFAULT);
+    move_point_along_spline(c->pos, segmented_to_virtual(bob_area_1_spline_IntroCutscenePathPos), &sCutsceneSplineSegment, &sCutsceneSplineSegmentProgress);
+    move_point_along_spline(c->focus, segmented_to_virtual(bob_area_1_spline_IntroCutscenePathFoc), &sCutsceneSplineSegment, &sCutsceneSplineSegmentProgress);
+    if(gPlayer1Controller->buttonPressed & B_BUTTON || gPlayer1Controller->buttonPressed & A_BUTTON){
+        cutscene_stop(c);
+    }
+
+}
+void intro_cutscene(struct Camera *c) {
+    set_mario_npc_dialog(MARIO_DIALOG_LOOK_FRONT);
+    // Function, camera, starting frame, ending frame (-1 to play every frame after 5)
+    cutscene_event(intro_cutscene_main, c, 0, -1);
+}
 
 struct Cutscene sCutsceneIntro[] = {
     { intro_cutscene, 800},
-    { intro_cutscene_stop, 0},
+    { cutscene_stop, 0},
 };
 
 //                                        TITLE
@@ -10734,22 +10747,15 @@ void title_cutscene_main(struct Camera *c) {
     
     move_point_along_spline(c->pos, segmented_to_virtual(rr_area_1_spline_TitleCutscenePathPos), &sCutsceneSplineSegment, &sCutsceneSplineSegmentProgress);
     move_point_along_spline(c->focus, segmented_to_virtual(rr_area_1_spline_TitleCutscenePathFoc), &sCutsceneSplineSegment, &sCutsceneSplineSegmentProgress);
-
 }
 void title_cutscene(struct Camera *c) {
     // Function, camera, starting frame, ending frame (-1 to play every frame after 5)
     cutscene_event(title_cutscene_main, c, 5, -1);
 }
 
-void title_cutscene_stop(struct Camera *c) {
-    c->cutscene = 0;
-    gCutsceneTimer = CUTSCENE_STOP;
-}
-
-
 struct Cutscene sCutsceneTitle[] = {
     { title_cutscene, 10000},
-    { title_cutscene_stop, 0},
+    { cutscene_stop, 0},
 };
 
 //                                        RUINS
@@ -10758,27 +10764,24 @@ extern struct CutsceneSplinePoint wf_area_1_spline_RuinsCutscenePathFoc[];
 extern struct CutsceneSplinePoint wf_area_1_spline_RuinsCutscenePathPos[];
 
 void ruins_cutscene_main(struct Camera *c) {
-    
+    char textBytes[64];
+    sprintf(textBytes, "Press A or B to skip cutscene");
+    print_small_text_light(24, 16, textBytes, PRINT_TEXT_ALIGN_LEFT, PRINT_ALL, FONT_DEFAULT);
     move_point_along_spline(c->pos, segmented_to_virtual(wf_area_1_spline_RuinsCutscenePathPos), &sCutsceneSplineSegment, &sCutsceneSplineSegmentProgress);
     move_point_along_spline(c->focus, segmented_to_virtual(wf_area_1_spline_RuinsCutscenePathFoc), &sCutsceneSplineSegment, &sCutsceneSplineSegmentProgress);
-
+    if(gPlayer1Controller->buttonPressed & B_BUTTON || gPlayer1Controller->buttonPressed & A_BUTTON){
+        cutscene_stop(c);
+    }
 }
 void ruins_cutscene(struct Camera *c) {
     // Function, camera, starting frame, ending frame (-1 to play every frame after 5)
     set_mario_npc_dialog(MARIO_DIALOG_LOOK_UP);
-    cutscene_event(ruins_cutscene_main, c, 5, -1);
+    cutscene_event(ruins_cutscene_main, c, 0, -1);
 }
-
-void ruins_cutscene_stop(struct Camera *c) {
-    set_mario_npc_dialog(MARIO_DIALOG_STOP);
-    c->cutscene = 0;
-    gCutsceneTimer = CUTSCENE_STOP;
-}
-
 
 struct Cutscene sCutsceneRuins[] = {
     { ruins_cutscene, 900},
-    { ruins_cutscene_stop, 0},
+    { cutscene_stop, 0},
 };
 
 /**
