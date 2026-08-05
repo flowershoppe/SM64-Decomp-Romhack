@@ -6324,7 +6324,7 @@ const BehaviorScript bhvSyncBlock[] = {
 const BehaviorScript bhvBomboomBomb[] = {
     BEGIN(OBJ_LIST_PUSHABLE),
     OR_INT(oFlags, OBJ_FLAG_MOVE_Y_WITH_TERMINAL_VEL | OBJ_FLAG_MOVE_XZ_USING_FVEL | OBJ_FLAG_COMPUTE_ANGLE_TO_MARIO | OBJ_FLAG_COMPUTE_DIST_TO_MARIO | OBJ_FLAG_SET_FACE_YAW_TO_MOVE_YAW | OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE),
-    SET_OBJ_PHYSICS(/*Wall hitbox radius*/ 30, /*Gravity*/ -400, /*Bounciness*/ 0, /*Drag strength*/ 1000, /*Friction*/ 1000, /*Buoyancy*/ 0, /*Unused*/ 0, 0),
+    SET_OBJ_PHYSICS(/*Wall hitbox radius*/ 30, /*Gravity*/ -400, /*Bounciness*/ 0, /*Drag strength*/ 1000, /*Friction*/ 0, /*Buoyancy*/ 0, /*Unused*/ 0, 0),
     LOAD_ANIMATIONS(oAnimations, bomboom_bomb_anims),
     CALL_NATIVE(bomboom_bomb_init),
     BEGIN_LOOP(),
@@ -6436,5 +6436,17 @@ const BehaviorScript bhvOwl[] = {
         CALL_NATIVE(bhv_owl_loop),
         //CALL_NATIVE(bhv_bobomb_buddy_loop)
         SET_INT(oIntangibleTimer, 0),
+    END_LOOP(),
+};
+
+const BehaviorScript bhvBattleDoor[] = {
+    BEGIN(OBJ_LIST_SURFACE),
+    OR_INT(oFlags, (OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE | OBJ_FLAG_COMPUTE_DIST_TO_MARIO)),
+    SET_FLOAT(oDrawingDistance, 10000),
+    LOAD_COLLISION_DATA(star_gate_collision),
+    SET_HOME(),
+    BEGIN_LOOP(),     
+        CALL_NATIVE(bhv_battle_door_loop),
+        CALL_NATIVE(load_object_collision_model),
     END_LOOP(),
 };

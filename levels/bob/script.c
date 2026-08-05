@@ -44,6 +44,7 @@ const LevelScript level_bob_entry[] = {
 
 	AREA(1, bob_area_1),
 		WARP_NODE(0x01, LEVEL_RR, 0x01, 0x01, WARP_NO_CHECKPOINT),
+		WARP_NODE(0xF1, LEVEL_BOB, 0x01, 0x01, WARP_NO_CHECKPOINT),
 		MARIO_POS(0x01, -90, 2094, 300, 0),
 		OBJECT(MODEL_CUSTOM_PEACH, 1027, 0, -300, 0, 0, 0, (109 << 16), bhvCustomPeach),
 		OBJECT(MODEL_BUTTERFLY, -993, 231, 177, 0, 0, 0, 0x00000000, bhvButterfly),
@@ -52,6 +53,7 @@ const LevelScript level_bob_entry[] = {
 		OBJECT(MODEL_BUTTERFLY, -852, 231, -186, 0, 0, 0, 0x00000000, bhvButterfly),
 		OBJECT(MODEL_BUTTERFLY, -1779, 231, -2094, 0, 0, 0, 0x00000000, bhvButterfly),
 		OBJECT(MODEL_BUTTERFLY, -1070, 231, -2535, 0, 0, 0, 0x00000000, bhvButterfly),
+		OBJECT(MODEL_NONE, 2094, 300, 0, 0, -90, 0, (0x01 << 16), bhvWarp),
 		OBJECT(MODEL_OWL, -6057, 1732, -221, 0, 0, 0, (23 << 16), bhvOwl),
 		OBJECT(MODEL_WOODEN_SIGNPOST, 1334, 0, -1053, 0, 50, 0, (21 << 16), bhvSignOnWall),
 		OBJECT(MODEL_BOB_BUBBLY_TREE, -501, 0, 1743, 0, 0, 0, 0x00000000, bhvTree),

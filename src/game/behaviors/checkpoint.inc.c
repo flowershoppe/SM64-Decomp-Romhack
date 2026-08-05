@@ -22,9 +22,9 @@ void bhv_checkpoint(void){
         }
         o->oCheckpointPlaySound = 1;
         o->oCheckpointSpinSpeed = 3000.0;
-        cur_obj_find_nearest_object_with_behavior(bhvInstantActiveWarp, &dist)->oPosX = o->oPosX;
-        cur_obj_find_nearest_object_with_behavior(bhvInstantActiveWarp, &dist)->oPosY = o->oPosY;
-        cur_obj_find_nearest_object_with_behavior(bhvInstantActiveWarp, &dist)->oPosZ = o->oPosZ;
+        cur_obj_find_nearest_object_with_behavior(bhvAirborneWarp, &dist)->oPosX = o->oPosX;
+        cur_obj_find_nearest_object_with_behavior(bhvAirborneWarp, &dist)->oPosY = o->oPosY;
+        cur_obj_find_nearest_object_with_behavior(bhvAirborneWarp, &dist)->oPosZ = o->oPosZ;
         gMarioState->healCounter += 4;
     }
     else{

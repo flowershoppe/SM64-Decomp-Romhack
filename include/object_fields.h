@@ -1289,8 +1289,8 @@ os16112*/
 #define /*0x100*/ oResetInteractiveTablets                      OBJECT_FIELD_S32(0x1E)
 #define /*0x104*/ oTabletCount                                  OBJECT_FIELD_S32(0x1F)
 #define /*0x108*/ oTotalTablets                                 OBJECT_FIELD_S32(0x20)
-#define /*0x10C*/ o10C                                          OBJECT_FIELD_S32(0x21)
-#define /*0x110*/ o110                                          OBJECT_FIELD_S32(0x22)
+#define /*0x10C*/ oRuinsCutscenePlayed                          OBJECT_FIELD_S32(0x21)
+#define /*0x110*/ oKingBobombDialog                             OBJECT_FIELD_S32(0x22)
 
 #define /*0x0F4*/ oFloatF4                                      OBJECT_FIELD_F32(0x1B)
 #define /*0x0F8*/ oFloatF8                                      OBJECT_FIELD_F32(0x1C)

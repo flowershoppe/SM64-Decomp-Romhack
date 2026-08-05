@@ -49,4 +49,5 @@ build/us_n64/levels/jrb/geo.o: levels/jrb/geo.c include/n64/ultra64.h \
  levels/jrb/wooden_ship/geo.inc.c levels/jrb/areas/1/geo.inc.c \
  levels/jrb/areas/2/geo.inc.c levels/jrb/geo.inc.c \
  levels/jrb/area_1/geo.inc.c src/game/envfx_snow.h \
- levels/jrb/area_2/geo.inc.c levels/jrb/area_3/geo.inc.c
+ levels/jrb/area_2/geo.inc.c levels/jrb/area_3/geo.inc.c \
+ levels/jrb/area_4/geo.inc.c

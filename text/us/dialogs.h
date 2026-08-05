@@ -204,7 +204,7 @@ platform.\n\
 Thank you for playing\n\
 and have fun."))
 
-DEFINE_DIALOG(DIALOG_022, 1, 2, 30, 200, _("\
+DEFINE_DIALOG(DIALOG_022, 1, 3, 30, 200, _("\
 We haven't been able to\n\
 enter Strix Temple since\n\
 those jerks arrived.\n\
@@ -224,7 +224,7 @@ our islands floating\n\
 in the sky!\n\
 \n\
 \n\
-\n\
+...\n\
 \n\
 \n\
 Hm? Peach? A picnic?\n\
@@ -233,36 +233,30 @@ There's no time, the\n\
 islands are going to fall\n\
 from the sky!"))    
 
-DEFINE_DIALOG(DIALOG_024, 1, 5, 95, 200, _("\
-You need Star power to\n\
-open this door. Recover a\n\
-Power Star from an enemy\n\
-inside one of the castle's\n\
-paintings."))
+DEFINE_DIALOG(DIALOG_024, 1, 5, 30, 200, _("\
+You must be the runt\n\
+that's been stirring up\n\
+trouble around MY temple,\n\
+stealing MY power stars!\n\
+I'll BLAST you to BITS!"))
 
-DEFINE_DIALOG(DIALOG_025, 1, 4, 95, 200, _("\
-It takes the power of\n\
-3 Stars to open this\n\
-door. You need [%] more\n\
-Stars."))
+DEFINE_DIALOG(DIALOG_025, 1, 5, 30, 200, _("\
+Ha! You'll have to throw\n\
+me way farther than THAT\n\
+if you wanna take me down,\n\
+pipsqueak!"))
 
-DEFINE_DIALOG(DIALOG_026, 1, 4, 95, 200, _("\
-It takes the power of\n\
-8 Stars to open this\n\
-door. You need [%] more\n\
-Stars."))
+DEFINE_DIALOG(DIALOG_026, 1, 5, 30, 200, _("\
+Argh! That hurt! You've\n\
+really lit my fuse now!\n\
+Get over here!"))
 
-DEFINE_DIALOG(DIALOG_027, 1, 4, 95, 200, _("\
-It takes the power of\n\
-30 Stars to open this\n\
-door. You need [%] more\n\
-Stars."))
+DEFINE_DIALOG(DIALOG_027, 1, 5, 95, 200, _("\
+Alright! No more games!\n\
+I'll turn you to ASH!"))
 
-DEFINE_DIALOG(DIALOG_028, 1, 4, 95, 200, _("\
-It takes the power of\n\
-50 Stars to open this\n\
-door. You need [%] more\n\
-Stars."))
+DEFINE_DIALOG(DIALOG_028, 1, 1, 95, 200, _("\
+NO! My fuse! It's...!"))
 
 DEFINE_DIALOG(DIALOG_029, 1, 5, 95, 200, _("\
 To open the door that\n\
