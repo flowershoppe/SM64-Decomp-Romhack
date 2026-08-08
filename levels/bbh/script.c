@@ -47,8 +47,8 @@ const LevelScript level_bbh_entry[] = {
 	/* Fast64 end persistent block [level commands] */
 
 	AREA(1, bbh_area_1),
-		WARP_NODE(0x01, LEVEL_WF, 0x01, 0x05, WARP_NO_CHECKPOINT),
-		WARP_NODE(0xF1, LEVEL_JRB, 0x01, 0x02, WARP_NO_CHECKPOINT),
+		WARP_NODE(0x01, LEVEL_CCM, 0x01, 0x05, WARP_NO_CHECKPOINT),
+		WARP_NODE(0xF1, LEVEL_BBH, 0x01, 0x02, WARP_NO_CHECKPOINT),
 		OBJECT(MODEL_EXCLAMATION_BOX, -700, -601, 12799, 0, 4, 0, (6 << 16), bhvExclamationBox),
 		OBJECT(MODEL_EXCLAMATION_BOX, -235, -2361, 817, 0, 116, 0, (6 << 16), bhvExclamationBox),
 		OBJECT(MODEL_WHOMP, -1495, 3970, 2353, 0, -127, 0, 0x00000000, bhvWhompKingBoss),
@@ -187,7 +187,7 @@ const LevelScript level_bbh_entry[] = {
 		OBJECT(MODEL_STAR, 3599, -1084, 4855, 0, 0, 0, (2 << 24), bhvStar),
 		OBJECT(MODEL_STAR, 3699, -122, 12853, 0, -110, 0, (3 << 24), bhvStar),
 		OBJECT(MODEL_NONE, -13051, -373, 6087, 0, 84, 0, (0 << 24) | (0x03 << 16), bhvInstantActiveWarp),
-		OBJECT(MODEL_NONE, -13491, -375, 6033, 0, 80, 0, (0x01 << 16), bhvWarp),
+		OBJECT(MODEL_NONE, -13491, -275, 6033, 0, 80, 0, (20 << 24) | (0x01 << 16), bhvWarp),
 		OBJECT(MODEL_MIST, -13131, -411, 9372, 0, 141, 0, 0x00000000, bhvWaterMist2),
 		OBJECT(MODEL_MIST, -12642, -411, 9853, 0, 141, 0, 0x00000000, bhvWaterMist2),
 		OBJECT(MODEL_MIST, -12256, -408, 10218, 0, 141, 0, 0x00000000, bhvWaterMist2),
