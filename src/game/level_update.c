@@ -407,7 +407,7 @@ void init_mario_after_warp(void) {
 #ifdef BETTER_REVERB
         gBetterReverbPresetValue = gCurrentArea->betterReverbPreset;
 #endif
-        set_background_music(gCurrentArea->musicParam, gCurrentArea->musicParam2, 0);
+        //set_background_music(gCurrentArea->musicParam, gCurrentArea->musicParam2, 0);
 
         if (gMarioState->flags & MARIO_METAL_CAP) {
             play_cap_music(SEQUENCE_ARGS(4, SEQ_EVENT_METAL_CAP));
@@ -832,7 +832,7 @@ s16 level_trigger_warp(struct MarioState *m, s32 warpOp) {
         }
 
         if (fadeMusic && gCurrDemoInput == NULL) {
-            fadeout_music((3 * sDelayedWarpTimer / 2) * 8 - 2);
+            //fadeout_music((3 * sDelayedWarpTimer / 2) * 8 - 2);
         }
     }
 

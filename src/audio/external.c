@@ -1835,7 +1835,7 @@ UNUSED void unused_8031FED0(u8 player, u32 bits, s8 arg2) {
 void seq_player_lower_volume(u8 player, u16 fadeDuration, u8 percentage) {
     if (player == SEQ_PLAYER_LEVEL) {
         sLowerBackgroundMusicVolume = TRUE;
-        begin_background_music_fade(fadeDuration);
+        seq_player_fade_to_percentage_of_volume(player, fadeDuration, percentage);
     } else if (gSequencePlayers[player].enabled == TRUE) {
         seq_player_fade_to_percentage_of_volume(player, fadeDuration, percentage);
     }

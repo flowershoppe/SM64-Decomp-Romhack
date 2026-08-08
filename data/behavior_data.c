@@ -3496,11 +3496,11 @@ const BehaviorScript bhvUnlockDoorStar[] = {
 };
 
 const BehaviorScript bhvInstantActiveWarp[] = {
-    CALL_NATIVE(bhv_death_warp_init),
     BREAK(),
 };
 
 const BehaviorScript bhvAirborneWarp[] = {
+    CALL_NATIVE(bhv_death_warp_init),
     BREAK(),
 };
 

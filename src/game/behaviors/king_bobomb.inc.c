@@ -39,7 +39,7 @@ void king_bobomb_act_inactive(void) { // act 0
         cur_obj_set_pos_to_home();
         o->oHealth = 3;
 
-        if (o->oDistanceToMario < 4000.0f) {
+        if (o->oDistanceToMario < 4500.0f) {
             o->oSubAction++;
             seq_player_lower_volume(SEQ_PLAYER_LEVEL, 60, 40);
         }
@@ -59,7 +59,7 @@ void king_bobomb_act_active(void) { // act 2
         cur_obj_rotate_yaw_toward(o->oAngleToMario, 0x100);
     }
     else if(o->oDistanceToMario < 4000.0f){
-        if(mario_is_far_below_object(500.0f)){
+        if(mario_is_far_below_object(700.0f)){
             o->oPosX = o->oHomeX;
             o->oPosY = o->oHomeY;
             o->oPosZ = o->oHomeZ;
@@ -177,6 +177,7 @@ void king_bobomb_act_activate(void) { // act 1
     o->oForwardVel = 0.0f;
     o->oVelY = 0.0f;
     play_music(SEQ_PLAYER_LEVEL, SEQUENCE_ARGS(4, SEQ_EVENT_BOSS), 0);
+    seq_player_lower_volume(SEQ_PLAYER_LEVEL, 1, 40);
     cur_obj_init_animation_with_sound(KING_BOBOMB_ANIM_WALKING);
 
     o->oAction = KING_BOBOMB_ACT_ACTIVE;
