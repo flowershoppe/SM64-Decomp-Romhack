@@ -3264,7 +3264,8 @@ void init_camera(struct Camera *c) {
             start_cutscene(c, CUTSCENE_TITLE);
             break;
         case LEVEL_WF:
-            if(o->oRuinsCutscenePlayed != TRUE){
+            if(gMarioState->numCoins < 1 && 
+                save_file_get_total_star_count(gCurrSaveFileNum - 1, COURSE_MIN - 1, COURSE_MAX - 1) < 1){
                 start_cutscene(c, CUTSCENE_RUINS);
                 o->oRuinsCutscenePlayed = TRUE;
             }
