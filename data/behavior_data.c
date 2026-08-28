@@ -6450,3 +6450,10 @@ const BehaviorScript bhvBattleDoor[] = {
         CALL_NATIVE(load_object_collision_model),
     END_LOOP(),
 };
+
+const BehaviorScript bhvBooLaugh[] = {
+    OR_INT(oFlags, (OBJ_FLAG_COMPUTE_DIST_TO_MARIO)),
+    BEGIN_LOOP(),     
+        CALL_NATIVE(bhv_boo_laugh),
+    END_LOOP(),
+};

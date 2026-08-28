@@ -1,4 +1,4 @@
-void scroll_bbh_dl__mesh_mesh_layer_1_vtx_28() {
+void scroll_bbh_dl__mesh_mesh_layer_1_vtx_27() {
 	int i = 0;
 	int count = 56;
 	int width = 64 * 0x20;
@@ -8,7 +8,7 @@ void scroll_bbh_dl__mesh_mesh_layer_1_vtx_28() {
 	int deltaX;
 	static int currentY = 0;
 	int deltaY;
-	Vtx *vertices = segmented_to_virtual(bbh_dl__mesh_mesh_layer_1_vtx_28);
+	Vtx *vertices = segmented_to_virtual(bbh_dl__mesh_mesh_layer_1_vtx_27);
 
 	deltaX = (int)(0.0 * 0x20) % width;
 	deltaY = (int)(0.0 * 0x20) % height;
@@ -27,7 +27,7 @@ void scroll_bbh_dl__mesh_mesh_layer_1_vtx_28() {
 	currentX += deltaX;	currentY += deltaY;
 }
 
-void scroll_bbh_dl__mesh_mesh_layer_1_vtx_32() {
+void scroll_bbh_dl__mesh_mesh_layer_1_vtx_31() {
 	int i = 0;
 	int count = 990;
 	int width = 32 * 0x20;
@@ -37,7 +37,7 @@ void scroll_bbh_dl__mesh_mesh_layer_1_vtx_32() {
 	int deltaX;
 	static int currentY = 0;
 	int deltaY;
-	Vtx *vertices = segmented_to_virtual(bbh_dl__mesh_mesh_layer_1_vtx_32);
+	Vtx *vertices = segmented_to_virtual(bbh_dl__mesh_mesh_layer_1_vtx_31);
 
 	deltaX = (int)(0.20000000298023224 * 0x20) % width;
 	deltaY = (int)(0.20000000298023224 * 0x20) % height;
@@ -202,8 +202,8 @@ void scroll_bbh_dl__mesh_004_mesh_layer_5_vtx_1() {
 }
 
 void scroll_bbh() {
-	scroll_bbh_dl__mesh_mesh_layer_1_vtx_28();
-	scroll_bbh_dl__mesh_mesh_layer_1_vtx_32();
+	scroll_bbh_dl__mesh_mesh_layer_1_vtx_27();
+	scroll_bbh_dl__mesh_mesh_layer_1_vtx_31();
 	scroll_bbh_dl__mesh_mesh_layer_5_vtx_2();
 	scroll_bbh_dl__mesh_mesh_layer_5_vtx_3();
 	scroll_bbh_dl__mesh_002_mesh_layer_5_vtx_1();

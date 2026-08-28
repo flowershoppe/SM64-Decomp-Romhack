@@ -36,7 +36,7 @@ struct ObjectHitbox sBookSwitchHitbox = {
 };
 
 void flying_bookend_act_0(void) {
-    if (obj_is_near_to_and_facing_mario(400.0f, 0x3000)) {
+    if (o->oDistanceToMario < 800.0f) {
         cur_obj_play_sound_2(SOUND_OBJ_DEFAULT_DEATH);
 
         o->oAction = 1;
@@ -75,15 +75,14 @@ void flying_bookend_act_2(void) {
     cur_obj_init_animation_with_sound(1);
     cur_obj_update_floor_and_walls();
 
-    if (o->oForwardVel == 0.0f) {
-        obj_turn_pitch_toward_mario(120.0f, 1000);
-        o->oFaceAnglePitch = o->oMoveAnglePitch + 0x7FFF;
-        cur_obj_rotate_yaw_toward(o->oAngleToMario, 1000);
+    obj_turn_pitch_toward_mario(120.0f, 1000);
+    o->oFaceAnglePitch = o->oMoveAnglePitch + 0x7FFF;
+    cur_obj_rotate_yaw_toward(o->oAngleToMario, 1000);
 
-        if (o->oTimer > 30) {
-            obj_compute_vel_from_move_pitch(50.0f);
-        }
+    if (o->oTimer > 30) {
+        obj_compute_vel_from_move_pitch(25.0f);
     }
+    
 
     cur_obj_move_standard(78);
 }
@@ -103,7 +102,7 @@ void flying_bookend_act_3(void) {
 
 void bhv_flying_bookend_loop(void) {
     if (!(o->activeFlags & ACTIVE_FLAG_IN_DIFFERENT_ROOM)) {
-        o->oDeathSound = SOUND_OBJ_POUNDING1;
+        o->oDeathSound = SOUND_OBJ_EYEROK_EXPLODE;
         cur_obj_scale(o->header.gfx.scale[0]);
 
         switch (o->oAction) {

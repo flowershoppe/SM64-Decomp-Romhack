@@ -572,6 +572,7 @@ void owl_act_turn_to_talk(void);
 void owl_act_talk(void);
 void owl_actions(void);
 void bhv_battle_door_loop(void);
+void bhv_boo_laugh(void);
 
 Gfx *interactive_tablet_state(s32 callContext, struct GraphNode *node);
 void interactive_tablet_init(void);
