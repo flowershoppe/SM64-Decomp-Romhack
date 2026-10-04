@@ -1292,7 +1292,7 @@ os16112*/
 #define /*0x10C*/ oRuinsCutscenePlayed                          OBJECT_FIELD_S32(0x21)
 #define /*0x110*/ oKingBobombDialog                             OBJECT_FIELD_S32(0x22)
 
-#define /*0x0F4*/ oFloatF4                                      OBJECT_FIELD_F32(0x1B)
+#define /*0x0F4*/ oFace                                         OBJECT_FIELD_F32(0x1B)
 #define /*0x0F8*/ oFloatF8                                      OBJECT_FIELD_F32(0x1C)
 #define /*0x0FC*/ oFloatFC                                      OBJECT_FIELD_F32(0x1D)
 #define /*0x100*/ oFloat100                                     OBJECT_FIELD_F32(0x1E)

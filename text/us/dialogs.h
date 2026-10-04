@@ -251,55 +251,50 @@ Argh! That hurt! You've\n\
 really lit my fuse now!\n\
 Get over here!"))
 
-DEFINE_DIALOG(DIALOG_027, 1, 5, 95, 200, _("\
+DEFINE_DIALOG(DIALOG_027, 1, 5, 30, 200, _("\
 Alright! No more games!\n\
 I'll turn you to ASH!"))
 
-DEFINE_DIALOG(DIALOG_028, 1, 1, 95, 200, _("\
+DEFINE_DIALOG(DIALOG_028, 1, 1, 30, 200, _("\
 NO! My fuse! It's...!"))
 
-DEFINE_DIALOG(DIALOG_029, 1, 5, 95, 200, _("\
-To open the door that\n\
-leads to the 『endless』\n\
-stairs, you need 70\n\
-Stars.\n\
-Bwa ha ha!"))
+DEFINE_DIALOG(DIALOG_029, 1, 5, 30, 200, _("\
+Hehehehe~!\n\
+Enjoying your little\n\
+walk through my forest?\n\
+I see you want these\n\
+power stars.\n\
+Hm? Give them back?\n\
+Falling islands?\n\
+I don't really care\n\
+about all that.\n\
+\n\
+You can have them back.\n\
+But, not until I've\n\
+had my fun.\n\
+Now, let's play!"))
 
-DEFINE_DIALOG(DIALOG_030, 1, 6, 30, 200, _("\
-Hello! The Lakitu Bros.,\n\
-cutting in with a live\n\
-update on Mario's\n\
-progress. He's about to\n\
-learn a technique for\n\
-sneaking up on enemies.\n\
-The trick is this: He has\n\
-to walk very slowly in\n\
-order to walk quietly.\n\
-\n\
-\n\
-\n\
-And wrapping up filming\n\
-techniques reported on\n\
-earlier, you can take a\n\
-look around using [C]> and\n\
-[C]<. Press [C]| to view the\n\
-action from a distance.\n\
-When you can't move the\n\
-camera any farther, the\n\
-buzzer will sound. This is\n\
-the Lakitu Bros.,\n\
-signing off."))
+DEFINE_DIALOG(DIALOG_030, 1, 3, 95, 20, _("\
+LOOK UP"))
 
 DEFINE_DIALOG(DIALOG_031, 1, 5, 30, 200, _("\
-No way! You beat me...\n\
-again!! And I just spent\n\
-my entire savings on\n\
-these new Koopa\n\
-Mach 1 Sprint shoes!\n\
-Here, I guess I have to\n\
-hand over this Star to\n\
-the winner of the race.\n\
-Congrats, Mario!"))
+You must be that\n\
+adventurer everyone's\n\
+been talking about.\n\
+Well, you're too late\n\
+for this one.\n\
+I think those hooligans\n\
+set free Palameen while\n\
+searching for our power\n\
+stars.\n\
+\n\
+Palameen is an\n\
+ancient and powerful\n\
+trickster spirit.\n\
+How powerful?\n\
+Look around.\n\
+These woods haven't\n\
+always looked this way."))
 
 DEFINE_DIALOG(DIALOG_032, 1, 5, 30, 200, _("\
 If you get the Wing Cap,\n\

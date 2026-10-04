@@ -1,6 +1,6 @@
-COURSE_ACTS(COURSE_BOB, _(" 1 STRIX TEMPLE"),
-       _("WIP")     , _("WIP") ,   _("WIP"),
-       _("WIP")     , _("WIP") ,   _("WIP"))
+COURSE_ACTS(COURSE_BOB, _(" 1 SECLUDED RESPITE"),
+       _("THERE")     , _("ARE") ,   _("NO"),
+       _("STARS")     , _("AROUND") ,   _("HERE"))
 
 COURSE_ACTS(COURSE_WF, _(" 2 SKYBORNE ISLANDS"),
        _("OPEN SAYS-A-ME")     , _("5 SILVER STARS") ,   _("HEAD IN THE CLOUDS"),
@@ -10,9 +10,9 @@ COURSE_ACTS(COURSE_JRB, _(" 3 STRIX TEMPLE"),
        _("5 SILVER STARS")     , _("THE XANTHOUS PATH") , _("THE GAUNTLET"),
        _("PERFECT TIMING")          , _("KING OF THE CASTLE")        , _("RUBY STAR"))
 
-COURSE_ACTS(COURSE_CCM, _(" 4 COOL, COOL MOUNTAIN"),
-       _("WIP")     , _("WIP") ,   _("WIP"),
-       _("WIP")     , _("WIP") ,   _("WIP"))
+COURSE_ACTS(COURSE_CCM, _(" 4 WARPED WEALD"),
+       _("TREETOP TREAT")     , _("ON THE HOUSE") ,   _("COME ON IN"),
+       _("YOU'RE MY PLAYTHING")     , _("ISN'T THIS FUN?") ,   _("WIP"))
 
 COURSE_ACTS(COURSE_BBH, _(" 5 BELEAGUERED BASIN"),
        _("THE BELFRY BULLIES")            , _("KING OF THE HILL") , _("CONCENTRIC QUARTER-CIRCLES"),

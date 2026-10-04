@@ -38,6 +38,7 @@ build/us_n64/src/game/texscroll.o: src/game/texscroll.c include/types.h \
  levels/bbh/texscroll.inc.h src/game/texscroll/wf_texscroll.inc.h \
  levels/wf/texscroll.inc.h src/game/texscroll/common0_texscroll.inc.h \
  src/game/texscroll/rr_texscroll.inc.h levels/rr/texscroll.inc.h \
+ src/game/texscroll/ccm_texscroll.inc.h levels/ccm/texscroll.inc.h \
  src/game/texscroll/bob_texscroll.inc.c levels/bob/header.h \
  levels/bob/header.inc.h src/game/camera.h src/game/area.h \
  src/game/camera.h src/engine/graph_node.h include/sm64.h include/types.h \
@@ -104,4 +105,6 @@ build/us_n64/src/game/texscroll.o: src/game/texscroll.c include/types.h \
  actors/owl/anim_header.h actors/owl/anims/table_enum.h \
  actors/custom_star/collision_header.h actors/custom_star/geo_header.h \
  src/game/texscroll/rr_texscroll.inc.c levels/rr/header.h \
- levels/rr/header.inc.h levels/rr/texscroll.inc.c
+ levels/rr/header.inc.h levels/rr/texscroll.inc.c \
+ src/game/texscroll/ccm_texscroll.inc.c levels/ccm/header.h \
+ levels/ccm/header.inc.h levels/ccm/texscroll.inc.c
