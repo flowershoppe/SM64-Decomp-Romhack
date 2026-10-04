@@ -51,4 +51,6 @@ build/us_n64/levels/ccm/geo.o: levels/ccm/geo.c include/n64/ultra64.h \
  levels/ccm/areas/2/geo.inc.c levels/ccm/geo.inc.c \
  levels/ccm/area_1/geo.inc.c src/game/envfx_snow.h \
  levels/ccm/area_2/geo.inc.c levels/ccm/area_3/geo.inc.c \
- levels/ccm/area_4/geo.inc.c levels/ccm/area_5/geo.inc.c
+ levels/ccm/area_4/geo.inc.c levels/ccm/area_5/geo.inc.c \
+ levels/ccm/area_6/geo.inc.c levels/ccm/area_7/geo.inc.c \
+ levels/ccm/area_8/geo.inc.c

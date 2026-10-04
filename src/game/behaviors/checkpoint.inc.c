@@ -12,6 +12,7 @@ struct ObjectHitbox sCheckpointHitbox = {
 
 void bhv_checkpoint_init(void){
     o->oCheckpointSpinSpeed = 500.0;
+    o->oFace = o->oFaceAngleYaw;
 }
 void bhv_checkpoint(void){
     obj_set_hitbox(o, &sCheckpointHitbox);
@@ -25,6 +26,7 @@ void bhv_checkpoint(void){
         cur_obj_find_nearest_object_with_behavior(bhvAirborneWarp, &dist)->oPosX = o->oPosX;
         cur_obj_find_nearest_object_with_behavior(bhvAirborneWarp, &dist)->oPosY = o->oPosY;
         cur_obj_find_nearest_object_with_behavior(bhvAirborneWarp, &dist)->oPosZ = o->oPosZ;
+        cur_obj_find_nearest_object_with_behavior(bhvAirborneWarp, &dist)->oFaceAngleYaw = o->oFace;
         gMarioState->healCounter += 4;
     }
     else{

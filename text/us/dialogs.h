@@ -278,15 +278,23 @@ DEFINE_DIALOG(DIALOG_030, 1, 3, 95, 20, _("\
 LOOK UP"))
 
 DEFINE_DIALOG(DIALOG_031, 1, 5, 30, 200, _("\
-No way! You beat me...\n\
-again!! And I just spent\n\
-my entire savings on\n\
-these new Koopa\n\
-Mach 1 Sprint shoes!\n\
-Here, I guess I have to\n\
-hand over this Star to\n\
-the winner of the race.\n\
-Congrats, Mario!"))
+You must be that\n\
+adventurer everyone's\n\
+been talking about.\n\
+Well, you're too late\n\
+for this one.\n\
+I think those hooligans\n\
+set free Palameen while\n\
+searching for our power\n\
+stars.\n\
+\n\
+Palameen is an\n\
+ancient and powerful\n\
+trickster spirit.\n\
+How powerful?\n\
+Look around.\n\
+These woods haven't\n\
+always looked this way."))
 
 DEFINE_DIALOG(DIALOG_032, 1, 5, 30, 200, _("\
 If you get the Wing Cap,\n\

@@ -256,8 +256,8 @@ void init_door_warp(struct SpawnInfo *spawnInfo, u32 warpDestFlags) {
         spawnInfo->startAngle[1] += 0x8000;
     }
 
-    spawnInfo->startPos[0] += 300.0f * sins(spawnInfo->startAngle[1]);
-    spawnInfo->startPos[2] += 300.0f * coss(spawnInfo->startAngle[1]);
+    spawnInfo->startPos[0] += 100.0f * sins(spawnInfo->startAngle[1]);
+    spawnInfo->startPos[2] += 100.0f * coss(spawnInfo->startAngle[1]);
 }
 
 void set_mario_initial_cap_powerup(struct MarioState *m) {
@@ -407,7 +407,7 @@ void init_mario_after_warp(void) {
 #ifdef BETTER_REVERB
         gBetterReverbPresetValue = gCurrentArea->betterReverbPreset;
 #endif
-        //set_background_music(gCurrentArea->musicParam, gCurrentArea->musicParam2, 0);
+        set_background_music(gCurrentArea->musicParam, gCurrentArea->musicParam2, 0);
 
         if (gMarioState->flags & MARIO_METAL_CAP) {
             play_cap_music(SEQUENCE_ARGS(4, SEQ_EVENT_METAL_CAP));

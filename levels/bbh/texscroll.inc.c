@@ -29,7 +29,7 @@ void scroll_bbh_dl__mesh_mesh_layer_1_vtx_27() {
 
 void scroll_bbh_dl__mesh_mesh_layer_1_vtx_31() {
 	int i = 0;
-	int count = 990;
+	int count = 1005;
 	int width = 32 * 0x20;
 	int height = 32 * 0x20;
 

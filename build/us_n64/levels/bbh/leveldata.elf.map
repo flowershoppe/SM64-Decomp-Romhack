@@ -216,10 +216,10 @@ LOAD build/us_n64/levels/bbh/leveldata.o
  *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
                 0x0000000007000000                . = DATA_SEGMENT_RELRO_END (., 0x0)
 
-.data           0x0000000007000000    0xd5ad8 load address 0x0000000007000018
+.data           0x0000000007000000    0xd6188 load address 0x0000000007000018
                 0x0000000007000000                _fdata = .
  *(.data .data.* .gnu.linkonce.d.*)
- .data          0x0000000007000000    0xd5ad8 build/us_n64/levels/bbh/leveldata.o
+ .data          0x0000000007000000    0xd6188 build/us_n64/levels/bbh/leveldata.o
                 0x0000000007000000                bbh_dl_final_revert_mesh_layer_5
                 0x0000000007000040                bbh_dl_final_revert_mesh_layer_4
                 0x0000000007000080                bbh_dl_final_revert_mesh_layer_6
@@ -386,316 +386,316 @@ LOAD build/us_n64/levels/bbh/leveldata.o
                 0x000000000700fa28                bbh_dl__mesh_mesh_layer_5_vtx_2
                 0x000000000700fd28                bbh_dl__mesh_mesh_layer_5_tri_1
                 0x000000000700ff90                bbh_dl__mesh_mesh_layer_5_vtx_1
-                0x0000000007010cb0                bbh_dl__mesh_mesh_layer_5_tri_0
-                0x0000000007010ce8                bbh_dl__mesh_mesh_layer_5_vtx_0
-                0x0000000007010e28                bbh_dl__mesh_mesh_layer_5_vtx_cull
-                0x0000000007010ea8                bbh_dl__mesh_mesh_layer_4_tri_3
-                0x0000000007010f38                bbh_dl__mesh_mesh_layer_4_vtx_3
-                0x00000000070112f8                bbh_dl__mesh_mesh_layer_4_tri_2
-                0x0000000007011338                bbh_dl__mesh_mesh_layer_4_vtx_2
-                0x0000000007011448                bbh_dl__mesh_mesh_layer_4_tri_1
-                0x0000000007011578                bbh_dl__mesh_mesh_layer_4_vtx_1
-                0x0000000007011b98                bbh_dl__mesh_mesh_layer_4_tri_0
-                0x0000000007011bd8                bbh_dl__mesh_mesh_layer_4_vtx_0
-                0x0000000007011d58                bbh_dl__mesh_mesh_layer_4_vtx_cull
-                0x0000000007011dd8                bbh_dl__mesh_mesh_layer_6_tri_1
-                0x00000000070128f0                bbh_dl__mesh_mesh_layer_6_vtx_1
-                0x0000000007014830                bbh_dl__mesh_mesh_layer_6_tri_0
-                0x0000000007015288                bbh_dl__mesh_mesh_layer_6_vtx_0
-                0x0000000007018328                bbh_dl__mesh_mesh_layer_6_vtx_cull
-                0x00000000070183a8                bbh_dl__mesh_mesh_layer_1_tri_32
-                0x00000000070183e8                bbh_dl__mesh_mesh_layer_1_vtx_32
-                0x0000000007018568                bbh_dl__mesh_mesh_layer_1_tri_31
-                0x0000000007019038                bbh_dl__mesh_mesh_layer_1_vtx_31
-                0x000000000701ce18                bbh_dl__mesh_mesh_layer_1_tri_30
-                0x000000000701ce68                bbh_dl__mesh_mesh_layer_1_vtx_30
-                0x000000000701cf88                bbh_dl__mesh_mesh_layer_1_tri_29
-                0x000000000701d068                bbh_dl__mesh_mesh_layer_1_vtx_29
-                0x000000000701d668                bbh_dl__mesh_mesh_layer_1_tri_28
-                0x000000000701d790                bbh_dl__mesh_mesh_layer_1_vtx_28
-                0x000000000701df90                bbh_dl__mesh_mesh_layer_1_tri_27
-                0x000000000701e038                bbh_dl__mesh_mesh_layer_1_vtx_27
-                0x000000000701e3b8                bbh_dl__mesh_mesh_layer_1_tri_26
-                0x000000000701e410                bbh_dl__mesh_mesh_layer_1_vtx_26
-                0x000000000701e650                bbh_dl__mesh_mesh_layer_1_tri_25
-                0x000000000701fee0                bbh_dl__mesh_mesh_layer_1_vtx_25
-                0x0000000007027e40                bbh_dl__mesh_mesh_layer_1_tri_24
-                0x0000000007027e90                bbh_dl__mesh_mesh_layer_1_vtx_24
-                0x0000000007028090                bbh_dl__mesh_mesh_layer_1_tri_23
-                0x0000000007028128                bbh_dl__mesh_mesh_layer_1_vtx_23
-                0x0000000007028518                bbh_dl__mesh_mesh_layer_1_tri_22
-                0x00000000070296c8                bbh_dl__mesh_mesh_layer_1_vtx_22
-                0x0000000007030da8                bbh_dl__mesh_mesh_layer_1_tri_21
-                0x0000000007030de8                bbh_dl__mesh_mesh_layer_1_vtx_21
-                0x0000000007030f68                bbh_dl__mesh_mesh_layer_1_tri_20
-                0x0000000007031ed0                bbh_dl__mesh_mesh_layer_1_vtx_20
-                0x00000000070389c0                bbh_dl__mesh_mesh_layer_1_tri_19
-                0x0000000007038bb0                bbh_dl__mesh_mesh_layer_1_vtx_19
-                0x0000000007039690                bbh_dl__mesh_mesh_layer_1_tri_18
-                0x00000000070396c0                bbh_dl__mesh_mesh_layer_1_vtx_18
-                0x00000000070397b0                bbh_dl__mesh_mesh_layer_1_tri_17
-                0x0000000007039868                bbh_dl__mesh_mesh_layer_1_vtx_17
-                0x0000000007039c88                bbh_dl__mesh_mesh_layer_1_tri_16
-                0x000000000703a5a0                bbh_dl__mesh_mesh_layer_1_vtx_16
-                0x000000000703de00                bbh_dl__mesh_mesh_layer_1_tri_15
-                0x000000000703de60                bbh_dl__mesh_mesh_layer_1_vtx_15
-                0x000000000703e020                bbh_dl__mesh_mesh_layer_1_tri_14
-                0x000000000703e078                bbh_dl__mesh_mesh_layer_1_vtx_14
-                0x000000000703e378                bbh_dl__mesh_mesh_layer_1_tri_13
-                0x000000000703e3b8                bbh_dl__mesh_mesh_layer_1_vtx_13
-                0x000000000703e538                bbh_dl__mesh_mesh_layer_1_tri_12
-                0x000000000703e578                bbh_dl__mesh_mesh_layer_1_vtx_12
-                0x000000000703e6f8                bbh_dl__mesh_mesh_layer_1_tri_11
-                0x000000000703e760                bbh_dl__mesh_mesh_layer_1_vtx_11
-                0x000000000703e9e0                bbh_dl__mesh_mesh_layer_1_tri_10
-                0x000000000703ebd0                bbh_dl__mesh_mesh_layer_1_vtx_10
-                0x000000000703f7b0                bbh_dl__mesh_mesh_layer_1_tri_9
-                0x0000000007041750                bbh_dl__mesh_mesh_layer_1_vtx_9
-                0x000000000704e840                bbh_dl__mesh_mesh_layer_1_tri_8
-                0x000000000704ef08                bbh_dl__mesh_mesh_layer_1_vtx_8
-                0x00000000070513f8                bbh_dl__mesh_mesh_layer_1_tri_7
-                0x0000000007051808                bbh_dl__mesh_mesh_layer_1_vtx_7
-                0x00000000070533d8                bbh_dl__mesh_mesh_layer_1_tri_6
-                0x0000000007054460                bbh_dl__mesh_mesh_layer_1_vtx_6
-                0x000000000705a6c0                bbh_dl__mesh_mesh_layer_1_tri_5
-                0x000000000705c428                bbh_dl__mesh_mesh_layer_1_vtx_5
-                0x0000000007069308                bbh_dl__mesh_mesh_layer_1_tri_4
-                0x00000000070693e8                bbh_dl__mesh_mesh_layer_1_vtx_4
-                0x00000000070699e8                bbh_dl__mesh_mesh_layer_1_tri_3
-                0x0000000007069d28                bbh_dl__mesh_mesh_layer_1_vtx_3
-                0x000000000706b318                bbh_dl__mesh_mesh_layer_1_tri_2
-                0x000000000706bb68                bbh_dl__mesh_mesh_layer_1_vtx_2
-                0x000000000706f268                bbh_dl__mesh_mesh_layer_1_tri_1
-                0x000000000706f958                bbh_dl__mesh_mesh_layer_1_vtx_1
-                0x0000000007072338                bbh_dl__mesh_mesh_layer_1_tri_0
-                0x0000000007072f70                bbh_dl__mesh_mesh_layer_1_vtx_0
-                0x0000000007076640                bbh_dl__mesh_mesh_layer_1_vtx_cull
-                0x00000000070766c0                bbh_dl_ci4_anonmoose_Grass1_pal_rgba16
-                0x00000000070766d8                bbh_dl_ci4_anonmoose_Grass1_pal_rgba16_aligner
-                0x00000000070766e0                bbh_dl_ci4_anonmoose_Grass1_ci4
-                0x0000000007076ee0                bbh_dl_ci4_anonmoose_Grass1_ci4_aligner
-                0x0000000007076ee8                bbh_dl_ci4_anonmoose_treebark1_pal_rgba16_copy
-                0x0000000007076f08                bbh_dl_ci4_anonmoose_treebark1_pal_rgba16_copy_aligner
-                0x0000000007076f10                bbh_dl_ci4_anonmoose_treebark1_ci4_copy
-                0x0000000007077710                bbh_dl_ci4_anonmoose_treebark1_ci4_copy_aligner
-                0x0000000007077718                bbh_dl_yucky_pal_rgba16
-                0x0000000007077778                bbh_dl_yucky_pal_rgba16_aligner
-                0x0000000007077780                bbh_dl_yucky_ci8
-                0x0000000007077b80                bbh_dl_yucky_ci8_aligner
-                0x0000000007077b88                bbh_dl_grate_pal_rgba16
-                0x0000000007077c70                bbh_dl_grate_pal_rgba16_aligner
-                0x0000000007077c78                bbh_dl_grate_ci8
-                0x0000000007078078                bbh_dl_grate_ci8_aligner
-                0x0000000007078080                bbh_dl_ci4_anonmoose_Dirt1_pal_rgba16
-                0x00000000070780b8                bbh_dl_ci4_anonmoose_Dirt1_pal_rgba16_aligner
-                0x00000000070780c0                bbh_dl_ci4_anonmoose_Dirt1_ci8
-                0x00000000070784c0                bbh_dl_ci4_anonmoose_Dirt1_ci8_aligner
-                0x00000000070784c8                bbh_dl_KKIIDDZZ_DAT_972__p00_pal_rgba16
-                0x00000000070785f8                bbh_dl_KKIIDDZZ_DAT_972__p00_pal_rgba16_aligner
-                0x0000000007078600                bbh_dl_KKIIDDZZ_DAT_972__p00_ci8
-                0x0000000007078a00                bbh_dl_KKIIDDZZ_DAT_972__p00_ci8_aligner
-                0x0000000007078a08                bbh_dl_KKIIDDZZ_DAT_1061__p00_pal_rgba16
-                0x0000000007078ad0                bbh_dl_KKIIDDZZ_DAT_1061__p00_pal_rgba16_aligner
-                0x0000000007078ad8                bbh_dl_KKIIDDZZ_DAT_1061__p00_ci8
-                0x0000000007078ed8                bbh_dl_KKIIDDZZ_DAT_1061__p00_ci8_aligner
-                0x0000000007078ee0                bbh_dl_ci4_zeina_water_1_pal_rgba16
-                0x0000000007078f00                bbh_dl_ci4_zeina_water_1_pal_rgba16_aligner
-                0x0000000007078f08                bbh_dl_ci4_zeina_water_1_ci4
-                0x0000000007079708                bbh_dl_ci4_zeina_water_1_ci4_aligner
-                0x0000000007079710                bbh_dl_flower_pal_rgba16_copy
-                0x0000000007079770                bbh_dl_flower_pal_rgba16_copy_aligner
-                0x0000000007079778                bbh_dl_flower_ci8_copy
-                0x0000000007079b78                bbh_dl_flower_ci8_copy_aligner
-                0x0000000007079b80                bbh_dl_KKIIDDZZ_DAT_964__p00_pal_rgba16_copy
-                0x0000000007079c60                bbh_dl_KKIIDDZZ_DAT_964__p00_pal_rgba16_copy_aligner
-                0x0000000007079c68                bbh_dl_KKIIDDZZ_DAT_964__p00_ci8_copy
-                0x000000000707a068                bbh_dl_KKIIDDZZ_DAT_964__p00_ci8_copy_aligner
-                0x000000000707a070                bbh_dl__25_pal_rgba16
-                0x000000000707a0e0                bbh_dl__25_pal_rgba16_aligner
-                0x000000000707a0e8                bbh_dl__25_ci8
-                0x000000000707a4e8                bbh_dl__25_ci8_aligner
-                0x000000000707a4f0                bbh_dl__7_pal_rgba16
-                0x000000000707a5b0                bbh_dl__7_pal_rgba16_aligner
-                0x000000000707a5b8                bbh_dl__7_ci8
-                0x000000000707a9b8                bbh_dl__7_ci8_aligner
-                0x000000000707a9c0                bbh_dl_ci4_sophie_rooftile_pal_rgba16
-                0x000000000707a9e0                bbh_dl_ci4_sophie_rooftile_pal_rgba16_aligner
-                0x000000000707a9e8                bbh_dl_ci4_sophie_rooftile_ci4
-                0x000000000707b1e8                bbh_dl_ci4_sophie_rooftile_ci4_aligner
-                0x000000000707b1f0                bbh_dl_ci4_sophie_interiorwall_pal_rgba16
-                0x000000000707b208                bbh_dl_ci4_sophie_interiorwall_pal_rgba16_aligner
-                0x000000000707b210                bbh_dl_ci4_sophie_interiorwall_ci4
-                0x000000000707ba10                bbh_dl_ci4_sophie_interiorwall_ci4_aligner
-                0x000000000707ba18                bbh_dl_invisible_ia8
-                0x000000000707be18                bbh_dl_invisible_ia8_aligner
-                0x000000000707be20                bbh_dl_flower_pal_rgba16
-                0x000000000707be80                bbh_dl_flower_pal_rgba16_aligner
-                0x000000000707be88                bbh_dl_flower_ci8
-                0x000000000707c288                bbh_dl_flower_ci8_aligner
-                0x000000000707c290                bbh_dl_GM4E01_3b9bd952_14_pal_rgba16
-                0x000000000707c2b8                bbh_dl_GM4E01_3b9bd952_14_pal_rgba16_aligner
-                0x000000000707c2c0                bbh_dl_GM4E01_3b9bd952_14_ci8
-                0x000000000707c6c0                bbh_dl_GM4E01_3b9bd952_14_ci8_aligner
-                0x000000000707c6c8                bbh_dl_light_pal_rgba16
-                0x000000000707c6d0                bbh_dl_light_pal_rgba16_aligner
-                0x000000000707c6d8                bbh_dl_light_ci4
-                0x000000000707c8d8                bbh_dl_light_ci4_aligner
-                0x000000000707c8e0                bbh_dl_KKIIDDZZ_DAT_1060__p00_pal_rgba16
-                0x000000000707c980                bbh_dl_KKIIDDZZ_DAT_1060__p00_pal_rgba16_aligner
-                0x000000000707c988                bbh_dl_KKIIDDZZ_DAT_1060__p00_ci8
-                0x000000000707cd88                bbh_dl_KKIIDDZZ_DAT_1060__p00_ci8_aligner
-                0x000000000707cd90                bbh_dl_ci4_sophie_wall_pal_rgba16
-                0x000000000707cdb0                bbh_dl_ci4_sophie_wall_pal_rgba16_aligner
-                0x000000000707cdb8                bbh_dl_ci4_sophie_wall_ci4
-                0x000000000707d5b8                bbh_dl_ci4_sophie_wall_ci4_aligner
-                0x000000000707d5c0                bbh_dl_rgba16_anonmoose_envmap_gold1_pal_rgba16
-                0x000000000707d730                bbh_dl_rgba16_anonmoose_envmap_gold1_pal_rgba16_aligner
-                0x000000000707d738                bbh_dl_rgba16_anonmoose_envmap_gold1_ci8
-                0x000000000707db38                bbh_dl_rgba16_anonmoose_envmap_gold1_ci8_aligner
-                0x000000000707db40                bbh_dl_KKIIDDZZ_DAT_964__p00_pal_rgba16
-                0x000000000707dc20                bbh_dl_KKIIDDZZ_DAT_964__p00_pal_rgba16_aligner
-                0x000000000707dc28                bbh_dl_KKIIDDZZ_DAT_964__p00_ci8
-                0x000000000707e028                bbh_dl_KKIIDDZZ_DAT_964__p00_ci8_aligner
-                0x000000000707e030                bbh_dl_tempImgEd032C_pal_rgba16
-                0x000000000707e1b0                bbh_dl_tempImgEd032C_pal_rgba16_aligner
-                0x000000000707e1b8                bbh_dl_tempImgEd032C_ci8
-                0x000000000707e5b8                bbh_dl_tempImgEd032C_ci8_aligner
-                0x000000000707e5c0                bbh_dl_ci4_sophie_hay_pal_rgba16
-                0x000000000707e5e0                bbh_dl_ci4_sophie_hay_pal_rgba16_aligner
-                0x000000000707e5e8                bbh_dl_ci4_sophie_hay_ci4
-                0x000000000707ede8                bbh_dl_ci4_sophie_hay_ci4_aligner
-                0x000000000707edf0                bbh_dl_rgba16_anonmoose_swirl1_pal_rgba16
-                0x000000000707ee40                bbh_dl_rgba16_anonmoose_swirl1_pal_rgba16_aligner
-                0x000000000707ee48                bbh_dl_rgba16_anonmoose_swirl1_ci8
-                0x000000000707f248                bbh_dl_rgba16_anonmoose_swirl1_ci8_aligner
-                0x000000000707f250                bbh_dl_ci4_sophie_tablecloth_pal_rgba16
-                0x000000000707f270                bbh_dl_ci4_sophie_tablecloth_pal_rgba16_aligner
-                0x000000000707f278                bbh_dl_ci4_sophie_tablecloth_ci4
-                0x000000000707fa78                bbh_dl_ci4_sophie_tablecloth_ci4_aligner
-                0x000000000707fa80                bbh_dl_rings_pal_rgba16
-                0x000000000707fb60                bbh_dl_rings_pal_rgba16_aligner
-                0x000000000707fb68                bbh_dl_rings_ci8
-                0x000000000707ff68                bbh_dl_rings_ci8_aligner
-                0x000000000707ff70                bbh_dl_ci4_anonmoose_treebark1_pal_rgba16
-                0x000000000707ff90                bbh_dl_ci4_anonmoose_treebark1_pal_rgba16_aligner
-                0x000000000707ff98                bbh_dl_ci4_anonmoose_treebark1_ci4
-                0x0000000007080798                bbh_dl_ci4_anonmoose_treebark1_ci4_aligner
-                0x00000000070807a0                bbh_dl_ci4_sophie_wood2_pal_rgba16
-                0x00000000070807c0                bbh_dl_ci4_sophie_wood2_pal_rgba16_aligner
-                0x00000000070807c8                bbh_dl_ci4_sophie_wood2_ci4
-                0x0000000007080fc8                bbh_dl_ci4_sophie_wood2_ci4_aligner
-                0x0000000007080fd0                bbh_dl_KKIIDDZZ_DAT_1818__p00_pal_rgba16
-                0x00000000070810a8                bbh_dl_KKIIDDZZ_DAT_1818__p00_pal_rgba16_aligner
-                0x00000000070810b0                bbh_dl_KKIIDDZZ_DAT_1818__p00_ci8
-                0x00000000070814b0                bbh_dl_KKIIDDZZ_DAT_1818__p00_ci8_aligner
-                0x00000000070814b8                bbh_dl_ci4_sophie_broom_pal_rgba16
-                0x00000000070814d8                bbh_dl_ci4_sophie_broom_pal_rgba16_aligner
-                0x00000000070814e0                bbh_dl_ci4_sophie_broom_ci4
-                0x0000000007081ce0                bbh_dl_ci4_sophie_broom_ci4_aligner
-                0x0000000007081ce8                bbh_dl_KKIIDDZZ_DAT_1059__p00_pal_rgba16
-                0x0000000007081d70                bbh_dl_KKIIDDZZ_DAT_1059__p00_pal_rgba16_aligner
-                0x0000000007081d78                bbh_dl_KKIIDDZZ_DAT_1059__p00_ci8
-                0x0000000007082178                bbh_dl_KKIIDDZZ_DAT_1059__p00_ci8_aligner
-                0x0000000007082180                bbh_dl_KKIIDDZZ_DAT_971__p00_pal_rgba16
-                0x00000000070822a8                bbh_dl_KKIIDDZZ_DAT_971__p00_pal_rgba16_aligner
-                0x00000000070822b0                bbh_dl_KKIIDDZZ_DAT_971__p00_ci8
-                0x00000000070826b0                bbh_dl_KKIIDDZZ_DAT_971__p00_ci8_aligner
-                0x00000000070826b8                bbh_dl_rgba16_anonmoose_GreenishSquare_pal_rgba16
-                0x00000000070826e0                bbh_dl_rgba16_anonmoose_GreenishSquare_pal_rgba16_aligner
-                0x00000000070826e8                bbh_dl_rgba16_anonmoose_GreenishSquare_ci8
-                0x0000000007082ae8                bbh_dl_rgba16_anonmoose_GreenishSquare_ci8_aligner
-                0x0000000007082af0                bbh_dl_ci4_sophie_metal2_pal_rgba16
-                0x0000000007082b10                bbh_dl_ci4_sophie_metal2_pal_rgba16_aligner
-                0x0000000007082b18                bbh_dl_ci4_sophie_metal2_ci4
-                0x0000000007083318                bbh_dl_ci4_sophie_metal2_ci4_aligner
-                0x0000000007083320                bbh_dl_KKIIDDZZ_DAT_2237__p00_pal_rgba16
-                0x0000000007083340                bbh_dl_KKIIDDZZ_DAT_2237__p00_pal_rgba16_aligner
-                0x0000000007083348                bbh_dl_KKIIDDZZ_DAT_2237__p00_ci4
-                0x0000000007083b48                bbh_dl_KKIIDDZZ_DAT_2237__p00_ci4_aligner
-                0x0000000007083b50                bbh_dl_ci4_anonmoose_whiteblock_pal_rgba16
-                0x0000000007083b70                bbh_dl_ci4_anonmoose_whiteblock_pal_rgba16_aligner
-                0x0000000007083b78                bbh_dl_ci4_anonmoose_whiteblock_ci4
-                0x0000000007084378                bbh_dl_ci4_anonmoose_whiteblock_ci4_aligner
-                0x0000000007084380                bbh_dl_YOSHIS_ISLAND_6467B7C8B140_all_ia8
-                0x0000000007085380                bbh_dl_YOSHIS_ISLAND_6467B7C8B140_all_ia8_aligner
-                0x0000000007085388                bbh_dl_KKIIDDZZ_DAT_2238__p00_pal_rgba16
-                0x00000000070853a8                bbh_dl_KKIIDDZZ_DAT_2238__p00_pal_rgba16_aligner
-                0x00000000070853b0                bbh_dl_KKIIDDZZ_DAT_2238__p00_ci4
-                0x0000000007085bb0                bbh_dl_KKIIDDZZ_DAT_2238__p00_ci4_aligner
-                0x0000000007085bb8                bbh_dl_KKIIDDZZ_DAT_684__p00_pal_rgba16
-                0x0000000007085bd0                bbh_dl_KKIIDDZZ_DAT_684__p00_pal_rgba16_aligner
-                0x0000000007085bd8                bbh_dl_KKIIDDZZ_DAT_684__p00_ci4
-                0x00000000070863d8                bbh_dl_KKIIDDZZ_DAT_684__p00_ci4_aligner
-                0x00000000070863e0                bbh_area_1_macro_objs
-                0x00000000070863e4                bbh_area_1_collision
-                0x00000000070affd8                bbh_movtex_merry_go_round_water_side
-                0x00000000070affe8                bbh_movtex_merry_go_round_water_entrance
-                0x00000000070b0038                bbh_seg7_collision_coffin
-                0x00000000070b012c                bbh_seg7_collision_merry_go_round
-                0x00000000070b0258                bbh_seg7_collision_mesh_elevator
-                0x00000000070b02f8                bbh_seg7_collision_haunted_bookshelf
-                0x00000000070b0348                bbh_seg7_collision_07026B1C
-                0x00000000070b037c                bbh_seg7_collision_tilt_floor_platform
-                0x00000000070b0418                bbh_seg7_collision_staircase_step
-                0x00000000070b04a8                bbh_seg7_macro_objs
-                0x00000000070b0600                bbh_seg7_rooms
-                0x00000000070b0e68                bbh_seg7_collision_level
-                0x00000000070b77f0                bbh_seg7_dl_070206F0
-                0x00000000070b7bd0                bbh_seg7_dl_070202F0
-                0x00000000070b7ea8                bbh_seg7_dl_0701FFE8
-                0x00000000070b8120                bbh_seg7_dl_0701FD28
-                0x00000000070b8388                bbh_seg7_dl_0701FAB0
-                0x00000000070b8620                bbh_seg7_dl_0701F7E8
-                0x00000000070b87b0                bbh_seg7_dl_0701F5F8
-                0x00000000070b8aa8                bbh_seg7_dl_0701F2E8
-                0x00000000070b8d10                bbh_seg7_dl_0701F070
-                0x00000000070b8e80                bbh_seg7_dl_0701EEC8
-                0x00000000070b9038                bbh_seg7_dl_0701ED18
-                0x00000000070b9420                bbh_seg7_dl_0701E8D8
-                0x00000000070b9750                bbh_seg7_dl_0701E4E0
-                0x00000000070bc1e8                bbh_seg7_dl_0701B6D0
-                0x00000000070bcf30                bbh_seg7_dl_0701A850
-                0x00000000070bd6a8                bbh_seg7_dl_0701A080
-                0x00000000070bd788                bbh_seg7_dl_07019EF8
-                0x00000000070bfc30                bbh_seg7_dl_07017788
-                0x00000000070bfe08                bbh_seg7_dl_07017570
-                0x00000000070bff50                bbh_seg7_dl_07017378
-                0x00000000070c1718                bbh_seg7_dl_07015A20
-                0x00000000070c19f8                bbh_seg7_dl_070156E0
-                0x00000000070c1d00                bbh_seg7_dl_07015398
-                0x00000000070c2008                bbh_seg7_dl_07014FD8
-                0x00000000070c32d0                bbh_seg7_dl_07013BE8
-                0x00000000070c3468                bbh_seg7_dl_070139A8
-                0x00000000070c4630                bbh_seg7_dl_070126E8
-                0x00000000070c47e8                bbh_seg7_dl_07012510
-                0x00000000070c4a18                bbh_seg7_dl_07012220
-                0x00000000070c59a0                bbh_seg7_dl_07011120
-                0x00000000070c7108                bbh_seg7_dl_0700F848
-                0x00000000070c73c8                bbh_seg7_dl_0700F510
-                0x00000000070c8ed8                bbh_seg7_dl_0700D7E0
-                0x00000000070c91c8                bbh_seg7_dl_0700D490
-                0x00000000070c9358                bbh_seg7_dl_0700D2E0
-                0x00000000070c9510                bbh_seg7_dl_0700D080
-                0x00000000070ca850                bbh_seg7_dl_0700BBF8
-                0x00000000070caa28                bbh_seg7_dl_0700B9E0
-                0x00000000070caf80                bbh_seg7_dl_0700B418
-                0x00000000070cb1b0                bbh_seg7_dl_0700B1C8
-                0x00000000070cb2f8                bbh_seg7_dl_0700AFF0
-                0x00000000070cd1c8                bbh_seg7_dl_07008EA8
-                0x00000000070cd4b8                bbh_seg7_dl_07008B58
-                0x00000000070cdf38                bbh_seg7_dl_07007FD0
-                0x00000000070ce320                bbh_seg7_dl_07007B90
-                0x00000000070ce548                bbh_seg7_dl_07007940
-                0x00000000070ce808                bbh_seg7_dl_070075A8
+                0x0000000007010d10                bbh_dl__mesh_mesh_layer_5_tri_0
+                0x0000000007010d48                bbh_dl__mesh_mesh_layer_5_vtx_0
+                0x0000000007010e88                bbh_dl__mesh_mesh_layer_5_vtx_cull
+                0x0000000007010f08                bbh_dl__mesh_mesh_layer_4_tri_3
+                0x0000000007010f98                bbh_dl__mesh_mesh_layer_4_vtx_3
+                0x0000000007011358                bbh_dl__mesh_mesh_layer_4_tri_2
+                0x0000000007011398                bbh_dl__mesh_mesh_layer_4_vtx_2
+                0x00000000070114a8                bbh_dl__mesh_mesh_layer_4_tri_1
+                0x00000000070115d8                bbh_dl__mesh_mesh_layer_4_vtx_1
+                0x0000000007011bf8                bbh_dl__mesh_mesh_layer_4_tri_0
+                0x0000000007011c38                bbh_dl__mesh_mesh_layer_4_vtx_0
+                0x0000000007011db8                bbh_dl__mesh_mesh_layer_4_vtx_cull
+                0x0000000007011e38                bbh_dl__mesh_mesh_layer_6_tri_1
+                0x0000000007012968                bbh_dl__mesh_mesh_layer_6_vtx_1
+                0x0000000007014d28                bbh_dl__mesh_mesh_layer_6_tri_0
+                0x0000000007015780                bbh_dl__mesh_mesh_layer_6_vtx_0
+                0x0000000007018820                bbh_dl__mesh_mesh_layer_6_vtx_cull
+                0x00000000070188a0                bbh_dl__mesh_mesh_layer_1_tri_32
+                0x00000000070188e0                bbh_dl__mesh_mesh_layer_1_vtx_32
+                0x0000000007018a60                bbh_dl__mesh_mesh_layer_1_tri_31
+                0x0000000007019538                bbh_dl__mesh_mesh_layer_1_vtx_31
+                0x000000000701d408                bbh_dl__mesh_mesh_layer_1_tri_30
+                0x000000000701d458                bbh_dl__mesh_mesh_layer_1_vtx_30
+                0x000000000701d578                bbh_dl__mesh_mesh_layer_1_tri_29
+                0x000000000701d658                bbh_dl__mesh_mesh_layer_1_vtx_29
+                0x000000000701dc58                bbh_dl__mesh_mesh_layer_1_tri_28
+                0x000000000701dd80                bbh_dl__mesh_mesh_layer_1_vtx_28
+                0x000000000701e580                bbh_dl__mesh_mesh_layer_1_tri_27
+                0x000000000701e628                bbh_dl__mesh_mesh_layer_1_vtx_27
+                0x000000000701e9a8                bbh_dl__mesh_mesh_layer_1_tri_26
+                0x000000000701ea00                bbh_dl__mesh_mesh_layer_1_vtx_26
+                0x000000000701ec40                bbh_dl__mesh_mesh_layer_1_tri_25
+                0x00000000070204d8                bbh_dl__mesh_mesh_layer_1_vtx_25
+                0x0000000007028438                bbh_dl__mesh_mesh_layer_1_tri_24
+                0x0000000007028488                bbh_dl__mesh_mesh_layer_1_vtx_24
+                0x0000000007028688                bbh_dl__mesh_mesh_layer_1_tri_23
+                0x0000000007028720                bbh_dl__mesh_mesh_layer_1_vtx_23
+                0x0000000007028b10                bbh_dl__mesh_mesh_layer_1_tri_22
+                0x0000000007029cc0                bbh_dl__mesh_mesh_layer_1_vtx_22
+                0x00000000070313a0                bbh_dl__mesh_mesh_layer_1_tri_21
+                0x00000000070313e0                bbh_dl__mesh_mesh_layer_1_vtx_21
+                0x0000000007031560                bbh_dl__mesh_mesh_layer_1_tri_20
+                0x00000000070324c8                bbh_dl__mesh_mesh_layer_1_vtx_20
+                0x0000000007038fb8                bbh_dl__mesh_mesh_layer_1_tri_19
+                0x00000000070391a8                bbh_dl__mesh_mesh_layer_1_vtx_19
+                0x0000000007039c88                bbh_dl__mesh_mesh_layer_1_tri_18
+                0x0000000007039cb8                bbh_dl__mesh_mesh_layer_1_vtx_18
+                0x0000000007039da8                bbh_dl__mesh_mesh_layer_1_tri_17
+                0x0000000007039e60                bbh_dl__mesh_mesh_layer_1_vtx_17
+                0x000000000703a280                bbh_dl__mesh_mesh_layer_1_tri_16
+                0x000000000703ab98                bbh_dl__mesh_mesh_layer_1_vtx_16
+                0x000000000703e3f8                bbh_dl__mesh_mesh_layer_1_tri_15
+                0x000000000703e458                bbh_dl__mesh_mesh_layer_1_vtx_15
+                0x000000000703e618                bbh_dl__mesh_mesh_layer_1_tri_14
+                0x000000000703e670                bbh_dl__mesh_mesh_layer_1_vtx_14
+                0x000000000703e970                bbh_dl__mesh_mesh_layer_1_tri_13
+                0x000000000703e9b0                bbh_dl__mesh_mesh_layer_1_vtx_13
+                0x000000000703eb30                bbh_dl__mesh_mesh_layer_1_tri_12
+                0x000000000703eb70                bbh_dl__mesh_mesh_layer_1_vtx_12
+                0x000000000703ecf0                bbh_dl__mesh_mesh_layer_1_tri_11
+                0x000000000703ed58                bbh_dl__mesh_mesh_layer_1_vtx_11
+                0x000000000703efd8                bbh_dl__mesh_mesh_layer_1_tri_10
+                0x000000000703f1c8                bbh_dl__mesh_mesh_layer_1_vtx_10
+                0x000000000703fda8                bbh_dl__mesh_mesh_layer_1_tri_9
+                0x0000000007041d48                bbh_dl__mesh_mesh_layer_1_vtx_9
+                0x000000000704ee38                bbh_dl__mesh_mesh_layer_1_tri_8
+                0x000000000704f4f8                bbh_dl__mesh_mesh_layer_1_vtx_8
+                0x0000000007051a38                bbh_dl__mesh_mesh_layer_1_tri_7
+                0x0000000007051e48                bbh_dl__mesh_mesh_layer_1_vtx_7
+                0x0000000007053a18                bbh_dl__mesh_mesh_layer_1_tri_6
+                0x0000000007054aa0                bbh_dl__mesh_mesh_layer_1_vtx_6
+                0x000000000705ad00                bbh_dl__mesh_mesh_layer_1_tri_5
+                0x000000000705ca68                bbh_dl__mesh_mesh_layer_1_vtx_5
+                0x0000000007069948                bbh_dl__mesh_mesh_layer_1_tri_4
+                0x0000000007069a28                bbh_dl__mesh_mesh_layer_1_vtx_4
+                0x000000000706a028                bbh_dl__mesh_mesh_layer_1_tri_3
+                0x000000000706a378                bbh_dl__mesh_mesh_layer_1_vtx_3
+                0x000000000706b9a8                bbh_dl__mesh_mesh_layer_1_tri_2
+                0x000000000706c1f8                bbh_dl__mesh_mesh_layer_1_vtx_2
+                0x000000000706f8f8                bbh_dl__mesh_mesh_layer_1_tri_1
+                0x000000000706ffe8                bbh_dl__mesh_mesh_layer_1_vtx_1
+                0x00000000070729c8                bbh_dl__mesh_mesh_layer_1_tri_0
+                0x0000000007073600                bbh_dl__mesh_mesh_layer_1_vtx_0
+                0x0000000007076cd0                bbh_dl__mesh_mesh_layer_1_vtx_cull
+                0x0000000007076d50                bbh_dl_ci4_anonmoose_Grass1_pal_rgba16
+                0x0000000007076d68                bbh_dl_ci4_anonmoose_Grass1_pal_rgba16_aligner
+                0x0000000007076d70                bbh_dl_ci4_anonmoose_Grass1_ci4
+                0x0000000007077570                bbh_dl_ci4_anonmoose_Grass1_ci4_aligner
+                0x0000000007077578                bbh_dl_ci4_anonmoose_treebark1_pal_rgba16_copy
+                0x0000000007077598                bbh_dl_ci4_anonmoose_treebark1_pal_rgba16_copy_aligner
+                0x00000000070775a0                bbh_dl_ci4_anonmoose_treebark1_ci4_copy
+                0x0000000007077da0                bbh_dl_ci4_anonmoose_treebark1_ci4_copy_aligner
+                0x0000000007077da8                bbh_dl_yucky_pal_rgba16
+                0x0000000007077e08                bbh_dl_yucky_pal_rgba16_aligner
+                0x0000000007077e10                bbh_dl_yucky_ci8
+                0x0000000007078210                bbh_dl_yucky_ci8_aligner
+                0x0000000007078218                bbh_dl_grate_pal_rgba16
+                0x0000000007078300                bbh_dl_grate_pal_rgba16_aligner
+                0x0000000007078308                bbh_dl_grate_ci8
+                0x0000000007078708                bbh_dl_grate_ci8_aligner
+                0x0000000007078710                bbh_dl_ci4_anonmoose_Dirt1_pal_rgba16
+                0x0000000007078748                bbh_dl_ci4_anonmoose_Dirt1_pal_rgba16_aligner
+                0x0000000007078750                bbh_dl_ci4_anonmoose_Dirt1_ci8
+                0x0000000007078b50                bbh_dl_ci4_anonmoose_Dirt1_ci8_aligner
+                0x0000000007078b58                bbh_dl_KKIIDDZZ_DAT_972__p00_pal_rgba16
+                0x0000000007078c88                bbh_dl_KKIIDDZZ_DAT_972__p00_pal_rgba16_aligner
+                0x0000000007078c90                bbh_dl_KKIIDDZZ_DAT_972__p00_ci8
+                0x0000000007079090                bbh_dl_KKIIDDZZ_DAT_972__p00_ci8_aligner
+                0x0000000007079098                bbh_dl_KKIIDDZZ_DAT_1061__p00_pal_rgba16
+                0x0000000007079160                bbh_dl_KKIIDDZZ_DAT_1061__p00_pal_rgba16_aligner
+                0x0000000007079168                bbh_dl_KKIIDDZZ_DAT_1061__p00_ci8
+                0x0000000007079568                bbh_dl_KKIIDDZZ_DAT_1061__p00_ci8_aligner
+                0x0000000007079570                bbh_dl_ci4_zeina_water_1_pal_rgba16
+                0x0000000007079590                bbh_dl_ci4_zeina_water_1_pal_rgba16_aligner
+                0x0000000007079598                bbh_dl_ci4_zeina_water_1_ci4
+                0x0000000007079d98                bbh_dl_ci4_zeina_water_1_ci4_aligner
+                0x0000000007079da0                bbh_dl_flower_pal_rgba16_copy
+                0x0000000007079e00                bbh_dl_flower_pal_rgba16_copy_aligner
+                0x0000000007079e08                bbh_dl_flower_ci8_copy
+                0x000000000707a208                bbh_dl_flower_ci8_copy_aligner
+                0x000000000707a210                bbh_dl_KKIIDDZZ_DAT_964__p00_pal_rgba16_copy
+                0x000000000707a2f0                bbh_dl_KKIIDDZZ_DAT_964__p00_pal_rgba16_copy_aligner
+                0x000000000707a2f8                bbh_dl_KKIIDDZZ_DAT_964__p00_ci8_copy
+                0x000000000707a6f8                bbh_dl_KKIIDDZZ_DAT_964__p00_ci8_copy_aligner
+                0x000000000707a700                bbh_dl__25_pal_rgba16
+                0x000000000707a770                bbh_dl__25_pal_rgba16_aligner
+                0x000000000707a778                bbh_dl__25_ci8
+                0x000000000707ab78                bbh_dl__25_ci8_aligner
+                0x000000000707ab80                bbh_dl__7_pal_rgba16
+                0x000000000707ac40                bbh_dl__7_pal_rgba16_aligner
+                0x000000000707ac48                bbh_dl__7_ci8
+                0x000000000707b048                bbh_dl__7_ci8_aligner
+                0x000000000707b050                bbh_dl_ci4_sophie_rooftile_pal_rgba16
+                0x000000000707b070                bbh_dl_ci4_sophie_rooftile_pal_rgba16_aligner
+                0x000000000707b078                bbh_dl_ci4_sophie_rooftile_ci4
+                0x000000000707b878                bbh_dl_ci4_sophie_rooftile_ci4_aligner
+                0x000000000707b880                bbh_dl_ci4_sophie_interiorwall_pal_rgba16
+                0x000000000707b898                bbh_dl_ci4_sophie_interiorwall_pal_rgba16_aligner
+                0x000000000707b8a0                bbh_dl_ci4_sophie_interiorwall_ci4
+                0x000000000707c0a0                bbh_dl_ci4_sophie_interiorwall_ci4_aligner
+                0x000000000707c0a8                bbh_dl_invisible_ia8
+                0x000000000707c4a8                bbh_dl_invisible_ia8_aligner
+                0x000000000707c4b0                bbh_dl_flower_pal_rgba16
+                0x000000000707c510                bbh_dl_flower_pal_rgba16_aligner
+                0x000000000707c518                bbh_dl_flower_ci8
+                0x000000000707c918                bbh_dl_flower_ci8_aligner
+                0x000000000707c920                bbh_dl_GM4E01_3b9bd952_14_pal_rgba16
+                0x000000000707c948                bbh_dl_GM4E01_3b9bd952_14_pal_rgba16_aligner
+                0x000000000707c950                bbh_dl_GM4E01_3b9bd952_14_ci8
+                0x000000000707cd50                bbh_dl_GM4E01_3b9bd952_14_ci8_aligner
+                0x000000000707cd58                bbh_dl_light_pal_rgba16
+                0x000000000707cd60                bbh_dl_light_pal_rgba16_aligner
+                0x000000000707cd68                bbh_dl_light_ci4
+                0x000000000707cf68                bbh_dl_light_ci4_aligner
+                0x000000000707cf70                bbh_dl_KKIIDDZZ_DAT_1060__p00_pal_rgba16
+                0x000000000707d010                bbh_dl_KKIIDDZZ_DAT_1060__p00_pal_rgba16_aligner
+                0x000000000707d018                bbh_dl_KKIIDDZZ_DAT_1060__p00_ci8
+                0x000000000707d418                bbh_dl_KKIIDDZZ_DAT_1060__p00_ci8_aligner
+                0x000000000707d420                bbh_dl_ci4_sophie_wall_pal_rgba16
+                0x000000000707d440                bbh_dl_ci4_sophie_wall_pal_rgba16_aligner
+                0x000000000707d448                bbh_dl_ci4_sophie_wall_ci4
+                0x000000000707dc48                bbh_dl_ci4_sophie_wall_ci4_aligner
+                0x000000000707dc50                bbh_dl_rgba16_anonmoose_envmap_gold1_pal_rgba16
+                0x000000000707ddc0                bbh_dl_rgba16_anonmoose_envmap_gold1_pal_rgba16_aligner
+                0x000000000707ddc8                bbh_dl_rgba16_anonmoose_envmap_gold1_ci8
+                0x000000000707e1c8                bbh_dl_rgba16_anonmoose_envmap_gold1_ci8_aligner
+                0x000000000707e1d0                bbh_dl_KKIIDDZZ_DAT_964__p00_pal_rgba16
+                0x000000000707e2b0                bbh_dl_KKIIDDZZ_DAT_964__p00_pal_rgba16_aligner
+                0x000000000707e2b8                bbh_dl_KKIIDDZZ_DAT_964__p00_ci8
+                0x000000000707e6b8                bbh_dl_KKIIDDZZ_DAT_964__p00_ci8_aligner
+                0x000000000707e6c0                bbh_dl_tempImgEd032C_pal_rgba16
+                0x000000000707e840                bbh_dl_tempImgEd032C_pal_rgba16_aligner
+                0x000000000707e848                bbh_dl_tempImgEd032C_ci8
+                0x000000000707ec48                bbh_dl_tempImgEd032C_ci8_aligner
+                0x000000000707ec50                bbh_dl_ci4_sophie_hay_pal_rgba16
+                0x000000000707ec70                bbh_dl_ci4_sophie_hay_pal_rgba16_aligner
+                0x000000000707ec78                bbh_dl_ci4_sophie_hay_ci4
+                0x000000000707f478                bbh_dl_ci4_sophie_hay_ci4_aligner
+                0x000000000707f480                bbh_dl_rgba16_anonmoose_swirl1_pal_rgba16
+                0x000000000707f4d0                bbh_dl_rgba16_anonmoose_swirl1_pal_rgba16_aligner
+                0x000000000707f4d8                bbh_dl_rgba16_anonmoose_swirl1_ci8
+                0x000000000707f8d8                bbh_dl_rgba16_anonmoose_swirl1_ci8_aligner
+                0x000000000707f8e0                bbh_dl_ci4_sophie_tablecloth_pal_rgba16
+                0x000000000707f900                bbh_dl_ci4_sophie_tablecloth_pal_rgba16_aligner
+                0x000000000707f908                bbh_dl_ci4_sophie_tablecloth_ci4
+                0x0000000007080108                bbh_dl_ci4_sophie_tablecloth_ci4_aligner
+                0x0000000007080110                bbh_dl_rings_pal_rgba16
+                0x00000000070801f0                bbh_dl_rings_pal_rgba16_aligner
+                0x00000000070801f8                bbh_dl_rings_ci8
+                0x00000000070805f8                bbh_dl_rings_ci8_aligner
+                0x0000000007080600                bbh_dl_ci4_anonmoose_treebark1_pal_rgba16
+                0x0000000007080620                bbh_dl_ci4_anonmoose_treebark1_pal_rgba16_aligner
+                0x0000000007080628                bbh_dl_ci4_anonmoose_treebark1_ci4
+                0x0000000007080e28                bbh_dl_ci4_anonmoose_treebark1_ci4_aligner
+                0x0000000007080e30                bbh_dl_ci4_sophie_wood2_pal_rgba16
+                0x0000000007080e50                bbh_dl_ci4_sophie_wood2_pal_rgba16_aligner
+                0x0000000007080e58                bbh_dl_ci4_sophie_wood2_ci4
+                0x0000000007081658                bbh_dl_ci4_sophie_wood2_ci4_aligner
+                0x0000000007081660                bbh_dl_KKIIDDZZ_DAT_1818__p00_pal_rgba16
+                0x0000000007081738                bbh_dl_KKIIDDZZ_DAT_1818__p00_pal_rgba16_aligner
+                0x0000000007081740                bbh_dl_KKIIDDZZ_DAT_1818__p00_ci8
+                0x0000000007081b40                bbh_dl_KKIIDDZZ_DAT_1818__p00_ci8_aligner
+                0x0000000007081b48                bbh_dl_ci4_sophie_broom_pal_rgba16
+                0x0000000007081b68                bbh_dl_ci4_sophie_broom_pal_rgba16_aligner
+                0x0000000007081b70                bbh_dl_ci4_sophie_broom_ci4
+                0x0000000007082370                bbh_dl_ci4_sophie_broom_ci4_aligner
+                0x0000000007082378                bbh_dl_KKIIDDZZ_DAT_1059__p00_pal_rgba16
+                0x0000000007082400                bbh_dl_KKIIDDZZ_DAT_1059__p00_pal_rgba16_aligner
+                0x0000000007082408                bbh_dl_KKIIDDZZ_DAT_1059__p00_ci8
+                0x0000000007082808                bbh_dl_KKIIDDZZ_DAT_1059__p00_ci8_aligner
+                0x0000000007082810                bbh_dl_KKIIDDZZ_DAT_971__p00_pal_rgba16
+                0x0000000007082938                bbh_dl_KKIIDDZZ_DAT_971__p00_pal_rgba16_aligner
+                0x0000000007082940                bbh_dl_KKIIDDZZ_DAT_971__p00_ci8
+                0x0000000007082d40                bbh_dl_KKIIDDZZ_DAT_971__p00_ci8_aligner
+                0x0000000007082d48                bbh_dl_rgba16_anonmoose_GreenishSquare_pal_rgba16
+                0x0000000007082d70                bbh_dl_rgba16_anonmoose_GreenishSquare_pal_rgba16_aligner
+                0x0000000007082d78                bbh_dl_rgba16_anonmoose_GreenishSquare_ci8
+                0x0000000007083178                bbh_dl_rgba16_anonmoose_GreenishSquare_ci8_aligner
+                0x0000000007083180                bbh_dl_ci4_sophie_metal2_pal_rgba16
+                0x00000000070831a0                bbh_dl_ci4_sophie_metal2_pal_rgba16_aligner
+                0x00000000070831a8                bbh_dl_ci4_sophie_metal2_ci4
+                0x00000000070839a8                bbh_dl_ci4_sophie_metal2_ci4_aligner
+                0x00000000070839b0                bbh_dl_KKIIDDZZ_DAT_2237__p00_pal_rgba16
+                0x00000000070839d0                bbh_dl_KKIIDDZZ_DAT_2237__p00_pal_rgba16_aligner
+                0x00000000070839d8                bbh_dl_KKIIDDZZ_DAT_2237__p00_ci4
+                0x00000000070841d8                bbh_dl_KKIIDDZZ_DAT_2237__p00_ci4_aligner
+                0x00000000070841e0                bbh_dl_ci4_anonmoose_whiteblock_pal_rgba16
+                0x0000000007084200                bbh_dl_ci4_anonmoose_whiteblock_pal_rgba16_aligner
+                0x0000000007084208                bbh_dl_ci4_anonmoose_whiteblock_ci4
+                0x0000000007084a08                bbh_dl_ci4_anonmoose_whiteblock_ci4_aligner
+                0x0000000007084a10                bbh_dl_YOSHIS_ISLAND_6467B7C8B140_all_ia8
+                0x0000000007085a10                bbh_dl_YOSHIS_ISLAND_6467B7C8B140_all_ia8_aligner
+                0x0000000007085a18                bbh_dl_KKIIDDZZ_DAT_2238__p00_pal_rgba16
+                0x0000000007085a38                bbh_dl_KKIIDDZZ_DAT_2238__p00_pal_rgba16_aligner
+                0x0000000007085a40                bbh_dl_KKIIDDZZ_DAT_2238__p00_ci4
+                0x0000000007086240                bbh_dl_KKIIDDZZ_DAT_2238__p00_ci4_aligner
+                0x0000000007086248                bbh_dl_KKIIDDZZ_DAT_684__p00_pal_rgba16
+                0x0000000007086260                bbh_dl_KKIIDDZZ_DAT_684__p00_pal_rgba16_aligner
+                0x0000000007086268                bbh_dl_KKIIDDZZ_DAT_684__p00_ci4
+                0x0000000007086a68                bbh_dl_KKIIDDZZ_DAT_684__p00_ci4_aligner
+                0x0000000007086a70                bbh_area_1_macro_objs
+                0x0000000007086a74                bbh_area_1_collision
+                0x00000000070b0688                bbh_movtex_merry_go_round_water_side
+                0x00000000070b0698                bbh_movtex_merry_go_round_water_entrance
+                0x00000000070b06e8                bbh_seg7_collision_coffin
+                0x00000000070b07dc                bbh_seg7_collision_merry_go_round
+                0x00000000070b0908                bbh_seg7_collision_mesh_elevator
+                0x00000000070b09a8                bbh_seg7_collision_haunted_bookshelf
+                0x00000000070b09f8                bbh_seg7_collision_07026B1C
+                0x00000000070b0a2c                bbh_seg7_collision_tilt_floor_platform
+                0x00000000070b0ac8                bbh_seg7_collision_staircase_step
+                0x00000000070b0b58                bbh_seg7_macro_objs
+                0x00000000070b0cb0                bbh_seg7_rooms
+                0x00000000070b1518                bbh_seg7_collision_level
+                0x00000000070b7ea0                bbh_seg7_dl_070206F0
+                0x00000000070b8280                bbh_seg7_dl_070202F0
+                0x00000000070b8558                bbh_seg7_dl_0701FFE8
+                0x00000000070b87d0                bbh_seg7_dl_0701FD28
+                0x00000000070b8a38                bbh_seg7_dl_0701FAB0
+                0x00000000070b8cd0                bbh_seg7_dl_0701F7E8
+                0x00000000070b8e60                bbh_seg7_dl_0701F5F8
+                0x00000000070b9158                bbh_seg7_dl_0701F2E8
+                0x00000000070b93c0                bbh_seg7_dl_0701F070
+                0x00000000070b9530                bbh_seg7_dl_0701EEC8
+                0x00000000070b96e8                bbh_seg7_dl_0701ED18
+                0x00000000070b9ad0                bbh_seg7_dl_0701E8D8
+                0x00000000070b9e00                bbh_seg7_dl_0701E4E0
+                0x00000000070bc898                bbh_seg7_dl_0701B6D0
+                0x00000000070bd5e0                bbh_seg7_dl_0701A850
+                0x00000000070bdd58                bbh_seg7_dl_0701A080
+                0x00000000070bde38                bbh_seg7_dl_07019EF8
+                0x00000000070c02e0                bbh_seg7_dl_07017788
+                0x00000000070c04b8                bbh_seg7_dl_07017570
+                0x00000000070c0600                bbh_seg7_dl_07017378
+                0x00000000070c1dc8                bbh_seg7_dl_07015A20
+                0x00000000070c20a8                bbh_seg7_dl_070156E0
+                0x00000000070c23b0                bbh_seg7_dl_07015398
+                0x00000000070c26b8                bbh_seg7_dl_07014FD8
+                0x00000000070c3980                bbh_seg7_dl_07013BE8
+                0x00000000070c3b18                bbh_seg7_dl_070139A8
+                0x00000000070c4ce0                bbh_seg7_dl_070126E8
+                0x00000000070c4e98                bbh_seg7_dl_07012510
+                0x00000000070c50c8                bbh_seg7_dl_07012220
+                0x00000000070c6050                bbh_seg7_dl_07011120
+                0x00000000070c77b8                bbh_seg7_dl_0700F848
+                0x00000000070c7a78                bbh_seg7_dl_0700F510
+                0x00000000070c9588                bbh_seg7_dl_0700D7E0
+                0x00000000070c9878                bbh_seg7_dl_0700D490
+                0x00000000070c9a08                bbh_seg7_dl_0700D2E0
+                0x00000000070c9bc0                bbh_seg7_dl_0700D080
+                0x00000000070caf00                bbh_seg7_dl_0700BBF8
+                0x00000000070cb0d8                bbh_seg7_dl_0700B9E0
+                0x00000000070cb630                bbh_seg7_dl_0700B418
+                0x00000000070cb860                bbh_seg7_dl_0700B1C8
+                0x00000000070cb9a8                bbh_seg7_dl_0700AFF0
+                0x00000000070cd878                bbh_seg7_dl_07008EA8
+                0x00000000070cdb68                bbh_seg7_dl_07008B58
+                0x00000000070ce5e8                bbh_seg7_dl_07007FD0
+                0x00000000070ce9d0                bbh_seg7_dl_07007B90
+                0x00000000070cebf8                bbh_seg7_dl_07007940
+                0x00000000070ceeb8                bbh_seg7_dl_070075A8
 
 .data1
  *(.data1)
 
 .got.plt
  *(.got.plt)
-                0x00000000070d5ad8                . = .
-                0x00000000070d5ad8                . = .
-                0x00000000070ddad0                _gp = (ALIGN (0x10) + 0x7ff0)
+                0x00000000070d6188                . = .
+                0x00000000070d6188                . = .
+                0x00000000070de180                _gp = (ALIGN (0x10) + 0x7ff0)
 
 .got
  *(.got)
@@ -708,29 +708,29 @@ LOAD build/us_n64/levels/bbh/leveldata.o
 
 .lit4
  *(.lit4)
-                0x00000000070d5ad8                _edata = .
+                0x00000000070d6188                _edata = .
                 [!provide]                        PROVIDE (edata = .)
-                0x00000000070d5ad8                . = .
-                0x00000000070d5ad8                __bss_start = .
-                0x00000000070d5ad8                _fbss = .
+                0x00000000070d6188                . = .
+                0x00000000070d6188                __bss_start = .
+                0x00000000070d6188                _fbss = .
 
 .sbss
  *(.dynsbss)
  *(.sbss .sbss.* .gnu.linkonce.sb.*)
  *(.scommon)
 
-.bss            0x00000000070d5ad8        0x0 load address 0x00000000070d5af0
+.bss            0x00000000070d6188        0x0 load address 0x00000000070d61a0
  *(.dynbss)
  *(.bss .bss.* .gnu.linkonce.b.*)
- .bss           0x00000000070d5ad8        0x0 build/us_n64/levels/bbh/leveldata.o
+ .bss           0x00000000070d6188        0x0 build/us_n64/levels/bbh/leveldata.o
  *(COMMON)
-                0x00000000070d5ad8                . = ALIGN ((. != 0x0)?0x4:0x1)
-                0x00000000070d5ad8                . = ALIGN (0x4)
-                0x00000000070d5ad8                . = SEGMENT_START ("ldata-segment", .)
-                0x00000000070d5ad8                . = ALIGN (0x4)
-                0x00000000070d5ad8                _end = .
+                0x00000000070d6188                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x00000000070d6188                . = ALIGN (0x4)
+                0x00000000070d6188                . = SEGMENT_START ("ldata-segment", .)
+                0x00000000070d6188                . = ALIGN (0x4)
+                0x00000000070d6188                _end = .
                 [!provide]                        PROVIDE (end = .)
-                0x00000000070d5ad8                . = DATA_SEGMENT_END (.)
+                0x00000000070d6188                . = DATA_SEGMENT_END (.)
 
 .stab
  *(.stab)

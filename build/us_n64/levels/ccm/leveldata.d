@@ -77,4 +77,8 @@ build/us_n64/levels/ccm/leveldata.o: levels/ccm/leveldata.c \
  levels/ccm/area_4/collision.inc.c levels/ccm/area_4/macro.inc.c \
  levels/ccm/area_4/spline.inc.c levels/ccm/area_5/collision.inc.c \
  levels/ccm/area_5/macro.inc.c levels/ccm/area_5/spline.inc.c \
- levels/ccm/model.inc.c
+ levels/ccm/area_6/collision.inc.c levels/ccm/area_6/macro.inc.c \
+ levels/ccm/area_6/spline.inc.c levels/ccm/area_7/collision.inc.c \
+ levels/ccm/area_7/macro.inc.c levels/ccm/area_7/spline.inc.c \
+ levels/ccm/area_8/collision.inc.c levels/ccm/area_8/macro.inc.c \
+ levels/ccm/area_8/spline.inc.c levels/ccm/model.inc.c

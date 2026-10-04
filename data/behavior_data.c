@@ -1128,7 +1128,7 @@ const BehaviorScript bhvDoor[] = {
     LOAD_ANIMATIONS(oAnimations, door_seg3_anims_030156C0),
     ANIMATE(DOOR_ANIM_CLOSED),
     LOAD_COLLISION_DATA(door_seg3_collision_door),
-    SET_HITBOX(/*Radius*/ 80, /*Height*/ 100),
+    SET_HITBOX(/*Radius*/ 60, /*Height*/ 100),
     SET_INT(oIntangibleTimer, 0),
     SET_FLOAT(oCollisionDistance, 1000),
     SET_HOME(),
