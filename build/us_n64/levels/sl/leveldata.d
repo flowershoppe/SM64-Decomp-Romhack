@@ -55,4 +55,6 @@ build/us_n64/levels/sl/leveldata.o: levels/sl/leveldata.c \
  levels/sl/areas/1/macro.inc.c levels/sl/snow_mound/collision.inc.c \
  levels/sl/unused_cracked_ice/collision.inc.c \
  levels/sl/areas/2/collision.inc.c levels/sl/areas/2/macro.inc.c \
- levels/sl/areas/1/movtext.inc.c
+ levels/sl/areas/1/movtext.inc.c levels/sl/leveldata.inc.c \
+ levels/sl/area_1/collision.inc.c levels/sl/area_1/macro.inc.c \
+ levels/sl/area_1/spline.inc.c levels/sl/model.inc.c

@@ -6457,3 +6457,9 @@ const BehaviorScript bhvBooLaugh[] = {
         CALL_NATIVE(bhv_boo_laugh),
     END_LOOP(),
 };
+
+const BehaviorScript bhvWarpSpawner[] = {
+    OR_INT(oFlags, OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE),
+    SET_HOME(),
+    CALL_NATIVE(bhv_warp_spawn),
+};

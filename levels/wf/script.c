@@ -70,8 +70,8 @@ const LevelScript level_wf_entry[] = {
 	/* Fast64 end persistent block [level commands] */
 
 	AREA(1, wf_area_1),
-		WARP_NODE(0xF1, LEVEL_WF, 0x01, 0x02, WARP_NO_CHECKPOINT),
-		WARP_NODE(0x01, LEVEL_JRB, 0x01, 0x08, WARP_NO_CHECKPOINT),
+		WARP_NODE(0xF1, LEVEL_WF, 0x01, 0x02, WARP_CHECKPOINT),
+		WARP_NODE(0x01, LEVEL_JRB, 0x01, 0x08, WARP_CHECKPOINT),
 		OBJECT(MODEL_AMP, 828, 10301, 6971, 0, 90, 0, 0x00000000, bhvCirclingAmp),
 		OBJECT(MODEL_AMP, 1685, 10103, 3392, 0, 90, 0, 0x00000000, bhvCirclingAmp),
 		OBJECT(MODEL_AMP, 962, 11186, 10086, 0, 100, 0, 0x00000000, bhvCirclingAmp),

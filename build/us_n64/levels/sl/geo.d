@@ -42,7 +42,8 @@ build/us_n64/levels/sl/geo.o: levels/sl/geo.c include/n64/ultra64.h \
  src/engine/graph_node.h src/game/memory.h src/engine/geo_layout.h \
  src/game/puppycam2.h include/level_table.h src/game/moving_texture.h \
  src/game/screen_transition.h src/game/paintings.h \
- include/make_const_nonconst.h levels/sl/header.h \
+ include/make_const_nonconst.h levels/sl/header.h levels/sl/header.inc.h \
  levels/sl/unused_cracked_ice/geo.inc.c \
  levels/sl/unused_ice_shard/geo.inc.c levels/sl/snow_mound/geo.inc.c \
- levels/sl/areas/1/geo.inc.c levels/sl/areas/2/geo.inc.c
+ levels/sl/areas/1/geo.inc.c levels/sl/areas/2/geo.inc.c \
+ levels/sl/geo.inc.c levels/sl/area_1/geo.inc.c src/game/envfx_snow.h

@@ -41,7 +41,9 @@ struct SaveFile {
     // cannon is open.
     u8 courseStars[COURSE_COUNT]; // 200 bits
 
-    u8 courseCoinScores[COURSE_STAGES_COUNT]; // 120 bits
+    u8 courseCoinScores[COURSE_STAGES_COUNT]; // 120 bits    
+
+    u16 lastCoins;
 
     struct SaveBlockSignature signature; // 32 bits
 };
@@ -192,6 +194,12 @@ u32 save_file_get_widescreen_mode(void);
 void save_file_set_widescreen_mode(u8 mode);
 #endif
 void save_file_move_cap_to_default_location(void);
+u8 save_file_get_current_level(void);
+u8 save_file_get_current_area(void);
+void save_file_set_last_location(void);
+s32 save_file_get_last_location(u8 type);
+void save_file_save_coins(void);
+void save_file_set_coins(void);
 
 void disable_warp_checkpoint(void);
 void check_if_should_set_warp_checkpoint(struct WarpNode *warpNode);

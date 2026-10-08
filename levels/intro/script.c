@@ -23,6 +23,8 @@
 #include "config.h"
 #include "game/print.h"
 
+#include "game/save_file.h"
+
 #include "game/object_list_processor.h"
 
 const LevelScript level_intro_splash_screen[] = {

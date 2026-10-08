@@ -45,4 +45,4 @@ build/us_n64/src/game/save_file.o: src/game/save_file.c \
  src/game/level_update.h src/game/save_file.h include/course_table.h \
  levels/course_defines.h src/game/sound_init.h include/level_commands.h \
  include/level_table.h src/game/rumble_init.h src/game/emutest.h \
- src/game/vc_ultra.h
+ src/game/mario.h src/game/vc_ultra.h

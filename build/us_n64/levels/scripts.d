@@ -97,16 +97,17 @@ build/us_n64/levels/scripts.o: levels/scripts.c include/n64/ultra64.h \
  levels/intro/header.h build/us_n64/include/level_headers.h \
  levels/bbh/header.h src/game/moving_texture.h levels/bbh/header.inc.h \
  levels/ccm/header.h levels/ccm/header.inc.h \
- levels/castle_inside/header.h src/game/paintings.h levels/hmc/header.h \
+ levels/castle_inside/header.h src/game/paintings.h \
+ levels/castle_inside/header.inc.h levels/hmc/header.h \
  levels/ssl/header.h levels/bob/header.h levels/bob/header.inc.h \
- src/game/camera.h levels/sl/header.h levels/wdw/header.h \
- levels/jrb/header.h levels/jrb/header.inc.h levels/thi/header.h \
- levels/ttc/header.h levels/rr/header.h levels/rr/header.inc.h \
- levels/castle_grounds/header.h levels/bitdw/header.h \
- levels/vcutm/header.h levels/bitfs/header.h levels/sa/header.h \
- levels/bits/header.h levels/lll/header.h levels/ddd/header.h \
- levels/wf/header.h levels/wf/header.inc.h levels/ending/header.h \
- levels/castle_courtyard/header.h levels/pss/header.h \
- levels/cotmc/header.h levels/totwc/header.h levels/bowser_1/header.h \
- levels/wmotr/header.h levels/bowser_2/header.h levels/bowser_3/header.h \
- levels/ttm/header.h levels/level_defines.h
+ src/game/camera.h levels/sl/header.h levels/sl/header.inc.h \
+ levels/wdw/header.h levels/jrb/header.h levels/jrb/header.inc.h \
+ levels/thi/header.h levels/ttc/header.h levels/rr/header.h \
+ levels/rr/header.inc.h levels/castle_grounds/header.h \
+ levels/bitdw/header.h levels/vcutm/header.h levels/bitfs/header.h \
+ levels/sa/header.h levels/bits/header.h levels/lll/header.h \
+ levels/ddd/header.h levels/wf/header.h levels/wf/header.inc.h \
+ levels/ending/header.h levels/castle_courtyard/header.h \
+ levels/pss/header.h levels/cotmc/header.h levels/totwc/header.h \
+ levels/bowser_1/header.h levels/wmotr/header.h levels/bowser_2/header.h \
+ levels/bowser_3/header.h levels/ttm/header.h levels/level_defines.h

@@ -91,4 +91,6 @@ build/us_n64/levels/intro/script.o: levels/intro/script.c \
  actors/owl/anim_header.h actors/owl/anims/table_enum.h \
  actors/custom_star/collision_header.h actors/custom_star/geo_header.h \
  actors/common1.h include/make_const_nonconst.h levels/intro/header.h \
- include/farcall.h src/game/print.h src/game/object_list_processor.h
+ include/farcall.h src/game/print.h src/game/save_file.h \
+ include/course_table.h levels/course_defines.h \
+ src/game/object_list_processor.h
