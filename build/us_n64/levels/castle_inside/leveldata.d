@@ -153,4 +153,9 @@ build/us_n64/levels/castle_inside/leveldata.o: \
  levels/castle_inside/star_door/collision.inc.c \
  levels/castle_inside/water_level_pillar/collision.inc.c \
  levels/castle_inside/areas/3/trajectory.inc.c \
- levels/castle_inside/areas/3/movtext.inc.c
+ levels/castle_inside/areas/3/movtext.inc.c \
+ levels/castle_inside/leveldata.inc.c \
+ levels/castle_inside/area_1/collision.inc.c \
+ levels/castle_inside/area_1/macro.inc.c \
+ levels/castle_inside/area_1/spline.inc.c \
+ levels/castle_inside/model.inc.c

@@ -40,4 +40,4 @@ build/us_n64/levels/castle_inside/script.o: levels/castle_inside/script.c \
  src/game/level_update.h include/types.h levels/scripts.h \
  src/game/puppycam2.h actors/common1.h include/make_const_nonconst.h \
  levels/castle_inside/header.h src/game/paintings.h include/macros.h \
- src/game/moving_texture.h
+ src/game/moving_texture.h levels/castle_inside/header.inc.h

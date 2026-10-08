@@ -45,7 +45,8 @@ build/us_n64/src/game/paintings.o: src/game/paintings.c \
  include/config/config_world.h src/engine/math_util.h \
  src/game/puppyprint.h src/game/profiling.h src/game/game_init.h \
  src/game/memory.h src/game/geo_misc.h levels/castle_inside/header.h \
- src/game/paintings.h src/game/moving_texture.h levels/hmc/header.h \
+ src/game/paintings.h src/game/moving_texture.h \
+ levels/castle_inside/header.inc.h levels/hmc/header.h \
  levels/ttm/header.h src/game/mario.h src/game/moving_texture.h \
  src/game/level_update.h src/game/object_list_processor.h \
  src/game/paintings.h src/game/save_file.h include/course_table.h \

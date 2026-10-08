@@ -1877,14 +1877,14 @@ void init_mario(void) {
     vec3f_copy(gMarioState->marioObj->header.gfx.pos, gMarioState->pos);
     vec3s_set(gMarioState->marioObj->header.gfx.angle, 0, gMarioState->faceAngle[1], 0);
 
-    Vec3s capPos;
+    /*Vec3s capPos;
     if (save_file_get_cap_pos(capPos)) {
         struct Object *capObject = spawn_object(gMarioState->marioObj, MODEL_MARIOS_CAP, bhvNormalCap);
         vec3s_to_vec3f(&capObject->oPosVec, capPos);
 
         capObject->oForwardVel = 0;
         capObject->oMoveAngleYaw = 0;
-    }
+    }*/
 }
 
 void init_mario_from_save_file(void) {
@@ -1897,7 +1897,7 @@ void init_mario_from_save_file(void) {
     gMarioState->controller = &gControllers[0];
     gMarioState->animList = &gMarioAnimsBuf;
 
-    gMarioState->numCoins = 0;
+    save_file_set_coins();
     gMarioState->numStars = save_file_get_total_star_count(gCurrSaveFileNum - 1, COURSE_MIN - 1, COURSE_MAX - 1);
     gMarioState->numKeys = 0;
 #ifdef ENABLE_LIVES
@@ -1913,6 +1913,5 @@ void init_mario_from_save_file(void) {
     gMarioState->prevNumStarsForDialog = gMarioState->numStars;
     gMarioState->animYTrans = 0xBD;
 
-    gHudDisplay.coins = 0;
     gHudDisplay.wedges = 8;
 }

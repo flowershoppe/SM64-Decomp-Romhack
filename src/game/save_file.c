@@ -19,6 +19,7 @@
 #include "sram.h"
 #endif
 #include "puppycam2.h"
+#include "game/mario.h"
 
 #ifdef UNIQUE_SAVE_DATA
 u16 MENU_DATA_MAGIC = 0x4849;
@@ -423,7 +424,6 @@ void puppycam_check_save(void) {
     }
 }
 #endif
-
 /**
  * Reload the current save file from its backup copy, which is effectively a
  * a cached copy of what has been written to EEPROM.
@@ -442,7 +442,7 @@ void save_file_reload(void) {
  * Update the current save file after collecting a star or a key.
  * If coin score is greater than the current high score, update it.
  */
-void save_file_collect_star_or_key(s16 coinScore, s16 starIndex) {
+void save_file_collect_star_or_key(s16 coinScore, s16 starIndex) {    
     s32 fileIndex = gCurrSaveFileNum - 1;
     s32 courseIndex = COURSE_NUM_TO_INDEX(gCurrCourseNum);
 #ifdef GLOBAL_STAR_IDS
@@ -676,23 +676,23 @@ void save_file_set_cannon_unlocked(void) {
 }
 
 void save_file_set_cap_pos(s16 x, s16 y, s16 z) {
-    struct SaveFile *saveFile = &gSaveBuffer.files[gCurrSaveFileNum - 1][0];
+    /*struct SaveFile *saveFile = &gSaveBuffer.files[gCurrSaveFileNum - 1][0];
 
     saveFile->capLevel = gCurrLevelNum;
     saveFile->capArea = gCurrAreaIndex;
     vec3s_set(saveFile->capPos, x, y, z);
-    save_file_set_flags(SAVE_FLAG_CAP_ON_GROUND);
+    save_file_set_flags(SAVE_FLAG_CAP_ON_GROUND);*/
 }
 
 s32 save_file_get_cap_pos(Vec3s capPos) {
-    struct SaveFile *saveFile = &gSaveBuffer.files[gCurrSaveFileNum - 1][0];
+    /*struct SaveFile *saveFile = &gSaveBuffer.files[gCurrSaveFileNum - 1][0];
     s32 flags = save_file_get_flags();
 
     if (saveFile->capLevel == gCurrLevelNum && saveFile->capArea == gCurrAreaIndex
         && (flags & SAVE_FLAG_CAP_ON_GROUND)) {
         vec3s_copy(capPos, saveFile->capPos);
         return TRUE;
-    }
+    }*/
     return FALSE;
 }
 
@@ -796,4 +796,54 @@ s32 check_warp_checkpoint(struct WarpNode *warpNode) {
     }
 
     return warpCheckpointActive;
+}
+
+void save_file_set_last_location(void) {
+    struct SaveFile *f = &gSaveBuffer.files[gCurrSaveFileNum - 1][0];
+
+    f->capLevel = gCurrLevelNum;
+    f->capArea  = gCurrAreaIndex;
+    vec3s_set(f->capPos, gMarioState->pos[0], gMarioState->pos[1], gMarioState->pos[2]);
+    gSaveFileModified = TRUE;
+}
+
+s32 save_file_get_last_location(u8 type){
+    struct SaveFile *f = &gSaveBuffer.files[gCurrSaveFileNum - 1][0];
+    switch(type){
+        case 0:
+            return f->capPos[0];
+        break;
+        case 1:
+            return f->capPos[1];
+        break;
+        case 2:
+            return f->capPos[2];
+        break;
+    }
+}
+u8 save_file_get_current_level(void){
+    struct SaveFile *saveFile = &gSaveBuffer.files[gCurrSaveFileNum - 1][0];
+    if(saveFile->capLevel == NULL){
+        saveFile->capLevel = LEVEL_BOB;
+    }
+    return saveFile->capLevel;
+}
+
+u8 save_file_get_current_area(void){
+    struct SaveFile *saveFile = &gSaveBuffer.files[gCurrSaveFileNum - 1][0];
+    if(saveFile->capArea == NULL){
+        saveFile->capArea = 1;
+    }
+    return saveFile->capArea;
+}
+
+void save_file_save_coins(void){    
+    struct SaveFile *f = &gSaveBuffer.files[gCurrSaveFileNum - 1][0];
+    f->lastCoins = gMarioState->numCoins;
+}
+
+void save_file_set_coins(void){
+    struct SaveFile *f = &gSaveBuffer.files[gCurrSaveFileNum - 1][0];
+    gMarioState->numCoins = f->lastCoins;
+    gHudDisplay.coins = f->lastCoins;
 }

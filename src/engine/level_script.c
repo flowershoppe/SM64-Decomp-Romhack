@@ -477,9 +477,9 @@ static void level_cmd_23(void) {
     sCurrentCmd = CMD_NEXT;
 }
 
-static void level_cmd_init_mario(void) {
+static void level_cmd_init_mario(void) {    
     vec3_zero(gMarioSpawnInfo->startPos);
-    vec3_zero(gMarioSpawnInfo->startAngle);
+    vec3_zero(gMarioSpawnInfo->startAngle);    
 
     gMarioSpawnInfo->activeAreaIndex = -1;
     gMarioSpawnInfo->areaIndex = 0;
@@ -714,6 +714,15 @@ static void level_cmd_set_mario_start_pos(void) {
     vec3s_set(gMarioSpawnInfo->startAngle, 0, CMD_GET(s16, 4) * 0x8000 / 180, 0);
 
     sCurrentCmd = CMD_NEXT;
+
+    static u8 loading = 1;
+    
+    if(loading != 0){
+        gMarioSpawnInfo->startPos[0] = save_file_get_last_location(0);
+        gMarioSpawnInfo->startPos[1] = save_file_get_last_location(1);
+        gMarioSpawnInfo->startPos[2] = save_file_get_last_location(2);
+        loading = 0;
+    }
 }
 
 static void level_cmd_unload_mario_area(void) {

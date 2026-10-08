@@ -1345,7 +1345,11 @@ void load_language_text(void) {
 }
 #endif
 
-s32 lvl_init_from_save_file(UNUSED s16 initOrUpdate, s32 levelNum) {
+s32 lvl_init_from_save_file(UNUSED s16 initOrUpdate, s32 levelNum) { 
+    if (save_file_get_current_level() != 0) { 
+        levelNum = save_file_get_current_level();
+        sWarpDest.areaIdx = save_file_get_current_area();
+    }
 #if MULTILANG
     gInGameLanguage = eu_get_language()+1;
     load_language_text();
@@ -1368,6 +1372,7 @@ s32 lvl_init_from_save_file(UNUSED s16 initOrUpdate, s32 levelNum) {
     save_file_move_cap_to_default_location();
     select_mario_cam_mode();
     set_yoshi_as_not_dead();
+    save_file_set_coins();
 
     return levelNum;
 }
@@ -1384,8 +1389,6 @@ s32 lvl_set_current_level(UNUSED s16 initOrUpdate, s32 levelNum) {
     }
 
     if (gCurrLevelNum != LEVEL_BOWSER_1 && gCurrLevelNum != LEVEL_BOWSER_2 && gCurrLevelNum != LEVEL_BOWSER_3) {
-        gMarioState->numCoins = 0;
-        gHudDisplay.coins = 0;
         gCurrCourseStarFlags =
             save_file_get_star_flags(gCurrSaveFileNum - 1, COURSE_NUM_TO_INDEX(gCurrCourseNum));
     }
@@ -1404,6 +1407,7 @@ s32 lvl_set_current_level(UNUSED s16 initOrUpdate, s32 levelNum) {
 	if (gCurrLevelNum == LEVEL_BBH) return 0;
 	if (gCurrLevelNum == LEVEL_WF) return 0;
 	if (gCurrLevelNum == LEVEL_RR) return 0;
+	if (gCurrLevelNum == LEVEL_SL) return 0;
 
     return !gDebugLevelSelect;
 }

@@ -43,6 +43,7 @@ build/us_n64/levels/castle_inside/geo.o: levels/castle_inside/geo.c \
  src/game/puppycam2.h include/level_table.h src/game/moving_texture.h \
  src/game/screen_transition.h src/game/paintings.h \
  include/make_const_nonconst.h levels/castle_inside/header.h \
+ levels/castle_inside/header.inc.h \
  levels/castle_inside/star_door/geo.inc.c \
  levels/castle_inside/trap_door/geo.inc.c \
  levels/castle_inside/areas/1/geo.inc.c \
@@ -51,4 +52,5 @@ build/us_n64/levels/castle_inside/geo.o: levels/castle_inside/geo.c \
  levels/castle_inside/clock_hour_hand/geo.inc.c \
  levels/castle_inside/areas/2/geo.inc.c \
  levels/castle_inside/water_level_pillar/geo.inc.c \
- levels/castle_inside/areas/3/geo.inc.c
+ levels/castle_inside/areas/3/geo.inc.c levels/castle_inside/geo.inc.c \
+ levels/castle_inside/area_1/geo.inc.c src/game/envfx_snow.h

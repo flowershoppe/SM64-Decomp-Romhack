@@ -216,7 +216,7 @@ s32 get_star_collection_dialog(struct MarioState *m) {
 
 // save menu handler
 void handle_save_menu(struct MarioState *m) {
-    s32 dialogID;
+    s32 dialogID;    
     // wait for the menu to show up
     if (is_anim_past_end(m) && gSaveOptSelectIndex != MENU_OPT_NONE) {
         // save and continue / save and quit

@@ -216,40 +216,49 @@ LOAD build/us_n64/levels/sl/leveldata.o
  *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
                 0x0000000007000000                . = DATA_SEGMENT_RELRO_END (., 0x0)
 
-.data           0x0000000007000000     0xf468 load address 0x0000000007000018
+.data           0x0000000007000000     0xf658 load address 0x0000000007000018
                 0x0000000007000000                _fdata = .
  *(.data .data.* .gnu.linkonce.d.*)
- .data          0x0000000007000000     0xf468 build/us_n64/levels/sl/leveldata.o
-                0x0000000007000000                sl_movtex_water
-                0x0000000007000058                sl_seg7_area_2_macro_objs
-                0x0000000007000110                sl_seg7_area_2_collision
-                0x0000000007000c24                sl_seg7_collision_pound_explodes
-                0x0000000007000c68                sl_seg7_collision_sliding_snow_mound
-                0x0000000007000cc8                sl_seg7_area_1_macro_objs
-                0x0000000007000ea0                sl_seg7_area_1_collision
-                0x0000000007003748                sl_seg7_dl_0700CB58
-                0x00000000070038a0                sl_seg7_dl_0700C9E8
-                0x00000000070044a0                sl_seg7_dl_0700BCF8
-                0x0000000007004678                sl_seg7_dl_0700BAE8
-                0x00000000070056b0                sl_seg7_dl_0700A980
-                0x0000000007005748                sl_seg7_dl_0700A890
-                0x0000000007005858                sl_seg7_dl_0700A780
-                0x0000000007005a08                sl_seg7_dl_0700A5A0
-                0x0000000007006fc8                sl_seg7_dl_07008D58
-                0x0000000007007420                sl_seg7_dl_070088B0
-                0x00000000070082e8                sl_seg7_dl_07007880
-                0x0000000007008728                sl_seg7_dl_070073D0
-                0x000000000700a248                sl_seg7_dl_070056B0
-                0x000000000700a430                sl_seg7_dl_07005478
+ .data          0x0000000007000000     0xf658 build/us_n64/levels/sl/leveldata.o
+                0x0000000007000000                sl_dl_final_revert_mesh_layer_1
+                0x0000000007000040                sl_dl_Plane_mesh_layer_1
+                0x0000000007000080                mat_revert_sl_dl_f3dlite_material
+                0x0000000007000098                mat_sl_dl_f3dlite_material
+                0x00000000070000e0                sl_dl_Plane_mesh_layer_1_tri_0
+                0x00000000070000f8                sl_dl_Plane_mesh_layer_1_vtx_0
+                0x0000000007000138                sl_dl_Plane_mesh_layer_1_vtx_cull
+                0x00000000070001b8                sl_area_1_macro_objs
+                0x00000000070001bc                sl_area_1_collision
+                0x00000000070001f0                sl_movtex_water
+                0x0000000007000248                sl_seg7_area_2_macro_objs
+                0x0000000007000300                sl_seg7_area_2_collision
+                0x0000000007000e14                sl_seg7_collision_pound_explodes
+                0x0000000007000e58                sl_seg7_collision_sliding_snow_mound
+                0x0000000007000eb8                sl_seg7_area_1_macro_objs
+                0x0000000007001090                sl_seg7_area_1_collision
+                0x0000000007003938                sl_seg7_dl_0700CB58
+                0x0000000007003a90                sl_seg7_dl_0700C9E8
+                0x0000000007004690                sl_seg7_dl_0700BCF8
+                0x0000000007004868                sl_seg7_dl_0700BAE8
+                0x00000000070058a0                sl_seg7_dl_0700A980
+                0x0000000007005938                sl_seg7_dl_0700A890
+                0x0000000007005a48                sl_seg7_dl_0700A780
+                0x0000000007005bf8                sl_seg7_dl_0700A5A0
+                0x00000000070071b8                sl_seg7_dl_07008D58
+                0x0000000007007610                sl_seg7_dl_070088B0
+                0x00000000070084d8                sl_seg7_dl_07007880
+                0x0000000007008918                sl_seg7_dl_070073D0
+                0x000000000700a438                sl_seg7_dl_070056B0
+                0x000000000700a620                sl_seg7_dl_07005478
 
 .data1
  *(.data1)
 
 .got.plt
  *(.got.plt)
-                0x000000000700f468                . = .
-                0x000000000700f468                . = .
-                0x0000000007017460                _gp = (ALIGN (0x10) + 0x7ff0)
+                0x000000000700f658                . = .
+                0x000000000700f658                . = .
+                0x0000000007017650                _gp = (ALIGN (0x10) + 0x7ff0)
 
 .got
  *(.got)
@@ -262,29 +271,29 @@ LOAD build/us_n64/levels/sl/leveldata.o
 
 .lit4
  *(.lit4)
-                0x000000000700f468                _edata = .
+                0x000000000700f658                _edata = .
                 [!provide]                        PROVIDE (edata = .)
-                0x000000000700f468                . = .
-                0x000000000700f468                __bss_start = .
-                0x000000000700f468                _fbss = .
+                0x000000000700f658                . = .
+                0x000000000700f658                __bss_start = .
+                0x000000000700f658                _fbss = .
 
 .sbss
  *(.dynsbss)
  *(.sbss .sbss.* .gnu.linkonce.sb.*)
  *(.scommon)
 
-.bss            0x000000000700f468        0x0 load address 0x000000000700f480
+.bss            0x000000000700f658        0x0 load address 0x000000000700f670
  *(.dynbss)
  *(.bss .bss.* .gnu.linkonce.b.*)
- .bss           0x000000000700f468        0x0 build/us_n64/levels/sl/leveldata.o
+ .bss           0x000000000700f658        0x0 build/us_n64/levels/sl/leveldata.o
  *(COMMON)
-                0x000000000700f468                . = ALIGN ((. != 0x0)?0x4:0x1)
-                0x000000000700f468                . = ALIGN (0x4)
-                0x000000000700f468                . = SEGMENT_START ("ldata-segment", .)
-                0x000000000700f468                . = ALIGN (0x4)
-                0x000000000700f468                _end = .
+                0x000000000700f658                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x000000000700f658                . = ALIGN (0x4)
+                0x000000000700f658                . = SEGMENT_START ("ldata-segment", .)
+                0x000000000700f658                . = ALIGN (0x4)
+                0x000000000700f658                _end = .
                 [!provide]                        PROVIDE (end = .)
-                0x000000000700f468                . = DATA_SEGMENT_END (.)
+                0x000000000700f658                . = DATA_SEGMENT_END (.)
 
 .stab
  *(.stab)

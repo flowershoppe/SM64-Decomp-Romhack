@@ -52,21 +52,21 @@ build/us_n64/src/game/behavior_actions.o: src/game/behavior_actions.c \
  src/game/interaction.h include/level_misc_macros.h \
  src/game/level_update.h levels/bob/header.h levels/bob/header.inc.h \
  src/game/camera.h levels/bowser_3/header.h levels/castle_inside/header.h \
- src/game/paintings.h src/game/moving_texture.h levels/hmc/header.h \
- src/game/main.h src/game/mario.h src/game/mario_actions_cutscene.h \
- src/game/mario_step.h src/game/obj_behaviors.h \
- src/game/obj_behaviors_2.h include/object_constants.h \
- src/game/object_helpers.h src/game/object_list_processor.h \
- src/game/paintings.h src/game/platform_displacement.h \
- src/game/rendering_graph_node.h src/game/save_file.h \
- include/course_table.h levels/course_defines.h include/seq_ids.h \
- src/game/spawn_object.h src/game/spawn_sound.h src/game/rumble_init.h \
- src/game/behaviors/star_door.inc.c src/game/behaviors/mr_i.inc.c \
- src/game/behaviors/pole.inc.c src/game/behaviors/thi_top.inc.c \
- src/game/behaviors/capswitch.inc.c src/game/behaviors/king_bobomb.inc.c \
- src/game/behaviors/beta_chest.inc.c src/game/behaviors/water_objs.inc.c \
- src/game/behaviors/cannon.inc.c src/game/behaviors/chuckya.inc.c \
- src/game/behaviors/breakable_wall.inc.c \
+ src/game/paintings.h src/game/moving_texture.h \
+ levels/castle_inside/header.inc.h levels/hmc/header.h src/game/main.h \
+ src/game/mario.h src/game/mario_actions_cutscene.h src/game/mario_step.h \
+ src/game/obj_behaviors.h src/game/obj_behaviors_2.h \
+ include/object_constants.h src/game/object_helpers.h \
+ src/game/object_list_processor.h src/game/paintings.h \
+ src/game/platform_displacement.h src/game/rendering_graph_node.h \
+ src/game/save_file.h include/course_table.h levels/course_defines.h \
+ include/seq_ids.h src/game/spawn_object.h src/game/spawn_sound.h \
+ src/game/rumble_init.h src/game/behaviors/star_door.inc.c \
+ src/game/behaviors/mr_i.inc.c src/game/behaviors/pole.inc.c \
+ src/game/behaviors/thi_top.inc.c src/game/behaviors/capswitch.inc.c \
+ src/game/behaviors/king_bobomb.inc.c src/game/behaviors/beta_chest.inc.c \
+ src/game/behaviors/water_objs.inc.c src/game/behaviors/cannon.inc.c \
+ src/game/behaviors/chuckya.inc.c src/game/behaviors/breakable_wall.inc.c \
  src/game/behaviors/kickable_board.inc.c \
  src/game/behaviors/tower_door.inc.c \
  src/game/behaviors/rotating_platform.inc.c levels/wf/header.h \
@@ -133,6 +133,8 @@ build/us_n64/src/game/behavior_actions.o: src/game/behavior_actions.c \
  src/game/behaviors/star_gate.inc.c \
  src/game/behaviors/invisible_dialog.inc.c src/game/behaviors/owl.inc.c \
  src/game/behaviors/battle_door.inc.c src/game/behaviors/boo_laugh.inc.c \
+ src/game/behaviors/warp_spawner.inc.c include/level_commands.h \
+ include/level_table.h src/game/save_file.h \
  src/game/behaviors/tuxie.inc.c src/game/behaviors/fish.inc.c \
  src/game/behaviors/express_elevator.inc.c src/game/behaviors/bub.inc.c \
  src/game/behaviors/exclamation_box.inc.c \

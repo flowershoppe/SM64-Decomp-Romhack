@@ -216,114 +216,123 @@ LOAD build/us_n64/levels/castle_inside/leveldata.o
  *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
                 0x0000000007000000                . = DATA_SEGMENT_RELRO_END (., 0x0)
 
-.data           0x0000000007000000    0x75ef0 load address 0x0000000007000018
+.data           0x0000000007000000    0x760e0 load address 0x0000000007000018
                 0x0000000007000000                _fdata = .
  *(.data .data.* .gnu.linkonce.d.*)
- .data          0x0000000007000000    0x75ef0 build/us_n64/levels/castle_inside/leveldata.o
-                0x0000000007000000                inside_castle_movtex_moat_water
-                0x0000000007000018                inside_castle_movtex_green_room_water
-                0x0000000007000088                inside_castle_seg7_trajectory_mips
-                0x0000000007000220                inside_castle_seg7_collision_water_level_pillar
-                0x00000000070002ac                inside_castle_seg7_collision_star_door
-                0x0000000007000328                inside_castle_seg7_collision_floor_trap
-                0x000000000700035c                inside_castle_seg7_area_3_rooms
-                0x00000000070008d0                inside_castle_seg7_area_2_rooms
-                0x00000000070010b4                inside_castle_seg7_area_1_rooms
-                0x0000000007001914                inside_castle_seg7_area_3_macro_objs
-                0x0000000007001954                inside_castle_seg7_area_2_macro_objs
-                0x0000000007001960                inside_castle_seg7_area_1_macro_objs
-                0x00000000070019dc                inside_castle_seg7_collision_ddd_warp_2
-                0x0000000007001ad0                inside_castle_seg7_collision_ddd_warp
-                0x0000000007001bc4                inside_castle_seg7_area_3_collision
-                0x00000000070061b0                inside_castle_seg7_area_2_collision
-                0x000000000700c8bc                inside_castle_seg7_area_1_collision
-                0x0000000007013158                inside_castle_seg7_dl_07068B10
-                0x00000000070133a8                inside_castle_seg7_dl_07068850
-                0x0000000007014a68                inside_castle_seg7_dl_07066FA0
-                0x0000000007014b68                inside_castle_seg7_dl_07066E90
-                0x0000000007014cd0                inside_castle_seg7_dl_07066CE0
-                0x00000000070169b0                inside_castle_seg7_dl_07064D58
-                0x0000000007016b20                inside_castle_seg7_dl_07064B78
-                0x00000000070196b0                inside_castle_seg7_dl_07061C20
-                0x0000000007019b50                inside_castle_seg7_dl_070616E8
-                0x000000000701c9d8                inside_castle_seg7_dl_0705E450
-                0x000000000701cb68                inside_castle_seg7_dl_0705E2A0
-                0x000000000701cd20                inside_castle_seg7_dl_0705E088
-                0x00000000070215a8                inside_castle_seg7_dl_07059190
-                0x0000000007021d30                inside_castle_seg7_dl_07058950
-                0x0000000007022638                inside_castle_seg7_dl_07057F00
-                0x00000000070231a0                inside_castle_seg7_dl_070572A0
-                0x00000000070249e0                inside_castle_seg7_dl_070558D0
-                0x0000000007028300                inside_castle_seg7_dl_07051B60
-                0x0000000007028430                inside_castle_seg7_dl_070519C8
-                0x0000000007028720                inside_castle_seg7_dl_07051678
-                0x0000000007028a58                inside_castle_seg7_dl_070512F8
-                0x0000000007029290                inside_castle_seg7_dl_07050938
-                0x000000000702ce90                inside_castle_seg7_dl_0704C7D8
-                0x000000000702e938                inside_castle_seg7_dl_0704AA98
-                0x000000000702f0c0                inside_castle_seg7_dl_0704A2E0
-                0x000000000702f250                inside_castle_seg7_dl_0704A0E8
-                0x0000000007034df8                inside_castle_seg7_dl_07043CD8
-                0x0000000007034ef8                inside_castle_seg7_dl_07043B48
-                0x0000000007035980                inside_castle_seg7_dl_07043028
-                0x0000000007039c00                inside_castle_seg7_dl_0703E6F0
-                0x000000000703bff8                inside_castle_seg7_dl_0703BFA8
-                0x000000000703c2d8                inside_castle_seg7_dl_0703BCB8
-                0x000000000703c528                inside_castle_seg7_dl_0703BA08
-                0x000000000703d5e0                inside_castle_seg7_dl_0703A808
-                0x000000000703d6e0                inside_castle_seg7_dl_0703A6C8
-                0x000000000703f770                inside_castle_seg7_dl_07038350
-                0x000000000703f870                dl_castle_aquarium_light
-                0x000000000703fc68                inside_castle_seg7_dl_07037DE8
-                0x000000000703fe20                inside_castle_seg7_dl_07037BF8
-                0x0000000007040020                inside_castle_seg7_dl_07037988
-                0x0000000007040ab8                inside_castle_seg7_dl_07036D88
-                0x00000000070423d0                inside_castle_seg7_dl_07035288
-                0x00000000070424d0                inside_castle_seg7_dl_07035178
-                0x0000000007042828                inside_castle_seg7_dl_07034D88
-                0x0000000007044220                inside_castle_seg7_dl_07033158
-                0x0000000007044368                inside_castle_seg7_dl_07032FC0
-                0x0000000007045908                inside_castle_seg7_dl_07031830
-                0x0000000007045a08                inside_castle_seg7_dl_07031720
-                0x0000000007045b78                inside_castle_seg7_dl_07031588
-                0x0000000007045bf8                inside_castle_seg7_dl_07031168
-                0x00000000070465b8                inside_castle_seg7_vertex_07030940
-                0x00000000070471b8                inside_castle_seg7_dl_0702FD30
-                0x00000000070488d0                inside_castle_seg7_dl_0702E408
-                0x000000000704bcf0                inside_castle_seg7_dl_0702AB20
-                0x000000000704bdf0                inside_castle_seg7_dl_0702AA10
-                0x000000000704bf58                dl_castle_lobby_wing_cap_light
-                0x000000000704c130                inside_castle_seg7_dl_0702A650
-                0x000000000704d090                inside_castle_seg7_dl_07029578
-                0x000000000704d588                inside_castle_seg7_dl_07028FD0
-                0x0000000007051f60                inside_castle_seg7_dl_bowser_1_painting
-                0x0000000007052270                thi_huge_painting
-                0x00000000070522e8                sl_painting
-                0x0000000007052360                ttc_painting
-                0x00000000070523d8                ttm_painting
-                0x0000000007052450                thi_tiny_painting
-                0x00000000070524c8                wdw_painting
-                0x0000000007052540                ddd_painting
-                0x00000000070525b8                hmc_painting
-                0x0000000007052630                ssl_painting
-                0x00000000070526a8                lll_painting
-                0x0000000007052720                jrb_painting
-                0x0000000007052798                wf_painting
-                0x0000000007052810                ccm_painting
-                0x0000000007052888                bob_painting
-                0x00000000070529b8                inside_castle_seg7_dl_07023520
-                0x0000000007052a18                inside_castle_seg7_dl_070234C0
-                0x00000000070538f0                inside_castle_seg7_dl_07022610
-                0x0000000007053920                inside_castle_seg7_dl_070225D8
+ .data          0x0000000007000000    0x760e0 build/us_n64/levels/castle_inside/leveldata.o
+                0x0000000007000000                castle_inside_dl_final_revert_mesh_layer_1
+                0x0000000007000040                castle_inside_dl_Plane_mesh_layer_1
+                0x0000000007000080                mat_revert_castle_inside_dl_f3dlite_material
+                0x0000000007000098                mat_castle_inside_dl_f3dlite_material
+                0x00000000070000e0                castle_inside_dl_Plane_mesh_layer_1_tri_0
+                0x00000000070000f8                castle_inside_dl_Plane_mesh_layer_1_vtx_0
+                0x0000000007000138                castle_inside_dl_Plane_mesh_layer_1_vtx_cull
+                0x00000000070001b8                castle_inside_area_1_macro_objs
+                0x00000000070001bc                castle_inside_area_1_collision
+                0x00000000070001f0                inside_castle_movtex_moat_water
+                0x0000000007000208                inside_castle_movtex_green_room_water
+                0x0000000007000278                inside_castle_seg7_trajectory_mips
+                0x0000000007000410                inside_castle_seg7_collision_water_level_pillar
+                0x000000000700049c                inside_castle_seg7_collision_star_door
+                0x0000000007000518                inside_castle_seg7_collision_floor_trap
+                0x000000000700054c                inside_castle_seg7_area_3_rooms
+                0x0000000007000ac0                inside_castle_seg7_area_2_rooms
+                0x00000000070012a4                inside_castle_seg7_area_1_rooms
+                0x0000000007001b04                inside_castle_seg7_area_3_macro_objs
+                0x0000000007001b44                inside_castle_seg7_area_2_macro_objs
+                0x0000000007001b50                inside_castle_seg7_area_1_macro_objs
+                0x0000000007001bcc                inside_castle_seg7_collision_ddd_warp_2
+                0x0000000007001cc0                inside_castle_seg7_collision_ddd_warp
+                0x0000000007001db4                inside_castle_seg7_area_3_collision
+                0x00000000070063a0                inside_castle_seg7_area_2_collision
+                0x000000000700caac                inside_castle_seg7_area_1_collision
+                0x0000000007013348                inside_castle_seg7_dl_07068B10
+                0x0000000007013598                inside_castle_seg7_dl_07068850
+                0x0000000007014c58                inside_castle_seg7_dl_07066FA0
+                0x0000000007014d58                inside_castle_seg7_dl_07066E90
+                0x0000000007014ec0                inside_castle_seg7_dl_07066CE0
+                0x0000000007016ba0                inside_castle_seg7_dl_07064D58
+                0x0000000007016d10                inside_castle_seg7_dl_07064B78
+                0x00000000070198a0                inside_castle_seg7_dl_07061C20
+                0x0000000007019d40                inside_castle_seg7_dl_070616E8
+                0x000000000701cbc8                inside_castle_seg7_dl_0705E450
+                0x000000000701cd58                inside_castle_seg7_dl_0705E2A0
+                0x000000000701cf10                inside_castle_seg7_dl_0705E088
+                0x0000000007021798                inside_castle_seg7_dl_07059190
+                0x0000000007021f20                inside_castle_seg7_dl_07058950
+                0x0000000007022828                inside_castle_seg7_dl_07057F00
+                0x0000000007023390                inside_castle_seg7_dl_070572A0
+                0x0000000007024bd0                inside_castle_seg7_dl_070558D0
+                0x00000000070284f0                inside_castle_seg7_dl_07051B60
+                0x0000000007028620                inside_castle_seg7_dl_070519C8
+                0x0000000007028910                inside_castle_seg7_dl_07051678
+                0x0000000007028c48                inside_castle_seg7_dl_070512F8
+                0x0000000007029480                inside_castle_seg7_dl_07050938
+                0x000000000702d080                inside_castle_seg7_dl_0704C7D8
+                0x000000000702eb28                inside_castle_seg7_dl_0704AA98
+                0x000000000702f2b0                inside_castle_seg7_dl_0704A2E0
+                0x000000000702f440                inside_castle_seg7_dl_0704A0E8
+                0x0000000007034fe8                inside_castle_seg7_dl_07043CD8
+                0x00000000070350e8                inside_castle_seg7_dl_07043B48
+                0x0000000007035b70                inside_castle_seg7_dl_07043028
+                0x0000000007039df0                inside_castle_seg7_dl_0703E6F0
+                0x000000000703c1e8                inside_castle_seg7_dl_0703BFA8
+                0x000000000703c4c8                inside_castle_seg7_dl_0703BCB8
+                0x000000000703c718                inside_castle_seg7_dl_0703BA08
+                0x000000000703d7d0                inside_castle_seg7_dl_0703A808
+                0x000000000703d8d0                inside_castle_seg7_dl_0703A6C8
+                0x000000000703f960                inside_castle_seg7_dl_07038350
+                0x000000000703fa60                dl_castle_aquarium_light
+                0x000000000703fe58                inside_castle_seg7_dl_07037DE8
+                0x0000000007040010                inside_castle_seg7_dl_07037BF8
+                0x0000000007040210                inside_castle_seg7_dl_07037988
+                0x0000000007040ca8                inside_castle_seg7_dl_07036D88
+                0x00000000070425c0                inside_castle_seg7_dl_07035288
+                0x00000000070426c0                inside_castle_seg7_dl_07035178
+                0x0000000007042a18                inside_castle_seg7_dl_07034D88
+                0x0000000007044410                inside_castle_seg7_dl_07033158
+                0x0000000007044558                inside_castle_seg7_dl_07032FC0
+                0x0000000007045af8                inside_castle_seg7_dl_07031830
+                0x0000000007045bf8                inside_castle_seg7_dl_07031720
+                0x0000000007045d68                inside_castle_seg7_dl_07031588
+                0x0000000007045de8                inside_castle_seg7_dl_07031168
+                0x00000000070467a8                inside_castle_seg7_vertex_07030940
+                0x00000000070473a8                inside_castle_seg7_dl_0702FD30
+                0x0000000007048ac0                inside_castle_seg7_dl_0702E408
+                0x000000000704bee0                inside_castle_seg7_dl_0702AB20
+                0x000000000704bfe0                inside_castle_seg7_dl_0702AA10
+                0x000000000704c148                dl_castle_lobby_wing_cap_light
+                0x000000000704c320                inside_castle_seg7_dl_0702A650
+                0x000000000704d280                inside_castle_seg7_dl_07029578
+                0x000000000704d778                inside_castle_seg7_dl_07028FD0
+                0x0000000007052150                inside_castle_seg7_dl_bowser_1_painting
+                0x0000000007052460                thi_huge_painting
+                0x00000000070524d8                sl_painting
+                0x0000000007052550                ttc_painting
+                0x00000000070525c8                ttm_painting
+                0x0000000007052640                thi_tiny_painting
+                0x00000000070526b8                wdw_painting
+                0x0000000007052730                ddd_painting
+                0x00000000070527a8                hmc_painting
+                0x0000000007052820                ssl_painting
+                0x0000000007052898                lll_painting
+                0x0000000007052910                jrb_painting
+                0x0000000007052988                wf_painting
+                0x0000000007052a00                ccm_painting
+                0x0000000007052a78                bob_painting
+                0x0000000007052ba8                inside_castle_seg7_dl_07023520
+                0x0000000007052c08                inside_castle_seg7_dl_070234C0
+                0x0000000007053ae0                inside_castle_seg7_dl_07022610
+                0x0000000007053b10                inside_castle_seg7_dl_070225D8
 
 .data1
  *(.data1)
 
 .got.plt
  *(.got.plt)
-                0x0000000007075ef0                . = .
-                0x0000000007075ef0                . = .
-                0x000000000707dee0                _gp = (ALIGN (0x10) + 0x7ff0)
+                0x00000000070760e0                . = .
+                0x00000000070760e0                . = .
+                0x000000000707e0d0                _gp = (ALIGN (0x10) + 0x7ff0)
 
 .got
  *(.got)
@@ -336,29 +345,29 @@ LOAD build/us_n64/levels/castle_inside/leveldata.o
 
 .lit4
  *(.lit4)
-                0x0000000007075ef0                _edata = .
+                0x00000000070760e0                _edata = .
                 [!provide]                        PROVIDE (edata = .)
-                0x0000000007075ef0                . = .
-                0x0000000007075ef0                __bss_start = .
-                0x0000000007075ef0                _fbss = .
+                0x00000000070760e0                . = .
+                0x00000000070760e0                __bss_start = .
+                0x00000000070760e0                _fbss = .
 
 .sbss
  *(.dynsbss)
  *(.sbss .sbss.* .gnu.linkonce.sb.*)
  *(.scommon)
 
-.bss            0x0000000007075ef0        0x0 load address 0x0000000007075f08
+.bss            0x00000000070760e0        0x0 load address 0x00000000070760f8
  *(.dynbss)
  *(.bss .bss.* .gnu.linkonce.b.*)
- .bss           0x0000000007075ef0        0x0 build/us_n64/levels/castle_inside/leveldata.o
+ .bss           0x00000000070760e0        0x0 build/us_n64/levels/castle_inside/leveldata.o
  *(COMMON)
-                0x0000000007075ef0                . = ALIGN ((. != 0x0)?0x4:0x1)
-                0x0000000007075ef0                . = ALIGN (0x4)
-                0x0000000007075ef0                . = SEGMENT_START ("ldata-segment", .)
-                0x0000000007075ef0                . = ALIGN (0x4)
-                0x0000000007075ef0                _end = .
+                0x00000000070760e0                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x00000000070760e0                . = ALIGN (0x4)
+                0x00000000070760e0                . = SEGMENT_START ("ldata-segment", .)
+                0x00000000070760e0                . = ALIGN (0x4)
+                0x00000000070760e0                _end = .
                 [!provide]                        PROVIDE (end = .)
-                0x0000000007075ef0                . = DATA_SEGMENT_END (.)
+                0x00000000070760e0                . = DATA_SEGMENT_END (.)
 
 .stab
  *(.stab)
