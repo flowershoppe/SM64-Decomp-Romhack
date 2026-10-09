@@ -823,9 +823,13 @@ s32 save_file_get_last_location(u8 type){
 }
 u8 save_file_get_current_level(void){
     struct SaveFile *saveFile = &gSaveBuffer.files[gCurrSaveFileNum - 1][0];
+    #ifdef TEST_LEVEL
+        saveFile->capLevel = TEST_LEVEL;        
+    #else
     if(saveFile->capLevel == NULL){
         saveFile->capLevel = LEVEL_BOB;
     }
+    #endif
     return saveFile->capLevel;
 }
 
