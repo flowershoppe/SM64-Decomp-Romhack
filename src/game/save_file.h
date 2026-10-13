@@ -200,6 +200,7 @@ void save_file_set_last_location(void);
 s32 save_file_get_last_location(u8 type);
 void save_file_save_coins(void);
 void save_file_set_coins(void);
+s32 save_file_should_save(void);
 
 void disable_warp_checkpoint(void);
 void check_if_should_set_warp_checkpoint(struct WarpNode *warpNode);

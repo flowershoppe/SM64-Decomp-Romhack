@@ -6,3 +6,4 @@
 #include "levels/ccm/area_6/geo.inc.c"
 #include "levels/ccm/area_7/geo.inc.c"
 #include "levels/ccm/area_8/geo.inc.c"
+#include "levels/ccm/area_9/geo.inc.c"

@@ -823,9 +823,13 @@ s32 save_file_get_last_location(u8 type){
 }
 u8 save_file_get_current_level(void){
     struct SaveFile *saveFile = &gSaveBuffer.files[gCurrSaveFileNum - 1][0];
+    #ifdef TEST_LEVEL
+        saveFile->capLevel = TEST_LEVEL;        
+    #else
     if(saveFile->capLevel == NULL){
         saveFile->capLevel = LEVEL_BOB;
     }
+    #endif
     return saveFile->capLevel;
 }
 
@@ -846,4 +850,17 @@ void save_file_set_coins(void){
     struct SaveFile *f = &gSaveBuffer.files[gCurrSaveFileNum - 1][0];
     gMarioState->numCoins = f->lastCoins;
     gHudDisplay.coins = f->lastCoins;
+}
+
+s32 save_file_should_save(void){
+    struct SaveFile *f = &gSaveBuffer.files[gCurrSaveFileNum - 1][0];
+    if(gMarioState->numCoins != f->lastCoins ||
+        f->capLevel != gCurrLevelNum ||
+        f->capArea  != gCurrAreaIndex ||
+        gSaveFileModified){
+            return TRUE;
+        }
+    else{
+        return FALSE;
+    }
 }

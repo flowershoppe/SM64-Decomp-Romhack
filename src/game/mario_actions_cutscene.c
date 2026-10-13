@@ -635,6 +635,8 @@ void general_star_dance_handler(struct MarioState *m, s32 isInWater) {
         }
     } else if (m->actionState == ACT_STATE_STAR_DANCE_DO_SAVE && gDialogResponse != DIALOG_RESPONSE_NONE) {
         if (gDialogResponse == DIALOG_RESPONSE_YES) {
+            save_file_set_last_location();
+            save_file_save_coins();
             save_file_do_save(gCurrSaveFileNum - 1);
         }
         m->actionState = ACT_STATE_STAR_DANCE_RETURN;
