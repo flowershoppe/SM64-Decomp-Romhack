@@ -29,9 +29,11 @@ void bhv_checkpoint(void){
 
         s32 fileIndex = gCurrSaveFileNum - 1;
         s32 courseIndex = COURSE_NUM_TO_INDEX(gCurrCourseNum);
-        save_file_set_last_location();
-        save_file_save_coins();
-        save_file_do_save(gCurrSaveFileNum - 1);
+        if(save_file_should_save()){
+            save_file_set_last_location();
+            save_file_save_coins();
+            save_file_do_save(gCurrSaveFileNum - 1);
+        }
     }
     else if(!obj_check_if_collided_with_object(o, gMarioObject)){
         o->oCheckpointPlaySound = 0;

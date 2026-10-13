@@ -851,3 +851,16 @@ void save_file_set_coins(void){
     gMarioState->numCoins = f->lastCoins;
     gHudDisplay.coins = f->lastCoins;
 }
+
+s32 save_file_should_save(void){
+    struct SaveFile *f = &gSaveBuffer.files[gCurrSaveFileNum - 1][0];
+    if(gMarioState->numCoins != f->lastCoins ||
+        f->capLevel != gCurrLevelNum ||
+        f->capArea  != gCurrAreaIndex ||
+        gSaveFileModified){
+            return TRUE;
+        }
+    else{
+        return FALSE;
+    }
+}

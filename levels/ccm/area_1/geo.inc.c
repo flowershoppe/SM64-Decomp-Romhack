@@ -55,7 +55,7 @@ const GeoLayout ccm_area_1_geo[] = {
 		GEO_OPEN_NODE(),
 			GEO_DISPLAY_LIST(LAYER_TRANSPARENT_DECAL, ccm_dl_final_revert_mesh_layer_6),
 		GEO_CLOSE_NODE(),
-		GEO_TRANSLATE_NODE_WITH_DL(LAYER_TRANSPARENT, -3482, -1798, 1148, ccm_dl_death_plane_001_mesh_layer_5),
+		GEO_TRANSLATE_NODE_WITH_DL(LAYER_TRANSPARENT, -3482, -48, 1148, ccm_dl_death_plane_001_mesh_layer_5),
 		GEO_OPEN_NODE(),
 			GEO_DISPLAY_LIST(LAYER_TRANSPARENT, ccm_dl_final_revert_mesh_layer_5),
 		GEO_CLOSE_NODE(),
