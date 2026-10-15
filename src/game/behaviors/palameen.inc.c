@@ -7,7 +7,7 @@ void palameen_idle(void){
         o->oAction = 1;
         cur_obj_unhide();
         spawn_object_relative(0, 0, -200, 0, o, MODEL_NONE, bhvStarKeyCollectionPuffSpawner);
-        cur_obj_play_sound_1(SOUND_OBJ2_BOWSER_TELEPORT);
+        cur_obj_play_sound_1(SOUND_GENERAL_PAINTING_EJECT);
     }
 }
 
@@ -30,7 +30,7 @@ void palameen_talking(void){
     DIALOG_FLAG_TEXT_DEFAULT, CUTSCENE_DIALOG, dialogid)){
         spawn_object_relative(0, 0, -100, 0, o, MODEL_NONE, bhvStarKeyCollectionPuffSpawner);
         spawn_object(o, MODEL_SMOKE, bhvWhitePuffSmoke);
-        cur_obj_play_sound_1(SOUND_OBJ2_BOWSER_TELEPORT);
+        cur_obj_play_sound_1(SOUND_GENERAL_PAINTING_EJECT);
         obj_mark_for_deletion(o);    
     }
 

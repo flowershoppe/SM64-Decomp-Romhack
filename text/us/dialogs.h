@@ -258,7 +258,7 @@ I'll turn you to ASH!"))
 DEFINE_DIALOG(DIALOG_028, 1, 1, 30, 200, _("\
 NO! My fuse! It's...!"))
 
-DEFINE_DIALOG(DIALOG_029, 1, 5, 30, 200, _("\
+DEFINE_DIALOG(DIALOG_029, 1, 5, 160, 200, _("\
 Hehehehe~!\n\
 Enjoying your little\n\
 walk through my forest?\n\
@@ -271,7 +271,8 @@ about all that.\n\
 \n\
 You can have them back.\n\
 But, not until I've\n\
-had my fun.\n\
+had my fun. Oh! Call\n\
+me Palameen.\n\
 Now, let's play!"))
 
 DEFINE_DIALOG(DIALOG_030, 1, 3, 95, 20, _("\
@@ -296,34 +297,25 @@ Look around.\n\
 These woods haven't\n\
 always looked this way."))
 
-DEFINE_DIALOG(DIALOG_032, 1, 5, 30, 200, _("\
-If you get the Wing Cap,\n\
-you can fly! Put the cap\n\
-on, then do a Triple\n\
-Jump--jump three times\n\
-in a row--to take off.\n\
-You can fly even higher\n\
-if you blast out of a\n\
-cannon wearing the\n\
-Wing Cap!\n\
-\n\
-Use the [C] Buttons to look\n\
-around while flying, and\n\
-press [Z] to land."))
+DEFINE_DIALOG(DIALOG_032, 1, 5, 160, 200, _("\
+Welcome to my funhouse!\n\
+Please forgive the mess.\n\
+I haven't had time to\n\
+prepare for guests since\n\
+those morons freed me.\n\
+Please, make yourself\n\
+at home. I think you'll\n\
+really GROW from this\n\
+experience! Hehehehe~!"))
 
-DEFINE_DIALOG(DIALOG_033, 1, 6, 30, 200, _("\
-Ciao! You've reached\n\
-Princess Toadstool's\n\
-castle via a warp pipe.\n\
-Using the controller is a\n\
-piece of cake. Press [A] to\n\
-jump and [B] to attack.\n\
-Press [B] to read signs,\n\
-too. Use the Control Stick\n\
-in the center of the\n\
-controller to move Mario\n\
-around. Now, head for\n\
-the castle."))
+DEFINE_DIALOG(DIALOG_033, 1, 5, 160, 200, _("\
+Isn't this fun??\n\
+You're probably my\n\
+favorite toy I've\n\
+played with in a long\n\
+time!\n\
+Let's play forever\n\
+and ever!"))
 
 DEFINE_DIALOG(DIALOG_034, 1, 6, 30, 200, _("\
 Good afternoon. The\n\
