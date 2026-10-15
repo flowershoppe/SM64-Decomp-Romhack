@@ -1,0 +1,3 @@
+enum PalameenAnims {
+	PALAMEEN_ANIM_PALAMEEN_ANIM_NEUTRAL,
+};

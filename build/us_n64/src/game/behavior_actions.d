@@ -135,9 +135,9 @@ build/us_n64/src/game/behavior_actions.o: src/game/behavior_actions.c \
  src/game/behaviors/battle_door.inc.c src/game/behaviors/boo_laugh.inc.c \
  src/game/behaviors/warp_spawner.inc.c include/level_commands.h \
  include/level_table.h src/game/save_file.h \
- src/game/behaviors/tuxie.inc.c src/game/behaviors/fish.inc.c \
- src/game/behaviors/express_elevator.inc.c src/game/behaviors/bub.inc.c \
- src/game/behaviors/exclamation_box.inc.c \
+ src/game/behaviors/palameen.inc.c src/game/behaviors/tuxie.inc.c \
+ src/game/behaviors/fish.inc.c src/game/behaviors/express_elevator.inc.c \
+ src/game/behaviors/bub.inc.c src/game/behaviors/exclamation_box.inc.c \
  src/game/behaviors/sound_spawner.inc.c src/game/behaviors/ddd_sub.inc.c \
  src/game/behaviors/sushi.inc.c src/game/behaviors/jrb_ship.inc.c \
  src/game/behaviors/white_puff.inc.c src/game/behaviors/blue_coin.inc.c \
