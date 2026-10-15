@@ -574,4 +574,5 @@ extern const BehaviorScript bhvOwl[];
 extern const BehaviorScript bhvBattleDoor[];
 extern const BehaviorScript bhvBooLaugh[];
 extern const BehaviorScript bhvWarpSpawner[];
+extern const BehaviorScript bhvPalameen[];
 #endif // BEHAVIOR_DATA_H

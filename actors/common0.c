@@ -143,3 +143,8 @@ UNUSED static const u64 binid_18 = 18;
 #include "owl/anims/table.inc.c"
 #include "custom_star/collision.inc.c"
 #include "custom_star/model.inc.c"
+#include "palameen/model.inc.c"
+#include "palameen/anims/data.inc.c"
+#include "palameen/anims/table.inc.c"
+#include "palameen/collision.inc.c"
+#include "mesh/collision.inc.c"

@@ -56,3 +56,4 @@
 #include "custom_peach/geo.inc.c"
 #include "owl/geo.inc.c"
 #include "custom_star/geo.inc.c"
+#include "palameen/geo.inc.c"

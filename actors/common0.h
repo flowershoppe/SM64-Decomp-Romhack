@@ -254,4 +254,8 @@ extern const Collision unknown_seg8_collision_080262F8[];
 #include "owl/anim_header.h"
 #include "custom_star/collision_header.h"
 #include "custom_star/geo_header.h"
+#include "palameen/geo_header.h"
+#include "palameen/anim_header.h"
+#include "palameen/collision_header.h"
+#include "mesh/collision_header.h"
 #endif

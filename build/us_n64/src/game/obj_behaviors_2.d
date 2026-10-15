@@ -81,8 +81,10 @@ build/us_n64/src/game/obj_behaviors_2.o: src/game/obj_behaviors_2.c \
  actors/custom_peach/anims/table_enum.h actors/owl/geo_header.h \
  actors/owl/anim_header.h actors/owl/anims/table_enum.h \
  actors/custom_star/collision_header.h actors/custom_star/geo_header.h \
- actors/group11.h actors/group17.h src/audio/external.h \
- include/level_table.h src/game/behavior_actions.h \
+ actors/palameen/geo_header.h actors/palameen/anim_header.h \
+ actors/palameen/anims/table_enum.h actors/palameen/collision_header.h \
+ actors/mesh/collision_header.h actors/group11.h actors/group17.h \
+ src/audio/external.h include/level_table.h src/game/behavior_actions.h \
  include/behavior_data.h src/game/camera.h src/game/area.h \
  src/engine/graph_node.h include/geo_commands.h \
  include/command_macros_base.h src/game/shadow.h \

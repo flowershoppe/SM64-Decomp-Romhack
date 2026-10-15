@@ -6463,3 +6463,17 @@ const BehaviorScript bhvWarpSpawner[] = {
     SET_HOME(),
     CALL_NATIVE(bhv_warp_spawn),
 };
+
+const BehaviorScript bhvPalameen[] = {
+    BEGIN(OBJ_LIST_GENACTOR),
+    OR_INT(oFlags, (OBJ_FLAG_COMPUTE_ANGLE_TO_MARIO | OBJ_FLAG_COMPUTE_DIST_TO_MARIO | OBJ_FLAG_SET_FACE_YAW_TO_MOVE_YAW | OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE)),
+    SET_INTERACT_TYPE(INTERACT_TEXT),
+    LOAD_ANIMATIONS(oAnimations, palameen_anims),
+    SET_INT(oInteractionSubtype, INT_SUBTYPE_NPC),
+    ANIMATE(0),
+    BEGIN_LOOP(),
+        CALL_NATIVE(bhv_palameen_loop),
+        //CALL_NATIVE(bhv_bobomb_buddy_loop)
+        SET_INT(oIntangibleTimer, 0),
+    END_LOOP(),
+};

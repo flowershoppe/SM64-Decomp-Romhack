@@ -574,6 +574,11 @@ void owl_actions(void);
 void bhv_battle_door_loop(void);
 void bhv_boo_laugh(void);
 void bhv_warp_spawn(void);
+void bhv_palameen_loop(void);
+void palameen_idle(void);
+void palameen_actions(void);
+void palameen_talking(void);
+
 
 Gfx *interactive_tablet_state(s32 callContext, struct GraphNode *node);
 void interactive_tablet_init(void);

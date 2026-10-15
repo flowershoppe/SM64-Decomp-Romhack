@@ -63831,7 +63831,6 @@ Gfx mat_revert_ccm_dl_fence[] = {
 };
 
 Gfx mat_ccm_dl_cobblstone[] = {
-	gsSPClearGeometryMode(G_CULL_BACK),
 	gsSPLightColor(LIGHT_1, 0xFFFFFFFF),
 	gsSPLightColor(LIGHT_2, 0x7F7F7FFF),
 	gsDPPipeSync(),
@@ -63851,7 +63850,6 @@ Gfx mat_ccm_dl_cobblstone[] = {
 };
 
 Gfx mat_revert_ccm_dl_cobblstone[] = {
-	gsSPSetGeometryMode(G_CULL_BACK),
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsDPSetTextureLUT(G_TT_NONE),
