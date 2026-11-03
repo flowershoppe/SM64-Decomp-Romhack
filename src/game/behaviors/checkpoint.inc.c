@@ -26,9 +26,6 @@ void bhv_checkpoint(void){
         cur_obj_find_nearest_object_with_behavior(bhvAirborneWarp, &dist)->oPosZ = o->oPosZ;
         cur_obj_find_nearest_object_with_behavior(bhvAirborneWarp, &dist)->oFaceAngleYaw = o->oFace;
         gMarioState->healCounter += 4;
-
-        s32 fileIndex = gCurrSaveFileNum - 1;
-        s32 courseIndex = COURSE_NUM_TO_INDEX(gCurrCourseNum);
         if(save_file_should_save()){
             save_file_set_last_location();
             save_file_save_coins();

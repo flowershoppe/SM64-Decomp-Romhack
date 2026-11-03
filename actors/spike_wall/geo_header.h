@@ -1,0 +1,14 @@
+extern const GeoLayout spike_wall_geo[];
+extern u8 spike_wall_END_TEST_ALL_46__p00_i8[];
+extern u8 spike_wall_END_TEST_ALL_46__p00_i8_copy[];
+extern Vtx spike_wall_spike_wall_mesh_layer_1_vtx_cull[8];
+extern Vtx spike_wall_spike_wall_mesh_layer_1_vtx_0[2109];
+extern Gfx spike_wall_spike_wall_mesh_layer_1_tri_0[];
+extern Vtx spike_wall_spike_wall_mesh_layer_1_vtx_1[20];
+extern Gfx spike_wall_spike_wall_mesh_layer_1_tri_1[];
+extern Gfx mat_spike_wall_f3dlite_material_001[];
+extern Gfx mat_revert_spike_wall_f3dlite_material_001[];
+extern Gfx mat_spike_wall_f3dlite_material_002[];
+extern Gfx mat_revert_spike_wall_f3dlite_material_002[];
+extern Gfx spike_wall_spike_wall_mesh_layer_1[];
+extern Gfx spike_wall_final_revert_mesh_layer_1[];

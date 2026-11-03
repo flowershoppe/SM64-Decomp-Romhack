@@ -578,6 +578,10 @@ void bhv_palameen_loop(void);
 void palameen_idle(void);
 void palameen_actions(void);
 void palameen_talking(void);
+void bhv_spike_wall_loop(void);
+void spike_wall_init(void);
+void spike_wall_actions(void);
+void change_music_loop(void);
 
 
 Gfx *interactive_tablet_state(s32 callContext, struct GraphNode *node);

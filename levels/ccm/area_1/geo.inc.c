@@ -8,7 +8,6 @@ const GeoLayout ccm_area_1_geo[] = {
 			GEO_DISPLAY_LIST(LAYER_TRANSPARENT_DECAL, ccm_dl__Mesh_001_mesh_layer_6),
 			GEO_DISPLAY_LIST(LAYER_TRANSPARENT, ccm_dl__Mesh_001_mesh_layer_5),
 		GEO_CLOSE_NODE(),
-		GEO_TRANSLATE_NODE_WITH_DL(LAYER_OPAQUE, -16517, 3244, 4838, ccm_dl__Mesh_002_mesh_layer_1),
 		GEO_TRANSLATE_NODE_WITH_DL(LAYER_TRANSPARENT, -1625, 3450, -9011, ccm_dl__Mesh_003_mesh_layer_5),
 		GEO_TRANSLATE_NODE_WITH_DL(LAYER_TRANSPARENT, -2400, 3775, -9011, ccm_dl__Mesh_004_mesh_layer_5),
 		GEO_TRANSLATE_NODE_WITH_DL(LAYER_OPAQUE, -1587, 3994, -5772, ccm_dl__Mesh_005_mesh_layer_1),

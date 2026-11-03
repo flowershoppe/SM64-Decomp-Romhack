@@ -92,7 +92,10 @@ build/us_n64/levels/intro/script.o: levels/intro/script.c \
  actors/custom_star/collision_header.h actors/custom_star/geo_header.h \
  actors/palameen/geo_header.h actors/palameen/anim_header.h \
  actors/palameen/anims/table_enum.h actors/palameen/collision_header.h \
- actors/mesh/collision_header.h actors/common1.h \
- include/make_const_nonconst.h levels/intro/header.h include/farcall.h \
- src/game/print.h src/game/save_file.h include/course_table.h \
- levels/course_defines.h src/game/object_list_processor.h
+ actors/mesh/collision_header.h actors/spike_wall/geo_header.h \
+ actors/spike_wall/collision_header.h \
+ actors/door_hallway/collision_header.h actors/door_hallway/geo_header.h \
+ actors/common1.h include/make_const_nonconst.h levels/intro/header.h \
+ include/farcall.h src/game/print.h src/game/save_file.h \
+ include/course_table.h levels/course_defines.h \
+ src/game/object_list_processor.h

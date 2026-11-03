@@ -106,7 +106,10 @@ build/us_n64/src/game/texscroll.o: src/game/texscroll.c include/types.h \
  actors/custom_star/collision_header.h actors/custom_star/geo_header.h \
  actors/palameen/geo_header.h actors/palameen/anim_header.h \
  actors/palameen/anims/table_enum.h actors/palameen/collision_header.h \
- actors/mesh/collision_header.h src/game/texscroll/rr_texscroll.inc.c \
- levels/rr/header.h levels/rr/header.inc.h levels/rr/texscroll.inc.c \
+ actors/mesh/collision_header.h actors/spike_wall/geo_header.h \
+ actors/spike_wall/collision_header.h \
+ actors/door_hallway/collision_header.h actors/door_hallway/geo_header.h \
+ src/game/texscroll/rr_texscroll.inc.c levels/rr/header.h \
+ levels/rr/header.inc.h levels/rr/texscroll.inc.c \
  src/game/texscroll/ccm_texscroll.inc.c levels/ccm/header.h \
  levels/ccm/header.inc.h levels/ccm/texscroll.inc.c

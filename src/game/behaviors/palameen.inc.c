@@ -31,6 +31,9 @@ void palameen_talking(void){
         spawn_object_relative(0, 0, -100, 0, o, MODEL_NONE, bhvStarKeyCollectionPuffSpawner);
         spawn_object(o, MODEL_SMOKE, bhvWhitePuffSmoke);
         cur_obj_play_sound_1(SOUND_GENERAL_PAINTING_EJECT);
+        if(dialogid == 34){
+            play_music(SEQ_PLAYER_LEVEL, SEQUENCE_ARGS(4, SEQ_LEVEL_UNDERGROUND), 0);
+        }
         obj_mark_for_deletion(o);    
     }
 

@@ -57,3 +57,5 @@
 #include "owl/geo.inc.c"
 #include "custom_star/geo.inc.c"
 #include "palameen/geo.inc.c"
+#include "spike_wall/geo.inc.c"
+#include "door_hallway/geo.inc.c"

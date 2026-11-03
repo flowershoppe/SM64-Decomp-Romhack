@@ -39,7 +39,7 @@ void bhv_black_smoke_mario_loop(void) {
 void bhv_flame_mario_loop(void) {
     cur_obj_scale(2.0f);
 
-    if (o->oTimer & 1) {
+    if (o->oTimer & 1 && cur_obj_nearest_object_with_behavior(bhvSpikeWall) == NULL) {
         spawn_object(o, MODEL_BURN_SMOKE, bhvBlackSmokeMario);
     }
 

@@ -4,6 +4,8 @@
 #define MODEL_NONE                             0x00
 
 /* fast64 object exports get inserted here */
+#define MODEL_DOOR_HALLWAY                197
+#define MODEL_SPIKE_WALL                  198
 #define MODEL_PALAMEEN                    224
 #define MODEL_CUSTOM_STAR                 225
 #define MODEL_OWL                         226

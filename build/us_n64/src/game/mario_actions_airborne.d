@@ -46,4 +46,5 @@ build/us_n64/src/game/mario_actions_airborne.o: \
  src/game/puppyprint.h src/game/profiling.h src/game/game_init.h \
  src/game/memory.h src/game/interaction.h src/game/level_update.h \
  src/game/mario.h src/game/mario_step.h src/game/save_file.h \
- include/course_table.h levels/course_defines.h src/game/rumble_init.h
+ include/course_table.h levels/course_defines.h src/game/rumble_init.h \
+ include/behavior_data.h

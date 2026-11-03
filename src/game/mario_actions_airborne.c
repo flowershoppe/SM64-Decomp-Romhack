@@ -14,6 +14,7 @@
 #include "mario_step.h"
 #include "save_file.h"
 #include "rumble_init.h"
+#include "behavior_data.h"
 
 #include "config.h"
 
@@ -992,7 +993,9 @@ s32 act_burning_jump(struct MarioState *m) {
 
     set_mario_animation(m, m->actionArg == 0 ? MARIO_ANIM_SINGLE_JUMP : MARIO_ANIM_FIRE_LAVA_BURN);
     m->particleFlags |= PARTICLE_FIRE;
-    play_sound(SOUND_MOVING_LAVA_BURN, m->marioObj->header.gfx.cameraToObject);
+    if (cur_obj_nearest_object_with_behavior(bhvSpikeWall) == NULL) {
+        play_sound(SOUND_MOVING_LAVA_BURN, m->marioObj->header.gfx.cameraToObject);
+    }
 
     m->marioObj->oMarioBurnTimer += 3;
 
@@ -1523,7 +1526,9 @@ s32 act_lava_boost(struct MarioState *m) {
         && m->vel[1] > 0.0f) {
         m->particleFlags |= PARTICLE_FIRE;
         if (m->actionState == ACT_STATE_LAVA_BOOST_HIT_LAVA) {
-            play_sound(SOUND_MOVING_LAVA_BURN, m->marioObj->header.gfx.cameraToObject);
+            if (cur_obj_nearest_object_with_behavior(bhvSpikeWall) == NULL) {
+                play_sound(SOUND_MOVING_LAVA_BURN, m->marioObj->header.gfx.cameraToObject);
+            }        
         }
     }
 

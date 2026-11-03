@@ -129,4 +129,8 @@ extern void scroll_ccm_dl__mesh_092_mesh_layer_1_vtx_0();
 extern void scroll_ccm_dl_Cube_168_mesh_layer_1_vtx_3();
 extern void scroll_ccm_dl_death_plane_004_mesh_layer_1_vtx_0();
 extern void scroll_ccm_dl_spiral_tower_001_mesh_layer_1_vtx_2();
+extern void scroll_ccm_dl_stairs_002_mesh_layer_1_vtx_0();
+extern void scroll_ccm_dl_stairs_003_mesh_layer_1_vtx_0();
+extern void scroll_ccm_dl_stairs_004_mesh_layer_1_vtx_0();
+extern void scroll_ccm_dl_stairs_006_mesh_layer_1_vtx_0();
 extern void scroll_ccm();

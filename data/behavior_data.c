@@ -6473,7 +6473,37 @@ const BehaviorScript bhvPalameen[] = {
     ANIMATE(0),
     BEGIN_LOOP(),
         CALL_NATIVE(bhv_palameen_loop),
-        //CALL_NATIVE(bhv_bobomb_buddy_loop)
         SET_INT(oIntangibleTimer, 0),
+    END_LOOP(),
+};
+
+const BehaviorScript bhvSpikeWall[] = {
+    BEGIN(OBJ_LIST_SURFACE),
+    OR_INT(oFlags, (OBJ_FLAG_COMPUTE_ANGLE_TO_MARIO | OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE | OBJ_FLAG_COMPUTE_DIST_TO_MARIO)),
+    SET_FLOAT(oDrawingDistance, 10000),
+    LOAD_COLLISION_DATA(spike_wall_collision),
+    SET_HOME(),
+    CALL_NATIVE(spike_wall_init),
+    BEGIN_LOOP(),
+       CALL_NATIVE(spike_wall_actions),        
+       CALL_NATIVE(load_object_collision_model),
+    END_LOOP(),
+};
+
+const BehaviorScript bhvDoorHallway[] = {
+    BEGIN(OBJ_LIST_SURFACE),
+    OR_INT(oFlags, (OBJ_FLAG_COMPUTE_ANGLE_TO_MARIO | OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE | OBJ_FLAG_COMPUTE_DIST_TO_MARIO)),
+    SET_FLOAT(oDrawingDistance, 10000),
+    LOAD_COLLISION_DATA(door_hallway_collision),
+    BEGIN_LOOP(),
+       CALL_NATIVE(bhv_rotate),        
+       CALL_NATIVE(load_object_collision_model),
+    END_LOOP(),
+};
+
+const BehaviorScript bhvChangeMusic[] = {
+    OR_INT(oFlags, OBJ_FLAG_COMPUTE_DIST_TO_MARIO),
+    BEGIN_LOOP(),
+       //CALL_NATIVE(change_music_loop),        
     END_LOOP(),
 };

@@ -84,7 +84,7 @@ const GeoLayout ccm_area_8[] = {
 		GEO_OPEN_NODE(),
 			GEO_CAMERA_FRUSTUM_WITH_FUNC(45.0000, 100, 30000, geo_camera_fov),
 			GEO_OPEN_NODE(),
-				GEO_CAMERA(CAMERA_MODE_8_DIRECTIONS, 12, 0, -95337, 12, -100, -95337, geo_camera_main),
+				GEO_CAMERA(CAMERA_MODE_8_DIRECTIONS, 12, 0, -95336, 12, -100, -95336, geo_camera_main),
 				GEO_OPEN_NODE(),
 					GEO_BRANCH(1, ccm_area_8_geo),
 					GEO_RENDER_OBJ(),

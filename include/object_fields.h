@@ -1293,9 +1293,9 @@ os16112*/
 #define /*0x110*/ oKingBobombDialog                             OBJECT_FIELD_S32(0x22)
 
 #define /*0x0F4*/ oFace                                         OBJECT_FIELD_F32(0x1B)
-#define /*0x0F8*/ oFloatF8                                      OBJECT_FIELD_F32(0x1C)
-#define /*0x0FC*/ oFloatFC                                      OBJECT_FIELD_F32(0x1D)
-#define /*0x100*/ oFloat100                                     OBJECT_FIELD_F32(0x1E)
+#define /*0x0F8*/ oMinSpeed                                     OBJECT_FIELD_F32(0x1C)
+#define /*0x0FC*/ oMaxSpeed                                     OBJECT_FIELD_F32(0x1D)
+#define /*0x100*/ oDirection                                    OBJECT_FIELD_F32(0x1E)
 #define /*0x104*/ oFloat104                                     OBJECT_FIELD_F32(0x1F)
 #define /*0x108*/ oFloat108                                     OBJECT_FIELD_F32(0x20)
 #define /*0x10C*/ oFloat10C                                     OBJECT_FIELD_F32(0x21)

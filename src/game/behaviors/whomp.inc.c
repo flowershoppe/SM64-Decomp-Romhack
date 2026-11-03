@@ -102,7 +102,7 @@ void whomp_patrol(void) {
 }
 
 void king_whomp_chase(void) {
-    if(o->oBehParams2ndByte != 0){        
+    if(o->oBehParams2ndByte != 0){
         play_music(SEQ_PLAYER_LEVEL, SEQUENCE_ARGS(4, SEQ_EVENT_BOSS), 0);
         seq_player_lower_volume(SEQ_PLAYER_LEVEL, 1, 40);
     }

@@ -14,6 +14,7 @@
 #include "memory.h"
 #include "behavior_data.h"
 #include "rumble_init.h"
+#include "behavior_data.h"
 
 #include "config.h"
 
@@ -1394,7 +1395,9 @@ s32 act_burning_ground(struct MarioState *m) {
     play_step_sound(m, 9, 45);
 
     m->particleFlags |= PARTICLE_FIRE;
-    play_sound(SOUND_MOVING_LAVA_BURN, m->marioObj->header.gfx.cameraToObject);
+    if (cur_obj_nearest_object_with_behavior(bhvSpikeWall) == NULL) {
+        play_sound(SOUND_MOVING_LAVA_BURN, m->marioObj->header.gfx.cameraToObject);
+    }
 
     m->health -= 10;
     if (m->health < 0x100) {

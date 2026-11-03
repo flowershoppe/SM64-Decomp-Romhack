@@ -148,3 +148,7 @@ UNUSED static const u64 binid_18 = 18;
 #include "palameen/anims/table.inc.c"
 #include "palameen/collision.inc.c"
 #include "mesh/collision.inc.c"
+#include "spike_wall/model.inc.c"
+#include "spike_wall/collision.inc.c"
+#include "door_hallway/collision.inc.c"
+#include "door_hallway/model.inc.c"

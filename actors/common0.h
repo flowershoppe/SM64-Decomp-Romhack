@@ -258,4 +258,8 @@ extern const Collision unknown_seg8_collision_080262F8[];
 #include "palameen/anim_header.h"
 #include "palameen/collision_header.h"
 #include "mesh/collision_header.h"
+#include "spike_wall/geo_header.h"
+#include "spike_wall/collision_header.h"
+#include "door_hallway/collision_header.h"
+#include "door_hallway/geo_header.h"
 #endif

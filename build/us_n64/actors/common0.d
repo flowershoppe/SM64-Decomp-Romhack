@@ -159,4 +159,6 @@ build/us_n64/actors/common0.o: actors/common0.c \
  actors/custom_star/model.inc.c actors/palameen/model.inc.c \
  actors/palameen/anims/data.inc.c actors/palameen/anims/table.inc.c \
  actors/palameen/anims/table_enum.h actors/palameen/collision.inc.c \
- actors/mesh/collision.inc.c
+ actors/mesh/collision.inc.c actors/spike_wall/model.inc.c \
+ actors/spike_wall/collision.inc.c actors/door_hallway/collision.inc.c \
+ actors/door_hallway/model.inc.c
