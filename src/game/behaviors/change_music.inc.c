@@ -1,4 +1,4 @@
 void change_music_loop(void){
-    play_music(SEQ_PLAYER_LEVEL, SEQUENCE_ARGS(4, GET_BPARAM1(o->oBehParams)));
+    //seq_player_lower_volume(SEQ_PLAYER_LEVEL, 60, 40);
     obj_mark_for_deletion(o);
 }

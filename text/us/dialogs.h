@@ -323,87 +323,41 @@ star. Which means we only\n\
 get to play 1 more game.\n\
 I bet you'll want to lock\n\
 me back up after, right?\n\
-\n\
 Well I won't let you!\n\
 I'll make this the\n\
 last game you ever play!"))
 
 DEFINE_DIALOG(DIALOG_035, 1, 5, 30, 200, _("\
-There are four camera, or\n\
-『[C],』 Buttons. Press [C]^\n\
-to look around using the\n\
-Control Stick.\n\
-\n\
-You'll usually see Mario\n\
-through Lakitu's camera.\n\
-It is the camera\n\
-recommended for normal\n\
-play.\n\
-You can change angles by\n\
-pressing [C]>. If you press\n\
-[R], the view switches to\n\
-Mario's camera, which\n\
-is directly behind him.\n\
-Press [R] again to return\n\
-to Lakitu's camera. Press\n\
-[C]| to see Mario from\n\
-afar, using either\n\
-Lakitu's or Mario's view."))
+Well hello, stranger.\n\
+Is something wrong?\n\
+You look like you've\n\
+seen a ghost!"))
 
 DEFINE_DIALOG(DIALOG_036, 1, 5, 30, 200, _("\
-OBSERVATION PLATFORM\n\
-Press [C]^ to take a look\n\
-around. Don't miss\n\
-anything!\n\
-\n\
-Press [R] to switch to\n\
-Mario's camera. It\n\
-always follows Mario.\n\
-Press [R] again to switch\n\
-to Lakitu's camera.\n\
-Pause the game and\n\
-switch the mode to 『fix』\n\
-the camera in place while\n\
-holding [R]. Give it a try!"))
+If you're going to the\n\
+valley, turn around.\n\
+It's overrun with jerks\n\
+from who-knows-where."))
 
-DEFINE_DIALOG(DIALOG_037, 1, 2, 30, 200, _("\
-I win! You lose!\n\
-Ha ha ha ha!\n\
-You're no slouch, but I'm\n\
-a better sledder!\n\
-Better luck next time!"))
+DEFINE_DIALOG(DIALOG_037, 1, 5, 30, 200, _("\
+Is... is it true?\n\
+That they stole the\n\
+stars and the islands\n\
+are going to fall?"))
 
-DEFINE_DIALOG(DIALOG_038, 1, 3, 95, 200, _("\
-Reacting to the Star\n\
-power, the door slowly\n\
-opens."))
+DEFINE_DIALOG(DIALOG_038, 1, 5, 30, 200, _("\
+I tried to fight back,\n\
+but I nearly lost my\n\
+wings. Be careful,\n\
+friend."))
 
-DEFINE_DIALOG(DIALOG_039, 1, 4, 30, 200, _("\
-No visitors allowed,\n\
-by decree of\n\
-the Big Bob-omb\n\
-\n\
-I shall never surrender my\n\
-Stars, for they hold the\n\
-power of the castle in\n\
-their glow.\n\
-They were a gift from\n\
-Bowser, the Koopa King\n\
-himself, and they lie well\n\
-hidden within my realm.\n\
-Not a whisper of their\n\
-whereabouts shall leave\n\
-my lips. Oh, all right,\n\
-perhaps one hint:\n\
-Heed the Star names at\n\
-the beginning of the\n\
-course.\n\
-//--The Big Bob-omb"))
+DEFINE_DIALOG(DIALOG_039, 1, 5, 95, 200, _("\
+^ VIRIDIAN VALLEY ^"))
 
-DEFINE_DIALOG(DIALOG_040, 1, 3, 30, 200, _("\
-Warning!\n\
-Cold, Cold Crevasse\n\
-Below!"))
+DEFINE_DIALOG(DIALOG_040, 1, 5, 30, 200, _("\
+What happened to the\n\
+forest? Why is it so...\n\
+spooky?"))
 
 DEFINE_DIALOG(DIALOG_041, 1, 3, 30, 200, _("\
 I win! You lose!\n\
