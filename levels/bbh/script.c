@@ -47,7 +47,7 @@ const LevelScript level_bbh_entry[] = {
 	/* Fast64 end persistent block [level commands] */
 
 	AREA(1, bbh_area_1),
-		WARP_NODE(0x01, LEVEL_CCM, 0x01, 0x05, WARP_NO_CHECKPOINT),
+		WARP_NODE(0x01, LEVEL_CCM, 0x0A, 0x0D, WARP_NO_CHECKPOINT),
 		WARP_NODE(0xF1, LEVEL_BBH, 0x01, 0x02, WARP_NO_CHECKPOINT),
 		OBJECT(MODEL_EXCLAMATION_BOX, -700, -601, 12799, 0, 4, 0, (6 << 16), bhvExclamationBox),
 		OBJECT(MODEL_EXCLAMATION_BOX, -235, -2361, 817, 0, 116, 0, (6 << 16), bhvExclamationBox),
@@ -121,7 +121,7 @@ const LevelScript level_bbh_entry[] = {
 		OBJECT(MODEL_HEART, 2657, -2614, 12139, 0, 53, 0, 0x00000000, bhvCheckpoint),
 		OBJECT(MODEL_HEART, -1529, 239, 11958, 0, 85, 0, 0x00000000, bhvCheckpoint),
 		OBJECT(MODEL_HEART, 7149, -1452, -13907, 0, -13, 0, 0x00000000, bhvCheckpoint),
-		OBJECT(MODEL_NONE, -11893, 340, 6232, 0, 81, 0, (0 << 24) | (0x02 << 16), bhvAirborneWarp),
+		OBJECT(MODEL_NONE, -13093, 340, 6632, 0, 81, 0, (0 << 24) | (0x02 << 16), bhvAirborneWarp),
 		OBJECT(MODEL_FLYGUY, -3667, -532, 12067, 0, -11, 0, 0x00000000, bhvFlyGuy),
 		OBJECT(MODEL_FLYGUY, -2405, -618, 11687, 0, -7, 0, 0x00000000, bhvFlyGuy),
 		OBJECT(MODEL_FLYGUY, -3957, 1619, 1073, 0, 0, 0, 0x00000000, bhvFlyGuy),
@@ -186,8 +186,8 @@ const LevelScript level_bbh_entry[] = {
 		OBJECT(MODEL_SMALL_FAN, 6540, 1656, -4644, 0, -104, 0, (40 << 24), bhvRotateSmall),
 		OBJECT(MODEL_STAR, 3599, -1084, 4855, 0, 0, 0, (2 << 24), bhvStar),
 		OBJECT(MODEL_STAR, 3699, -122, 12853, 0, -110, 0, (3 << 24), bhvStar),
-		OBJECT(MODEL_NONE, -13051, -373, 6087, 0, 84, 0, (0 << 24) | (0x03 << 16), bhvInstantActiveWarp),
-		OBJECT(MODEL_NONE, -13491, -275, 6033, 0, 80, 0, (20 << 24) | (0x01 << 16), bhvWarp),
+		OBJECT(MODEL_NONE, -13851, -373, 6687, 0, 84, 0, (0x03 << 16), bhvInstantActiveWarp),
+		OBJECT(MODEL_NONE, -15491, -375, 6533, 0, 80, 0, (20 << 24) | (0x01 << 16), bhvWarp),
 		OBJECT(MODEL_MIST, -13131, -411, 9372, 0, 141, 0, 0x00000000, bhvWaterMist2),
 		OBJECT(MODEL_MIST, -12642, -411, 9853, 0, 141, 0, 0x00000000, bhvWaterMist2),
 		OBJECT(MODEL_MIST, -12256, -408, 10218, 0, 141, 0, 0x00000000, bhvWaterMist2),

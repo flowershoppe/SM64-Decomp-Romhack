@@ -351,7 +351,7 @@ but I nearly lost my\n\
 wings. Be careful,\n\
 friend."))
 
-DEFINE_DIALOG(DIALOG_039, 1, 5, 95, 200, _("\
+DEFINE_DIALOG(DIALOG_039, 1, 1, 95, 200, _("\
 ^ VIRIDIAN VALLEY ^"))
 
 DEFINE_DIALOG(DIALOG_040, 1, 5, 30, 200, _("\

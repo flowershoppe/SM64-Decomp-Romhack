@@ -28,7 +28,7 @@ void bhv_checkpoint(void){
         gMarioState->healCounter += 4;
         if(save_file_should_save()){
             save_file_set_last_location();
-            save_file_save_coins();
+            //save_file_save_coins();
             save_file_do_save(gCurrSaveFileNum - 1);
         }
     }
