@@ -29,8 +29,7 @@ village. I'm too afraid\n\
 to leave now!"))
 
 DEFINE_DIALOG(DIALOG_002, 1, 2, 95, 200, _("\
-8 CRIMSON COINS \n\
-5 GOLDEN POINTS"))
+   8 CRIMSON COINS"))
 
 DEFINE_DIALOG(DIALOG_003, 1, 2, 95, 200, _("\
 TRACE THE XANTHOUS PATH\n\
@@ -359,39 +358,36 @@ What happened to the\n\
 forest? Why is it so...\n\
 spooky?"))
 
-DEFINE_DIALOG(DIALOG_041, 1, 3, 30, 200, _("\
-I win! You lose!\n\
-Ha ha ha!\n\
+DEFINE_DIALOG(DIALOG_041, 1, 5, 30, 200, _("\
+Howdy there, stranger.\n\
+I can tell you're not\n\
+one o' them jackals\n\
+what's been terrorizing\n\
+these islands.\n\
+But I ain't never seen\n\
+one like you before.\n\
+Wassat? Recoverin' the\n\
+power stars? Well, I\n\
+happen to have one!\n\
+But, I hid it at the end\n\
+o' my famous shell\n\
+course! Fly up and grab\n\
+it for you?\n\
 \n\
-That's what you get for\n\
-messin' with Koopa the\n\
-Quick.\n\
-Better luck next time!"))
+Well, I'd love to, but\n\
+I clipped by wings\n\
+fending off those\n\
+fiends!"))
 
-DEFINE_DIALOG(DIALOG_042, 1, 4, 30, 200, _("\
-Caution! Narrow Bridge!\n\
-Cross slowly!\n\
-\n\
-\n\
-You can jump to the edge\n\
-of the cliff and hang on,\n\
-and you can climb off the\n\
-edge if you move slowly.\n\
-When you want to let go,\n\
-either press [Z] or press\n\
-the Control Stick in the\n\
-direction of Mario's back.\n\
-To climb up, press Up on\n\
-the Control Stick. To\n\
-scurry up quickly, press\n\
-the [A] Button."))
+DEFINE_DIALOG(DIALOG_042, 1, 2, 95, 200, _("\
+    Sherlin's Famous\n\
+      Shell Course"))
 
 DEFINE_DIALOG(DIALOG_043, 1, 5, 30, 200, _("\
-If you jump and hold the\n\
-[A] Button, you can hang on\n\
-to some objects overhead.\n\
-It's the same as grabbing\n\
-a flying bird!"))
+Awww... They're having\n\
+a picnic. Hmm... I hope\n\
+princess Peach is doing\n\
+alright."))
 
 DEFINE_DIALOG(DIALOG_044, 1, 5, 95, 200, _("\
 Whooo's there? Whooo\n\

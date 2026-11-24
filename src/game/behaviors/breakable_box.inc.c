@@ -46,7 +46,7 @@ void hidden_breakable_box_actions(void) {
             break;
         case BREAKABLE_BOX_ACT_ACTIVE:
             cur_obj_become_tangible();
-            if (cur_obj_wait_then_blink(360, 20)) o->oAction = BREAKABLE_BOX_ACT_HIDDEN;
+            if (cur_obj_wait_then_blink(400, 50)) o->oAction = BREAKABLE_BOX_ACT_HIDDEN;
             if (cur_obj_was_attacked_or_ground_pounded()) {
                 spawn_mist_particles();
                 spawn_triangle_break_particles(30, MODEL_DIRT_ANIMATION, 3.0f, TINY_DIRT_PARTICLE_ANIM_STATE_YELLOW);
@@ -86,7 +86,7 @@ void hidden_unbreakable_box_actions(void) {
             break;
         case BREAKABLE_BOX_ACT_ACTIVE:
             cur_obj_become_tangible();
-            if (cur_obj_wait_then_blink(360, 20)) o->oAction = BREAKABLE_BOX_ACT_HIDDEN;
+            if (cur_obj_wait_then_blink(400, 50)) o->oAction = BREAKABLE_BOX_ACT_HIDDEN;
             load_object_collision_model();
             break;
     }
