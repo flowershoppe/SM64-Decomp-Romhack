@@ -14,7 +14,7 @@
 static struct ObjectHitbox sKoopaHitbox = {
     /* interactType:      */ INTERACT_KOOPA,
     /* downOffset:        */ 0,
-    /* damageOrCoinValue: */ 0,
+    /* damageOrCoinValue: */ 2,
     /* health:            */ 0,
     /* numLootCoins:      */ -1,
     /* radius:            */ 60,
@@ -102,8 +102,8 @@ static void koopa_play_footstep_sound(s8 animFrame1, s8 animFrame2) {
  * running away.
  */
 static s32 koopa_check_run_from_mario(void) {
-    if (o->oKoopaDistanceToMario < 300.0f
-        && abs_angle_diff(o->oKoopaAngleToMario, o->oMoveAngleYaw) < 0x3000) {
+    if (o->oKoopaDistanceToMario < 1000.0f
+        && abs_angle_diff(o->oKoopaAngleToMario, o->oMoveAngleYaw) < 0x5000) {
         o->oAction = KOOPA_SHELLED_ACT_RUN_FROM_MARIO;
         return TRUE;
     }
@@ -196,22 +196,23 @@ static void koopa_shelled_act_walk(void) {
  * away.
  */
 static void koopa_shelled_act_run_from_mario(void) {
+    //modified this to run toward mario
     cur_obj_init_animation_with_sound(KOOPA_ANIM_SHELLED_RUN_AWAY);
     koopa_play_footstep_sound(0, 11);
 
     // If far from home, run toward it
-    if (o->oDistanceToMario >= 25000.0f) {
-        o->oAngleToMario += 0x8000;
-        o->oDistanceToMario = 0.0f;
+    if (o->oDistanceToMario >= 4000.0f) {
+        o->oKoopaTargetYaw = o->oAngleToMario;
     }
 
-    if (o->oTimer > 30 && o->oDistanceToMario > 800.0f) {
+    if (o->oTimer > 30 && o->oDistanceToMario > 3000.0f) {
         if (obj_forward_vel_approach(0.0f, 1.0f)) {
             o->oAction = KOOPA_SHELLED_ACT_STOPPED;
         }
     } else {
-        cur_obj_rotate_yaw_toward(o->oAngleToMario + 0x8000, 0x400);
-        obj_forward_vel_approach(17.0f, 1.0f);
+        cur_obj_rotate_yaw_toward(o->oAngleToMario, 0x400);
+        //was + 8000.0
+        obj_forward_vel_approach(18.0f, 1.0f);
     }
 }
 
