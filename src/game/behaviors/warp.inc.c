@@ -6,12 +6,12 @@ void bhv_warp_loop(void) {
 
         if (radius == 0) {
             o->hitboxRadius = 50.0f;
-        } else if (radius == 0xFF) {
+        } else if (radius >= 0xFF) {
             o->hitboxRadius = 10000.0f;
         } else {
             o->hitboxRadius = radius * 10.0f;
         }
-        o->hitboxHeight = 200.0f;
+        o->hitboxHeight = 5000.0f;
     }
 
     o->oInteractStatus = INT_STATUS_NONE;

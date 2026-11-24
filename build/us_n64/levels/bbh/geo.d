@@ -50,4 +50,5 @@ build/us_n64/levels/bbh/geo.o: levels/bbh/geo.c include/n64/ultra64.h \
  levels/bbh/moving_bookshelf/geo.inc.c levels/bbh/mesh_elevator/geo.inc.c \
  levels/bbh/merry_go_round/geo.inc.c levels/bbh/coffin/geo.inc.c \
  levels/bbh/areas/1/geo.inc.c levels/bbh/geo.inc.c \
- levels/bbh/area_1/geo.inc.c src/game/envfx_snow.h
+ levels/bbh/area_1/geo.inc.c src/game/envfx_snow.h \
+ levels/bbh/area_2/geo.inc.c

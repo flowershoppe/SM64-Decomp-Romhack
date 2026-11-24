@@ -82,4 +82,5 @@ build/us_n64/levels/bbh/leveldata.o: levels/bbh/leveldata.c \
  levels/bbh/coffin/collision.inc.c levels/bbh/areas/1/movtext.inc.c \
  levels/bbh/leveldata.inc.c levels/bbh/area_1/collision.inc.c \
  levels/bbh/area_1/macro.inc.c levels/bbh/area_1/spline.inc.c \
- levels/bbh/model.inc.c
+ levels/bbh/area_2/collision.inc.c levels/bbh/area_2/macro.inc.c \
+ levels/bbh/area_2/spline.inc.c levels/bbh/model.inc.c

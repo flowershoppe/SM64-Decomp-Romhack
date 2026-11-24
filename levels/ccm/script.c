@@ -182,7 +182,7 @@ const LevelScript level_ccm_entry[] = {
 		OBJECT(MODEL_STAR, -184, 3386, 8152, -1, 5, 1, (5 << 24), bhvStar),
 		OBJECT(MODEL_NONE, -3386, 3599, 1418, 0, 77, 0, (0x0D << 16), bhvInstantActiveWarp),
 		OBJECT(MODEL_NONE, -283, 2886, 9782, 1, -5, 1, 0x00000000, bhvInstantActiveWarp),
-		OBJECT(MODEL_NONE, 2764, 4676, -4996, 1, -95, 1, (0x0D << 16), bhvInstantActiveWarp),
+		OBJECT(MODEL_NONE, 2764, 4676, -4996, -1, -5, 1, (0x0D << 16), bhvInstantActiveWarp),
 		OBJECT(MODEL_NONE, -3985, 3723, 1264, 0, 2, 0, (0x0C << 16), bhvWarp),
 		OBJECT(MODEL_NONE, 2807, 4665, -7980, 1, -95, 1, (20 << 24) | (0x0B << 16), bhvWarp),
 		OBJECT(MODEL_YELLOW_COIN, -2707, 2943, 4331, 0, -37, 0, 0x00000000, bhvYellowCoin),
